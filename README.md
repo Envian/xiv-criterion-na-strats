@@ -27,6 +27,11 @@ bit of git knowledge.
 2. Make changes to your forked copy of the site.
 3. [Create a pull request]({{ site.repo }}/compare)
 
+### Create a new Diagram
+
+All diagrams in this site are currently made using xivplan. All the `.xivplan`
+files used have been included.
+
 ### Locally testing changes
 
 Assuming [Jekyll] and [Bundler] are installed on your computer:
@@ -37,3 +42,4 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 [Jekyll]: https://jekyllrb.com
 [Bundler]: https://bundler.io
 [Just-The-Docs]: https://just-the-docs.github.io/just-the-docs/
+[xvplan]: https://xivplan.netlify.app/
