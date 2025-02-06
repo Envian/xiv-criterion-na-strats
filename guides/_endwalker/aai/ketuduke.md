@@ -1,0 +1,49 @@
+---
+layout: default
+title: Ketuduke
+parent: Another Alo Alo Island
+nav_order: 3
+has_toc: false
+common: ./common
+---
+
+{: .fs-10 }
+# Ketuduke
+
+{% include_relative ketuduke/common/markers.md %}
+
+## Repeat Casts / Mechanics
+
+Tidal Roar
+: This is a standard raidwide, paired with a 12s bleed debuff.
+
+Bubble Net
+: This is another standard raidwide. Used to set up mechanics, but hits hard.
+
+## Important Debuffs
+
+<div class="debuffs" markdown="block">
+{% include_relative ketuduke/debuffs/hydrobullet.md %}
+{% include_relative ketuduke/debuffs/hydrofall.md %}
+{% include_relative ketuduke/debuffs/bubbleweave.md %}
+{% include_relative ketuduke/debuffs/foamyfetters.md %}
+</div>
+
+## Timeline
+
+* Tidal Roar
+* [Fluke Gale]
+* [Blowing Bubbles]
+* [Twintides]
+* [Adds]
+* [Fluke Typhoon]
+* [Fluke Gale] (Repeat)
+* [Twintides] (Repeat)
+* Tidal Roar
+* Tidal Roar (Enrage)
+
+[Fluke Gale]: ./fluke-gale/
+[Blowing Bubbles]: ./blowing-bubbles/
+[Twintides]: ./twintides/
+[Adds]: ./adds/
+[Fluke Typhoon]: ./fluke-typhoon/

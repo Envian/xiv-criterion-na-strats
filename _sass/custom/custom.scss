@@ -1,0 +1,25 @@
+@import "./custom/mixins.scss";
+@import "./custom/keywords.scss";
+
+@import "./custom/components/debuffs.scss";
+@import "./custom/components/markers.scss";
+@import "./custom/components/mechanics.scss";
+@import "./custom/components/timeline.scss";
+@import "./custom/components/details.scss";
+@import "./custom/components/next.scss";
+
+.buff-title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+    &.center {
+        justify-content: center;
+    }
+}
+
+.demphasize {
+    font-style: italic;
+    color: #888;
+    font-size: 0.8em;
+}

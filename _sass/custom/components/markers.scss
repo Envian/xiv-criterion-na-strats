@@ -1,0 +1,43 @@
+details.markers {
+    @include box-shading;
+
+    padding: 0.5rem;
+    margin-bottom: 1em;
+
+    overflow: hidden;
+    border-radius: 0.2rem;
+    border: 1px solid #080810;
+    background-color: #181820;
+
+    summary {
+        background-color: #0C0C18;
+        margin: -0.5rem;
+        padding: 0.25rem;
+    }
+
+    &[open] summary {
+        @include box-shading;
+        margin-bottom: 1em;
+    }
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+
+    > div:has(code) {
+        line-height: 1;
+    }
+
+    .summary {
+        display: grid;
+        grid-template-columns: 3fr 1fr;
+
+        > * {
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}

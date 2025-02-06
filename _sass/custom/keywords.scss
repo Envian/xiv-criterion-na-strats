@@ -1,0 +1,26 @@
+@mixin __keyword($keyword, $color) {
+    &:has(a[href=#{$keyword}]), &:has(img[alt=#{$keyword}]), &:has(img[src$=#{$keyword}]) {
+        color: $color;
+
+        a[href=#{$keyword}] {
+            display: none;
+            content: "";
+        }
+
+        img[alt=#{$keyword}], img[src$=#{$keyword}] {
+            max-height: 2em;
+            margin-bottom: -10px;
+            margin-top: -100%;
+            margin-right: 0.1em;
+        }
+    }
+}
+
+strong, em {
+    @include __keyword("tank", #88f);
+    @include __keyword("healer", #8f8);
+    @include __keyword("dps", #f88);
+    @include __keyword("debuff", #ACC0E8);
+    @include __keyword("cast", #E8ACC0);
+    @include __keyword("boss", inherit);
+}

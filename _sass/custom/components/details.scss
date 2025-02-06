@@ -1,0 +1,12 @@
+details {
+    summary span::after {
+        content: "[ show ]";
+        float: right;
+        font-size: 0.7em;
+        text-decoration: underline;
+        line-height: 2;
+    }
+    &[open] summary:first-of-type span::after {
+        content: "[ hide ]";
+    }
+}

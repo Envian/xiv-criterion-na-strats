@@ -1,8 +1,33 @@
-title: Just the Docs Template
-description: A starter template for a Jeykll site using the Just the Docs theme!
+title: Envian's NA Criterion Strats
+description: NA Criterion Strats.
 theme: just-the-docs
+color_scheme: dark
 
-url: https://just-the-docs.github.io
+enable_copy_code_button: true
+
+url: https://envian.github.io/xiv-criterion-na-strats/
+repo: https://github.com/Envian/xiv-criterion-na-strats
 
 aux_links:
-  Template Repository: https://github.com/just-the-docs/just-the-docs-template
+  NA + EU Criterion Discord: https://discord.gg/gX38DtbAZa
+  Github: https://github.com/Envian/xiv-criterion-na-strats
+
+nav_enabled: true
+aux_links_new_tab: true
+
+collections_dir: guides
+
+callouts:
+  warning:
+    title: Warning
+    color: yellow
+
+collections:
+  endwalker:
+    permalink: /:collection/:path/
+    output: true
+
+just_the_docs:
+  collections:
+    endwalker:
+      name: Endwalker
