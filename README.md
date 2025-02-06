@@ -1,12 +1,6 @@
----
-title: README
-layout: home
-nav_exclude: true
----
-
 # Envian's Criterion Strategies
 
-## **View the current version of these strats [here]({{ site.url }}).**
+## **View the current version of these strats [here](https://envian.github.io/xiv-criterion-na-strats/).**
 
 The website is generated via [Jekyll] using [Just-The-Docs]
 as a theme.
@@ -15,7 +9,7 @@ as a theme.
 
 ### Open an Issue
 
-You can [open an issue]({{ site.repo }}/issues) on github.
+You can [open an issue](https://github.com/Envian/xiv-criterion-na-strats/issues) on github.
 
 ### Create a Pull Request
 
@@ -23,9 +17,9 @@ Pull requests allow you to make the changes on a local copy of the site, and
 send those changes directly to me. You will need a github account, and a little
 bit of git knowledge.
 
-1. [Make a fork]({{ site.repo }}/fork) of this repository.
+1. [Make a fork](https://github.com/Envian/xiv-criterion-na-strats/fork) of this repository.
 2. Make changes to your forked copy of the site.
-3. [Create a pull request]({{ site.repo }}/compare)
+3. [Create a pull request](https://github.com/Envian/xiv-criterion-na-strats/compare)
 
 ### Create a new Diagram
 
