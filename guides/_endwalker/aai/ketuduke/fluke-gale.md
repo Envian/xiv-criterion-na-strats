@@ -7,7 +7,7 @@ has_toc: false
 common: ../common
 ---
 
-# Spring Crystals 1
+# Fluke Gale
 
 ## Cheat Sheet
 **[tank]Tank** + **[dps]Ranged**
@@ -16,11 +16,10 @@ common: ../common
 **[healer]Healer** + **[dps]Melee**
 : {: .mb-4 } South
 
-
 **Bubbles ![bubble]**
 : {: .mb-5 } Stand next to the crystal facing north/south on your side.
 
-**Sticky Feet ![foamy]**
+**Sticky ![foamy]**
 : Solve the H to find the safe spots.
 
 *Stack ![fall]*
@@ -43,30 +42,34 @@ common: ../common
 
 ## Mechanics
 
-**[boss]Ketuduke** will cast *[cast]Spring Crystals*, spawning 4 crystals around the
-arena - one in each quadrant of the arena. This is followed up by
-*[cast]Bubble Net*, a fairly hard hitting raidwide, which will give both support
-or both dps *![foamy]Foamy Fetters* or *![bubble]Bubble Weave*, and the other
-role receives the other debuff. This is followed by either
-*![bullet]hydrobullet* or *![fall]hydrofall* cast, which applies its debuff.
-This determines if the mechanic ends with a stack, or a spread.
+**[boss]Ketuduke** will set up this mechanic by casting a few spells.
 
-After a few more seconds, **[boss]Ketuduke** will cast *[cast]Fluke Gale*, telegraphing a forced
-push AOE in each quadrant, with a 1 or a 2 marker. Each quadrant will push the
-bubble players 2 squares in the shown direction. This will chain - a player in
-a 1 quadrant will be pushed into a 2 quadrant, which will then push the player
-a second time.
+{: .casts }
+*[cast]Spring Crystals*
+: Spawns 4 crystals around the arena, one in each quadrant.
 
-Begin with a fixed priority:
+*[cast]Bubble Net*
+: This is a raidwide. Applies *![foamy]Foamy Fetters* to one role, and
+*![bubble]Bubble Weave* to the other.
+
+{: .or } *[cast]Hydrobullet*
+: Applies *![bullet]Hydrobullet* to all players.
+
+*[cast]Hydrofall*
+: Applies *![fall]Hydrofall* to one role.
+
+*[cast]Fluke Gale*
+: Telegraphs a knockback direction, and displays a 1 or 2 limit cut marker in
+the center denoting the order the knockbacks will happen.
+
+This mechanic is role based and does not require any flexing.
+
 * **[tank]Tank** and **[dps]Ranged DPS** North
 * **[healer]Healer** and **[dps]Melee DPS** South
 
-{: .em-blue }
-Each pair of players will resolve the mechanic on their half of the arena,
-depending on the debuff they received. *![bubble]Bubble Weave*
-players do not have control over the quadrant they end up in, so
-*![foamy]Foamy Fetters* players must position themselves
-correctly.
+This guarantees one *![bubble]bubble* player and one *![foamy]sticky* player on
+each side. Each player will resolve the mechanic on their half of the arena,
+depending on the debuff they received.
 
 {: .buff-title .center }
 ### ![foamy] Foamy Fetters
@@ -115,12 +118,16 @@ will be.
 ![](./bubble-ez.png)
 </div>
 
+------
+
 {: .warning }
 > Standing too close to the corner or edge of a square can result in a spread
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
 
-### Resolution
+------
+
+## Resolution
 
 <div class="timeline" markdown="block">
 > ![][bullet]

@@ -1,6 +1,7 @@
 @mixin __keyword($keyword, $color) {
     &:has(a[href=#{$keyword}]), &:has(img[alt=#{$keyword}]), &:has(img[src$=#{$keyword}]) {
         color: $color;
+        white-space: nowrap;
 
         a[href=#{$keyword}] {
             display: none;

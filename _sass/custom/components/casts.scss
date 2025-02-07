@@ -1,0 +1,30 @@
+dl.casts {
+    grid-template: auto / auto auto;
+    row-gap: 0.5em;
+    column-gap: 1em;
+
+    > dt, > dd {
+        margin: 0;
+    }
+
+    > dt {
+        margin-left: 1em;
+    }
+
+    .or::before {
+        content: "OR";
+        float: left;
+        position: relative;
+        left: -1em;
+        bottom: -1em;
+    }
+
+    dt.or, dt.or + dd {
+        margin-top: 0.25em;
+        margin-bottom: -0.25em;
+    }
+
+    dt.or ~ dt, dt.or ~ dt + dd {
+        margin-bottom: 0.25em;
+    }
+}

@@ -26,6 +26,11 @@
         border-left: 0;
     }
 
+    // Images
+    > :nth-child(even) {
+        padding: 0;
+    }
+
     // Last Rows
     > :last-child, > :nth-last-child(2) {
         border-bottom: 0;

@@ -3,8 +3,8 @@
 
 <div class="summary" markdown="block">
 These markers are mainly used to keep track of north, but are also used to help
-solve the adds mechanic, where the color pairs are important. They can be easily
-placed by ligning them up with the floor grid.
+solve the adds mechanic, where the color pairs are important. They line up with
+the floor grid.
 
 ![]({{ page.common }}/markers.png)
 </div>

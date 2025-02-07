@@ -14,10 +14,10 @@ common: ./common
 
 ## Repeat Casts / Mechanics
 
-Tidal Roar
+*[](cast)Tidal Roar*
 : This is a standard raidwide, paired with a 12s bleed debuff.
 
-Bubble Net
+*[](cast)Bubble Net*
 : This is another standard raidwide. Used to set up mechanics, but hits hard.
 
 ## Important Debuffs
@@ -31,19 +31,13 @@ Bubble Net
 
 ## Timeline
 
-* Tidal Roar
-* [Fluke Gale]
-* [Blowing Bubbles]
-* [Twintides]
-* [Adds]
-* [Fluke Typhoon]
-* [Fluke Gale] (Repeat)
-* [Twintides] (Repeat)
-* Tidal Roar
+* Tidal Roar (Raidwide)
+* [Fluke Gale](./fluke-gale/)
+* [Blowing Bubbles](./blowing-bubbles/)
+* [Twintides](./twintides/)
+* [Adds](./adds/)
+* [Fluke Typhoon](./fluke-typhoon/)
+* [Fluke Gale (Repeat)](./fluke-gale/)
+* [Twintides (Repeat)](./twintides/)
+* Tidal Roar (Raidwide)
 * Tidal Roar (Enrage)
-
-[Fluke Gale]: ./fluke-gale/
-[Blowing Bubbles]: ./blowing-bubbles/
-[Twintides]: ./twintides/
-[Adds]: ./adds/
-[Fluke Typhoon]: ./fluke-typhoon/
