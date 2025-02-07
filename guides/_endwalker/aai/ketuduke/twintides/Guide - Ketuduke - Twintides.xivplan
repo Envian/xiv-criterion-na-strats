@@ -1,0 +1,255 @@
+{
+  "nextId": 29,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "rectangle",
+      "rows": 4,
+      "columns": 4
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "length": 300,
+          "rotation": 0,
+          "x": -75,
+          "y": -300,
+          "id": 1
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "length": 300,
+          "rotation": 0,
+          "x": 225,
+          "y": -300,
+          "id": 2
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "length": 300,
+          "rotation": 0,
+          "x": 75,
+          "y": 0,
+          "id": 3
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "length": 300,
+          "rotation": 0,
+          "x": -225,
+          "y": 0,
+          "id": 4
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 125,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 7
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 220,
+          "x": 0,
+          "y": 0,
+          "id": 9
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -26,
+          "y": 244,
+          "id": 21
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -8,
+          "y": 249,
+          "id": 22
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 13,
+          "y": -236,
+          "id": 23
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 38,
+          "y": -231,
+          "id": 24
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 300,
+          "length": 150,
+          "rotation": 0,
+          "x": -150,
+          "y": 0,
+          "id": 13
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 125,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 14
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 125,
+          "radius": 500,
+          "x": 0,
+          "y": 0,
+          "id": 16
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 300,
+          "length": 150,
+          "rotation": 0,
+          "x": 150,
+          "y": -150,
+          "id": 18
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 300,
+          "length": 150,
+          "rotation": 0,
+          "x": -150,
+          "y": -300,
+          "id": 19
+        },
+        {
+          "type": "line",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 300,
+          "length": 150,
+          "rotation": 0,
+          "x": 150,
+          "y": 150,
+          "id": 20
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 11,
+          "y": 106,
+          "id": 25
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -15,
+          "y": -104,
+          "id": 26
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 36,
+          "y": 95,
+          "id": 27
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -43,
+          "y": -96,
+          "id": 28
+        }
+      ]
+    }
+  ]
+}

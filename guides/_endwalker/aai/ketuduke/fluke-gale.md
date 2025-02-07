@@ -159,4 +159,3 @@ depending on the debuff they received.
 [foamy]: {{ page.common }}/foamyfetter.png#debuff
 [fall]: {{ page.common }}/hydrofall.png#debuff
 [bullet]: {{ page.common }}/hydrobullet.png#debuff
-c

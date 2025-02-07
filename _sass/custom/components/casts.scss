@@ -8,14 +8,14 @@ dl.casts {
     }
 
     > dt {
-        margin-left: 1em;
+        margin-left: 2.5em;
     }
 
     dt.or + dd + dt::before {
         content: "OR";
         float: left;
         position: relative;
-        left: -1em;
+        left: -2em;
         top: -1em;
     }
 
