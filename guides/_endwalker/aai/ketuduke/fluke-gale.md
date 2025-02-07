@@ -7,6 +7,8 @@ has_toc: false
 common: ../common
 ---
 
+{% include_relative common/defines.md %}
+
 {: .title }
 # Fluke Gale
 
@@ -148,14 +150,3 @@ depending on the debuff they received.
 </div>
 
 {% include next.html name="Blowing Bubbles" url="../blowing-bubbles/" %}
-
-[tank]: tank
-[healer]: healer
-[dps]: dps
-[cast]: cast
-[boss]: boss
-
-[bubble]: {{ page.common }}/bubbleweave.png#debuff
-[foamy]: {{ page.common }}/foamyfetter.png#debuff
-[fall]: {{ page.common }}/hydrofall.png#debuff
-[bullet]: {{ page.common }}/hydrobullet.png#debuff

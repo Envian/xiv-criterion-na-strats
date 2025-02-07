@@ -6,6 +6,7 @@ nav_order: 3
 common: ../common
 ---
 
+{% include_relative common/defines.md %}
 
 {: .title }
 # Twintides
@@ -39,8 +40,8 @@ common: ../common
 : Applies *![fall]Hydrofall* to one role. This is always cast first.
 
 *[cast]Strewn Bubbles*
-: Spawns large circles along the North and South. They can be ignored for now,
-  since their AOE are telegraphed in advance.
+: Spawns large circles along opposite walls. They can be ignored for now,
+  since their AOE are telegraphed well in advance.
 
 {: .or } *[cast]Encroaching Twintides*
 : A large *donut* AOE, followed by a large *circular* AOE.
@@ -73,14 +74,3 @@ The *in* safe area is very small. Be sure to stand at the edge of
 **[boss]Ketuduke**'s hit circle.
 
 {% include next.html name="Adds" url="../adds/" %}
-
-[tank]: tank
-[healer]: healer
-[dps]: dps
-[cast]: cast
-[boss]: boss
-
-[bubble]: {{ page.common }}/bubbleweave.png#debuff
-[foamy]: {{ page.common }}/foamyfetter.png#debuff
-[fall]: {{ page.common }}/hydrofall.png#debuff
-[bullet]: {{ page.common }}/hydrobullet.png#debuff

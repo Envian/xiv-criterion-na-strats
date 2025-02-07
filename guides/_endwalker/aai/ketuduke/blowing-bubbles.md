@@ -6,6 +6,8 @@ nav_order: 2
 common: ../common
 ---
 
+{% include_relative common/defines.md %}
+
 {: .title }
 # Blowing Bubbles
 
@@ -147,15 +149,5 @@ safe to touch the back of the bubble, but do not get close to the front.
 
 ![](./spread-first-4.png)
 </div>
-
-[tank]: tank
-[healer]: healer
-[dps]: dps
-[cast]: cast
-[boss]: boss
-[debuff]: debuff
-
-[fall]: {{ page.common }}/hydrofall.png#debuff
-[bullet]: {{ page.common }}/hydrobullet.png#debuff
 
 {% include next.html name="Twintides" url="../twintides/" %}
