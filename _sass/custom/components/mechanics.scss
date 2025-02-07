@@ -15,10 +15,12 @@
         border-bottom: $border rgba($border-color, 0.5);
         border-left: $border $border-color;
 
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        &:is(blockquote) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
 
     // First Column (strategies)

@@ -11,12 +11,12 @@ dl.casts {
         margin-left: 1em;
     }
 
-    .or::before {
+    dt.or + dd + dt::before {
         content: "OR";
         float: left;
         position: relative;
         left: -1em;
-        bottom: -1em;
+        top: -1em;
     }
 
     dt.or, dt.or + dd {
@@ -24,7 +24,7 @@ dl.casts {
         margin-bottom: -0.25em;
     }
 
-    dt.or ~ dt, dt.or ~ dt + dd {
+    dt.or + dd + dt, dt.or + dd + dt + dd {
         margin-bottom: 0.25em;
     }
 }

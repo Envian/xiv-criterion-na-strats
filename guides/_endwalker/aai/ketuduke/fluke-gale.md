@@ -7,9 +7,10 @@ has_toc: false
 common: ../common
 ---
 
+{: .title }
 # Fluke Gale
 
-## Cheat Sheet
+# Cheat Sheet
 **[tank]Tank** + **[dps]Ranged**
 : North
 
@@ -19,7 +20,7 @@ common: ../common
 **Bubbles ![bubble]**
 : {: .mb-5 } Stand next to the crystal facing north/south on your side.
 
-**Sticky ![foamy]**
+**Sticky Feet ![foamy]**
 : Solve the H to find the safe spots.
 
 *Stack ![fall]*
@@ -40,7 +41,7 @@ common: ../common
 </div>
 </details>
 
-## Mechanics
+# Mechanics
 
 **[boss]Ketuduke** will set up this mechanic by casting a few spells.
 
@@ -72,13 +73,13 @@ each side. Each player will resolve the mechanic on their half of the arena,
 depending on the debuff they received.
 
 {: .buff-title .center }
-### ![foamy] Foamy Fetters
+## ![foamy] Foamy Fetters
 
 <div class="mechanics" markdown="block">
-Begin by finding the crystal in one of the 4 "Center" squares of the arena.
-there will only be one, but it could be in any square, facing any direction.
-Use this to find the "H" Pattern, which shows where the final safe spots
-will be.
+> Begin by finding the crystal in one of the 4 "Center" squares of the arena.
+> there will only be one, but it could be in any square, facing any direction.
+> Use this to find the "H" Pattern, which shows where the final safe spots
+> will be.
 
 ![](./h-pattern.png)
 
@@ -91,7 +92,6 @@ will be.
 
 ![](./stack.png)
 
-{: .center }
 > {: .mt-0 .mb-0 }
 > ![][bullet]
 >
@@ -103,7 +103,7 @@ will be.
 </div>
 
 {: .buff-title .center }
-### ![][bubble] Bubble Weave
+## ![][bubble] Bubble Weave
 
 <div class="mechanics" markdown="block">
 > Bubble players have it easy. Simply find the north/south facing crystal on
@@ -127,7 +127,7 @@ will be.
 
 ------
 
-## Resolution
+# Resolution
 
 <div class="timeline" markdown="block">
 > ![][bullet]
@@ -159,3 +159,4 @@ will be.
 [foamy]: {{ page.common }}/foamyfetter.png#debuff
 [fall]: {{ page.common }}/hydrofall.png#debuff
 [bullet]: {{ page.common }}/hydrobullet.png#debuff
+c
