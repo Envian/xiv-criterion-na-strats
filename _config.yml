@@ -18,6 +18,9 @@ aux_links_new_tab: true
 collections_dir: guides
 
 callouts:
+  info:
+    title: Info
+    color: blue
   warning:
     title: Warning
     color: yellow

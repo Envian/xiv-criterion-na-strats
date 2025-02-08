@@ -10,7 +10,7 @@
 
         img[alt=#{$keyword}], img[src$=#{$keyword}] {
             max-height: 2em;
-            margin-bottom: -10px;
+            margin-bottom: -0.5em;
             margin-top: -100%;
             margin-right: 0.1em;
         }
@@ -26,6 +26,10 @@ strong, em {
     @include __keyword("boss", inherit);
 }
 
-code.language-jobs {
-
+.smaller-icons {
+    strong img, em img {
+        max-height: 1.25em !important;
+        margin-top: -100% !important;
+        margin-bottom: -0.2em !important;
+    }
 }
