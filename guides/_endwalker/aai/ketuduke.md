@@ -7,27 +7,12 @@ has_toc: false
 common: ./common
 ---
 
-{: .fs-10 }
+{% include_relative ketuduke/common/defines.md %}
+
+{: .title }
 # Ketuduke
 
 {% include_relative ketuduke/common/markers.md %}
-
-## Repeat Casts / Mechanics
-
-*[](cast)Tidal Roar*
-: This is a standard raidwide, paired with a 12s bleed debuff.
-
-*[](cast)Bubble Net*
-: This is another standard raidwide. Used to set up mechanics, but hits hard.
-
-## Important Debuffs
-
-<div class="debuffs" markdown="block">
-{% include_relative ketuduke/debuffs/hydrobullet.md %}
-{% include_relative ketuduke/debuffs/hydrofall.md %}
-{% include_relative ketuduke/debuffs/bubbleweave.md %}
-{% include_relative ketuduke/debuffs/foamyfetters.md %}
-</div>
 
 ## Timeline
 
@@ -41,3 +26,23 @@ common: ./common
 * [Twintides (Repeat)](./twintides/)
 * Tidal Roar (Raidwide)
 * Tidal Roar (Enrage)
+
+## Repeat Casts / Mechanics
+
+{: .casts }
+*[cast]Tidal Roar*
+: This is a standard raidwide, paired with a 12s bleed debuff.
+
+*[cast]Bubble Net*
+: This is another standard raidwide. Used to set up mechanics, but hits about as
+  hard as *[cast]Tidal Roar*.
+
+## Important Debuffs
+
+
+<div class="debuffs" markdown="1">
+{% include_relative ketuduke/debuffs/hydrobullet.md %}
+{% include_relative ketuduke/debuffs/hydrofall.md %}
+{% include_relative ketuduke/debuffs/bubbleweave.md %}
+{% include_relative ketuduke/debuffs/foamyfetters.md %}
+</div>

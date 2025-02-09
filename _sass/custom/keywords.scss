@@ -20,7 +20,9 @@
 strong, em {
     @include __keyword("tank", #88f);
     @include __keyword("healer", #8f8);
+    @include __keyword("support", #6fc);
     @include __keyword("dps", #f88);
+
     @include __keyword("debuff", #ACC0E8);
     @include __keyword("cast", #E8ACC0);
     @include __keyword("boss", inherit);

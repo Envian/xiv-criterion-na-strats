@@ -1,4 +1,4 @@
-![]({{ page.common }}/bubbleweave.png)
+![bubble]
 
 > **Bubble Weave**
 >

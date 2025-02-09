@@ -26,12 +26,10 @@ common: ../common
 
 -----
 
-<details class="debuffs-hideable">
-<summary><span>Debuff Explanations</span></summary>
-<div markdown="block">
+{: .debuffs }
+{% collapse Debuff Explanations %}
 {% include_relative debuffs/hydrofall.md %}
-</div>
-</details>
+{% endcollapse %}
 
 # Mechanics
 
@@ -49,21 +47,28 @@ common: ../common
 *[cast]Receding Twintides*
 : A large *circular* AOE, followed by a large *donut* AOE.
 
+-----
+
 This mechanic is role based and does not require any flexing.
 
 * **[tank]Tank** and **[dps]Ranged DPS** North
 * **[healer]Healer** and **[dps]Melee DPS** South
 
 Before the cast of *[cast]Twintides*, the *[cast]Strewn Bubbles* from earlier
-will begin filling two squares. This is an animation which is harmless,
-until the square fills. Both sets of bubbles snapshot at the same time as the
+will begin filling squares. The animation is harmless, but it snapshots once the
+squares fill. Both sets of bubbles snapshot at the same time as the
 *[cast]Twintides* casts.
 
 Shortly after the first *[cast]Twintides*, **[boss]Ketuduke** will follow up
-with the other AOE, the 2nd set of *[cast]Strewn Bubbles* will resolve, and so
-will *![fall]Hydrofall*.
+with the other AOE. This, the 2nd set of *[cast]Strewn Bubbles*, and the
+*[fall]Hydrofall* stacks will resolve all at the same time.
 
-<div class="mechanics" markdown="block">
+{: .warning }
+This is not a castbar mechanic. Wait for the animation to finish before moving
+to the 2nd safe spot. You have time.
+
+<div class="mechanics" markdown="1">
+{: .fade-sides }
 ![](./example-in.png)
 
 ![](./example-out.png)
@@ -71,6 +76,6 @@ will *![fall]Hydrofall*.
 
 {: .warning }
 The *in* safe area is very small. Be sure to stand at the edge of
-**[boss]Ketuduke**'s hit circle.
+**[boss]Ketuduke**'s hit circle, or else you may hit the other party.
 
 {% include next.html name="Adds" url="../adds/" %}

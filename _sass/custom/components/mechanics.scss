@@ -18,18 +18,17 @@
         &:is(blockquote) {
             display: flex;
             flex-direction: column;
-            align-items: center;
             justify-content: center;
         }
     }
 
-    // First Column (strategies)
-    > :nth-child(odd) {
+    // First Column (strategies) sometimes has an image.
+    > blockquote, > :first-child {
         border-left: 0;
     }
 
     // Images
-    > :nth-child(even) {
+    > p:has(:first-child:is(img)) {
         padding: 0;
         display: flex;
         align-items: center;

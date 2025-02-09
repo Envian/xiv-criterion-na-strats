@@ -12,6 +12,8 @@ common: ../common
 # Fluke Typhoon
 
 # Cheat Sheet
+
+{: .info }
 Assigned spots are rotated *clockwise* by 90° from other mechanics.
 
 **[tank]Tank**
@@ -28,13 +30,11 @@ Assigned spots are rotated *clockwise* by 90° from other mechanics.
 
 -----
 
-<details class="debuffs-hideable">
-<summary><span>Debuff Explanations</span></summary>
-<div markdown="block">
+{: .debuffs }
+{% collapse Debuff Explanations %}
 {% include_relative debuffs/hydrobullet.md %}
 {% include_relative debuffs/hydrofall.md %}
-</div>
-</details>
+{% endcollapse %}
 
 # Mechanics
 
@@ -68,10 +68,15 @@ Assigned spots are rotated *clockwise* by 90° from other mechanics.
 
 The Stacks and Spreads both resolve before any other mechanic becomes important.
 
+{: .info }
+There is a lot of damage going out between *[cast]Angry Seas* and
+*[cast]Bubble Net*, all while players are spreading. Those two casts resolve
+~13s apart, so it is reccomended to use any mitigation which can cover both.
+
 {: .buff-title .center }
 ## *![fall]Stack* first
 
-<div class="mechanics" markdown="block">
+<div class="mechanics" markdown="1">
 > Start on your assigned half of the arena. Stand at max melee for the stack,
 > and use knockback immune.
 
@@ -81,7 +86,8 @@ The Stacks and Spreads both resolve before any other mechanic becomes important.
 >
 > **Melee** players can stand at max melee distance.
 >
-> **Ranged** players *must* step back towards the east/west wall.
+> **Ranged** players *must* step away from the middle, or they risk clipping the
+> melee on the other side.
 
 ![](./stack-2.png)
 </div>
@@ -89,14 +95,27 @@ The Stacks and Spreads both resolve before any other mechanic becomes important.
 {: .buff-title .center }
 ## *![bullet]Spread* first
 
-<div class="mechanics" markdown="block">
-> Start in your quadrant.
+<div class="mechanics" markdown="1">
+> Start in your assigned quadrant.
+>
+> {: .compact }
+> **[tank]Tank**
+> : North East
+>
+> **[healer]Healer**
+> : North West
+>
+> **[dps]Melee**
+> : South West
+>
+> **[dps]Ranged**
+> : South East
 >
 > **Melee** may stand at max melee, and should use
 > knockback immune to keep uptime.
 >
-> **Ranged** players need to move to their quadrant. For consistency, they
-> should use Knockback immune, and *must* stand near the east/west wall.
+> For consistency, **Ranged** players should use knockback immune. Remember to
+> stand away from the middle, otherwise you'll clip the melee on the other side.
 
 ![](./spread-1.png)
 
@@ -108,15 +127,21 @@ The Stacks and Spreads both resolve before any other mechanic becomes important.
 
 ## Resolve Towers and Crystals
 
-Bubbles will spawn on both sides of the arena, some of which will pick up
-crystals. Walking into one of these bubbles - even one with a crystal - will
-result in you being picked up by the bubble, and will be blown by
-*[cast]Fluke Typhoon* when it resolves.
+Crystals will spawn on one side of the arena. Afterwards, bubbles will spawn
+on both sides of the arena. Walking into one of these bubbles - *even one with a
+crystal* - will result in you being picked up by the bubble.
+
+Finally, 3 towers will spawn on the empty side of the arena, and one on the
+crystal side.
+
+One player will need to ride a bubble from the crystal side over to the empty
+side. If any other player touches a bubble, they will not be able to resolve
+the towers.
 
 How you solve this mechanic depends on which side of the arena you are on, and
 where the "Corner crystal" is.
 
-<div class="mechanics" markdown="block">
+<div class="mechanics" markdown="1">
 > Find the "Corner Crystal". This is the crystal in the center of a corner
 > square. It is further away from the other crystals, and will not be picked up
 > by a bubble.
@@ -129,18 +154,23 @@ where the "Corner crystal" is.
 > into a bubble infront of the "Corner Crystal" in order to cross to the other
 > side.
 >
-> All other players should stand near (but not in) their tower, and avoid the
-> bubbles.
->
 > **Melee** players will take the tower in the middle.
 >
 > **Ranged** players take the tower opposite of the "Corner Crystal"
 
 ![](./towers-2.png)
 
-> After all bubbles are blown, every crystal will explode with a medium sized
-> circle AOE. The crossing player will end up directly in their tower.
+> Crystals will explode in a circular AOE after the gale. The crossing player
+> will end up directly in their tower.
+>
+> {: .warning }
+> > All towers will be hit when the crystals explode. The far wall is always
+> > safe, but there are uptime spots for brave melee.
+> >
+> > {: .demphasize}
+> > You have a second to adjust after the telegraph, but only one.
 
+{: .fade-sides }
 ![](./towers-3.png)
 
 > All players should move into their towers after the crystal AOEs resolve.

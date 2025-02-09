@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Fluke Gale 1
+title: Fluke Gale
 parent: Ketuduke
 nav_order: 1
 has_toc: false
@@ -33,19 +33,15 @@ common: ../common
 
 -----
 
-<details class="debuffs-hideable">
-<summary><span>Debuff Explanations</span></summary>
-<div markdown="block">
+{: .debuffs }
+{% collapse Debuff Explanations %}
 {% include_relative debuffs/hydrobullet.md %}
 {% include_relative debuffs/hydrofall.md %}
 {% include_relative debuffs/bubbleweave.md %}
 {% include_relative debuffs/foamyfetters.md %}
-</div>
-</details>
+{% endcollapse %}
 
 # Mechanics
-
-**[boss]Ketuduke** will set up this mechanic by casting a few spells.
 
 {: .casts }
 *[cast]Spring Crystals*
@@ -65,6 +61,8 @@ common: ../common
 : Telegraphs a knockback direction, and displays a 1 or 2 limit cut marker in
 the center denoting the order the knockbacks will happen.
 
+-----
+
 This mechanic is role based and does not require any flexing.
 
 * **[tank]Tank** and **[dps]Ranged DPS** North
@@ -77,7 +75,7 @@ depending on the debuff they received.
 {: .buff-title .center }
 ## ![foamy] Foamy Fetters
 
-<div class="mechanics" markdown="block">
+<div class="mechanics" markdown="1">
 > Begin by finding the crystal in one of the 4 "Center" squares of the arena.
 > there will only be one, but it could be in any square, facing any direction.
 > Use this to find the "H" Pattern, which shows where the final safe spots
@@ -86,7 +84,7 @@ depending on the debuff they received.
 ![](./h-pattern.png)
 
 > {: .mt-0 .mb-0 }
-> ![][fall]
+> ![fall]
 >
 > {: .text-center }
 > If the debuffs are stack, move to the safe spot on your side in the *1*
@@ -95,7 +93,7 @@ depending on the debuff they received.
 ![](./stack.png)
 
 > {: .mt-0 .mb-0 }
-> ![][bullet]
+> ![bullet]
 >
 > {: .text-center }
 > If the debuffs are spread, move to the safe spot on your side in the *2*
@@ -105,9 +103,9 @@ depending on the debuff they received.
 </div>
 
 {: .buff-title .center }
-## ![][bubble] Bubble Weave
+## ![bubble] Bubble Weave
 
-<div class="mechanics" markdown="block">
+<div class="mechanics" markdown="1">
 > Bubble players have it easy. Simply find the north/south facing crystal on
 > your side, and stand one square next to it.
 >
@@ -127,11 +125,9 @@ depending on the debuff they received.
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
 
-------
-
 # Resolution
 
-<div class="timeline" markdown="block">
+<div class="timeline" markdown="1">
 > ![][bullet]
 >
 > ![](./example-spread-1.png)

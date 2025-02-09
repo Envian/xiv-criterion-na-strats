@@ -1,7 +1,6 @@
-<details class="markers" markdown="block">
-<summary><span>Markers</span></summary>
-
-<div class="summary" markdown="block">
+{: .markers }
+{% collapse Markers %}
+<div class="summary" markdown="1">
 These markers are mainly used to keep track of north, but are also used to help
 solve the adds mechanic, where the color pairs are important. They line up with
 the floor grid.
@@ -38,4 +37,4 @@ the floor grid.
 "Three":{"X":9.959,"Y":0.0,"Z":10.063,"ID":6,"Active":true},
 "Four":{"X":-10.008,"Y":0.0,"Z":10.033,"ID":7,"Active":true}}
 ```
-</details>
+{% endcollapse %}

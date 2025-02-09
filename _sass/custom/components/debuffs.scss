@@ -1,4 +1,16 @@
-@mixin __debuffs-common {
+.debuffs {
+    @include box-shading;
+}
+
+details.debuffs > summary {
+    margin: 2px !important;
+    padding: $sp-2 $sp-3;
+
+    background-color: $table-background-color;
+    border-bottom: $border rgba($border-color, 0.5);
+}
+
+div.debuffs, details.debuffs > div {
     display: grid;
     grid-template-columns: 1fr 4fr;
     padding: 0 2px 2px 2px;
@@ -19,35 +31,12 @@
         justify-content: center;
     }
 
-    // First Column (strategies)
-    > :nth-child(odd) {
+    // Images are always the first column.
+    > p:has(:first-child:is(img)) {
         border-left: 0;
     }
 
-    // Last Rows
     > :last-child, > :nth-last-child(2) {
         border-bottom: 0;
     }
-}
-
-
-details.debuffs-hideable {
-    @include box-shading;
-
-    summary {
-        margin: 2px !important;
-        padding: $sp-2 $sp-3;
-
-        background-color: $table-background-color;
-        border-bottom: $border rgba($border-color, 0.5);
-    }
-
-    > div {
-        @include __debuffs-common;
-    }
-}
-
-.debuffs {
-    @include box-shading;
-    @include __debuffs-common;
 }

@@ -25,30 +25,28 @@ common: ../common
 : {: .mb-5 } North East
 
 {: .mb-0 } *[debuff] Stack First*
-: {: .mb-0 } Start N/S max melee. Dodge N/S towards empty column.
+: {: .mb-0 } Start N/S, inside **[boss]Ketuduke**'s hitbox. Dodge towards the
+  bubble gap.
 
 {: .mb-0 .mt-0 } Ranged
-: {: .mb-0 .mt-0 } Plant in first quadrant.
+: {: .mb-0 .mt-0 } Plant in the quadrant you took the stack in.
 
 {: .mt-0 } Melee
-: {: .mt-0 .mb-4 } Cross E/W to the other quadrant.
+: {: .mt-0 .mb-4 } Cross east or west to the other quadrant.
 
 *[debuff] Spread First*
-: Start in quadrants for spread. N players meet N, S players meet S for Stack.
+: Take spreads in assigned quadrants. North players meet north, South players
+  meet south.
 
 -----
 
-<details class="debuffs-hideable">
-<summary><span>Debuff Explanations</span></summary>
-<div markdown="block">
+{: .debuffs }
+{% collapse Debuff Explanations %}
 {% include_relative debuffs/hydrobullet.md %}
 {% include_relative debuffs/hydrofall.md %}
-</div>
-</details>
+{% endcollapse %}
 
 # Mechanics
-
-**[boss]Ketuduke** will set up this mechanic by casting a few spells.
 
 {: .casts }
 {: .or } *[cast]Hydrobullet*
@@ -67,21 +65,24 @@ common: ../common
 : Causes circular AOEs to spawn under each player 3 times, over the next few
   seconds. This is cast twice during the mechanic.
 
-This mechanic is also role based, and does not require any flexing, however it
-does change based on whether or not *![bullet]Hydrobullet* has a shorter timer,
-or *![fall]Hydrofall*
+-----
+
+This mechanic is role based, and does not require any flexing, however it does
+change based on whether or not *![bullet]Hydrobullet* or *![fall]Hydrofall*
+resolves first.
 
 {: .warning }
-The hitbox for the bubbles is actually infront of where the bubble is. It is
-safe to touch the back of the bubble, but do not get close to the front.
+The hitbox for the bubbles is actually infront of it. While it is safe to touch
+the back of a bubble, If you get anywhere near the front, it will reach out with
+its little bubble hands and grab you.
 
 {: .buff-title .center }
 ## *![fall]Hydrofall* first
 
-* **[tank]Tank** and **[dps]Ranged DPS** North
-* **[healer]Healer** and **[dps]Melee DPS** South
+* **[tank]Tank** and **[dps]Ranged** North
+* **[healer]Healer** and **[dps]Melee** South
 
-<div class="mechanics" markdown="block">
+<div class="mechanics" markdown="1">
 > Begin by pairing up with your partner North and South, slightly inside the
 > boss's hitbox. Find the "Gap" on the North/South wall - you will be dodging
 > into this when *[cast]Hydrobomb* puddles begin to appear.
@@ -93,18 +94,26 @@ safe to touch the back of the bubble, but do not get close to the front.
 
 ![](./stack-first-2.png)
 
-> The **ranged** players should move out to the corner of the safe quadrant, and
-> get ready to move again. **Melee** need to squeeze between the moving bubbles
-> to make their way to the other quadrant.
+> **Ranged** players should move to the corner of the safe quadrant.
 >
-> ***Remember**: The front of the bubbles are more dangerous than the rear.
-> Never be directly infront of a bubble*
+> **Melee** need to squeeze into the middle tomake their way to the quadrant
+> east/west of them. *![sprint]Sprint* is reccomended.
+>
+> *Note: Melee always cross, regardless of which quadrant the stack was taken
+> in.*
+>
+> {: .demphasize }
+> ***Remember**: The rear side of the bubbles are safe. Cut close behind them,
+> or you may not be able to make it across in time.*
 
 ![](./stack-first-3.png)
 
-> **Ranged** players need to move in after the puddles appear under them.
-> **Melee** players should move out after the first puddle appears. The spread
-> will resolve when the 2nd puddle appears.
+> **Ranged** players dodge their puddles along the east/west walls.
+>
+> **Melee** players will drop their puddles on the way to their destination.
+> Try to be in max melee before the 2nd puddle appears.
+>
+> *You will need to continue dodging puddles after the spread AOE resolves.*
 
 ![](./stack-first-4.png)
 </div>
@@ -124,28 +133,31 @@ safe to touch the back of the bubble, but do not get close to the front.
 **[dps]Ranged**
 : {: .mb-5 } North East
 
-<div class="mechanics" markdown="block">
-> Begin by getting close to your starting spots. **Ranged** players will want
-> to move to the wall, ready to move into their quadrant's corner. **Melee**
-> players will want to be near the boss, ready to bait puddles while maintaining
-> uptime.
+<div class="mechanics" markdown="1">
+> Begin close to *[boss]Ketuduke*.
+>
+> **Ranged** players will be dodging puddles towards their quadrant.
+>
+> **Melee** players will be dodging within their quadrant. Max melee is safe.
 
 ![](./spread-first-1.png)
 
-> Dodge to your spread spots. The spread will resolve when the 3rd puddle
-> appears. For **melee**, max melee in your quadrant is safe - just be aware
-> you need to bait your puddles properly to do this properly.
+> Dodge the puddles towards your spread spot. The spread will resolve when the
+> third puddle appears.
 
 ![](./spread-first-2.png)
 
-> Begin working your way towards the middle, where you need to meet with the
-> your partner.
+> Slowly move towards middle, and get ready to meet with your partners.
+>
+> **[tank]Tank** and **[dps]Ranged** meet north.
+>
+> **[healer]Healer** and **[dps]Melee** meet south.
 
 ![](./spread-first-3.png)
 
-> Move in behind the bubbles traveling north/south on your side. The stack will
-> resolve when the 2nd puddle appears. Meet at roughly the edge of the boss's
-> targeting circle, and move out to bait the 3rd puddle.
+> Move in behind the behind the last bubbles as they pass. The stack will
+> resolve when the 2nd puddle appears. Afterwards, simply continue to dodge
+> puddles however you see fit.
 
 ![](./spread-first-4.png)
 </div>

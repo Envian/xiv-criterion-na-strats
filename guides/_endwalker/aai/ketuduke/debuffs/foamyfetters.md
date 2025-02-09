@@ -1,4 +1,4 @@
-![]({{ page.common }}/foamyfetter.png)
+![foamy]
 
 > **Foamy Fetters**
 >
