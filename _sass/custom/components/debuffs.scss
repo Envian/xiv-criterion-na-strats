@@ -13,6 +13,7 @@ details.debuffs > summary {
 div.debuffs, details.debuffs > div {
     display: grid;
     grid-template-columns: 1fr 4fr;
+    grid-auto-rows: auto;
     padding: 0 2px 2px 2px;
     column-gap: 2px;
     row-gap: 2px;
@@ -26,9 +27,14 @@ div.debuffs, details.debuffs > div {
         border-left: $border $border-color;
 
         display: flex;
-        flex-direction: column;
+        align-content: center;
         align-items: center;
         justify-content: center;
+        flex-wrap: wrap;
+
+        > p:not(:first-child) {
+            width: 100%;
+        }
     }
 
     // Images are always the first column.
