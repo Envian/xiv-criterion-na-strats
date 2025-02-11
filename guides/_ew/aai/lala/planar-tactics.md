@@ -82,4 +82,4 @@ flex based on how the debuffs are allocated.
 ![](./timeline-4.png)
 </div>
 
-{% include next.html name="Planar Tactics" url="../planar-tactics/" %}
+{% include next.html name="Spacial Tactics" url="../spacial-tactics/" %}
