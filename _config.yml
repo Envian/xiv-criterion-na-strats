@@ -27,7 +27,7 @@ callouts:
 
 collections:
   ew:
-    permalink: /:collection/:path/
+    permalink: /:path/
     output: true
 
 just_the_docs:
