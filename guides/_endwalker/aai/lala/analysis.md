@@ -39,40 +39,32 @@ common: ../common
 : Hits every player with a high damage attack, which can be prevented by facing
   your "gap" towards **[boss]Lala**.
 
------
+This fight makes use of a unique Rotation telegraph. It will count down as your
+rotation mechanic is about to resolve (similar to acceleration bombs).
 
-This mechanic is entirely personal responsibility. In order to successfully
-resolve, you must use your "gap" to block various effects, in this order.
-
-1. The first white orb will explode, and needs to be blocked by your gap.
-2. *[cast]Arcane Blight* resolves. Simply stand in the safe spot.
-3. The second white orb will explode. This is always in the opposite corner from
-   the first.
-4. You must resolve both your rotation with your *![three]Times Three* or
-   *![five]Times Five* debuff, and end with your "gap" facing **[boss]Lala**.
-   You do not have an opportunity to adjust between your rotation resolving, and
-   *[cast]targeted light*'s effect.
-
-While all of this is going on, the blue squares from *[cast]Arcane Array* will
-be marching around the arena. These squares are what trigger the white orbs to
-explode. By the end of the mechanic, only one column or row will be safe.
+# Strategy
 
 <div class="mechanics" markdown="1">
 > After *[cast]Arcane Array*, the arena will look like this. It could be rotated
-> or mirrored in any pattern, and the exact location of the white orbs can be
-> different.
+> or mirrored in any pattern. The white orbs will appear next to the blue
+> squares, one directly infront of an arrow (first), and the other to the side.
 >
-> In this example, the east and west two columns will become unsafe. The white
-> orb in the south west will explode first, followed by the one north east.
+> In this example, only the middle column will be safe.
 
 ![](./timeline-1.png)
 
-> Quickly face your "gap" towards the first orb.
+> The blue square will begin moving across the arena, making the outer edges
+> unsafe. When it hits an orb, it will detonate.
+>
+> Quickly face your "gap" towards the 1 orb. A green checkmark will appear
+> over your head once this orb resolves.
 
 ![](./timeline-2.png)
 
 > The blue squares will continue marching along the sides. **[boss]Lala** will
 > cast Arcane Blight during this time. Resolve it in the middle square.
+>
+> Keep an eye on the 2nd orb - you will need to block it quickly.
 
 ![](./timeline-3.png)
 
@@ -83,10 +75,6 @@ explode. By the end of the mechanic, only one column or row will be safe.
 > You will get a rotation debuff and must resolve your rotation, plus your
 > *![three]Times Three* or *![five]Times Five* debuff so that your "gap" faces
 > the boss at the end.
->
-> {: .demphasize }
-> Note: The icon used for rotation in this fight is unique, and does not look
-> like the one pictured.
 
 ![](./timeline-5.png)
 </div>
