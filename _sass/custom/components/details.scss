@@ -1,12 +1,48 @@
 details {
-    summary span::after {
+    > summary span::after {
         content: "[ show ]";
         float: right;
         font-size: 0.7em;
         text-decoration: underline;
         line-height: 2;
     }
-    &[open] summary:first-of-type span::after {
+
+    &[open] > summary span::after {
         content: "[ hide ]";
+    }
+
+    details.fill {
+        > div, > div > * {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+    }
+
+    details.more-details {
+        @include box-shading;
+
+        width: 100%;
+        border-radius: 0.2rem;
+        margin-top: 1em;
+        margin-bottom: 1em;
+
+        > summary {
+            padding: $sp-2 $sp-3;
+            background-color: rgba($table-background-color, 0.5);
+        }
+
+        &[open] > summary {
+            border-bottom: $border rgba($border-color, 0.5);
+            margin-bottom: 2px;
+        }
+
+        > div {
+            padding: $sp-2 $sp-3;
+            background-color: rgba($table-background-color, 0.5);
+
+            > blockquote {
+                @include blockquote-reset;
+            }
+        }
     }
 }

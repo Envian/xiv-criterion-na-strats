@@ -1,0 +1,1371 @@
+{
+  "nextId": 1111,
+  "arena": {
+    "shape": "circle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "customRadial",
+      "rings": [
+        175
+      ],
+      "spokes": [
+        0,
+        40,
+        80,
+        120,
+        160,
+        200,
+        240,
+        280,
+        320
+      ]
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "donut",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 175,
+          "x": 125,
+          "y": 0,
+          "id": 895
+        },
+        {
+          "type": "donut",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 175,
+          "x": 0,
+          "y": 125,
+          "id": 896
+        },
+        {
+          "type": "donut",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 175,
+          "x": 0,
+          "y": -125,
+          "id": 897
+        },
+        {
+          "type": "donut",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 175,
+          "x": -125,
+          "y": 0,
+          "id": 898
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": 0,
+          "y": 225,
+          "id": 899
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": 214,
+          "y": 70,
+          "id": 900
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": -214,
+          "y": 70,
+          "id": 901
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": -132,
+          "y": -182,
+          "id": 902
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": 132,
+          "y": -182,
+          "id": 903
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 60,
+          "radius": 175,
+          "x": 0,
+          "y": 0,
+          "id": 904
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 913,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 944,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 945,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 946,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 947,
+          "opacity": 65
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 80,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 986
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 3,
+          "y": 100,
+          "id": 987
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -144,
+          "y": -1,
+          "id": 988
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 0,
+          "y": -101,
+          "id": 989
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 155,
+          "y": 1,
+          "id": 990
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": -141,
+          "y": 0,
+          "id": 991
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 4,
+          "y": 99,
+          "id": 992
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 0,
+          "y": -99,
+          "id": 993
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 154,
+          "y": 1,
+          "id": 994
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 1010
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 60,
+          "x": 0,
+          "y": 0,
+          "id": 1011
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 120,
+          "x": 0,
+          "y": 0,
+          "id": 1012
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 180,
+          "x": 0,
+          "y": 0,
+          "id": 1013
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 240,
+          "x": 0,
+          "y": 0,
+          "id": 1014
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 20,
+          "radius": 300,
+          "coneAngle": 60,
+          "rotation": 300,
+          "x": 0,
+          "y": 0,
+          "id": 1015
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit1.png",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 1",
+          "x": 0,
+          "y": 152,
+          "id": 1016
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit2.png",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 2",
+          "x": 133,
+          "y": 69,
+          "id": 1017
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit3.png",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 3",
+          "x": 129,
+          "y": -73,
+          "id": 1018
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit4.png",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 4",
+          "x": -2,
+          "y": -149,
+          "id": 1019
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit5.png",
+          "width": 84,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 5",
+          "x": -134,
+          "y": -75,
+          "id": 1020
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit6.png",
+          "width": 84,
+          "height": 42,
+          "rotation": 0,
+          "name": "Counter 6",
+          "x": -130,
+          "y": 72,
+          "id": 1021
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 225,
+          "id": 999
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 132,
+          "y": -182,
+          "id": 1003
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 0,
+          "id": 1004
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1025,
+          "endId": 1005,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1027
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1008,
+          "endId": 1025,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1026
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1007,
+          "endId": 1006,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1023
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1006,
+          "endId": 1009,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1024
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1009,
+          "endId": 1007,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1022
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1005,
+          "endId": 1008,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1028
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 1005,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 1006,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 1007,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 1008,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 1009,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 1025,
+          "opacity": 65
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -257,
+          "y": -78,
+          "id": 1029
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -244,
+          "y": -52,
+          "id": 1030
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -240,
+          "y": -96,
+          "id": 1031
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -232,
+          "y": -84,
+          "id": 1032
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 80,
+          "status": [],
+          "rotation": 244,
+          "omniDirection": false,
+          "x": -186,
+          "y": -47,
+          "id": 1033
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": -214,
+          "y": 70,
+          "id": 1034
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 214,
+          "y": 70,
+          "id": 1035
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 0,
+          "id": 1036
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1043,
+          "endId": 1047,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1054
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1046,
+          "endId": 1043,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1056
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1048,
+          "endId": 1044,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1058
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1044,
+          "endId": 1045,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1059
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1045,
+          "endId": 1048,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1057
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1047,
+          "endId": 1046,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1055
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 1043,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 1045,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 1046,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 1044,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 1047,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 1048,
+          "opacity": 65
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": -132,
+          "y": -182,
+          "id": 1060
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 132,
+          "y": -182,
+          "id": 1061
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 225,
+          "id": 1062
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1069,
+          "endId": 1073,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1063
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1071,
+          "endId": 1069,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1064
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1074,
+          "endId": 1072,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1065
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1072,
+          "endId": 1070,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1066
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1070,
+          "endId": 1074,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1067
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1073,
+          "endId": 1071,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1068
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 1069,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 1070,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 1071,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 1072,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 1073,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 1074,
+          "opacity": 65
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": -214,
+          "y": 70,
+          "id": 1075
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 214,
+          "y": 70,
+          "id": 1076
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 225,
+          "id": 1077
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1087,
+          "endId": 1084,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1091
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1084,
+          "endId": 1085,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1092
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1085,
+          "endId": 1087,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1090
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1089,
+          "endId": 1086,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1094
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1086,
+          "endId": 1088,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1095
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1088,
+          "endId": 1089,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1093
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 1088,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 1089,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 1087,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 1084,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 1085,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 1086,
+          "opacity": 65
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": -132,
+          "y": -182,
+          "id": 1096
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 0,
+          "y": 0,
+          "id": 1097
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 30,
+          "radius": 175,
+          "x": 132,
+          "y": -182,
+          "id": 1098
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1107,
+          "endId": 1108,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1099
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1108,
+          "endId": 1109,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1100
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1109,
+          "endId": 1107,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1101
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1106,
+          "endId": 1110,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1102
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1110,
+          "endId": 1105,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1103
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 1105,
+          "endId": 1106,
+          "width": 6,
+          "color": "#ff0000",
+          "opacity": 80,
+          "id": 1104
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 1105,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 1106,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 1107,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 1108,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 1109,
+          "opacity": 65
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "North Bomb",
+          "color": "#ff0000",
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 1110,
+          "opacity": 65
+        }
+      ]
+    }
+  ]
+}

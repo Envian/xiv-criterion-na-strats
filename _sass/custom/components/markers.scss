@@ -9,13 +9,13 @@ details.markers {
     border: 1px solid #080810;
     background-color: #181820;
 
-    summary {
+    > summary {
         background-color: #0C0C18;
         margin: -0.5rem;
-        padding: 0.25rem;
+        padding: $sp-2 $sp-3;
     }
 
-    &[open] summary {
+    &[open] > summary {
         @include box-shading;
         margin-bottom: 0.5rem;
     }
@@ -31,6 +31,11 @@ details.markers {
     .summary {
         display: grid;
         grid-template-columns: 3fr 1fr;
+        gap: 0.5rem;
+
+        > blockquote {
+            @include blockquote-reset;
+        }
 
         > * {
             margin: 0;

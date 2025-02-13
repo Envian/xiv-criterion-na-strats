@@ -1,10 +1,10 @@
 {: .markers }
 {% collapse Markers %}
 <div class="summary" markdown="1">
-This puts the letter markers on the 4 most important squares - While they aren't
-strictly required, they can help with callouts for almost every mechanic. The
-number markers are much less important, but are placed roughly where the `3`
-player stands during *[cast]Planar Tactics*
+> This puts the letter markers on the 4 most important squares - While they aren't
+> strictly required, they can help with callouts for almost every mechanic. The
+> number markers are much less important, but are placed roughly where the `3`
+> player stands during *[cast]Planar Tactics*
 
 ![]({{ page.common }}/markers.png)
 </div>
