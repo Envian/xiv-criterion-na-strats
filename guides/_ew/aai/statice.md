@@ -19,12 +19,7 @@ common: ./common
 * Areo IV (Raidwide)
 * [Trick Reload](./trick-reload/)
 * [Dartboard 1](./dartboard-1/)
-
-* Suprise Baloon
-* Beguilling Glitter
-* Trigger Happy
-* Trapshooting
-
+* [Beguiling Glitter 1](./beguiling-glitter-1/)
 * Areo IV (Raidwide)
 
 * Intermission

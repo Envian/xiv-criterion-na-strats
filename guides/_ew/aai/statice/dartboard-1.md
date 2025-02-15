@@ -103,4 +103,4 @@ myself.
 When the stack/spread fully resolves, there will be a fairly large amount of
 damage going out, and players may be spread. Use mitigations.
 
-{% include next.html name="Dartboard 1" url="../dartboard-1/" %}
+{% include next.html name="Beguilling Glitter 1" url="../glitter-1/" %}
