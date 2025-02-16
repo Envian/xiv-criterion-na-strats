@@ -21,13 +21,7 @@ common: ./common
 * [Dartboard 1](./dartboard-1/)
 * [Beguiling Glitter 1](./beguiling-glitter-1/)
 * Areo IV (Raidwide)
-
-* Intermission
-* Ring a Ring O' Explosions
-* Present Box
-* Fireworks
-* Faerie Ring (Staffs)
-
+* [Intermission](./intermission/)
 * Shocking Abandon (Tankbuster)
 
 * Pinwheeling Dartboard
@@ -45,7 +39,7 @@ common: ./common
 
 * Areo IV (Raidwide)
 * Areo IV (Raidwide)
-* ??? Areo IV (Ernage)
+* ??? Areo IV (Enrage)
 
 
 ## Repeat Casts / Mechanics

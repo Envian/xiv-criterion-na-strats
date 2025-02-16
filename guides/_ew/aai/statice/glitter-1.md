@@ -9,15 +9,30 @@ common: ../common
 {% include_relative common/defines.md %}
 
 {: .title }
-# Intermission
+# Beguiling Glitter 1
 
 # Cheat Sheet
 
-good luck chucklenuts
+### Spread Spots
+
+*While there are assigned spread spots, the mechanic is lenient enough that
+they aren't always followed.*
+
+**[tank]Tank**
+: North
+
+**[healer]Healer**
+: West
+
+**[dps]Melee**
+: South
+
+**[dps]Ranged**
+: East
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
-{% include_relative debuffs/chains.md %}
+{% include_relative debuffs/forced-march.md %}
 {% endcollapse %}
 
 # Mechanics
