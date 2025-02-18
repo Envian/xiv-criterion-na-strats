@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Beguiling Glitter 1
+title: Forced March 1
 parent: Statice
 nav_order: 3
 common: ../common
@@ -9,7 +9,7 @@ common: ../common
 {% include_relative common/defines.md %}
 
 {: .title }
-# Beguiling Glitter 1
+# Forced March 1
 
 # Cheat Sheet
 
