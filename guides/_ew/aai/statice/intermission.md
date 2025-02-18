@@ -137,4 +137,4 @@ relative to that pattern.
 ![](./star-solve.png)
 </div>
 
-{% include next.html name="Intermission" url="../intermission/" %}
+{% include next.html name="Dartboard 2" url="../dartboard-2/" %}
