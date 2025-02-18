@@ -7,3 +7,5 @@
 >
 > This is a simple 2 person stack debuff. It is telegraphed as the debuff
 > counts down.
+
+[surge]: {{ page.page.root }}/debuffs/surge-vector.png#debuff

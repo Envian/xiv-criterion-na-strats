@@ -7,7 +7,7 @@ has_toc: false
 common: ./common
 ---
 
-{% include_relative lala/common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Lala

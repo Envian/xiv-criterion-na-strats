@@ -4,10 +4,10 @@ title: Ketuduke
 parent: Another Alo Alo Island
 nav_order: 3
 has_toc: false
-common: ./common
+root: .
 ---
 
-{% include_relative ketuduke/common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Ketuduke

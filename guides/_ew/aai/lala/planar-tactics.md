@@ -3,10 +3,11 @@ layout: default
 title: Planar Tactics
 parent: Lala
 nav_order: 2
-common: ../common
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Planar Tactics

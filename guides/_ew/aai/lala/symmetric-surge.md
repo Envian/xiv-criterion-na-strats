@@ -2,11 +2,12 @@
 layout: default
 title: Symmetric Surge
 parent: Lala
-nav_order: 3
-common: ../common
+nav_order: 4
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Symmetric Surge

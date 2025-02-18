@@ -6,13 +6,13 @@
 > number markers are much less important, but are placed roughly where the `3`
 > player stands during *[cast]Planar Tactics*
 
-![]({{ page.common }}/markers.png)
+![]({{ page.root }}/common/markers.png)
 </div>
 
 {: .mb-1 .mt-0 .fs-6 }
 **Normal**
 
-TODO: FIXME
+TODO: FIXME - These markers aren't what I currently suggest.
 
 ```json
 {"Name":"Lala","MapID":979,

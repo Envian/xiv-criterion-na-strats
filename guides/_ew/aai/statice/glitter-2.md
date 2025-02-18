@@ -3,10 +3,11 @@ layout: default
 title: Forced March 2
 parent: Statice
 nav_order: 6
-common: ../common
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Forced March 2

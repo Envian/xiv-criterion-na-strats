@@ -7,3 +7,5 @@
 >
 > This is a simple spread marker. It is sigificantly larger than a single
 > square, with a radius of ~1.5 squares.
+
+[bullet]: {{ page.root }}/debuffs/hydrobullet.png#debuff

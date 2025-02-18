@@ -6,4 +6,6 @@
 > by a Bubble Net when this effect expires.*
 >
 > When this debuff expires, this player will be raised into the air and can be
-> forcefully moved by **[](boss)Ketuduke**'s mechanics.
+> forcefully moved by **[boss]Ketuduke**'s mechanics.
+
+[bubble]: {{ page.root }}/debuffs/bubbleweave.png#debuff

@@ -5,7 +5,7 @@ These markers are mainly used to keep track of north, but are also used to help
 solve the adds mechanic, where the color pairs are important. They line up with
 the floor grid.
 
-![]({{ page.common }}/markers.png)
+![]({{ page.root }}/common/markers.png)
 </div>
 
 {: .mb-1 .mt-0 .fs-6 }

@@ -4,10 +4,10 @@ title: Statice
 parent: Another Alo Alo Island
 nav_order: 6
 has_toc: false
-common: ./common
+root: .
 ---
 
-{% include_relative statice/common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Statice

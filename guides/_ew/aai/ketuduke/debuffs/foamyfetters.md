@@ -7,3 +7,5 @@
 >
 > aka *sticky feet*. This debuff will lock a player in place and make them
 > immune to forced-movement effects.
+
+[foamy]: {{ page.root }}/debuffs/foamyfetter.png#debuff

@@ -3,10 +3,11 @@ layout: default
 title: Analysis
 parent: Lala
 nav_order: 1
-common: ../common
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Analysis

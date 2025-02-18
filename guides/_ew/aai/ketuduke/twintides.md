@@ -3,10 +3,11 @@ layout: default
 title: Twintides
 parent: Ketuduke
 nav_order: 3
-common: ../common
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Twintides

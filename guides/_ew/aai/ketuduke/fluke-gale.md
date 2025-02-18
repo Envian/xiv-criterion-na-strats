@@ -4,10 +4,10 @@ title: Fluke Gale
 parent: Ketuduke
 nav_order: 1
 has_toc: false
-common: ../common
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Fluke Gale

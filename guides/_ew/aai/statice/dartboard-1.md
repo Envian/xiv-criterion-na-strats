@@ -3,10 +3,11 @@ layout: default
 title: Dartboard 1
 parent: Statice
 nav_order: 2
-common: ../common
+has_toc: false
+root: ..
 ---
 
-{% include_relative common/defines.md %}
+{% include defines.md %}
 
 {: .title }
 # Dartboard 1

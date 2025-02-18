@@ -9,3 +9,5 @@
 > Players with this debuff must get hit by a blue sphere or orange cube for each
 > stack they have. If they do not clear all their stacks, they will detonate,
 > wiping the group.
+
+[beta]: {{ page.page.root }}/debuffs/subtractive-beta.png#debuff
