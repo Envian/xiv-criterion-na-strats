@@ -19,28 +19,16 @@ common: ./common
 * Areo IV (Raidwide)
 * [Trick Reload](./trick-reload/)
 * [Dartboard 1](./dartboard-1/)
-* [Beguiling Glitter 1](./beguiling-glitter-1/)
+* [Forced March 1](./glitter-1/)
 * Areo IV (Raidwide)
 * [Intermission](./intermission/)
 * Shocking Abandon (Tankbuster)
-
-* Pinwheeling Dartboard
-* Fire Spread (Fireball cast)
-
+* [Dartboard 1](./dartboard-2/)
 * Areo IV (Raidwide)
-
-* Beguilling Glitter
-* Trick Reload
-* Trapshooting
-* Present Box
-* Ring a Ring O' Explosions
-* Trigger Happy
-* Trapshooting
-
+* [Forced March 2](./glitter-2/)
 * Areo IV (Raidwide)
 * Areo IV (Raidwide)
 * ??? Areo IV (Enrage)
-
 
 ## Repeat Casts / Mechanics
 
