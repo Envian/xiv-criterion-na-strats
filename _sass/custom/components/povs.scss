@@ -17,8 +17,6 @@ details.povs {
         border-bottom: $border rgba($border-color, 0.5);
     }
 
-
-
     > div {
         blockquote {
             @include blockquote-reset;

@@ -1,16 +1,22 @@
 @import "./custom/mixins.scss";
 @import "./custom/keywords.scss";
 
-@import "./custom/components/debuffs.scss";
-@import "./custom/components/povs.scss";
-@import "./custom/components/markers.scss";
 @import "./custom/components/casts.scss";
-@import "./custom/components/mechanics.scss";
-@import "./custom/components/timeline.scss";
+@import "./custom/components/columns.scss";
+@import "./custom/components/debuffs.scss";
 @import "./custom/components/details.scss";
+@import "./custom/components/markers.scss";
+@import "./custom/components/mechanics.scss";
 @import "./custom/components/next.scss";
+@import "./custom/components/povs.scss";
+@import "./custom/components/timeline.scss";
 
 hr {
+    clear: both;
+    width: 100%;
+}
+
+.clear {
     clear: both;
 }
 
@@ -60,13 +66,20 @@ dl.compact {
         display: block;
         position: absolute;
         width: 100%;
-        height: 100%;
-        box-shadow: 0px 0px 2px 5px $table-background-color inset;
+        aspect-ratio: 1/1;
+        font-size: 50%;
+        //box-shadow: 0px 0px 1em 1em $table-background-color inset;
+        background:
+        linear-gradient(0deg, $table-background-color, transparent 6%, transparent 94%, $table-background-color),
+        linear-gradient(0deg, $table-background-color, transparent 4%, transparent 96%, $table-background-color),
+        linear-gradient(90deg, $table-background-color, transparent 6%, transparent 94%, $table-background-color),
+        linear-gradient(90deg, $table-background-color, transparent 4%, transparent 96%, $table-background-color),
     }
+
 }
 
 .floating-image {
-    width: 33%;
+    width: max(33%, 9rem);
 
     &.float-left {
         margin-right: 2em;
@@ -75,4 +88,30 @@ dl.compact {
     &.float-right {
         margin-left: 2em;
     }
+
+    &:is(blockquote) {
+        @include blockquote-reset;
+    }
+
+    > * {
+        margin-bottom: 0;
+        &:not(:first-child) {
+            margin-top: 0;
+        }
+    }
+}
+
+.half-width {
+    width: 50%;
+    margin: auto;
+}
+
+.third-width {
+    width: 33%;
+    margin: auto;
+}
+
+.two-thirds-width {
+    width: 66%;
+    margin: auto;
 }

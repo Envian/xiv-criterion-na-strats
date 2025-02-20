@@ -13,33 +13,67 @@ root: ..
 # Blowing Bubbles
 
 # Cheat Sheet
-**[tank]Tank**
-: North West
 
-**[healer]Healer**
-: South West
+{: .mt-6 }
+<div class="columns borders" markdown="1">
+> {: .buff-title .center }
+> **![bullet]Spread First**
+>
+> {: .mt-4 }
+> <div class="columns borders positions" markdown="1">
+> {: .justify-right }
+> **Tank ![tank]**
+>
+> **![ranged] Ranged**
+> </div>
+>
+> -----
+> {: .half-width .mt-2 .mb-2 }
+>
+> <div class="columns borders positions" markdown="1">
+> {: .justify-right }
+> **Healer ![healer]**
+>
+> **![melee] Melee**
+> </div>
+> {: .mb-6 }
+>
+> *[tank]Tank* + *[dps]Ranged*
+> : stack north.
+>
+> *[healer]Healer* + *[dps]Melee*
+> : stack south.
 
-**[dps]Melee**
-: South East
-
-**[dps]Ranged**
-: {: .mb-5 } North East
-
-{: .mb-0 } *[debuff] Stack First*
-: {: .mb-0 } Start N/S, inside **[boss]Ketuduke**'s hitbox. Dodge towards the
-  bubble gap.
-
-{: .mb-0 .mt-0 } Ranged
-: {: .mb-0 .mt-0 } Plant in the quadrant you took the stack in.
-
-{: .mt-0 } Melee
-: {: .mt-0 .mb-4 } Cross east or west to the other quadrant.
-
-*[debuff] Spread First*
-: Take spreads in assigned quadrants. North players meet north, South players
-  meet south.
-
------
+> {: .buff-title .center }
+> **![fall]Stack First**
+>
+> {: .mt-4 }
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 }
+> **Tank ![tank]**
+>
+> {: .pl-1 }
+> **![ranged] Ranged**
+> </div>
+>
+> -----
+> {: .half-width .mt-2 .mb-2 }
+>
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 }
+> **Healer ![healer]**
+>
+> {: .pl-1 }
+> **![melee] Melee**
+> </div>
+> {: .mb-6 }
+>
+> {: .ml-6}
+> *Take stack in "gap" on assigned wall.* \\
+> **Ranged** Plant in quadrant with gap. \\
+> **Melee** Cross over for spread.
+</div>
+{: .mb-6 }
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
@@ -49,49 +83,125 @@ root: ..
 
 # Mechanics
 
-{: .casts }
-{: .or } *[cast]Hydrobullet*
-: Applies *![bullet]Hydrobullet* to all players. It is followed immidiately by
-  an untelegraphed *![fall]Hydrofall*. Spread resolves first.
+Begins with *[cast]Hydrobullet* or *[cast]Hydrofall*. This will apply either
+*![bullet]Hydrobullet* to all players, or *![fall]Hydrofall* to one role.
+Shortly after the cast, the other debuff is applied with a longer timer.
 
-*[cast]Hydrofall*
-: Applies *![fall]Hydrofall* to one role. It is followed immidiately by
-  an untelegraphed *![bullet]Hydrobullet*. Stack resolves first.
+*[cast]Blowing Bubbles* Spawns circles around the edge of the arena. They will
+spawn one bubble each which slowly moves forward. Getting hit by a bubble is
+guaranteed death.
 
-*[cast]Blowing Bubbles*
-: Spawns circles around the edge of the arena. They will spawn one bubble each
-  which slowly moves forward. Getting hit by a bubble is guaranteed death.
+{: .warning .two-thirds-width }
+The hitbox for the bubbles is infront of the bubble. While it is safe to touch
+its back, If you get anywhere near the front it will reach out with its little
+bubble hands and grab you.
 
-*[cast]Hydrobomb*
-: Causes circular AOEs to spawn under each player 3 times, over the next few
-  seconds. This is cast twice during the mechanic.
+*[cast]Hydrobomb* Causes circular AOEs to spawn under each player 3 times, over
+the next few seconds. This is cast twice during the mechanic. Both
+*[cast]Hydrobullet* and *[cast]Hydrofall* resolve while *[cast]Hydrobomb*
+AOEs are appearing.
 
 -----
+
+# Strategy
 
 This mechanic is role based, and does not require any flexing, however it does
 change based on whether or not *![bullet]Hydrobullet* or *![fall]Hydrofall*
 resolves first.
 
-{: .warning }
-The hitbox for the bubbles is actually infront of it. While it is safe to touch
-the back of a bubble, If you get anywhere near the front, it will reach out with
-its little bubble hands and grab you.
+{: .buff-title .center }
+## *![bullet]Hydrobullet* first
+<div class="mechanics" markdown="1">
+> {: .text-center .mb-0 }
+> **Spread Spots**
+>
+> <div class="columns borders positions" markdown="1">
+> {: .justify-right }
+> **Tank ![tank]**
+>
+> **![ranged] Ranged**
+> </div>
+>
+> -----
+> {: .half-width .mt-2 .mb-2 }
+>
+> <div class="columns borders positions" markdown="1">
+> {: .justify-right }
+> **Healer ![healer]**
+>
+> **![melee] Melee**
+> </div>
+>
+> **Ranged** will want to aim for the corner of their quadrant.
+>
+> **Melee** can stay close to middle, but be sure to drop your 3rd puddle at
+> max melee in your quadrant.
+
+{: .fade-sides }
+![](./spread-first-1.png)
+
+> Dodge the puddles towards your spread spot. The spread will resolve when the
+> third puddle appears.
+
+![](./spread-first-2.png)
+
+> Move towards middle, and get ready to meet with your partners.
+>
+> **![tank]Tank** and **![ranged]Ranged** meet north. \\
+> **![healer]Healer** and **![melee]Melee** meet south.
+>
+> *Move middle once all the bubbles pass. Do not try to run infront of the
+> bubbles in the middle two columns.*
+
+![](./spread-first-3.png)
+
+> Move in behind the behind the last bubbles as they pass. The stack will
+> resolve when the 2nd puddle appears. Dodge the 2nd and 3rd puddles wherever
+> works.
+
+![](./spread-first-4.png)
+</div>
 
 {: .buff-title .center }
 ## *![fall]Hydrofall* first
 
-* **[tank]Tank** and **[dps]Ranged** North
-* **[healer]Healer** and **[dps]Melee** South
-
 <div class="mechanics" markdown="1">
-> Begin by pairing up with your partner North and South, slightly inside the
-> boss's hitbox. Find the "Gap" on the North/South wall - you will be dodging
-> into this when *[cast]Hydrobomb* puddles begin to appear.
+> {: .text-center .mb-0 }
+> **Stack Partners**
+>
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 .pb-4 }
+> **Tank ![tank]**
+>
+> {: .pl-1 .pb-4 }
+> **![ranged] Ranged**
+> </div>
+>
+> -----
+> {: .half-width .mt-0 .mb-0 }
+>
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 .pt-4 }
+> **Healer ![healer]**
+>
+> {: .pl-1 .pt-4 }
+> **![melee] Melee**
+> </div>
+>
+> Begin by pairing up with your partner. Find the "Gap" on the north/south wall
+> \- you will be dodging into this when *[cast]Hydrobomb* puddles begin to appear.
 
+{: .fade-sides }
 ![](./stack-first-1.png)
 
-> When the first puddle appears, dodge N/S with your partner. The stack will
-> resolve when the 3rd puddle appears.
+> When the first puddle appears, dodge towards the gap with your partner.
+>
+> **Uptime Strats** \\
+> Shown to the right is an uptime dodge. 2nd puddle will be dropped in
+> **[boss]Ketuduke**'s hitbox.
+>
+> *Remember to play it safe. Ketuduke has about 3 hitpoints, so uptime is not
+> worth it unless you're on the same page as your partner.*
 
 ![](./stack-first-2.png)
 
@@ -116,51 +226,15 @@ its little bubble hands and grab you.
 >
 > *You will need to continue dodging puddles after the spread AOE resolves.*
 
+{: .fade-sides }
 ![](./stack-first-4.png)
 </div>
 
-{: .buff-title .center }
-## *![bullet]Hydrobullet* first
-
-**[tank]Tank**
-: North West
-
-**[healer]Healer**
-: South West
-
-**[dps]Melee**
-: South East
-
-**[dps]Ranged**
-: {: .mb-5 } North East
-
-<div class="mechanics" markdown="1">
-> Begin close to *[boss]Ketuduke*.
+{: .povs }
+{% collapse POVs %}
+> **Spread First Ranged POV**
 >
-> **Ranged** players will be dodging puddles towards their quadrant.
->
-> **Melee** players will be dodging within their quadrant. Max melee is safe.
-
-![](./spread-first-1.png)
-
-> Dodge the puddles towards your spread spot. The spread will resolve when the
-> third puddle appears.
-
-![](./spread-first-2.png)
-
-> Slowly move towards middle, and get ready to meet with your partners.
->
-> **[tank]Tank** and **[dps]Ranged** meet north.
->
-> **[healer]Healer** and **[dps]Melee** meet south.
-
-![](./spread-first-3.png)
-
-> Move in behind the behind the last bubbles as they pass. The stack will
-> resolve when the 2nd puddle appears. Afterwards, simply continue to dodge
-> puddles however you see fit.
-
-![](./spread-first-4.png)
-</div>
+> {% include youtube.html id="s4pvr3dA9nM?start=252&end=290" %}
+{% endcollapse %}
 
 {% include next.html name="Twintides" url="../twintides/" %}

@@ -1,9 +1,17 @@
+[tank]: /assets/tank.png#tank
+{: .role-icon }
+[healer]: /assets/healer.png#healer
+{: .role-icon }
+[melee]: /assets/melee.png#dps
+{: .role-icon }
+[ranged]: /assets/ranged.png#dps
+{: .role-icon }
+
+[dps]: dps
+
 [sprint]: /assets/sprint.png#debuff
 [dd]: /assets/damage-down.png#debuff
 
-[tank]: tank
-[healer]: healer
-[dps]: dps
 [support]: support
 
 [cast]: cast
