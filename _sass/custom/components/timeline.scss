@@ -10,9 +10,10 @@
         @include blockquote-reset;
         @include box-shading;
 
-        row-gap: 2px;
-        display: subgrid;
+        display: grid;
+        grid-auto-rows: subgrid;
         grid-row-start: 1;
+        row-gap: 2px;
 
         > * {
             margin: 0 !important;

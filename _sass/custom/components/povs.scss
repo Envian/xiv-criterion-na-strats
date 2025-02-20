@@ -1,0 +1,42 @@
+details.povs {
+    @include box-shading;
+
+    padding: 0 2px 2px 2px;
+
+    > summary {
+        margin-bottom: 0;
+        padding: $sp-2 $sp-3;
+
+        background-color: $table-background-color;
+        border-bottom: 0;
+        border-left: 0;
+    }
+
+    &[open] > summary {
+        margin-bottom: 2px;
+        border-bottom: $border rgba($border-color, 0.5);
+    }
+
+
+
+    > div {
+        blockquote {
+            @include blockquote-reset;
+        }
+
+        > * {
+            padding: $sp-2 $sp-3 !important;
+
+            background-color: $table-background-color;
+            border-bottom: $border rgba($border-color, 0.5);
+            border-left: $border $border-color;
+            overflow: auto;
+
+            iframe {
+                width: 100%;
+                height: auto;
+                aspect-ratio: 16 / 9;
+            }
+        }
+    }
+}

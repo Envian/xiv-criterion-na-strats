@@ -40,7 +40,7 @@
     }
 
     // Last Rows
-    > :last-child, > :nth-last-child(2):not(+ .full-width) {
+    > :last-child, > :nth-last-child(2):not(:has(+.full-width)) {
         border-bottom: 0;
     }
 }

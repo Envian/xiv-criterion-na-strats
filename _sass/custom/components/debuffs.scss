@@ -7,6 +7,10 @@ details.debuffs > summary {
     padding: $sp-2 $sp-3;
 
     background-color: $table-background-color;
+    border-bottom: 0;
+}
+
+details.debuffs[open] > summary {
     border-bottom: $border rgba($border-color, 0.5);
 }
 

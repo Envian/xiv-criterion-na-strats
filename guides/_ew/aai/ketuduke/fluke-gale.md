@@ -43,23 +43,24 @@ root: ..
 
 # Mechanics
 
-{: .casts }
-*[cast]Spring Crystals*
-: Spawns 4 crystals around the arena, one in each quadrant.
+*[cast]Spring Crystals* Spawns 4 crystals around the arena, one in each
+quadrant.
 
-*[cast]Bubble Net*
-: This is a raidwide. Applies *![foamy]Foamy Fetters* to one role, and
-*![bubble]Bubble Weave* to the other.
+*[cast]Bubble Net* is a raidwide. Applies *![foamy]Foamy Fetters* to one role,
+and *![bubble]Bubble Weave* to the other.
 
-{: .or } *[cast]Hydrobullet*
-: Applies *![bullet]Hydrobullet* to all players.
+{: .float-right .floating-image }
+![Example Arena](./arena-layout.png)
 
-*[cast]Hydrofall*
-: Applies *![fall]Hydrofall* to one role.
+*[cast]Hydrobullet* or *[cast]Hydrofall* Applies either *![bullet]Hydrobullet*
+to all players, or *![fall]Hydrofall* to one role.
 
-*[cast]Fluke Gale*
-: Telegraphs a knockback direction, and displays a 1 or 2 limit cut marker in
-the center denoting the order the knockbacks will happen.
+*[cast]Fluke Gale* begins telegraphing a knockback with a number marker in each
+quadrant. This will only impact *![bubble]Bubble Weave* players. The quadrants
+with 1 will resolve first, followed by the 2 quadrants.
+
+There are only a few patterns which can occur. These strategies rely on these
+assumptions.
 
 -----
 
@@ -83,20 +84,20 @@ depending on the debuff they received.
 
 ![](./h-pattern.png)
 
-> {: .mt-0 .mb-0 }
+> {: .mt-0 .mb-0 .center }
 > ![fall]
 >
 > {: .text-center }
-> If the debuffs are stack, move to the safe spot on your side in the *1*
+> If the debuffs are stack, move to the safe spot on your side in the 1
 > quadrant.
 
 ![](./stack.png)
 
-> {: .mt-0 .mb-0 }
+> {: .mt-0 .mb-0 .center }
 > ![bullet]
 >
 > {: .text-center }
-> If the debuffs are spread, move to the safe spot on your side in the *2*
+> If the debuffs are spread, move to the safe spot on your side in the 2
 > quadrant.
 
 ![](./spread.png)
@@ -106,8 +107,10 @@ depending on the debuff they received.
 ## ![bubble] Bubble Weave
 
 <div class="mechanics" markdown="1">
-> Bubble players have it easy. Simply find the north/south facing crystal on
-> your side, and stand one square next to it.
+> Bubble players have it easy. Find the horizontal (north/south) facing crystal
+> on your side, and stand one square next to it.
+>
+> *This will not work if your group splits the arena east/west.*
 >
 > {: .demphasize }
 > Other guides talk about solving the H pattern and moving to the *2* quadrant
@@ -134,6 +137,7 @@ depending on the debuff they received.
 >
 > ![](./example-spread-2.png)
 >
+> {: .fade-sides }
 > ![](./example-spread-3.png)
 
 > ![][fall]
@@ -144,5 +148,14 @@ depending on the debuff they received.
 >
 > ![](./example-stack-3.png)
 </div>
+
+-----
+
+{: .povs }
+{% collapse POVs %}
+> **Ranged POV**
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=205&end=250" %}
+{% endcollapse %}
 
 {% include next.html name="Blowing Bubbles" url="../blowing-bubbles/" %}
