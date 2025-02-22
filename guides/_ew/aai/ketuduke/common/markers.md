@@ -2,8 +2,7 @@
 {% collapse Markers %}
 <div class="summary" markdown="1">
 These markers are mainly used to keep track of north, but are also used to help
-solve the adds mechanic, where the color pairs are important. They line up with
-the floor grid.
+solve the adds mechanic, where the color pairs are important.
 
 ![]({{ page.root }}/common/markers.png)
 </div>
