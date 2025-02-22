@@ -230,6 +230,8 @@ resolves first.
 ![](./stack-first-4.png)
 </div>
 
+-----
+
 {: .povs }
 {% collapse POVs %}
 > **Spread First Ranged POV**

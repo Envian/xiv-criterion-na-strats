@@ -14,22 +14,32 @@ root: ..
 
 # Cheat Sheet
 
-{: .info }
-Assigned spots are rotated *clockwise* by 90° from other mechanics.
+{: .mt-6 }
+<div class="columns borders" markdown="1">
+> {: .info .mr-4 }
+> Assigned spots are rotated *clockwise* by 90° from other mechanics.
+>
+> All players use knockback immune.
+>
+> **Ranged** cross for towers.
 
-**[tank]Tank**
-: North East
-
-**[healer]Healer**
-: North West
-
-**[dps]Melee**
-: South West
-
-**[dps]Ranged**
-: South East
-
------
+> <div class="columns positions" markdown="1">
+> {: .justify-right }
+> > {: .mb-0 }
+> > **Healer ![healer]**
+> >
+> > **Melee ![melee]**
+>
+> {: .mr-4 .ml-4 }
+> <div style="height: 6rem; width: 1rem; flex-grow: 0; background-color: deepskyblue"></div>
+>
+> > **![tank]Tank**
+> >
+> > **![ranged]Ranged**
+>
+> </div>
+</div>
+{: .mb-6 }
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
@@ -39,35 +49,52 @@ Assigned spots are rotated *clockwise* by 90° from other mechanics.
 
 # Mechanics
 
-{: .casts }
-{: .or } *[cast]Hydrobullet*
-: Applies *![bullet]Hydrobullet* to all players. It is followed immidiately by
-  an untelegraphed *![fall]Hydrofall*. Spread resolves first.
+## Stack and Spread
 
-*[cast]Hydrofall*
-: Applies *![fall]Hydrofall* to one role. It is followed immidiately by
-  an untelegraphed *![bullet]Hydrobullet*. Stack resolves first.
+Begins with *[cast]Hydrobullet* or *[cast]Hydrofall*. This will apply either
+*![bullet]Hydrobullet* to all players, or *![fall]Hydrofall* to one role.
+Shortly after the cast, the other debuff is applied with a longer timer.
 
-*[cast]Angry Seas*
-: Telegraphs a line knockback from center, with the center being dangerous.
+*[cast]Angry Seas* is a short line knocback away from center, with a fairly
+large section of the middle unsafe. This will split the arena vertically. The
+first *[cast]Hydrobullet* or *[cast]Hydrofall* will resolve immidiately after
+the knockback. you do not have time to adjust.
 
-*[cast]Spring Crystals*
-: Spawns 4 circular crystals on one side of the arena.
+For the rest of the mechanic, the unsafe area from *[cast]Angry Seas* will be a
+deathwall. The 2nd *[cast]Hydrobullet* or *[cast]Hydrofall* will resolve shortly.
 
-*[cast]Bubble Net*
-: Raidwide. Spawns several bubbles around the arena. Some of the crystals will
-  be placed in bubbles as well.
-: This also spawns 3 towers on the empty side, and 1 tower on the crystal side.
+## Towers
 
-*[cast]Fluke Typhoon*
-: When the cast resolves, an arena-wide knockback will be telegraphed, from the
-  crystal side, to the empty side.
+{: .float-right .floating-image .mb-8 }
+> ![](./arena.png)
+>
+> {: .text-center }
+> Arena with towers and crystals.
+
+*[cast]Spring Crystals* will then Spawns 4 circular crystals on one side of the
+arena. These explode in a relatively small circular AOE at the end of the mechanic.
+
+*[cast]Bubble Net* is the same raidwide from before. Spawns several bubbles
+around the arena, 3 towers on the side without crystals, and 1 on the side with.
+Some of the crystals will be placed in bubbles.
+
+Any player who touches a bubble will be picked up by the bubble. When
+*[cast]Fluke Typhoon* resolves, they will be pushed, and end up either on the
+other side, or in the death wall.
+
+## Timeline
+
+1. Resolve *[cast]Angry Seas* KB + first Stack or Spread.
+2. Resolve 2nd Stack or Spread.
+3. Raidwide + bubbles appear.
+4. Bubbles pushed, crystals explode.
+5. Towers resolve.
 
 -----
 
-## Resolve Stack/Spread
+# Strategy
 
-The Stacks and Spreads both resolve before any other mechanic becomes important.
+## Stack and Spread
 
 {: .info }
 There is a lot of damage going out between *[cast]Angry Seas* and
@@ -99,18 +126,21 @@ There is a lot of damage going out between *[cast]Angry Seas* and
 <div class="mechanics" markdown="1">
 > Start in your assigned quadrant.
 >
-> {: .compact }
-> **[tank]Tank**
-> : North East
+> <div class="columns positions" markdown="1">
+> {: .justify-right }
+> > {: .mb-0 }
+> > **Healer ![healer]**
+> >
+> > **Melee ![melee]**
 >
-> **[healer]Healer**
-> : North West
+> {: .mr-4 .ml-4 }
+> <div style="height: 6rem; width: 1rem; flex-grow: 0; background-color: deepskyblue"></div>
 >
-> **[dps]Melee**
-> : South West
+> > **![tank]Tank**
+> >
+> > **![ranged]Ranged**
 >
-> **[dps]Ranged**
-> : South East
+> </div>
 >
 > **Melee** may stand at max melee, and should use
 > knockback immune to keep uptime.
@@ -126,56 +156,53 @@ There is a lot of damage going out between *[cast]Angry Seas* and
 ![](./spread-2.png)
 </div>
 
-## Resolve Towers and Crystals
+## Towers
 
-Crystals will spawn on one side of the arena. Afterwards, bubbles will spawn
-on both sides of the arena. Walking into one of these bubbles - *even one with a
-crystal* - will result in you being picked up by the bubble.
-
-Finally, 3 towers will spawn on the empty side of the arena, and one on the
-crystal side.
-
-One player will need to ride a bubble from the crystal side over to the empty
-side. If any other player touches a bubble, they will not be able to resolve
-the towers.
-
-How you solve this mechanic depends on which side of the arena you are on, and
-where the "Corner crystal" is.
+For **melee** players, you are assigned to the middle tower on your side of the
+arena. **Ranged** players will flex to the other two towers.
 
 <div class="mechanics" markdown="1">
 > Find the "Corner Crystal". This is the crystal in the center of a corner
 > square. It is further away from the other crystals, and will not be picked up
 > by a bubble.
 >
-> In this example, the "Corner Crystal" is the North East one.
+> In this example, the "Corner Crystal" is the north east one.
 
 ![](./towers-1.png)
 
-> The *[dps]Ranged* or *[healer]Healer* on the crystal side will need to walk
-> into a bubble infront of the "Corner Crystal" in order to cross to the other
-> side.
+> {: .text-center .mb-0 }
+> **Crystal Side**
 >
-> **Melee** players will take the tower in the middle.
+> **Ranged** player takes the bubble infront of the "Corner Crystal" to cross. \\
+> **Melee** player takes the tower.
 >
-> **Ranged** players take the tower opposite of the "Corner Crystal"
+> {: .text-center .mb-0 }
+> **Empty Side**
+>
+> **Ranged** player takes the tower diagonal from the "Corner Crystal". \\
+> **Melee** player takes middle tower.
 
 ![](./towers-2.png)
 
-> Crystals will explode in a circular AOE after the gale. The crossing player
-> will end up directly in their tower.
->
-> {: .warning }
-> > All towers will be hit when the crystals explode. The far wall is always
-> > safe, but there are uptime spots for brave melee.
-> >
-> > {: .demphasize}
-> > You have a second to adjust after the telegraph, but only one.
+> All bubbles will be pushed, then the crystals will explode, covering all
+> towers except the crossing ranged's tower.
 
 {: .fade-sides }
 ![](./towers-3.png)
 
-> All players should move into their towers after the crystal AOEs resolve.
+> Move into your tower once it is safe.
 
 ![](./towers-4.png)
-
 </div>
+
+-----
+
+{: .povs }
+{% collapse POVs %}
+> **Ranged POV (Not Crossing)**
+>
+> {: .demphasize }
+> This POV has the healer and tank swapped.
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=378&end=425" %}
+{% endcollapse %}

@@ -2,6 +2,7 @@
     @include blockquote-reset;
 
     display: flex;
+    align-items: center;
 
     &.positions {
         > p {

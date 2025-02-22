@@ -70,10 +70,10 @@ dl.compact {
         font-size: 50%;
         //box-shadow: 0px 0px 1em 1em $table-background-color inset;
         background:
-        linear-gradient(0deg, $table-background-color, transparent 6%, transparent 94%, $table-background-color),
-        linear-gradient(0deg, $table-background-color, transparent 4%, transparent 96%, $table-background-color),
-        linear-gradient(90deg, $table-background-color, transparent 6%, transparent 94%, $table-background-color),
-        linear-gradient(90deg, $table-background-color, transparent 4%, transparent 96%, $table-background-color),
+        linear-gradient(0deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
+        linear-gradient(0deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
+        linear-gradient(90deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
+        linear-gradient(90deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
     }
 
 }

@@ -13,19 +13,41 @@ root: ..
 # Twintides
 
 # Cheat Sheet
-**[tank]Tank** + **[dps]Ranged**
-: North
 
-**[healer]Healer** + **[dps]Melee**
-: {: .mb-4 } South
+{: .mt-6 }
+<div class="columns borders" markdown="1">
+> {: .casts }
+> *[cast]Encroaching Twintides*
+> : In First
+>
+> *[cast]Receding Twintides*
+> : Out First
 
-**[cast]Encroaching**
-: **in** then **out**
-
-**[cast]Receding**
-: **out** then **in**
-
------
+> {: .buff-title .center }
+> **![fall]Partners**
+>
+> {: .mt-4 }
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 }
+> **Tank ![tank]**
+>
+> {: .pl-1 }
+> **![ranged] Ranged**
+> </div>
+>
+> -----
+> {: .half-width .mt-2 .mb-2 }
+>
+> <div class="columns positions" markdown="1">
+> {: .justify-right .pr-1 }
+> **Healer ![healer]**
+>
+> {: .pl-1 }
+> **![melee] Melee**
+> </div>
+> {: .mb-6 }
+</div>
+{: .mb-6 }
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
@@ -34,49 +56,63 @@ root: ..
 
 # Mechanics
 
+Always opens with *[cast]Hydrofall* giving *![fall]Hydrofall* to both players
+in one role.
+
+*[cast]Strewn Bubbles* will spawn large circles along opposite walls. During the
+mechanic, these circles will "expand" into the two squares infront of it. While
+they are expanding, the squares are still safe. Their AOE snapshots a second
+after the square fills up.
+
+The main mechanic is *[cast]Encroaching Twintides* or *[cast]Receding Twintides*.
+
 {: .casts }
-*[cast]Hydrofall*
-: Applies *![fall]Hydrofall* to one role. This is always cast first.
-
-*[cast]Strewn Bubbles*
-: Spawns large circles along opposite walls. They can be ignored for now,
-  since their AOE are telegraphed well in advance.
-
-{: .or } *[cast]Encroaching Twintides*
+*[cast]Encroaching Twintides*
 : A large *donut* AOE, followed by a large *circular* AOE.
 
 *[cast]Receding Twintides*
 : A large *circular* AOE, followed by a large *donut* AOE.
 
+Both of the AOEs will snapshot at the same time as a set of bubbles.
+
+<div class="timeline" markdown="1">
+> {: .text-center }
+> **Donut AOE**
+>
+> {: .fade-sides }
+> ![](./example-in.png)
+
+> **Circular AOE**
+>
+> ![](./example-out.png)
+</div>
+
+# Strategy
+
 -----
 
 This mechanic is role based and does not require any flexing.
 
-* **[tank]Tank** and **[dps]Ranged DPS** North
-* **[healer]Healer** and **[dps]Melee DPS** South
+* **![tank]Tank** and **![ranged]Ranged** north
+* **![healer]Healer** and **![melee]Melee** south
 
-Before the cast of *[cast]Twintides*, the *[cast]Strewn Bubbles* from earlier
-will begin filling squares. The animation is harmless, but it snapshots once the
-squares fill. Both sets of bubbles snapshot at the same time as the
-*[cast]Twintides* casts.
+Once the *[cast]Twintides* cast begins, move either in or out towards the first
+safe spot on your side. Stay close to the middle line.
 
-Shortly after the first *[cast]Twintides*, **[boss]Ketuduke** will follow up
-with the other AOE. This, the 2nd set of *[cast]Strewn Bubbles*, and the
-*[fall]Hydrofall* stacks will resolve all at the same time.
+After the first *donut* or *circle* resolves, move to the other safe spot. This
+is when the stack resolves.
 
 {: .warning }
 This is not a castbar mechanic. Wait for the animation to finish before moving
 to the 2nd safe spot. You have time.
 
-<div class="mechanics" markdown="1">
-{: .fade-sides }
-![](./example-in.png)
+-----
 
-![](./example-out.png)
-</div>
-
-{: .warning }
-The *in* safe area is very small. Be sure to stand at the edge of
-**[boss]Ketuduke**'s hit circle, or else you may hit the other party.
+{: .povs }
+{% collapse POVs %}
+> **Ranged POV**
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=297&end=319" %}
+{% endcollapse %}
 
 {% include next.html name="Adds" url="../adds/" %}

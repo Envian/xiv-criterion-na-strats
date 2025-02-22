@@ -155,7 +155,7 @@ the debuff they received.
 # Resolution
 
 <div class="timeline" markdown="1">
-> ![][bullet]
+> ![bullet]
 >
 > ![](./example-spread-1.png)
 >
@@ -164,7 +164,7 @@ the debuff they received.
 > {: .fade-sides }
 > ![](./example-spread-3.png)
 
-> ![][fall]
+> ![fall]
 >
 > ![](./example-stack-1.png)
 >

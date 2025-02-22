@@ -1,5 +1,5 @@
 {
-  "nextId": 1319,
+  "nextId": 1335,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -1239,8 +1239,8 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": 144,
-          "y": 220,
+          "x": 149,
+          "y": 186,
           "id": 1249
         },
         {
@@ -1308,8 +1308,8 @@
           "color": "#bae3ff",
           "opacity": 35,
           "radius": 35,
-          "x": 143,
-          "y": 222,
+          "x": 151,
+          "y": 187,
           "id": 1256
         },
         {
@@ -1321,8 +1321,8 @@
           "name": "Bubble Net",
           "iconId": 216756,
           "maxStacks": 0,
-          "x": 156,
-          "y": 233,
+          "x": 163,
+          "y": 202,
           "id": 1257
         },
         {
@@ -1367,7 +1367,7 @@
           "opacity": 35,
           "radius": 35,
           "x": 229,
-          "y": 125,
+          "y": 94,
           "id": 1262
         },
         {
@@ -1455,8 +1455,8 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": -153,
-          "y": 225,
+          "x": -157,
+          "y": 187,
           "id": 1270
         },
         {
@@ -1564,8 +1564,8 @@
           "name": "Bubble Net",
           "iconId": 216756,
           "maxStacks": 0,
-          "x": -138,
-          "y": 236,
+          "x": -143,
+          "y": 202,
           "id": 1278
         },
         {
@@ -1607,6 +1607,18 @@
           "x": 210,
           "y": 1,
           "id": 1296
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 20,
+          "color": "#ffc800",
+          "opacity": 100,
+          "rotation": 0,
+          "text": "< Greed Spot",
+          "x": -5,
+          "y": -117,
+          "id": 1319
         }
       ]
     },
@@ -1773,6 +1785,97 @@
           "x": 160,
           "y": 23,
           "id": 1318
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 50,
+          "width": 150,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 1320
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 20,
+          "x": 226,
+          "y": 225,
+          "id": 1326
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 20,
+          "x": 150,
+          "y": 0,
+          "id": 1327
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 20,
+          "x": 225,
+          "y": -75,
+          "id": 1328
+        },
+        {
+          "type": "circle",
+          "color": "#00d5e8",
+          "opacity": 60,
+          "radius": 20,
+          "x": 150,
+          "y": -225,
+          "id": 1329
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 60,
+          "count": 1,
+          "x": -210,
+          "y": 0,
+          "id": 1331
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 60,
+          "count": 1,
+          "x": -153,
+          "y": 224,
+          "id": 1332
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 60,
+          "count": 1,
+          "x": 210,
+          "y": 0,
+          "id": 1333
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 60,
+          "count": 1,
+          "x": -150,
+          "y": -225,
+          "id": 1334
         }
       ]
     }

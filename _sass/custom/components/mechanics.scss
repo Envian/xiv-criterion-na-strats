@@ -7,7 +7,7 @@
     row-gap: 2px;
 
     > *:not(details) {
-        margin: 0 !important;
+        margin: 0;
         padding: $sp-2 $sp-3;
 
         background-color: $table-background-color;
@@ -59,7 +59,9 @@
         display: grid;
         grid-template-columns: subgrid;
         background-color: inherit;
+    }
 
+    > details.more, &:is(details) {
         > summary {
             margin-bottom: 0;
             padding: $sp-2 $sp-3;
@@ -72,17 +74,16 @@
         &[open] {
             > summary {
                 margin-bottom: 2px;
-                border-bottom: $border rgba($border-color, 0.5);
+                border-bottom: $border rgba($border-color, 0.5) !important;
             }
         }
 
-
         > div {
             background-color: inherit;
+            padding: 0 !important;
+            border-left: 0 !important;
 
             @include mechanics-grid;
-
-            padding: 0;
         }
     }
 }
