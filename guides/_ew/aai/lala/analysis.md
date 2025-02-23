@@ -2,7 +2,7 @@
 layout: default
 title: Analysis
 parent: Lala
-nav_order: 1
+nav_order: 2
 has_toc: false
 root: ..
 ---
@@ -11,6 +11,13 @@ root: ..
 
 {: .title }
 # Analysis
+
+# Cheat Sheet
+
+1. Block First Orb
+2. Dodge *[cast]Arcane Blight*
+3. Block Second Orb
+4. Block **[boss]Lala** w/ Self Rotation
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
@@ -21,48 +28,53 @@ root: ..
 
 # Mechanics
 
-{: .casts }
-*[cast]Analysis*
-: Applies a random *![unseen]Unseen* debuff to each player.
+{: .float-right .floating-image }
+![](./arena.png)
 
-*[cast]Arcane Array*
-: Spawns both of the white orbs, and arrow tiles around the arena.
+Opens with *[cast]Analysis*, granting each player a random *![unseen]unseen*
+debuff. This is identical to *Mustadio* from the Stormblood alliance raid. The
+rest of this mechanic requires you to point your "gap" towards mechanics to
+block them.
 
-*[cast]Angular Addition*
-: Gives both **[boss]Lala** and all players either *![three]Times Three* or
-  *![five]Times Five*.
+*[cast]Arcane Array* sets up the arena. Two blue squares spawn in opposite
+corners of the arena. The other two corners receive arrows, which will direct
+those blue squares. Finally, one white orb spawns directly infront of one blue
+square, and a 2nd spawns to the side of the other.
 
-*[cast]Arcane Blight*
-: Cleaves the arena with a 90° safe spot. This will be affected by the boss's
-  *![three]Times Three* or *![five]Times Five* buffs.
+The blue squares will give a lethal bleed debuff if touched. They will spread
+along the arena, square by square, following the arrows on the ground. Whenever
+a blue square touches a white orb, that white orb will explode in a full room
+AOE, requiring your "gap" to be pointed towards it.
 
-*[cast]Targeted Light*
-: Hits every player with a high damage attack, which can be prevented by facing
-  your "gap" towards **[boss]Lala**.
+While the squares are moving, **[boss]Lala** will cast an
+*[cast]Angular Addition* + *[cast]Arcane Blight* combo. Resolve
+*[cast]Arcane Blight* the same way as the first one.
 
-This fight makes use of a unique Rotation telegraph. It will count down as your
-rotation mechanic is about to resolve (similar to acceleration bombs).
+The earlier *[cast]Angular Addition* will have given you a *![three]Times Three*
+or *![five]Times Five* which will resolve at the end.
+
+After the 2nd white orb, *[cast]Targeted Light* will begin, and you will receive
+a rotate marker. Your *![unseen]unseen* debuff will rotate according to your
+*![three]Times Three* or *![five]Times Five* debuff. You need to align your
+"Gap" so that after the rotation, it faces *[boss]Lala*.
 
 # Strategy
 
 <div class="mechanics" markdown="1">
 > After *[cast]Arcane Array*, the arena will look like this. It could be rotated
-> or mirrored in any pattern. The white orbs will appear next to the blue
-> squares, one directly infront of an arrow (first), and the other to the side.
+> or mirrored in any pattern. The white orb directly infront of a blue square
+> is the first to resolve.
 >
 > In this example, only the middle column will be safe.
 
 ![](./timeline-1.png)
 
-> The blue square will begin moving across the arena, making the outer edges
-> unsafe. When it hits an orb, it will detonate.
->
 > Quickly face your "gap" towards the 1 orb. A green checkmark will appear
 > over your head once this orb resolves.
 
 ![](./timeline-2.png)
 
-> The blue squares will continue marching along the sides. **[boss]Lala** will
+> The blue squares will continue expanding along the sides. **[boss]Lala** will
 > cast Arcane Blight during this time. Resolve it in the middle square.
 >
 > Keep an eye on the 2nd orb - you will need to block it quickly.
@@ -79,5 +91,14 @@ rotation mechanic is about to resolve (similar to acceleration bombs).
 
 ![](./timeline-5.png)
 </div>
+
+-----
+
+{: .povs }
+{% collapse POVs %}
+> **Examample POV**
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=737&end=773" %}
+{% endcollapse %}
 
 {% include next.html name="Planar Tactics" url="../planar-tactics/" %}

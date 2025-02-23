@@ -177,9 +177,13 @@ the debuff they received.
 
 {: .povs }
 {% collapse POVs %}
-> **Ranged POV**
+> **Ranged POV - Bubble**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=205&end=250" %}
+
+> **Ranged POV - Bubble**
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=426&end=470" %}
 {% endcollapse %}
 
 {% include next.html name="Blowing Bubbles" url="../blowing-bubbles/" %}

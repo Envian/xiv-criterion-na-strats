@@ -1,5 +1,5 @@
 {
-  "nextId": 159,
+  "nextId": 174,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -14,6 +14,28 @@
   "steps": [
     {
       "objects": [
+        {
+          "type": "rect",
+          "color": "#bae3ff",
+          "opacity": 10,
+          "width": 240,
+          "height": 600,
+          "rotation": 0,
+          "x": 180,
+          "y": 0,
+          "id": 173
+        },
+        {
+          "type": "rect",
+          "color": "#bae3ff",
+          "opacity": 10,
+          "width": 240,
+          "height": 600,
+          "rotation": 0,
+          "x": -180,
+          "y": 0,
+          "id": 172
+        },
         {
           "type": "arrow",
           "color": "#ffc800",
@@ -109,20 +131,6 @@
           "id": 9
         },
         {
-          "type": "enemy",
-          "icon": "/actor/enemy_large.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 100,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": false,
-          "x": 0,
-          "y": 0,
-          "id": 11
-        },
-        {
           "type": "circle",
           "color": "#bae3ff",
           "opacity": 100,
@@ -139,6 +147,136 @@
           "x": -242,
           "y": -116,
           "id": 13
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "arrow",
+          "color": "#ffc800",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": 0,
+          "arrowEnd": true,
+          "x": -243,
+          "y": -243,
+          "id": 159
+        },
+        {
+          "type": "arrow",
+          "color": "#ffc800",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": 180,
+          "arrowEnd": true,
+          "x": 242,
+          "y": 238,
+          "id": 160
+        },
+        {
+          "type": "arrow",
+          "color": "#0066ff",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": 0,
+          "arrowEnd": true,
+          "x": 119,
+          "y": -242,
+          "id": 161
+        },
+        {
+          "type": "arrow",
+          "color": "#0066ff",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": 180,
+          "arrowEnd": true,
+          "x": -124,
+          "y": 242,
+          "id": 162
+        },
+        {
+          "type": "arrow",
+          "color": "#0066ff",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": -90,
+          "arrowEnd": true,
+          "x": 238,
+          "y": -242,
+          "id": 163
+        },
+        {
+          "type": "arrow",
+          "color": "#0066ff",
+          "opacity": 100,
+          "width": 76,
+          "height": 91,
+          "rotation": 90,
+          "arrowEnd": true,
+          "x": -245,
+          "y": 241,
+          "id": 164
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -240,
+          "y": -240,
+          "id": 165
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 240,
+          "y": 240,
+          "id": 166
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 167
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 10,
+          "x": 121,
+          "y": 244,
+          "id": 168
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 10,
+          "x": -242,
+          "y": -116,
+          "id": 169
         },
         {
           "type": "arc",
@@ -150,7 +288,7 @@
           "rotation": 0,
           "x": -3,
           "y": -126,
-          "id": 14
+          "id": 170
         },
         {
           "type": "party",
@@ -162,7 +300,7 @@
           "rotation": 0,
           "x": -2,
           "y": -126,
-          "id": 15
+          "id": 171
         }
       ]
     },

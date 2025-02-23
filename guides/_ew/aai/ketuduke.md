@@ -35,10 +35,9 @@ root: .
 
 *[cast]Bubble Net*
 : This is another standard raidwide. Used to set up mechanics, but hits about as
-  hard as *[cast]Tidal Roar*.
+  hard as *[cast]Tidal Roar*'s initial hit.
 
 ## Important Debuffs
-
 
 <div class="debuffs" markdown="1">
 {% include_relative ketuduke/debuffs/hydrobullet.md %}

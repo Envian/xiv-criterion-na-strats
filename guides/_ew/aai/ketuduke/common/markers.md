@@ -1,13 +1,14 @@
 {: .markers }
 {% collapse Markers %}
-<div class="summary" markdown="1">
+
+{: .float-right .quarter-width }
+![]({{ page.root }}/common/markers.png)
+
 These markers are mainly used to keep track of north, but are also used to help
 solve the adds mechanic, where the color pairs are important.
 
-![]({{ page.root }}/common/markers.png)
-</div>
 
-{: .mb-1 .mt-0 .fs-6 }
+{: .mb-1 .fs-6 .clear }
 **Normal**
 
 ```json

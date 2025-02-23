@@ -6,6 +6,11 @@
     column-gap: 2px;
     row-gap: 2px;
 
+    p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
     > *:not(details) {
         margin: 0;
         padding: $sp-2 $sp-3;

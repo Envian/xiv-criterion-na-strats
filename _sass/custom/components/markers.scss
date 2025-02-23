@@ -34,22 +34,4 @@ details.markers {
             margin-bottom: 0;
         }
     }
-
-    .summary {
-        display: grid;
-        grid-template-columns: 3fr 1fr;
-        gap: 0.5rem;
-
-        > blockquote {
-            @include blockquote-reset;
-        }
-
-        > * {
-            margin: 0;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-    }
 }

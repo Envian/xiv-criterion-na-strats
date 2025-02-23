@@ -461,125 +461,6 @@
           "id": 36
         },
         {
-          "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 50,
-          "status": [],
-          "rotation": 180,
-          "omniDirection": false,
-          "x": -118,
-          "y": 284,
-          "id": 37
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 50,
-          "status": [],
-          "rotation": 180,
-          "omniDirection": false,
-          "x": 121,
-          "y": 276,
-          "id": 38
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_medium.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 50,
-          "status": [],
-          "rotation": 180,
-          "omniDirection": false,
-          "x": 245,
-          "y": 275,
-          "id": 39
-        },
-        {
-          "type": "rect",
-          "color": "#0066ff",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": 0,
-          "id": 40
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": -120,
-          "id": 41
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": -120,
-          "id": 42
-        },
-        {
-          "type": "rect",
-          "color": "#00e622",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": 0,
-          "id": 43
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 600,
-          "rotation": 0,
-          "x": -120,
-          "y": 0,
-          "id": 48
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 600,
-          "rotation": 0,
-          "x": 120,
-          "y": 0,
-          "id": 49
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 600,
-          "rotation": 0,
-          "x": 240,
-          "y": 0,
-          "id": 50
-        },
-        {
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
@@ -856,50 +737,6 @@
           "id": 74
         },
         {
-          "type": "rect",
-          "color": "#0066ff",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": 0,
-          "id": 78
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": -120,
-          "id": 79
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": -120,
-          "id": 80
-        },
-        {
-          "type": "rect",
-          "color": "#00e622",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": 0,
-          "id": 81
-        },
-        {
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
@@ -949,7 +786,7 @@
         },
         {
           "type": "circle",
-          "color": "#fc972b",
+          "color": "#ff0000",
           "opacity": 35,
           "radius": 120,
           "x": -159,
@@ -958,7 +795,7 @@
         },
         {
           "type": "circle",
-          "color": "#fc972b",
+          "color": "#ff0000",
           "opacity": 35,
           "radius": 120,
           "x": -167,
@@ -967,7 +804,7 @@
         },
         {
           "type": "circle",
-          "color": "#fc972b",
+          "color": "#ff0000",
           "opacity": 35,
           "radius": 120,
           "x": 78,
@@ -976,7 +813,7 @@
         },
         {
           "type": "circle",
-          "color": "#fc972b",
+          "color": "#ff0000",
           "opacity": 35,
           "radius": 120,
           "x": 77,
@@ -1162,50 +999,6 @@
           "x": -240,
           "y": -240,
           "id": 112
-        },
-        {
-          "type": "rect",
-          "color": "#0066ff",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": 0,
-          "id": 113
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": 60,
-          "y": -120,
-          "id": 114
-        },
-        {
-          "type": "rect",
-          "color": "#ff0000",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": -120,
-          "id": 115
-        },
-        {
-          "type": "rect",
-          "color": "#00e622",
-          "opacity": 20,
-          "width": 220,
-          "height": 100,
-          "rotation": 0,
-          "x": -180,
-          "y": 0,
-          "id": 116
         },
         {
           "type": "party",

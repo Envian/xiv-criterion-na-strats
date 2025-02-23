@@ -24,11 +24,16 @@ details.povs {
 
         > * {
             padding: $sp-2 $sp-3 !important;
+            margin-bottom: 2px !important;
 
             background-color: $table-background-color;
-            border-bottom: $border rgba($border-color, 0.5);
+            border-bottom: $border rgba($border-color, 0.5) !important;
             border-left: $border $border-color;
             overflow: auto;
+
+            &:last-child {
+                border-bottom: 0 !important;
+            }
 
             iframe {
                 width: 100%;

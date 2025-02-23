@@ -9,4 +9,4 @@
 > Players with this debuff must cross a land mine for each stack they have.
 > If they do not clear all their stacks, they will detonate, wiping the group.
 
-[alpha]: {{ page.page.root }}/debuffs/subtractive-alpha.png#debuff
+[alpha]: {{ page.root }}/debuffs/subtractive-alpha.png#debuff

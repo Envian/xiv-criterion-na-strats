@@ -42,6 +42,12 @@
         align-items: end;
     }
 
+    .justify-left {
+        flex-direction: column;
+        display: flex;
+        align-items: start;
+    }
+
     .small {
         flex-grow: 2;
     }

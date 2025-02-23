@@ -10,4 +10,4 @@
 > stack they have. If they do not clear all their stacks, they will detonate,
 > wiping the group.
 
-[beta]: {{ page.page.root }}/debuffs/subtractive-beta.png#debuff
+[beta]: {{ page.root }}/debuffs/subtractive-beta.png#debuff

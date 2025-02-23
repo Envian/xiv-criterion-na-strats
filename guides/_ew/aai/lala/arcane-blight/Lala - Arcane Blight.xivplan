@@ -1,0 +1,250 @@
+{
+  "nextId": 25,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "rectangle",
+      "rows": 5,
+      "columns": 5
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": 120,
+          "id": 1
+        },
+        {
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 120,
+          "y": 0,
+          "id": 2
+        },
+        {
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": -120,
+          "id": 6
+        },
+        {
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -120,
+          "y": 0,
+          "id": 7
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 80,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 9
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 10,
+          "radius": 500,
+          "coneAngle": 270,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 10
+        },
+        {
+          "type": "icon",
+          "image": "http://localhost:4000/aai/lala/common/rotation.png",
+          "width": 124,
+          "height": 145,
+          "rotation": 0,
+          "name": "Rotation",
+          "x": 9,
+          "y": 0,
+          "id": 12
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216748_hr1.tex?format=png",
+          "width": 50,
+          "height": 67,
+          "rotation": 0,
+          "name": "Times Three",
+          "iconId": 216748,
+          "maxStacks": 0,
+          "x": 44,
+          "y": 66,
+          "id": 13
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffc800",
+          "opacity": 100,
+          "rotation": 0,
+          "text": "Safe Spot",
+          "x": -220,
+          "y": -1,
+          "id": 14
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": 120,
+          "id": 15
+        },
+        {
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 120,
+          "y": 0,
+          "id": 16
+        },
+        {
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": -120,
+          "id": 17
+        },
+        {
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -120,
+          "y": 0,
+          "id": 18
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 80,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 19
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 10,
+          "radius": 500,
+          "coneAngle": 270,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 20
+        },
+        {
+          "type": "icon",
+          "image": "http://localhost:4000/aai/lala/common/rotation.png",
+          "width": 124,
+          "height": 145,
+          "rotation": 0,
+          "name": "Rotation",
+          "x": 9,
+          "y": 0,
+          "id": 21
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffc800",
+          "opacity": 100,
+          "rotation": 0,
+          "text": "Safe Spot",
+          "x": 218,
+          "y": -1,
+          "id": 23
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216747_hr1.tex?format=png",
+          "width": 50,
+          "height": 67,
+          "rotation": 0,
+          "name": "Times Five",
+          "iconId": 216747,
+          "maxStacks": 0,
+          "x": 56,
+          "y": 64,
+          "id": 24
+        }
+      ]
+    }
+  ]
+}

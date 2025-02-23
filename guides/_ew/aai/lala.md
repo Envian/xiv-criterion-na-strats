@@ -4,7 +4,7 @@ title: Lala
 parent: Another Alo Alo Island
 nav_order: 5
 has_toc: false
-common: ./common
+root: .
 ---
 
 {% include defines.md %}
@@ -17,7 +17,7 @@ common: ./common
 ## Timeline
 
 * Inferno Theorem (Raidwide)
-* Arcane Blight
+* [Arcane Blight](./arcane-blight/)
 * [Analysis](./analysis/)
 * Strategic Strike (Tankbuster)
 * [Planar Tactics](./planar-tactics)
@@ -33,23 +33,6 @@ common: ./common
 * Strategic Strike (Tankbuster)
 * Inferno Theorem (Raidwide)
 * ??? (Enrage?)
-
-## Repeat Casts / Mechanics
-
-*[cast]Angular Addition*
-: Applies *![three]Times Three* and/or *![five]Times Five* to either each
-  player, **[boss]Lala**, or both. This modifies the next rotational mechanic.
-
-*[cast]Arcane Blight*
-: A room wide AOE with a 90° safe spot on one of the cardinal positions. It is
-  cast once at the start of the fight, and again during a few mechanics.
-: This is always paired with *![three]Times Three* or *![five]Times Five*, plus
-  a rotation telegraph above the boss.
-
-Blue Squares
-: Several mechanics have blue squares. These squares move across the arena, tile
-  by tile, changing directions when they overlap an arrow. They will inflict a
-  lethal bleed effect if touched.
 
 ## Important Debuffs
 
