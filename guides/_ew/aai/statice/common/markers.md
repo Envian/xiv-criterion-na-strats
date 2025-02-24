@@ -1,12 +1,13 @@
 {: .markers }
 {% collapse Markers - Color Pair (PF Standard) %}
-<div class="summary" markdown="1">
-> These are the standard PF markers.
 
-![]({{ page.common }}/markers-pf.png)
-</div>
+{: .float-right .quarter-width .ml-4 }
+![]({{ page.root }}/common/markers-pf.png)
 
-{: .mb-1 .mt-0 .fs-6 }
+While PF isn't fully standardized, you'll typically find two pairs of colors on
+each intercardinal. you may or may not have a marker north as well.
+
+{: .mb-1 .fs-6 .clear }
 **Normal**
 
 ```json
@@ -40,16 +41,23 @@
 
 {: .markers }
 {% collapse Markers - Star Solve (Non-standard) %}
-<div class="summary" markdown="1">
-> These markers put a letter on each bomb (except north). The main advantage is
-> that it shows enum players exactly where to stand during the star pattern.
 
-![]({{ page.common }}/markers-star-solve.png)
-</div>
+{: .float-right .quarter-width .ml-4 }
+![]({{ page.root }}/common/markers-star-solve.png)
 
-{: .more-details .fill }
+These markers put a letter on each bomb (except north), and a number marker on
+each safe spot for enum players during intermission.
+
+This outright solves the enum spot for intermission, but requires players to
+solve the mechanic relative to the bomb pattern in other scenarios.
+
+In my personal experience, solving intermission relative to the bombs, instead
+of the intercardinals, helps simplfiy the mechanic, since you no longer need to
+consider shifting north or not.
+
+{: .more-details .fill .clear }
 {% collapse Star Solve Cheat Sheet for Color Pair Enjoyers %}
-![]({{ page.common }}/star-solve-cheat-sheet.png)
+![]({{ page.root }}/common/star-solve-cheat-sheet.png)
 {% endcollapse %}
 
 {: .mb-1 .mt-0 .fs-6 }

@@ -25,7 +25,8 @@ root: ..
 : Red
 
 **[dps]Ranged**
-: Flex - Take the color of the player who's missing *![bullseye]Bull's-eye*.
+: Flex
+: Take the color of the player who's missing *![bullseye]Bull's-eye*.
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
@@ -34,74 +35,75 @@ root: ..
 
 # Mechanics
 
-{: .casts }
-*[cast]Trick Reload*
-: Stores a trick reload - Only the stack will resolve during Dartboard 1.
+{: .float-right .floating-image }
+> ![](./arena.png)
+>
+> {: .text-center }
+> The Dartboard Arena
 
-  {: .warning .mt-5 }
-  > Remember the slice, and the 2nd stack or spread. These won't resolve until the
-  > next mechanic.
+Begins by setting up a *[cast]Trick Reload* - Only the first *[cast]Trapshooting*
+will resolve during Dartboard 1. The rest will resolve during Forced March 1.
 
-*[cast]Ring a Ring O' Explosions*
-: Spawns 6 bombs around the arena, tethered into two sets of 3. One of the bombs
-  will begin to flash, that bomb and the 2 connected to it will explode later.
+*[cast]Ring a Ring O' Explosions* spawns bombs and tethers, into any one of
+its possible patterns.
 
-*[cast]Dartboard of Dancing Explosives*
-: Turns the arena into a dartboard, with 12 segments, an inner ring, and an
-  outer ring. Each segment is assigned one of 3 colors: Red, Blue, Yellow.
-: Grants 3 of the 4 players *![bullseye]Bull's-eye*.
-: Hides the bomb tethers and begins rotating the outer bombs clockwise around
-  the arena.
+*[cast]Dartboard of Dancing Explosives* turns the arena into a dartboard, and
+give 3 random players *![bullseye]Bull's-eye*. The bomb tethers will then
+disappear, and they will rotate around the arena 3 or 4 times.
 
-*[cast]Trapshooting*
-: Stack or Spread, determined by the results of the earlier *[cast]Trick Reload*.1
-  This resolves a couple seconds after the dartboard bombs detonate, but at the
-  same time as the darts.
+The tethered bombs will detonate when *[cast]Trapshooting* finishes casting,
+and its stack or spread will resolve a couple seconds later.
 
 # Strategy
 
-Begin by tracking the trick reload. During Dartboard 1, only the first stack
-will resolve, the rest resolves during the next mechanic. Use party chat, or
-mark the boss with the safe slice for later.
+Take a look at the bomb pattern once it appears. If the center is safe, then the
+simplest solution is to use that. Otherwise, pick a safe bomb and follow it as
+it rotates around the arena.
 
-When the dartboard appears, the tethers for bombs will disappear and they will
-begin roatating around the arena. The center will not move, so if it is safe,
-then use the middle for the stack or spread. Otherwise, track the bombs.
-
-{: .demphasize }
-I have heard that the bombs always rotate 4 times, but I have not confirmed this
-myself.
+PF does not strictly follow these guidelines. The stack and spread are fairly
+small, so keep an eye on where the party is, and adjust accordingly.
 
 <div class="mechanics" markdown="1">
 > ### Middle Safe
 >
-> It is reccomended to handle the stack or spread from the middle. Start middle
-> on your assigned color. If its stack, stay close. If its spread, dodge out
-> after the bombs explode.
+> If possible, handle the stack or spread from the middle.
+>
+> **Stack** - Just plant on your color near the middle.
+>
+> **Spread** - Start on your color, but move directly outward after the bombs
+> detonate.
+
 
 ![](./spread-middle.png)
 
 > ### Spread - Middle Unsafe
 >
-> The center bomb's radius covers the entire inner circle of the dartboard, but
-> there is time to move in after it explodes.
+> Stand in a safe spot, ideally on your color. You have time to flex after the
+> bombs explode.
 
 ![](./spread-sides.png)
 
 > ### Stack - Middle Unsafe
 >
-> The tank will need to pull **[boss]Statice** to one of the safe areas. All 4
-> players will need to resolve their dart around the same corner to be close
-> enough for the stack.
+> The *![tank]Tank* will need to pull **[boss]Statice** to any of the safe areas.
 >
-> Since the center bomb covers the entire inner ring of the dartboard, some
-> players may need to move into their square after the bomb explodes.
+> Stand in or near your assigned color. Only move to the middle ring after the
+> bombs explode.
 
 ![](./stack-sides.png)
 </div>
 
 {: .info }
-When the stack/spread fully resolves, there will be a fairly large amount of
+When the stack/spread fully resolves, there will be a moderate amount of
 damage going out, and players may be spread. Use mitigations.
+
+-----
+
+{: .povs }
+{% collapse POVs %}
+> **Stack + Middle Safe POV**
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=1128&end=1175" %}
+{% endcollapse %}
 
 {% include next.html name="Beguilling Glitter 1" url="../glitter-1/" %}

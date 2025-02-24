@@ -59,23 +59,22 @@ dl.compact {
 }
 
 .fade-sides {
-    position: relative;
+    // position: relative;
 
-    &::after {
-        content: "";
-        display: block;
-        position: absolute;
-        width: 100%;
-        aspect-ratio: 1/1;
-        font-size: 50%;
-        //box-shadow: 0px 0px 1em 1em $table-background-color inset;
-        background:
-        linear-gradient(0deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
-        linear-gradient(0deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
-        linear-gradient(90deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
-        linear-gradient(90deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
-    }
-
+    // &::after {
+    //     content: "";
+    //     display: block;
+    //     position: absolute;
+    //     width: 100%;
+    //     aspect-ratio: 1/1;
+    //     font-size: 50%;
+    //     //box-shadow: 0px 0px 1em 1em $table-background-color inset;
+    //     background:
+    //     linear-gradient(0deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
+    //     linear-gradient(0deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
+    //     linear-gradient(90deg, $table-background-color, transparent 3%, transparent 97%, $table-background-color),
+    //     linear-gradient(90deg, $table-background-color, transparent 2%, transparent 98%, $table-background-color),
+    // }
 }
 
 .floating-image {

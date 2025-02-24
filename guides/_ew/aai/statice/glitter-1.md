@@ -14,22 +14,27 @@ root: ..
 
 # Cheat Sheet
 
-### Spread Spots
+{: .mt-6 }
+<div class="columns borders" markdown="1">
+> PF does not strictly adhere to these spread spots. Use this as a guideline.
 
-*While there are assigned spread spots, the mechanic is lenient enough that
-they aren't always followed.*
-
-**[tank]Tank**
-: North
-
-**[healer]Healer**
-: West
-
-**[dps]Melee**
-: South
-
-**[dps]Ranged**
-: East
+> {: .buff-title .center }
+> **Preferred Spread Spots**
+>
+> {: .mt-4 .mb-0 .text-center }
+> **![tank]Tank**
+>
+> <div class="columns positions" markdown="1">
+> {: .justify-right}
+> **![healer]Healer**
+>
+> **![ranged]Ranged**
+> </div>
+>
+> {: .mt-0 .text-center }
+> **![melee]Melee**
+</div>
+{: .mb-6 }
 
 {: .debuffs }
 {% collapse Debuff Explanations %}
