@@ -1,20 +1,19 @@
 details.povs {
-    @include box-shading;
-
     padding: 0 2px 2px 2px;
 
     > summary {
+        @include box-shading;
+
         margin-bottom: 0;
         padding: $sp-2 $sp-3;
 
-        background-color: $table-background-color;
-        border-bottom: 0;
-        border-left: 0;
+        background-color: rgb(39, 39, 53);
+        border: 1px solid rgb(26, 26, 49);
+        border-radius: 0.2rem;
     }
 
     &[open] > summary {
-        margin-bottom: 2px;
-        border-bottom: $border rgba($border-color, 0.5);
+        // margin-bottom: 2px;
     }
 
     > div {
@@ -23,17 +22,15 @@ details.povs {
         }
 
         > * {
+            @include box-shading;
+
             padding: $sp-2 $sp-3 !important;
-            margin-bottom: 2px !important;
+            // margin-bottom: 2px !important;
 
-            background-color: $table-background-color;
-            border-bottom: $border rgba($border-color, 0.5) !important;
-            border-left: $border $border-color;
-            overflow: auto;
-
-            &:last-child {
-                border-bottom: 0 !important;
-            }
+            overflow: hidden;
+            border-radius: 0.2rem;
+            border: 1px solid rgb(26, 26, 49) !important;
+            background-color: rgb(39, 39, 53);
 
             iframe {
                 width: 100%;

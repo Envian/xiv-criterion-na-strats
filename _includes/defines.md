@@ -6,13 +6,13 @@
 {: .role-icon }
 [ranged]: /assets/ranged.png#dps
 {: .role-icon }
-
-[dps]: dps
+[support]: /assets/support.png#support
+{: .role-icon }
+[dps]: /assets/dps.png#dps
+{: .role-icon }
 
 [sprint]: /assets/sprint.png#debuff
 [dd]: /assets/damage-down.png#debuff
-
-[support]: support
 
 [cast]: cast
 [boss]: boss

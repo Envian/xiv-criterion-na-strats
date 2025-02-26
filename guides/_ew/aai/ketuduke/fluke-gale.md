@@ -78,6 +78,9 @@ to all players, or *![fall]Hydrofall* to one role.
 quadrant. This will only impact *![bubble]Bubble Weave* players. The quadrants
 with 1 will resolve first, followed by the 2 quadrants.
 
+*The 1 quadrant will always contain the horizontal (north/south) crystal, and
+the 2 quadrant will always contain the vertical (east/west) crystal*
+
 There are only a few patterns which can occur. These strategies rely on these
 assumptions.
 
@@ -131,7 +134,7 @@ the debuff they received.
 ## ![bubble] Bubble Weave
 
 <div class="mechanics" markdown="1">
-> Bubble players have it easy. Find the horizontal (north/south) facing crystal
+> Bubble players have it easy. Find the horizontal (north/south facing) crystal
 > on your side, and stand one square next to it.
 >
 > *This will not work if your group splits the arena east/west.*
@@ -175,13 +178,13 @@ the debuff they received.
 
 -----
 
-{: .povs }
+{: .povs open="1" }
 {% collapse POVs %}
 > **Ranged POV - Bubble**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=205&end=250" %}
 
-> **Ranged POV - Bubble**
+> **Ranged POV - Sticky**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=426&end=470" %}
 {% endcollapse %}

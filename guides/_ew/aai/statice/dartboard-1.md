@@ -106,4 +106,4 @@ damage going out, and players may be spread. Use mitigations.
 > {% include youtube.html id="s4pvr3dA9nM?start=1128&end=1175" %}
 {% endcollapse %}
 
-{% include next.html name="Beguilling Glitter 1" url="../glitter-1/" %}
+{% include next.html name="Forced March 1" url="../forced-march-1/" %}

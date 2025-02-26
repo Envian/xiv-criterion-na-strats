@@ -1,5 +1,5 @@
 {
-  "nextId": 944,
+  "nextId": 954,
   "arena": {
     "shape": "circle",
     "width": 600,
@@ -79,6 +79,30 @@
           "x": -100,
           "y": -175,
           "id": 849
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 20,
+          "color": "#000000",
+          "opacity": 100,
+          "rotation": 0,
+          "text": "New North",
+          "x": 234,
+          "y": -33,
+          "id": 944
+        },
+        {
+          "type": "arrow",
+          "color": "#000000",
+          "opacity": 100,
+          "width": 20,
+          "height": 75,
+          "rotation": 90,
+          "x": 248,
+          "y": -1,
+          "id": 945,
+          "arrowEnd": true
         }
       ]
     },
@@ -257,184 +281,30 @@
           "y": 0,
           "id": 894,
           "hollow": true
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "circle",
-          "color": "#00d5e8",
-          "opacity": 35,
-          "radius": 10,
-          "x": -27,
-          "y": -111,
-          "id": 880
         },
         {
-          "type": "arc",
-          "color": "#ffc800",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 15,
+          "type": "arrow",
+          "color": "#000000",
+          "opacity": 100,
+          "width": 20,
+          "height": 75,
+          "rotation": 0,
+          "arrowEnd": true,
           "x": 0,
-          "y": 0,
-          "id": 881
+          "y": 254,
+          "id": 946
         },
         {
-          "type": "arc",
-          "color": "#ff0000",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": -15,
-          "x": 0,
-          "y": 0,
-          "id": 882
-        },
-        {
-          "type": "arc",
-          "color": "#ffc800",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 105,
-          "x": 0,
-          "y": 0,
-          "id": 883
-        },
-        {
-          "type": "arc",
-          "color": "#ff0000",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 255,
-          "x": 0,
-          "y": 0,
-          "id": 884
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 10,
-          "x": 40,
-          "y": 200,
-          "id": 885
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 70,
-          "x": -195,
-          "y": -70,
-          "id": 886
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 130,
-          "x": 154,
-          "y": -130,
-          "id": 887
-        },
-        {
-          "type": "party",
-          "image": "/actor/ranged.png",
-          "name": "Ranged DPS",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -14,
-          "y": 4,
-          "id": 888
-        },
-        {
-          "type": "party",
-          "image": "/actor/melee.png",
-          "name": "Melee DPS",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -69,
-          "y": 114,
-          "id": 889
-        },
-        {
-          "type": "party",
-          "image": "/actor/healer.png",
-          "name": "Healer",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 19,
-          "y": 5,
-          "id": 890
-        },
-        {
-          "type": "party",
-          "image": "/actor/tank.png",
-          "name": "Tank",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -23,
-          "y": 97,
-          "id": 891
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216757_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Bull's-eye",
-          "iconId": 216757,
-          "maxStacks": 0,
-          "x": 32,
-          "y": 16,
-          "id": 892
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216757_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Bull's-eye",
-          "iconId": 216757,
-          "maxStacks": 0,
-          "x": -53,
-          "y": 131,
-          "id": 893
-        },
-        {
-          "type": "rotateCW",
-          "color": "#ff0000",
-          "opacity": 50,
-          "radius": 25,
-          "x": 0,
-          "y": 0,
-          "id": 895,
-          "hollow": true
+          "type": "text",
+          "align": "center",
+          "fontSize": 20,
+          "color": "#000000",
+          "opacity": 100,
+          "rotation": -90,
+          "text": "New North",
+          "x": 28,
+          "y": 244,
+          "id": 947
         }
       ]
     },
@@ -629,194 +499,6 @@
     {
       "objects": [
         {
-          "type": "circle",
-          "color": "#00d5e8",
-          "opacity": 35,
-          "radius": 10,
-          "x": -27,
-          "y": -111,
-          "id": 912
-        },
-        {
-          "type": "arc",
-          "color": "#ffc800",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 15,
-          "x": 0,
-          "y": 0,
-          "id": 913
-        },
-        {
-          "type": "arc",
-          "color": "#ff0000",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": -15,
-          "x": 0,
-          "y": 0,
-          "id": 914
-        },
-        {
-          "type": "arc",
-          "color": "#ffc800",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 105,
-          "x": 0,
-          "y": 0,
-          "id": 915
-        },
-        {
-          "type": "arc",
-          "color": "#ff0000",
-          "opacity": 35,
-          "radius": 300,
-          "innerRadius": 175,
-          "coneAngle": 30,
-          "rotation": 255,
-          "x": 0,
-          "y": 0,
-          "id": 916
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 40,
-          "x": 130,
-          "y": 152,
-          "id": 917
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 100,
-          "x": -195,
-          "y": 39,
-          "id": 918
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 50,
-          "width": 30,
-          "height": 200,
-          "rotation": 160,
-          "x": 70,
-          "y": -187,
-          "id": 919
-        },
-        {
-          "type": "tether",
-          "tether": "far",
-          "startId": 921,
-          "endId": 923,
-          "width": 6,
-          "color": "#bf00ff",
-          "opacity": 80,
-          "id": 920
-        },
-        {
-          "type": "party",
-          "image": "/actor/ranged.png",
-          "name": "Ranged DPS",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -287,
-          "y": -16,
-          "id": 921
-        },
-        {
-          "type": "party",
-          "image": "/actor/melee.png",
-          "name": "Melee DPS",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 19,
-          "y": 273,
-          "id": 922
-        },
-        {
-          "type": "party",
-          "image": "/actor/healer.png",
-          "name": "Healer",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 289,
-          "y": -14,
-          "id": 923
-        },
-        {
-          "type": "party",
-          "image": "/actor/tank.png",
-          "name": "Tank",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -22,
-          "y": 271,
-          "id": 924
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216757_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Bull's-eye",
-          "iconId": 216757,
-          "maxStacks": 0,
-          "x": 305,
-          "y": -1,
-          "id": 925
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216757_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Bull's-eye",
-          "iconId": 216757,
-          "maxStacks": 0,
-          "x": -9,
-          "y": 287,
-          "id": 926
-        },
-        {
-          "type": "rotateCW",
-          "color": "#ff0000",
-          "opacity": 50,
-          "radius": 25,
-          "x": 0,
-          "y": 0,
-          "id": 927,
-          "hollow": true
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
           "type": "arc",
           "color": "#ffc800",
           "opacity": 35,
@@ -954,6 +636,152 @@
           "y": 0,
           "id": 943,
           "hollow": true
+        },
+        {
+          "type": "draw",
+          "points": [
+            0.5,
+            0.5,
+            0.2755102040816326,
+            0.06626506024096386,
+            0.10204081632653061,
+            -0.19879518072289157,
+            0.00510204081632653,
+            -0.28313253012048195,
+            -0.061224489795918366,
+            -0.39156626506024095,
+            -0.16326530612244897,
+            -0.4759036144578313,
+            -0.33163265306122447,
+            -0.5,
+            -0.4846938775510204,
+            -0.39156626506024095,
+            -0.5,
+            -0.3433734939759036
+          ],
+          "x": 187,
+          "y": -70.5,
+          "width": 196,
+          "height": 83,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#00e622",
+          "opacity": 100,
+          "id": 948
+        },
+        {
+          "type": "draw",
+          "points": [
+            0.5,
+            0.38,
+            -0.3333333333333333,
+            0.5,
+            -0.5,
+            -0.5
+          ],
+          "x": 95,
+          "y": -106.5,
+          "width": 30,
+          "height": 25,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#00e622",
+          "opacity": 100,
+          "id": 949
+        },
+        {
+          "type": "draw",
+          "points": [
+            -0.5,
+            -0.5,
+            -0.32550335570469796,
+            -0.36666666666666664,
+            0.09060402684563758,
+            0.43333333333333335,
+            0.5,
+            0.5
+          ],
+          "x": -175.5,
+          "y": 32.5,
+          "width": 149,
+          "height": 15,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#ff0000",
+          "opacity": 100,
+          "id": 950
+        },
+        {
+          "type": "draw",
+          "points": [
+            -0.5,
+            0.5,
+            0.02,
+            0.18085106382978725,
+            0.5,
+            0.010638297872340425,
+            -0.5,
+            -0.5
+          ],
+          "x": -106.5,
+          "y": 44.5,
+          "width": 25,
+          "height": 47,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#ff0000",
+          "opacity": 100,
+          "id": 951
+        },
+        {
+          "type": "draw",
+          "points": [
+            -0.5,
+            0.5,
+            -0.2962962962962963,
+            0.4859154929577465,
+            0.05555555555555555,
+            0.3873239436619718,
+            0.3148148148148148,
+            0.21830985915492956,
+            0.46296296296296297,
+            0.06338028169014084,
+            0.5,
+            -0.09154929577464789,
+            0.3888888888888889,
+            -0.3380281690140845,
+            0.24074074074074073,
+            -0.5
+          ],
+          "x": 46,
+          "y": 195,
+          "width": 54,
+          "height": 142,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#0066ff",
+          "opacity": 100,
+          "id": 952
+        },
+        {
+          "type": "draw",
+          "points": [
+            -0.5,
+            0.5,
+            -0.2878787878787879,
+            -0.5,
+            0.5,
+            0.021739130434782608
+          ],
+          "x": 66.5,
+          "y": 130.5,
+          "width": 33,
+          "height": 23,
+          "rotation": 0,
+          "brushSize": 8,
+          "color": "#0066ff",
+          "opacity": 100,
+          "id": 953
         }
       ]
     }

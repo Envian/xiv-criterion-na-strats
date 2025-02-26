@@ -1,5 +1,5 @@
 {
-  "nextId": 827,
+  "nextId": 856,
   "arena": {
     "shape": "circle",
     "width": 600,
@@ -29,118 +29,62 @@
         {
           "type": "tether",
           "tether": "line",
-          "startId": 433,
-          "endId": 437,
+          "startId": 708,
+          "endId": 706,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 442
+          "id": 726
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 436,
-          "endId": 433,
+          "startId": 707,
+          "endId": 708,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 444
+          "id": 728
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 434,
-          "endId": 435,
+          "startId": 710,
+          "endId": 709,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 439
+          "id": 724
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 438,
-          "endId": 434,
+          "startId": 709,
+          "endId": 711,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 441
+          "id": 725
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 435,
-          "endId": 438,
+          "startId": 706,
+          "endId": 707,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 440
+          "id": 727
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 437,
-          "endId": 436,
+          "startId": 711,
+          "endId": 710,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 443
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -214,
-          "y": 70,
-          "id": 436
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 214,
-          "y": 70,
-          "id": 435
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -132,
-          "y": -182,
-          "id": 437
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 0,
-          "y": 225,
-          "id": 434
+          "id": 723
         },
         {
           "type": "enemy",
@@ -154,7 +98,49 @@
           "omniDirection": true,
           "x": 0,
           "y": 0,
-          "id": 433
+          "id": 706
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 707
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 708
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -214,
+          "y": 70,
+          "id": 709
         },
         {
           "type": "enemy",
@@ -168,7 +154,21 @@
           "omniDirection": true,
           "x": 132,
           "y": -182,
-          "id": 438
+          "id": 710
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 225,
+          "id": 711
         },
         {
           "type": "marker",
@@ -181,7 +181,7 @@
           "rotation": 0,
           "x": 200,
           "y": 200,
-          "id": 445
+          "id": 712
         },
         {
           "type": "marker",
@@ -194,7 +194,7 @@
           "rotation": 0,
           "x": -200,
           "y": 200,
-          "id": 446
+          "id": 713
         },
         {
           "type": "marker",
@@ -207,7 +207,7 @@
           "rotation": 0,
           "x": -200,
           "y": -200,
-          "id": 447
+          "id": 714
         },
         {
           "type": "marker",
@@ -220,7 +220,7 @@
           "rotation": 0,
           "x": 200,
           "y": -200,
-          "id": 448
+          "id": 715
         },
         {
           "type": "marker",
@@ -233,7 +233,75 @@
           "rotation": 0,
           "x": 0,
           "y": 280,
-          "id": 449
+          "id": 716
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 40,
+          "count": 2,
+          "x": 130,
+          "y": 243,
+          "id": 717
+        },
+        {
+          "type": "tether",
+          "tether": "far",
+          "startId": 719,
+          "endId": 720,
+          "width": 6,
+          "color": "#bf00ff",
+          "opacity": 80,
+          "id": 718
+        },
+        {
+          "type": "icon",
+          "image": "/marker/red_target.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Target",
+          "x": 197,
+          "y": -224,
+          "id": 719
+        },
+        {
+          "type": "icon",
+          "image": "/marker/red_target.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Target",
+          "x": -216,
+          "y": 223,
+          "id": 720
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "name": "Burning Chains",
+          "iconId": 215666,
+          "maxStacks": 0,
+          "x": -206,
+          "y": 238,
+          "id": 721
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "name": "Burning Chains",
+          "iconId": 215666,
+          "maxStacks": 0,
+          "x": 176,
+          "y": -205,
+          "id": 722
         }
       ]
     },
@@ -242,62 +310,62 @@
         {
           "type": "tether",
           "tether": "line",
-          "startId": 457,
-          "endId": 456,
+          "startId": 505,
+          "endId": 507,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 467
+          "id": 498
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 456,
-          "endId": 458,
+          "startId": 507,
+          "endId": 506,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 468
+          "id": 499
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 458,
-          "endId": 457,
+          "startId": 506,
+          "endId": 505,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 469
+          "id": 500
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 459,
-          "endId": 460,
+          "startId": 509,
+          "endId": 504,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 470
+          "id": 501
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 461,
-          "endId": 459,
+          "startId": 508,
+          "endId": 509,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 472
+          "id": 502
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 460,
-          "endId": 461,
+          "startId": 504,
+          "endId": 508,
           "width": 6,
           "color": "#ff0000",
           "opacity": 80,
-          "id": 471
+          "id": 503
         },
         {
           "type": "enemy",
@@ -311,7 +379,7 @@
           "omniDirection": true,
           "x": 0,
           "y": 0,
-          "id": 460
+          "id": 504
         },
         {
           "type": "enemy",
@@ -325,7 +393,7 @@
           "omniDirection": true,
           "x": 214,
           "y": 70,
-          "id": 457
+          "id": 505
         },
         {
           "type": "enemy",
@@ -339,7 +407,7 @@
           "omniDirection": true,
           "x": -132,
           "y": -182,
-          "id": 458
+          "id": 506
         },
         {
           "type": "enemy",
@@ -353,7 +421,7 @@
           "omniDirection": true,
           "x": -214,
           "y": 70,
-          "id": 456
+          "id": 507
         },
         {
           "type": "enemy",
@@ -367,7 +435,7 @@
           "omniDirection": true,
           "x": 132,
           "y": -182,
-          "id": 461
+          "id": 508
         },
         {
           "type": "enemy",
@@ -381,7 +449,7 @@
           "omniDirection": true,
           "x": 0,
           "y": 225,
-          "id": 459
+          "id": 509
         },
         {
           "type": "marker",
@@ -394,7 +462,7 @@
           "rotation": 0,
           "x": 200,
           "y": 200,
-          "id": 462
+          "id": 510
         },
         {
           "type": "marker",
@@ -407,7 +475,7 @@
           "rotation": 0,
           "x": -200,
           "y": 200,
-          "id": 463
+          "id": 511
         },
         {
           "type": "marker",
@@ -420,7 +488,7 @@
           "rotation": 0,
           "x": -200,
           "y": -200,
-          "id": 464
+          "id": 512
         },
         {
           "type": "marker",
@@ -433,7 +501,7 @@
           "rotation": 0,
           "x": 200,
           "y": -200,
-          "id": 465
+          "id": 513
         },
         {
           "type": "marker",
@@ -446,7 +514,75 @@
           "rotation": 0,
           "x": 0,
           "y": 280,
-          "id": 466
+          "id": 514
+        },
+        {
+          "type": "tower",
+          "color": "#bae3ff",
+          "opacity": 35,
+          "radius": 40,
+          "count": 2,
+          "x": -203,
+          "y": 203,
+          "id": 691
+        },
+        {
+          "type": "tether",
+          "tether": "far",
+          "startId": 695,
+          "endId": 696,
+          "width": 6,
+          "color": "#bf00ff",
+          "opacity": 80,
+          "id": 697
+        },
+        {
+          "type": "icon",
+          "image": "/marker/red_target.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Target",
+          "x": -228,
+          "y": -205,
+          "id": 695
+        },
+        {
+          "type": "icon",
+          "image": "/marker/red_target.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Target",
+          "x": 222,
+          "y": 215,
+          "id": 696
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "name": "Burning Chains",
+          "iconId": 215666,
+          "maxStacks": 0,
+          "x": 239,
+          "y": 235,
+          "id": 698
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "name": "Burning Chains",
+          "iconId": 215666,
+          "maxStacks": 0,
+          "x": -236,
+          "y": -187,
+          "id": 699
         }
       ]
     },
@@ -688,8 +824,8 @@
           "height": 32,
           "rotation": 0,
           "name": "Target",
-          "x": -194,
-          "y": 236,
+          "x": -153,
+          "y": 257,
           "id": 611
         },
         {
@@ -725,8 +861,8 @@
           "name": "Burning Chains",
           "iconId": 215666,
           "maxStacks": 0,
-          "x": -183,
-          "y": 254,
+          "x": -136,
+          "y": 270,
           "id": 615
         }
       ]
@@ -969,8 +1105,8 @@
           "height": 32,
           "rotation": 0,
           "name": "Target",
-          "x": -226,
-          "y": -181,
+          "x": -213,
+          "y": -199,
           "id": 639
         },
         {
@@ -980,8 +1116,8 @@
           "height": 32,
           "rotation": 0,
           "name": "Target",
-          "x": 200,
-          "y": 239,
+          "x": 209,
+          "y": 225,
           "id": 640
         },
         {
@@ -993,8 +1129,8 @@
           "name": "Burning Chains",
           "iconId": 215666,
           "maxStacks": 0,
-          "x": 212,
-          "y": 252,
+          "x": 222,
+          "y": 246,
           "id": 641
         },
         {
@@ -1006,8 +1142,8 @@
           "name": "Burning Chains",
           "iconId": 215666,
           "maxStacks": 0,
-          "x": -239,
-          "y": -166,
+          "x": -231,
+          "y": -183,
           "id": 642
         }
       ]
@@ -1053,66 +1189,6 @@
           "x": 0,
           "y": -125,
           "id": 534
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 545,
-          "endId": 543,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 535
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 541,
-          "endId": 545,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 536
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 544,
-          "endId": 542,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 537
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 546,
-          "endId": 544,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 538
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 542,
-          "endId": 546,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 539
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 543,
-          "endId": 541,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 540
         },
         {
           "type": "enemy",
@@ -1264,60 +1340,6 @@
           "id": 551
         },
         {
-          "type": "tether",
-          "tether": "line",
-          "startId": 553,
-          "endId": 556,
-          "width": 6,
-          "color": "#fc972b",
-          "opacity": 80,
-          "id": 552
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 555,
-          "endId": 557,
-          "width": 6,
-          "color": "#fc972b",
-          "opacity": 80,
-          "id": 554
-        },
-        {
-          "type": "tether",
-          "tether": "far",
-          "startId": 557,
-          "endId": 556,
-          "width": 6,
-          "color": "#bf00ff",
-          "opacity": 80,
-          "id": 568
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 197,
-          "y": -199,
-          "id": 556
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -177,
-          "y": 210,
-          "id": 557
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -1340,18 +1362,6 @@
           "x": 226,
           "y": 180,
           "id": 563
-        },
-        {
-          "type": "arrow",
-          "color": "#00e622",
-          "opacity": 100,
-          "width": 20,
-          "height": 26,
-          "rotation": 41,
-          "arrowEnd": true,
-          "x": -150,
-          "y": 239,
-          "id": 569
         },
         {
           "type": "draw",
@@ -1478,594 +1488,6 @@
           "color": "#00e622",
           "opacity": 100,
           "id": 652
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215126_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Guided Missile Kyrios Incoming",
-          "iconId": 215126,
-          "maxStacks": 0,
-          "x": -300,
-          "y": 0,
-          "id": 553
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215126_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Guided Missile Kyrios Incoming",
-          "iconId": 215126,
-          "maxStacks": 0,
-          "x": 300,
-          "y": 0,
-          "id": 555
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 505,
-          "endId": 507,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 498
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 507,
-          "endId": 506,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 499
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 506,
-          "endId": 505,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 500
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 509,
-          "endId": 504,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 501
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 508,
-          "endId": 509,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 502
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 504,
-          "endId": 508,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 503
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 0,
-          "y": 0,
-          "id": 504
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 214,
-          "y": 70,
-          "id": 505
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -132,
-          "y": -182,
-          "id": 506
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -214,
-          "y": 70,
-          "id": 507
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 132,
-          "y": -182,
-          "id": 508
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 0,
-          "y": 225,
-          "id": 509
-        },
-        {
-          "type": "marker",
-          "name": "Waymark B",
-          "image": "/marker/waymark_b.png",
-          "shape": "circle",
-          "color": "#e1dc5d",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 200,
-          "y": 200,
-          "id": 510
-        },
-        {
-          "type": "marker",
-          "name": "Waymark D",
-          "image": "/marker/waymark_d.png",
-          "shape": "circle",
-          "color": "#e291e6",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -200,
-          "y": 200,
-          "id": 511
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 2",
-          "image": "/marker/waymark_2.png",
-          "shape": "square",
-          "color": "#e1dc5d",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -200,
-          "y": -200,
-          "id": 512
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 4",
-          "image": "/marker/waymark_4.png",
-          "shape": "square",
-          "color": "#e291e6",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 200,
-          "y": -200,
-          "id": 513
-        },
-        {
-          "type": "marker",
-          "name": "Waymark A",
-          "image": "/marker/waymark_a.png",
-          "shape": "circle",
-          "color": "#f13b66",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 0,
-          "y": 280,
-          "id": 514
-        },
-        {
-          "type": "tower",
-          "color": "#bae3ff",
-          "opacity": 35,
-          "radius": 40,
-          "count": 2,
-          "x": -140,
-          "y": 244,
-          "id": 691
-        },
-        {
-          "type": "tether",
-          "tether": "far",
-          "startId": 695,
-          "endId": 696,
-          "width": 6,
-          "color": "#bf00ff",
-          "opacity": 80,
-          "id": 697
-        },
-        {
-          "type": "icon",
-          "image": "/marker/red_target.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Target",
-          "x": -228,
-          "y": -205,
-          "id": 695
-        },
-        {
-          "type": "icon",
-          "image": "/marker/red_target.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Target",
-          "x": 222,
-          "y": 215,
-          "id": 696
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Burning Chains",
-          "iconId": 215666,
-          "maxStacks": 0,
-          "x": 239,
-          "y": 235,
-          "id": 698
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Burning Chains",
-          "iconId": 215666,
-          "maxStacks": 0,
-          "x": -236,
-          "y": -187,
-          "id": 699
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 708,
-          "endId": 706,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 726
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 707,
-          "endId": 708,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 728
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 710,
-          "endId": 709,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 724
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 709,
-          "endId": 711,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 725
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 706,
-          "endId": 707,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 727
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 711,
-          "endId": 710,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 723
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 0,
-          "y": 0,
-          "id": 706
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 214,
-          "y": 70,
-          "id": 707
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -132,
-          "y": -182,
-          "id": 708
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -214,
-          "y": 70,
-          "id": 709
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 132,
-          "y": -182,
-          "id": 710
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 0,
-          "y": 225,
-          "id": 711
-        },
-        {
-          "type": "marker",
-          "name": "Waymark B",
-          "image": "/marker/waymark_b.png",
-          "shape": "circle",
-          "color": "#e1dc5d",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 200,
-          "y": 200,
-          "id": 712
-        },
-        {
-          "type": "marker",
-          "name": "Waymark D",
-          "image": "/marker/waymark_d.png",
-          "shape": "circle",
-          "color": "#e291e6",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -200,
-          "y": 200,
-          "id": 713
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 2",
-          "image": "/marker/waymark_2.png",
-          "shape": "square",
-          "color": "#e1dc5d",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -200,
-          "y": -200,
-          "id": 714
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 4",
-          "image": "/marker/waymark_4.png",
-          "shape": "square",
-          "color": "#e291e6",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 200,
-          "y": -200,
-          "id": 715
-        },
-        {
-          "type": "marker",
-          "name": "Waymark A",
-          "image": "/marker/waymark_a.png",
-          "shape": "circle",
-          "color": "#f13b66",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 0,
-          "y": 280,
-          "id": 716
-        },
-        {
-          "type": "tower",
-          "color": "#bae3ff",
-          "opacity": 35,
-          "radius": 40,
-          "count": 2,
-          "x": 216,
-          "y": 189,
-          "id": 717
-        },
-        {
-          "type": "tether",
-          "tether": "far",
-          "startId": 719,
-          "endId": 720,
-          "width": 6,
-          "color": "#bf00ff",
-          "opacity": 80,
-          "id": 718
-        },
-        {
-          "type": "icon",
-          "image": "/marker/red_target.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Target",
-          "x": 197,
-          "y": -224,
-          "id": 719
-        },
-        {
-          "type": "icon",
-          "image": "/marker/red_target.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Target",
-          "x": -216,
-          "y": 223,
-          "id": 720
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Burning Chains",
-          "iconId": 215666,
-          "maxStacks": 0,
-          "x": -206,
-          "y": 238,
-          "id": 721
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215666_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Burning Chains",
-          "iconId": 215666,
-          "maxStacks": 0,
-          "x": 176,
-          "y": -205,
-          "id": 722
         }
       ]
     },
@@ -2077,19 +1499,9 @@
           "opacity": 5,
           "innerRadius": 100,
           "radius": 175,
-          "x": -125,
+          "x": 125,
           "y": 0,
-          "id": 653
-        },
-        {
-          "type": "donut",
-          "color": "#00d5e8",
-          "opacity": 5,
-          "innerRadius": 100,
-          "radius": 175,
-          "x": 0,
-          "y": -125,
-          "id": 654
+          "id": 827
         },
         {
           "type": "donut",
@@ -2099,7 +1511,7 @@
           "radius": 175,
           "x": 0,
           "y": 125,
-          "id": 655
+          "id": 828
         },
         {
           "type": "donut",
@@ -2107,125 +1519,19 @@
           "opacity": 5,
           "innerRadius": 100,
           "radius": 175,
-          "x": 125,
+          "x": -125,
           "y": 0,
-          "id": 656
+          "id": 829
         },
         {
-          "type": "tether",
-          "tether": "line",
-          "startId": 665,
-          "endId": 663,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 732
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 663,
-          "endId": 664,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 733
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 664,
-          "endId": 665,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 734
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 666,
-          "endId": 667,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 729
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 668,
-          "endId": 666,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 731
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 667,
-          "endId": 668,
-          "width": 6,
-          "color": "#ff0000",
-          "opacity": 80,
-          "id": 730
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 132,
-          "y": -182,
-          "id": 667
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
+          "type": "donut",
+          "color": "#00d5e8",
+          "opacity": 5,
+          "innerRadius": 100,
+          "radius": 175,
           "x": 0,
-          "y": 0,
-          "id": 663
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": 214,
-          "y": 70,
-          "id": 664
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_circle.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 20,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": true,
-          "x": -132,
-          "y": -182,
-          "id": 665
+          "y": -125,
+          "id": 830
         },
         {
           "type": "enemy",
@@ -2239,7 +1545,35 @@
           "omniDirection": true,
           "x": -214,
           "y": 70,
-          "id": 666
+          "id": 831
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 214,
+          "y": 70,
+          "id": 832
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": -132,
+          "y": -182,
+          "id": 833
         },
         {
           "type": "enemy",
@@ -2253,7 +1587,35 @@
           "omniDirection": true,
           "x": 0,
           "y": 225,
-          "id": 668
+          "id": 834
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 0,
+          "y": 0,
+          "id": 835
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_circle.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 20,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": true,
+          "x": 132,
+          "y": -182,
+          "id": 836
         },
         {
           "type": "marker",
@@ -2266,7 +1628,7 @@
           "rotation": 0,
           "x": 200,
           "y": 200,
-          "id": 669
+          "id": 837
         },
         {
           "type": "marker",
@@ -2279,7 +1641,7 @@
           "rotation": 0,
           "x": -200,
           "y": 200,
-          "id": 670
+          "id": 838
         },
         {
           "type": "marker",
@@ -2292,7 +1654,7 @@
           "rotation": 0,
           "x": -200,
           "y": -200,
-          "id": 671
+          "id": 839
         },
         {
           "type": "marker",
@@ -2305,7 +1667,7 @@
           "rotation": 0,
           "x": 200,
           "y": -200,
-          "id": 672
+          "id": 840
         },
         {
           "type": "marker",
@@ -2318,41 +1680,73 @@
           "rotation": 0,
           "x": 0,
           "y": 280,
-          "id": 673
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 113,
-          "y": 269,
-          "id": 735
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 133,
-          "y": 259,
-          "id": 736
+          "id": 841
         },
         {
           "type": "tether",
           "tether": "line",
-          "startId": 741,
-          "endId": 743,
+          "startId": 854,
+          "endId": 845,
           "width": 6,
           "color": "#fc972b",
           "opacity": 80,
-          "id": 746
+          "id": 842
+        },
+        {
+          "type": "tether",
+          "tether": "line",
+          "startId": 855,
+          "endId": 846,
+          "width": 6,
+          "color": "#fc972b",
+          "opacity": 80,
+          "id": 843
+        },
+        {
+          "type": "tether",
+          "tether": "far",
+          "startId": 846,
+          "endId": 845,
+          "width": 6,
+          "color": "#bf00ff",
+          "opacity": 80,
+          "id": 844
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 197,
+          "y": -199,
+          "id": 845
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -177,
+          "y": 210,
+          "id": 846
+        },
+        {
+          "type": "arrow",
+          "color": "#00e622",
+          "opacity": 100,
+          "width": 20,
+          "height": 26,
+          "rotation": 41,
+          "arrowEnd": true,
+          "x": -150,
+          "y": 239,
+          "id": 849
         },
         {
           "type": "icon",
@@ -2365,17 +1759,7 @@
           "maxStacks": 0,
           "x": -300,
           "y": 0,
-          "id": 741
-        },
-        {
-          "type": "tether",
-          "tether": "line",
-          "startId": 744,
-          "endId": 742,
-          "width": 6,
-          "color": "#fc972b",
-          "opacity": 80,
-          "id": 745
+          "id": 854
         },
         {
           "type": "icon",
@@ -2388,175 +1772,7 @@
           "maxStacks": 0,
           "x": 300,
           "y": 0,
-          "id": 742
-        },
-        {
-          "type": "tether",
-          "tether": "far",
-          "startId": 743,
-          "endId": 744,
-          "width": 6,
-          "color": "#bf00ff",
-          "opacity": 80,
-          "id": 747
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 196,
-          "y": -211,
-          "id": 743
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -204,
-          "y": 204,
-          "id": 744
-        },
-        {
-          "type": "arrow",
-          "color": "#00e622",
-          "opacity": 100,
-          "width": 20,
-          "height": 26,
-          "rotation": -51,
-          "arrowEnd": true,
-          "x": 169,
-          "y": 225,
-          "id": 748
-        },
-        {
-          "type": "draw",
-          "points": [
-            -0.5,
-            -0.39903846153846156,
-            -0.4393939393939394,
-            -0.4375,
-            -0.27056277056277056,
-            -0.4855769230769231,
-            -0.05411255411255411,
-            -0.5,
-            0.10606060606060606,
-            -0.46153846153846156,
-            0.29653679653679654,
-            -0.3701923076923077,
-            0.36147186147186144,
-            -0.2932692307692308,
-            0.44805194805194803,
-            -0.14903846153846154,
-            0.5,
-            0.057692307692307696,
-            0.49567099567099565,
-            0.2548076923076923,
-            0.4264069264069264,
-            0.44711538461538464,
-            0.4004329004329004,
-            0.49038461538461536,
-            0.3787878787878788,
-            0.5
-          ],
-          "x": 143.5,
-          "y": 69,
-          "width": 231,
-          "height": 208,
-          "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
-          "opacity": 100,
-          "id": 749
-        },
-        {
-          "type": "draw",
-          "points": [
-            0.5,
-            0.3,
-            -0.3620689655172414,
-            0.5,
-            -0.5,
-            -0.5
-          ],
-          "x": 241.5,
-          "y": 166,
-          "width": 29,
-          "height": 20,
-          "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
-          "opacity": 100,
-          "id": 750
-        },
-        {
-          "type": "draw",
-          "points": [
-            -0.12222222222222222,
-            -0.5,
-            -0.23333333333333334,
-            -0.45020746887966806,
-            -0.3148148148148148,
-            -0.37136929460580914,
-            -0.4185185185185185,
-            -0.2053941908713693,
-            -0.5,
-            0.026970954356846474,
-            -0.4925925925925926,
-            0.1970954356846473,
-            -0.45555555555555555,
-            0.2551867219917012,
-            -0.36666666666666664,
-            0.32987551867219916,
-            -0.2037037037037037,
-            0.41286307053941906,
-            -0.06296296296296296,
-            0.45850622406639,
-            0.2037037037037037,
-            0.5,
-            0.5,
-            0.5
-          ],
-          "x": 0.5,
-          "y": 155.5,
-          "width": 135,
-          "height": 241,
-          "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
-          "opacity": 100,
-          "id": 751
-        },
-        {
-          "type": "draw",
-          "points": [
-            -0.5,
-            0.5,
-            -0.029411764705882353,
-            0.17567567567567569,
-            0.5,
-            0.013513513513513514,
-            0.08823529411764706,
-            -0.17567567567567569,
-            -0.20588235294117646,
-            -0.5
-          ],
-          "x": 62.5,
-          "y": 276.5,
-          "width": 17,
-          "height": 37,
-          "rotation": 0,
-          "brushSize": 8,
-          "color": "#00e622",
-          "opacity": 100,
-          "id": 752
+          "id": 855
         }
       ]
     }
