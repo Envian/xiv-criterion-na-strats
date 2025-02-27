@@ -7,8 +7,8 @@
     "padding": 20,
     "grid": {
       "type": "rectangle",
-      "rows": 4,
-      "columns": 4
+      "rows": 5,
+      "columns": 5
     }
   },
   "steps": [
@@ -24,7 +24,7 @@
           "height": 42,
           "rotation": 0,
           "x": 0,
-          "y": 100,
+          "y": 80,
           "id": 1
         },
         {
@@ -36,7 +36,7 @@
           "width": 42,
           "height": 42,
           "rotation": 0,
-          "x": 100,
+          "x": 80,
           "y": 0,
           "id": 2
         },
@@ -50,7 +50,7 @@
           "height": 42,
           "rotation": 0,
           "x": 0,
-          "y": -100,
+          "y": -80,
           "id": 3
         },
         {
@@ -62,61 +62,9 @@
           "width": 42,
           "height": 42,
           "rotation": 0,
-          "x": -100,
+          "x": -80,
           "y": 0,
           "id": 4
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 1",
-          "image": "/marker/waymark_1.png",
-          "shape": "square",
-          "color": "#f13b66",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -100,
-          "y": 100,
-          "id": 5
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 2",
-          "image": "/marker/waymark_2.png",
-          "shape": "square",
-          "color": "#e1dc5d",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 100,
-          "y": 100,
-          "id": 6
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 3",
-          "image": "/marker/waymark_3.png",
-          "shape": "square",
-          "color": "#65b3ea",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": 100,
-          "y": -100,
-          "id": 7
-        },
-        {
-          "type": "marker",
-          "name": "Waymark 4",
-          "image": "/marker/waymark_4.png",
-          "shape": "square",
-          "color": "#e291e6",
-          "width": 42,
-          "height": 42,
-          "rotation": 0,
-          "x": -100,
-          "y": -100,
-          "id": 8
         }
       ]
     }

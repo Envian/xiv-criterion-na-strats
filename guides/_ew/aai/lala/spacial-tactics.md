@@ -75,7 +75,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 > Each player will have a different movement they need to execute, depending
 > on the debuff they were assigned.
 
-![](./arena.png)
+![](./cheatsheet.png)
 
 > ### *![beta]1 Stack*
 >

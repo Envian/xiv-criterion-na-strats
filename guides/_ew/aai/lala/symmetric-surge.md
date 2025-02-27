@@ -31,7 +31,7 @@ root: ..
 > </div>
 
 {: .small }
-![](./cheatsheet.png)
+![](./timeline-1.png)
 </div>
 
 
