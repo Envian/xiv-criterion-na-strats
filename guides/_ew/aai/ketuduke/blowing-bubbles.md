@@ -195,13 +195,6 @@ resolves first.
 ![](./stack-first-1.png)
 
 > When the first puddle appears, dodge towards the gap with your partner.
->
-> **Uptime Strats** \\
-> Shown to the right is an uptime dodge. 2nd puddle will be dropped in
-> **[boss]Ketuduke**'s hitbox.
->
-> *Remember to play it safe. Ketuduke has about 3 hitpoints, so uptime is not
-> worth it unless you're on the same page as your partner.*
 
 ![](./stack-first-2.png)
 
