@@ -178,7 +178,7 @@ the debuff they received.
 
 -----
 
-{: .povs open="1" }
+{: .povs }
 {% collapse POVs %}
 > **Ranged POV - Bubble**
 >
