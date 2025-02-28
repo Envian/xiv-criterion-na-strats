@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Ketuduke
-parent: Another Alo Alo Island
+parent: Another Aloalo Island
 nav_order: 3
 has_toc: false
 root: .

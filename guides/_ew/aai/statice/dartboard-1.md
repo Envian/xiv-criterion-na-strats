@@ -21,10 +21,10 @@ root: ..
 **[healer]Healer**
 : Yellow
 
-**[dps]Melee**
+**[dps]Ranged**
 : Red
 
-**[dps]Ranged**
+**[dps]Melee**
 : Flex
 : Take the color of the player who's missing *![bullseye]Bull's-eye*.
 

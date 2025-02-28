@@ -1,41 +1,50 @@
 ---
 layout: default
-title: Another Alo Alo Island
+title: Another Aloalo Island
 has_toc: false
 nav_order: 1
 ---
 
+# Another Aloalo Island
+
 **ilvl**
-: 665 (Weapons only) - 660 (Everything else)
+: 665
 
 **BIS**
-: Same bis as Anabaseos.
-: The DPS check is lenient, so synced down DT gear is fine.
+: Same bis as Anabaseos w/ Manderville relic weapons.
 
-**Criterion Rewards**
-: Ancient Quaqua Horn - A Mount
-: Framers kit, Orchestrion.
-
-**Savage Rewards**
-: Title (Force of Nature)
-: Title (Epic Hero) if you complete all 3 EW Criterion (Savage).
-: Aloalo Manuscript (1 per run). Can be traded for:
-  - Elevated Esther
-    - Upgrades Augmented ilvl 660 Tome Weapons to ilvl 665.
-    - Identical to 665 Anabaseos weapons, except Picto and Viper have different substats.
-    - Buy Elevated Esther in Old Sharlayan. Upgrade your weapon in Radz-at-han.
+The DPS check is very lenient, so synced down DT gear is more than enough.
 
 {: .warning }
-Dawntrail ilvl 663 dungeon will be synced down to level 660.
+Dawntrail ilvl 663 dungeon will be synced despite being under the ilvl cap.
+Use either level 90 melded gear, or level 95+ synced gear.
 
-### Fights
-* [Trash Pack 1](../trash1/)
-* [Ketuduke](../ketuduke/)
-    * [Fluke Gale](../ketuduke/fluke-gale/)
-    * [Blowing Bubbles](../ketuduke/blowing-bubbles/)
-    * [Twintides](../ketuduke/twintides/)
-    * [Adds](../ketuduke/adds/)
-    * [Fluke Typhoon](../ketuduke/fluke-typhoon/)
-* [Trash Pack 2](../trash2/)
-* [Lala](../lala/)
-* [Statice](../statice/)
+## Other Resources
+
+[Original NA Strats Pastebin](https://pastebin.com/RRSG6YAK). This guide is
+based primarly on pastebin strats.
+
+## Fights
+
+* **[Trash Pack 1](./trash1/)**
+* **[Ketuduke](./ketuduke/)**
+    * [Fluke Gale](./ketuduke/fluke-gale/)
+    * [Blowing Bubbles](./ketuduke/blowing-bubbles/)
+    * [Twintides](./ketuduke/twintides/)
+    * [Adds](./ketuduke/adds/)
+    * [Fluke Typhoon](./ketuduke/fluke-typhoon/)
+* **[Trash Pack 2](./trash2/)**
+* **[Lala](./lala/)**
+    * [Arcane Blight](./lala/arcane-blight/)
+    * [Analysis](./lala/analysis/)
+    * [Planar Tactics](./lala/planar-tactics)
+    * [Spacial Tactics](./lala/spacial-tactics)
+    * [Symmetric Surge](./lala/symmetric-surge)
+    * [Analysis (Repeat)](./lala/analysis/)
+* **[Statice](./statice/)**
+    * [Trick Reload](./statice/trick-reload/)
+    * [Dartboard 1](./statice/dartboard-1/)
+    * [Forced March 1](./statice/forced-march-1/)
+    * [Intermission](./statice/intermission/)
+    * [Dartboard 1](./statice/dartboard-2/)
+    * [Forced March 2](./statice/forced-march-2/)

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Statice
-parent: Another Alo Alo Island
+parent: Another Aloalo Island
 nav_order: 6
 has_toc: false
 root: .

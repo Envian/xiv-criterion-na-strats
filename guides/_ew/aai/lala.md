@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Lala
-parent: Another Alo Alo Island
+parent: Another Aloalo Island
 nav_order: 5
 has_toc: false
 root: .

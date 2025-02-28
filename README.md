@@ -1,9 +1,29 @@
 # Envian's Criterion Strategies
 
-## **View the current version of these strats [here](https://envian.github.io/xiv-criterion-na-strats/).**
+## **View the current version of these strats [here](https://criterion.envian.net).**
 
-The website is generated via [Jekyll] using [Just-The-Docs]
-as a theme.
+The website is generated via [Jekyll] using [Just-The-Docs] as a theme.
+
+## Philosophy
+
+These guides follow a 3 key components methodology, with each section targeting
+a different type of reader.
+
+### Cheat Sheet
+
+A section for players who know the mechanics and the fight, but need a quick
+refresher, or to double check priorities / assignments.
+
+### Mechanics
+
+An objective section which simply describes how the various abilities and effects
+work within a mechanic. This section serves players who want a deeper understanding
+of the mechanic, and should elaborate on _why_ the strategies below work.
+
+### Strategy
+
+A subjective section which outlines a goal, and overall strategy to reach that
+goal. This is for most players, who are trying to understand _what_ to do.
 
 ## How to contribute
 
@@ -23,8 +43,12 @@ bit of git knowledge.
 
 ### Create a new Diagram
 
-All diagrams in this site are currently made using xivplan. All the `.xivplan`
+All diagrams in this site are currently made using [xivplan]. All the `.xivplan`
 files used have been included.
+
+To get transparent images, I'm using a custom fork of [xivplan], changing
+`backgroundColor={theme.colorNeutralBackground1}` to `backgroundColor="transparent"`
+in StepScreenshotButton.tsx.
 
 ### Locally testing changes
 

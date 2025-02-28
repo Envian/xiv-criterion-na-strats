@@ -5,11 +5,20 @@ layout: home
 
 # Envian's Criterion NA Strats
 
-This is a collection of guides for Criterion, using the strats I've encounted
-from party finder, the Criterion discord, and my own blind static's solutions.
+This is a collection of guides for Criterion, using the strats from party
+finder, the Criterion discord, and my own blind static's solutions.
 
-These strategies mostly follow what NA Party Finder uses, however there are some
-differences - those will be called out and explained where appropriate.
+The main guide exclusively uses PF strategies, however some personal
+responsibility mechanics are framed or explained in a way different to other
+guides. These strategies are still compatible with PF strats, and will resolve
+the same way.
+
+Some mechanics have alterntive strategies, which are incompatible with PF strats.
+These are hidden by default, and clearly labeled as non-standard.
+
+# Fights
+
+## [Another Aloalo Island](./aai/)
 
 # Contributing
 
