@@ -1,5 +1,5 @@
 {
-  "nextId": 116,
+  "nextId": 213,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -76,7 +76,7 @@
           "width": 120,
           "height": 120,
           "rotation": 0,
-          "x": -1,
+          "x": 0,
           "y": 120,
           "id": 6
         },
@@ -187,190 +187,6 @@
           "rotation": 0,
           "x": -120,
           "y": -120,
-          "id": 94
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": 0,
-          "y": -120,
-          "id": 95
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": 0,
-          "y": 0,
-          "id": 96
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": -120,
-          "y": 0,
-          "id": 97
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": -120,
-          "y": 120,
-          "id": 98
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": -1,
-          "y": 120,
-          "id": 99
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": 120,
-          "y": 120,
-          "id": 100
-        },
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": 120,
-          "y": 0,
-          "id": 101
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 165,
-          "y": 156,
-          "id": 102
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit3.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 3",
-          "x": 152,
-          "y": 168,
-          "id": 103
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 97,
-          "y": -206,
-          "id": 104
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": 27,
-          "y": -205,
-          "id": 105
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit1.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 1",
-          "x": 108,
-          "y": -190,
-          "id": 106
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": 37,
-          "y": -189,
-          "id": 107
-        },
-        {
-          "type": "party",
-          "image": "/actor/any.png",
-          "name": "Any player",
-          "status": [],
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "x": -154,
-          "y": -209,
-          "id": 108
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": -137,
-          "y": -193,
-          "id": 109
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "rect",
-          "color": "#fc972b",
-          "opacity": 35,
-          "width": 120,
-          "height": 120,
-          "rotation": 0,
-          "x": -120,
-          "y": -120,
           "id": 25
         },
         {
@@ -424,7 +240,7 @@
           "width": 120,
           "height": 120,
           "rotation": 0,
-          "x": -1,
+          "x": 0,
           "y": 120,
           "id": 30
         },
@@ -451,6 +267,110 @@
           "id": 32
         },
         {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "rotation": 0,
+          "text": "South\nEast",
+          "x": 120,
+          "y": -120,
+          "id": 171
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": -120,
+          "id": 155
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": -120,
+          "id": 156
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 157
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": 0,
+          "id": 158
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": 120,
+          "id": 159
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": 120,
+          "id": 160
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 120,
+          "y": 120,
+          "id": 161
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 120,
+          "y": 0,
+          "id": 162
+        },
+        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -459,8 +379,8 @@
           "height": 32,
           "rotation": 0,
           "x": 165,
-          "y": 156,
-          "id": 33
+          "y": 125,
+          "id": 163
         },
         {
           "type": "icon",
@@ -469,9 +389,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 3",
-          "x": 152,
-          "y": 168,
-          "id": 34
+          "x": 150,
+          "y": 139,
+          "id": 164
         },
         {
           "type": "party",
@@ -481,19 +401,203 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
+          "x": 80,
+          "y": -233,
+          "id": 165
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 38,
+          "y": -234,
+          "id": 166
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit1.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Counter 1",
           "x": 97,
-          "y": -206,
-          "id": 35
+          "y": -217,
+          "id": 167
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit2.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Counter 2",
+          "x": 50,
+          "y": -216,
+          "id": 168
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": -159,
+          "y": -231,
+          "id": 169
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit2.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Counter 2",
+          "x": -146,
+          "y": -214,
+          "id": 170
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": -120,
+          "id": 172
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": -120,
+          "id": 173
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 174
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": 0,
+          "id": 175
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": -120,
+          "y": 120,
+          "id": 176
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 0,
+          "y": 120,
+          "id": 177
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 120,
+          "y": 120,
+          "id": 178
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 120,
+          "height": 120,
+          "rotation": 0,
+          "x": 120,
+          "y": 0,
+          "id": 179
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 165,
+          "y": 125,
+          "id": 180
+        },
+        {
+          "type": "icon",
+          "image": "/marker/limit3.png",
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "name": "Counter 3",
+          "x": 150,
+          "y": 139,
+          "id": 181
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "rotation": 0,
+          "x": 80,
+          "y": -233,
+          "id": 182
         },
         {
           "type": "tether",
           "tether": "far",
-          "startId": 40,
-          "endId": 37,
+          "startId": 186,
+          "endId": 183,
           "width": 6,
-          "color": "#00e622",
+          "color": "#00d5e8",
           "opacity": 80,
-          "id": 36
+          "id": 190
         },
         {
           "type": "party",
@@ -503,9 +607,9 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": 27,
-          "y": -205,
-          "id": 37
+          "x": 38,
+          "y": -234,
+          "id": 183
         },
         {
           "type": "icon",
@@ -514,9 +618,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 1",
-          "x": 108,
-          "y": -190,
-          "id": 38
+          "x": 97,
+          "y": -217,
+          "id": 184
         },
         {
           "type": "icon",
@@ -525,9 +629,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 2",
-          "x": 37,
-          "y": -189,
-          "id": 39
+          "x": 50,
+          "y": -216,
+          "id": 185
         },
         {
           "type": "party",
@@ -537,9 +641,9 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": -154,
-          "y": -209,
-          "id": 40
+          "x": -159,
+          "y": -231,
+          "id": 186
         },
         {
           "type": "icon",
@@ -548,9 +652,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 2",
-          "x": -137,
-          "y": -193,
-          "id": 41
+          "x": -146,
+          "y": -214,
+          "id": 187
         },
         {
           "type": "icon",
@@ -561,9 +665,9 @@
           "name": "Surge Vector",
           "iconId": 216750,
           "maxStacks": 0,
-          "x": 9,
-          "y": -186,
-          "id": 42
+          "x": -172,
+          "y": -216,
+          "id": 188
         },
         {
           "type": "icon",
@@ -574,57 +678,9 @@
           "name": "Surge Vector",
           "iconId": 216750,
           "maxStacks": 0,
-          "x": 81,
-          "y": -185,
-          "id": 43
-        },
-        {
-          "type": "arrow",
-          "color": "#ffc800",
-          "opacity": 100,
-          "width": 30,
-          "height": 222,
-          "rotation": 0,
-          "arrowEnd": true,
-          "x": -156,
-          "y": -40,
-          "id": 44
-        },
-        {
-          "type": "arrow",
-          "color": "#ffc800",
-          "opacity": 100,
-          "width": 30,
-          "height": 222,
-          "rotation": 0,
-          "arrowEnd": true,
-          "x": 56,
-          "y": -53,
-          "id": 45
-        },
-        {
-          "type": "arrow",
-          "color": "#ffc800",
-          "opacity": 100,
-          "width": 30,
-          "height": 222,
-          "rotation": -90,
-          "arrowEnd": true,
-          "x": 19,
-          "y": 148,
-          "id": 46
-        },
-        {
-          "type": "starburst",
-          "color": "#ff0000",
-          "opacity": 100,
-          "radius": 30,
-          "spokes": 4,
-          "spokeWidth": 10,
-          "rotation": 45,
-          "x": 59,
-          "y": -262,
-          "id": 47
+          "x": 20,
+          "y": -217,
+          "id": 189
         }
       ]
     },
@@ -639,7 +695,7 @@
           "rotation": 0,
           "x": -120,
           "y": -120,
-          "id": 48
+          "id": 191
         },
         {
           "type": "rect",
@@ -650,7 +706,7 @@
           "rotation": 0,
           "x": 0,
           "y": -120,
-          "id": 49
+          "id": 192
         },
         {
           "type": "rect",
@@ -661,7 +717,7 @@
           "rotation": 0,
           "x": 0,
           "y": 0,
-          "id": 50
+          "id": 193
         },
         {
           "type": "rect",
@@ -672,7 +728,7 @@
           "rotation": 0,
           "x": -120,
           "y": 0,
-          "id": 51
+          "id": 194
         },
         {
           "type": "rect",
@@ -683,7 +739,7 @@
           "rotation": 0,
           "x": -120,
           "y": 120,
-          "id": 52
+          "id": 195
         },
         {
           "type": "rect",
@@ -692,9 +748,9 @@
           "width": 120,
           "height": 120,
           "rotation": 0,
-          "x": -1,
+          "x": 0,
           "y": 120,
-          "id": 53
+          "id": 196
         },
         {
           "type": "rect",
@@ -705,7 +761,7 @@
           "rotation": 0,
           "x": 120,
           "y": 120,
-          "id": 54
+          "id": 197
         },
         {
           "type": "rect",
@@ -716,7 +772,7 @@
           "rotation": 0,
           "x": 120,
           "y": 0,
-          "id": 55
+          "id": 198
         },
         {
           "type": "party",
@@ -727,8 +783,8 @@
           "height": 32,
           "rotation": 0,
           "x": 165,
-          "y": 156,
-          "id": 56
+          "y": 125,
+          "id": 199
         },
         {
           "type": "icon",
@@ -737,9 +793,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 3",
-          "x": 152,
-          "y": 168,
-          "id": 57
+          "x": 150,
+          "y": 139,
+          "id": 200
         },
         {
           "type": "party",
@@ -749,9 +805,9 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": 97,
-          "y": -206,
-          "id": 58
+          "x": 80,
+          "y": -233,
+          "id": 201
         },
         {
           "type": "party",
@@ -761,9 +817,9 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": 27,
-          "y": -205,
-          "id": 60
+          "x": 38,
+          "y": -234,
+          "id": 203
         },
         {
           "type": "icon",
@@ -772,9 +828,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 1",
-          "x": 108,
-          "y": -190,
-          "id": 61
+          "x": 97,
+          "y": -217,
+          "id": 204
         },
         {
           "type": "icon",
@@ -783,9 +839,9 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 2",
-          "x": 37,
-          "y": -189,
-          "id": 62
+          "x": 50,
+          "y": -216,
+          "id": 205
         },
         {
           "type": "party",
@@ -795,9 +851,9 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": -154,
-          "y": -209,
-          "id": 63
+          "x": -159,
+          "y": -231,
+          "id": 206
         },
         {
           "type": "icon",
@@ -806,71 +862,45 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 2",
-          "x": -137,
-          "y": -193,
-          "id": 64
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216750_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Surge Vector",
-          "iconId": 216750,
-          "maxStacks": 0,
-          "x": -170,
-          "y": -185,
-          "id": 65
-        },
-        {
-          "type": "icon",
-          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216750_hr1.tex?format=png",
-          "width": 24,
-          "height": 32,
-          "rotation": 0,
-          "name": "Surge Vector",
-          "iconId": 216750,
-          "maxStacks": 0,
-          "x": 81,
-          "y": -185,
-          "id": 66
+          "x": -146,
+          "y": -214,
+          "id": 207
         },
         {
           "type": "arrow",
-          "color": "#ffc800",
+          "color": "#00d5e8",
           "opacity": 100,
           "width": 30,
-          "height": 222,
+          "height": 280,
           "rotation": 0,
           "arrowEnd": true,
-          "x": -156,
-          "y": -40,
-          "id": 67
+          "x": -159,
+          "y": -51,
+          "id": 210
         },
         {
           "type": "arrow",
-          "color": "#ffc800",
+          "color": "#00d5e8",
           "opacity": 100,
           "width": 30,
-          "height": 222,
+          "height": 280,
           "rotation": 0,
           "arrowEnd": true,
-          "x": 56,
-          "y": -53,
-          "id": 68
+          "x": 59,
+          "y": -54,
+          "id": 211
         },
         {
           "type": "arrow",
-          "color": "#ffc800",
+          "color": "#00d5e8",
           "opacity": 100,
           "width": 30,
-          "height": 222,
+          "height": 280,
           "rotation": -90,
           "arrowEnd": true,
-          "x": 19,
-          "y": 148,
-          "id": 69
+          "x": -2,
+          "y": 124,
+          "id": 212
         }
       ]
     },
@@ -884,8 +914,8 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": -194,
-          "y": 144,
+          "x": -197,
+          "y": 120,
           "id": 79
         },
         {
@@ -895,8 +925,8 @@
           "height": 32,
           "rotation": 0,
           "name": "Counter 3",
-          "x": -184,
-          "y": 157,
+          "x": -212,
+          "y": 134,
           "id": 80
         },
         {
@@ -973,8 +1003,8 @@
           "color": "#fc972b",
           "opacity": 35,
           "radius": 75,
-          "x": -193,
-          "y": 150,
+          "x": -196,
+          "y": 130,
           "id": 92
         },
         {

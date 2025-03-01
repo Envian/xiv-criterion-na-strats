@@ -22,7 +22,7 @@ Use the white sphere to orient yourself.
 
 {: .casts }
 1x*![beta]Beta*
-: Start on 2, move to 1 after it is hit.
+: Start on 2, move to 1 after the 1 tile is hit.
 
 2x*![beta]Beta*
 : Plant on 2.
@@ -31,7 +31,7 @@ Use the white sphere to orient yourself.
 : Plant on 3.
 
 4x*![beta]Beta*
-: Start on 3. Move to 4 after being hit.
+: Start on 3. Move to 4 after being hit twice.
 
 {: .debuffs .clear }
 {% collapse Debuff Explanations %}
@@ -50,9 +50,8 @@ white sphere and orange cube) will remove one stack.
 white orb, and several orange cubes. Similarly to *Analysis*, every time a blue
 square touches one of the shapes, the shape will explode.
 
-White Spheres will hit the entire arena with an unavoiadable AOE.
-
-Orange cubes explode hitting all squares aligned with them.
+* White Spheres will hit the entire arena with an unavoiadable AOE.
+* Orange cubes explode hitting all squares aligned with them.
 
 {: .demphasize }
 The snapshot for the cubes is *significantly* earlier than the animation.
@@ -81,7 +80,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 >
 > Needs to dodge all cubes, since the white orb will take their only stack.
 >
-> Start on 2, then move to 1 after it is hit.
+> Start on 2, then move to 1 after the 1 tile is hit.
 
 ![](./1-dodge.png)
 
@@ -104,24 +103,25 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 
 ![](./3-dodge.png)
 
-> ### *![beta]3 Stacks*
+> ### *![beta]4 Stacks*
 > Needs to be hit by 3 orange cubes.
 >
-> Start on 3, then dodge to 4 after you get hit twice.
+> Start on 3, then dodge to 4 after you get hit by both cubes.
 >
 > {: .info-title }
 > > Melee Uptime Strats
 > > {: .mb-2 }
 > >
-> > You can dodge to 2 instead, however you must move as soon as your debuff
-> > becomes 1. ***If you wait for the animation, you will wipe the group***.
+> > You can start in the square next to 3, between the two orange cubes, move
+> > onto 3 after your debuff clears. *Watch your debuff, not the animation,
+> > otherwise you may get a* *![dd]Damage Down*.
 
 ![](./4-dodge.png)
 </div>
 
 {: .info .mt-6 }
 > Failing to clear all of your debuffs will wipe the raid, but getting hit an
-> extra time only grants a damage down.
+> extra time only grants a *![dd]Damage Down*.
 
 -----
 

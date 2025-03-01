@@ -95,7 +95,8 @@ same time. The "spokes" will continue to rotate for a short while after.
 > correct tile.
 >
 > *One of the defamation players will run directly into a fireball spoke. This
-> is fine, the snapshot is ahead of the animation.*
+> is fine as long as they don't use sprint. The snapshot is ahead of the
+> animation.*
 
 ![](./timeline-3.png)
 
