@@ -140,10 +140,10 @@ the debuff they received.
 > *This will not work if your group splits the arena east/west.*
 >
 > {: .demphasize }
-> Other guides talk about solving the H pattern and moving to the *2* quadrant
-> as a bubble player, however this is unnecessary if you follow the rule
-> above. The mechanic will resolve the same, even if you end up on the *1*
-> quadrant.
+> Other guides solve this using the H pattern and moving to the 2 quadrant as a
+> bubble player, since some sticky players will position relative to the bubble
+> players. If this is the case, you can move 2 squares over to the 2 quadrant.
+> Remember that the horizontal crystal is always in the 1 quadrant.
 
 ![](./bubble-ez.png)
 </div>

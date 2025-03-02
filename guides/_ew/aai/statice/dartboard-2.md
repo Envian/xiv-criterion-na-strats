@@ -114,6 +114,10 @@ same time. The "spokes" will continue to rotate for a short while after.
 > **Chains DPS POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=1264&end=1293" %}
+
+> **Enum DPS POV**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=1044&end=1074" %}
 {% endcollapse %}
 
 {% include next.html name="Forced March 2" url="../forced-march-2/" %}

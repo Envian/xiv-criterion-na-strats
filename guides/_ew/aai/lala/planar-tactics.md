@@ -143,6 +143,13 @@ pairs of players. The two pairs will be
 > This player should have started on the mine, and not next to it.
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=787&end=818" %}
+
+> **2 Stacks POV**
+>
+> {: .demphasize }
+> This player started almost too far from the mine.
+>
+> {% include youtube.html id="1S9rOdYsZao?start=628&end=665" %}
 {% endcollapse %}
 
 {% include next.html name="Spacial Tactics" url="../spacial-tactics/" %}

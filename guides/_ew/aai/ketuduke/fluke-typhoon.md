@@ -205,4 +205,8 @@ arena. **Ranged** players will flex to the other two towers.
 > This POV has the healer and tank swapped.
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=378&end=425" %}
+
+> **Melee POV (Crystal Side)**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=294&end=343" %}
 {% endcollapse %}

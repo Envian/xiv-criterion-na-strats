@@ -104,6 +104,10 @@ damage going out, and players may be spread. Use mitigations.
 > **Stack + Middle Safe POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=1128&end=1175" %}
+
+> **Stack + Middle Unsafe + Melee Flex POV**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=908&end=955" %}
 {% endcollapse %}
 
 {% include next.html name="Forced March 1" url="../forced-march-1/" %}

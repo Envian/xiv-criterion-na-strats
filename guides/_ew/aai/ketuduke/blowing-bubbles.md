@@ -230,6 +230,12 @@ resolves first.
 > **Spread First Ranged POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=252&end=290" %}
+
+> **Spread First Melee POV**
+>
+> Makes use of an alternative "Early Cross" strategy.
+>
+> {% include youtube.html id="1S9rOdYsZao?start=178&end=208" %}
 {% endcollapse %}
 
 {% include next.html name="Twintides" url="../twintides/" %}

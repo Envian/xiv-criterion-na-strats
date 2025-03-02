@@ -125,7 +125,14 @@ meet in the middle to resolve *![surge]Surge Vector*.
 
 {: .povs }
 {% collapse POVs %}
-> **Spread First Ranged POV**
+> **Ranged POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=898&end=946" %}
+
+> **Melee POV**
+>
+> {: .demphasize }
+> This group put dps north, support south.
+>
+> {% include youtube.html id="1S9rOdYsZao?start=741&end=790" %}
 {% endcollapse %}

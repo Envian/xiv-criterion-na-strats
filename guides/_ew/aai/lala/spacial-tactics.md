@@ -94,7 +94,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 > ### *![beta]3 Stacks*
 > Needs to be hit by two orange cubes.
 >
-> Plant on 3, in the row with two cubes.
+> Plant on 3, in the only row with two cubes.
 >
 > If you miss the first cube, and have 2 stacks, move to 4 after the next hit.
 >
@@ -106,15 +106,14 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 > ### *![beta]4 Stacks*
 > Needs to be hit by 3 orange cubes.
 >
-> Start on 3, then dodge to 4 after you get hit by both cubes.
+> Start on 3, then dodge to 4 after you get hit by two cubes.
 >
 > {: .info-title }
 > > Melee Uptime Strats
 > > {: .mb-2 }
 > >
 > > You can start in the square next to 3, between the two orange cubes, move
-> > onto 3 after your debuff clears. *Watch your debuff, not the animation,
-> > otherwise you may get a* *![dd]Damage Down*.
+> > onto 3 after your debuff clears. *Watch your debuff, not the animation.*
 
 ![](./4-dodge.png)
 </div>
@@ -130,6 +129,10 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 > **POV - 2 stacks**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=840&end=884" %}
+
+> **POV - 4 stacks (uptime)**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=682&end=726" %}
 {% endcollapse %}
 
 {% include next.html name="Symmetric Surge" url="../symmetric-surge/" %}

@@ -161,6 +161,10 @@ paired with other mechanics.
 > **Spread First Ranged POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=1065&end=1125" %}
+
+> **Stack First Melee POV**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=844&end=905" %}
 {% endcollapse %}
 
 {% include next.html name="Dartboard 1" url="../dartboard-1/" %}
