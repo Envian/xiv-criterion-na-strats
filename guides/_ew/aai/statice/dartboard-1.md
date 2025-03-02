@@ -91,6 +91,18 @@ small, so keep an eye on where the party is, and adjust accordingly.
 > bombs explode.
 
 ![](./stack-sides.png)
+
+> ### Flexing
+>
+> If the *![melee]Melee* player receives *![bullseye]Bull's-eye*, they need to
+> stand on the color of the player who does not have *![bullseye]Bull's-eye*.
+>
+> In this example, the *![healer]Healer* does not have *![bullseye]Bull's-eye*,
+> so the *![melee]Melee* players stands on yellow for the stack. The
+> *![healer]Healer* does not need to check their debuff, and stands on yellow
+> as well.
+
+![](./flex-example.png)
 </div>
 
 {: .info }
