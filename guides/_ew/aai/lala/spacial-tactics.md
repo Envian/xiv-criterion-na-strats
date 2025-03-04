@@ -21,17 +21,17 @@ root: ..
 Use the white sphere to orient yourself.
 
 {: .casts }
-1x*![beta]Beta*
+*![beta1]1 Beta*
 : Start on 2, move to 1 after the 1 tile is hit.
 
-2x*![beta]Beta*
+*![beta2]2 Beta*
 : Plant on 2.
 
-3x*![beta]Beta*
+*![beta3]3 Beta*
 : Plant on 3.
 
-4x*![beta]Beta*
-: Start on 3. Move to 4 after being hit twice.
+*![beta4]4 Beta*
+: Start on 3. Move to 4 after you get hit by two cubes.
 
 {: .debuffs .clear }
 {% collapse Debuff Explanations %}
@@ -43,7 +43,7 @@ Use the white sphere to orient yourself.
 # Mechanics
 
 The *[cast]Spacial Tactics* cast gives each player one, two, three, or four
-stacks of *![beta]Subtractive Supressor Beta*. Being hit by a shape (Both
+stacks of *![beta1]Subtractive Supressor Beta*. Being hit by a shape (Both
 white sphere and orange cube) will remove one stack.
 
 *[cast]Arcane Array* sets up the arena by spawning an expanding blue square, a
@@ -53,14 +53,13 @@ square touches one of the shapes, the shape will explode.
 * White Spheres will hit the entire arena with an unavoiadable AOE.
 * Orange cubes explode hitting all squares aligned with them.
 
-{: .demphasize }
-The snapshot for the cubes is *significantly* earlier than the animation.
+*The snapshot for the cubes is **significantly** earlier than the animation.*
 
 During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 *[cast]Arcane Blight* combo, which will resolve soon after the last cube resolves.
 
-*![beta]Subtractive Suppressor Beta* is the same as
-*![alpha](../debuffs/subtractive-alpha.png#debuff)Subtractive Suppressor Alpha*
+*![beta1]Subtractive Suppressor Beta* is the same as
+*![alpha](../debuffs/subtractive-alpha-1.png#debuff)Subtractive Suppressor Alpha*
 \- If you do not clear your debuff stacks, then you will explode and wipe the raid.
 
 # Strategy
@@ -76,7 +75,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 
 ![](./cheatsheet.png)
 
-> ### *![beta]1 Stack*
+> ### *![beta1]1 Stack*
 >
 > Needs to dodge all cubes, since the white orb will take their only stack.
 >
@@ -84,14 +83,14 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 
 ![](./1-dodge.png)
 
-> ### *![beta]2 Stacks*
+> ### *![beta2]2 Stacks*
 > Needs to be hit by one orange cube.
 >
 > Plant on 2, under the boss.
 
 ![](./2-dodge.png)
 
-> ### *![beta]3 Stacks*
+> ### *![beta3]3 Stacks*
 > Needs to be hit by two orange cubes.
 >
 > Plant on 3, in the only row with two cubes.
@@ -103,7 +102,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 
 ![](./3-dodge.png)
 
-> ### *![beta]4 Stacks*
+> ### *![beta4]4 Stacks*
 > Needs to be hit by 3 orange cubes.
 >
 > Start on 3, then dodge to 4 after you get hit by two cubes.

@@ -1,4 +1,8 @@
-![beta]
+{: .paired }
+![beta1]
+![beta2]
+![beta3]
+![beta4]
 
 > **Subtractive Supressor Beta**
 >
@@ -10,4 +14,7 @@
 > stack they have. If they do not clear all their stacks, they will detonate,
 > wiping the group.
 
-[beta]: {{ page.root }}/debuffs/subtractive-beta.png#debuff
+[beta1]: {{ page.root }}/debuffs/subtractive-beta-1.png#debuff
+[beta2]: {{ page.root }}/debuffs/subtractive-beta-2.png#debuff
+[beta3]: {{ page.root }}/debuffs/subtractive-beta-3.png#debuff
+[beta4]: {{ page.root }}/debuffs/subtractive-beta-4.png#debuff

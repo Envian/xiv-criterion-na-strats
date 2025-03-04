@@ -21,7 +21,7 @@ root: ..
 Put notch **south east**.
 
 {: .mb-8 .text-center }
-2x*![alpha]* Flexes.
+*![alpha2]* Flexes.
 
 *![three]Times Three*
 : Opposite of shown rotation.
@@ -45,9 +45,9 @@ Put notch **south east**.
 * *![forward]Forward March* to each player.
 * *![three]Times Three* or *![five]Times Five* to each player.
 * *![surge]Surge Vector* to two random players.
-* 1x*![alpha]Subtractive Suppressor Alpha* to one player.
-* 2x*![alpha]Subtractive Suppressor Alpha* to two players.
-* 3x*![alpha]Subtractive Suppressor Alpha* to one player.
+* *![alpha1]1x Subtractive Suppressor Alpha* to one player.
+* *![alpha2]2x Subtractive Suppressor Alpha* to two players.
+* *![alpha3]3x Subtractive Suppressor Alpha* to one player.
 
 *[cast]Arcane Mine* places 8 mines in the center 3x3 grid of the arena, with one
 random corner missing. When this cast finishes, each player's rotations will
@@ -68,46 +68,46 @@ two players in each to resolve.
 
 # Strategy
 
-Since the *![surge]Surge Vector* and *![alpha]Subtractive Suppressor Alpha*
+Since the *![surge]Surge Vector* and *![alpha1]Subtractive Suppressor Alpha*
 debuffs are completely random, this mechanic requires flexing to create two
 pairs of players. The two pairs will be
 
-* 1x*![alpha]Alpha* & 2x*![alpha]Alpha* march together.
-* 3x*![alpha]Alpha* & 2x*![alpha]Alpha* will start on opposite corners and meet
+* *![alpha1]1 Alpha* & *![alpha2]2 Alpha* march together.
+* *![alpha3]3 Alpha* & *![alpha2]2 Alpha* will start on opposite corners and meet
   north west for the stack.
 
 <div class="mechanics" markdown="1">
 > Begin by finding the "notch" in the mines. This notch will be relative south
 > east, and all mechanics will be done relative to it.
 >
-> Check your *![alpha]Alpha* debuff. If you have 2 stacks, identify who your
+> Check your *![alpha1]Alpha* debuff. If you have 2 stacks, identify who your
 > partner will be. Afterwards, all players should begin moving to their assigned
 > spots.
 >
 > {: .warning }
-> Remember to check the stacks of your *![alpha]Alpha* debuff. Don't confuse it
+> Remember to check the stacks of your *![alpha3]Alpha* debuff. Don't confuse it
 > with *![three]Times Three*.
 
 ![](./timeline-1.png)
 
-> 1x*![alpha]Alpha* starts on the south side of the notch. Stand on the west
+> *![alpha1]1 Alpha* starts on the south side of the notch. Stand on the west
 > side of the square close to your partner.
 >
-> 2x*![alpha]Alpha* who's paired with 1 starts on the south side of the center
+> *![alpha2]2 Alpha* who's paired with 1 starts on the south side of the center
 > mine. They should be close to their partner.
 >
-> 2x*![alpha]Alpha* who's paired with 3 starts on the south side, near the west
+> *![alpha2]2 Alpha* who's paired with 3 starts on the south side, near the west
 > edge of the mines.
 >
-> 3x*![alpha]Alpha* starts on the east side of the north east mine.
+> *![alpha3]3 Alpha* starts on the east side of the north east mine.
 >
 > *All south players should be a few steps south of the mines, to ensure that the
 > 3 player touches all north mines first.*
 
 ![](./timeline-2.png)
 
-> In the event that both 2x*![alpha]Alpha* players have *![surge]Surge Vector*,
-> or neither have it, then the 2x*![alpha]Alpha* players will need to use body
+> In the event that both *![alpha2]2 Alpha* players have *![surge]Surge Vector*,
+> or neither have it, then the *![alpha2]2 Alpha* players will need to use body
 > language to pick a group.
 >
 > If both of you are trying to start in the same spot, one of you will need to
@@ -119,12 +119,12 @@ pairs of players. The two pairs will be
 > *![five]Times Five* so that your *![forward]Forward March* forches you to
 > walk across the minefield.
 >
-> The south players need to march north. The 3x*![alpha]Alpha* needs to march
+> The south players need to march north. The *![alpha3]3 Alpha* needs to march
 > west.
 
 ![](./timeline-4.png)
 
-> If all goes well, each player clearing all of their *![alpha]Alpha* stacks,
+> If all goes well, each player clearing all of their *![alpha1]Alpha* stacks,
 > clearing all mines, and are close enough to their partner to share the
 > *![surge]Surge Vector*.
 >
@@ -137,14 +137,14 @@ pairs of players. The two pairs will be
 
 {: .povs }
 {% collapse POVs %}
-> **3 Stacks POV**
+> **![alpha3]** **POV**
 >
 > {: .demphasize }
 > This player should have started on the mine, and not next to it.
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=787&end=818" %}
 
-> **2 Stacks POV**
+> **![alpha2]** **POV**
 >
 > {: .demphasize }
 > This player started almost too far from the mine.

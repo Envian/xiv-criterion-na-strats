@@ -1,5 +1,5 @@
 {
-  "nextId": 213,
+  "nextId": 225,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -383,17 +383,6 @@
           "id": 163
         },
         {
-          "type": "icon",
-          "image": "/marker/limit3.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 3",
-          "x": 150,
-          "y": 139,
-          "id": 164
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -418,28 +407,6 @@
           "id": 166
         },
         {
-          "type": "icon",
-          "image": "/marker/limit1.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 1",
-          "x": 97,
-          "y": -217,
-          "id": 167
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": 50,
-          "y": -216,
-          "id": 168
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -453,14 +420,47 @@
         },
         {
           "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
+          "image": "/marker/attack1.png",
+          "width": 40,
+          "height": 40,
           "rotation": 0,
-          "name": "Counter 2",
-          "x": -146,
-          "y": -214,
-          "id": 170
+          "name": "Attack 1",
+          "x": 99,
+          "y": -208,
+          "id": 213
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": 56,
+          "y": -209,
+          "id": 214
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": -141,
+          "y": -206,
+          "id": 215
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack3.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 3",
+          "x": 186,
+          "y": 149,
+          "id": 216
         }
       ]
     },
@@ -567,17 +567,6 @@
           "id": 180
         },
         {
-          "type": "icon",
-          "image": "/marker/limit3.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 3",
-          "x": 150,
-          "y": 139,
-          "id": 181
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -612,28 +601,6 @@
           "id": 183
         },
         {
-          "type": "icon",
-          "image": "/marker/limit1.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 1",
-          "x": 97,
-          "y": -217,
-          "id": 184
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": 50,
-          "y": -216,
-          "id": 185
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -644,17 +611,6 @@
           "x": -159,
           "y": -231,
           "id": 186
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": -146,
-          "y": -214,
-          "id": 187
         },
         {
           "type": "icon",
@@ -681,6 +637,50 @@
           "x": 20,
           "y": -217,
           "id": 189
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack1.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 1",
+          "x": 100,
+          "y": -209,
+          "id": 217
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": 56,
+          "y": -209,
+          "id": 218
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": -139,
+          "y": -205,
+          "id": 219
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack3.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 3",
+          "x": 186,
+          "y": 149,
+          "id": 220
         }
       ]
     },
@@ -787,17 +787,6 @@
           "id": 199
         },
         {
-          "type": "icon",
-          "image": "/marker/limit3.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 3",
-          "x": 150,
-          "y": 139,
-          "id": 200
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -822,28 +811,6 @@
           "id": 203
         },
         {
-          "type": "icon",
-          "image": "/marker/limit1.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 1",
-          "x": 97,
-          "y": -217,
-          "id": 204
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": 50,
-          "y": -216,
-          "id": 205
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -854,17 +821,6 @@
           "x": -159,
           "y": -231,
           "id": 206
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": -146,
-          "y": -214,
-          "id": 207
         },
         {
           "type": "arrow",
@@ -901,6 +857,50 @@
           "x": -2,
           "y": 124,
           "id": 212
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack1.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 1",
+          "x": 100,
+          "y": -211,
+          "id": 221
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": 57,
+          "y": -209,
+          "id": 222
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack2.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 2",
+          "x": -139,
+          "y": -204,
+          "id": 223
+        },
+        {
+          "type": "icon",
+          "image": "/marker/attack3.png",
+          "width": 40,
+          "height": 40,
+          "rotation": 0,
+          "name": "Attack 3",
+          "x": 185,
+          "y": 148,
+          "id": 224
         }
       ]
     },
@@ -917,17 +917,6 @@
           "x": -197,
           "y": 120,
           "id": 79
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit3.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 3",
-          "x": -212,
-          "y": 134,
-          "id": 80
         },
         {
           "type": "party",
@@ -954,28 +943,6 @@
           "id": 82
         },
         {
-          "type": "icon",
-          "image": "/marker/limit1.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 1",
-          "x": 96,
-          "y": 147,
-          "id": 83
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": 39,
-          "y": 150,
-          "id": 84
-        },
-        {
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
@@ -986,17 +953,6 @@
           "x": -154,
           "y": 125,
           "id": 85
-        },
-        {
-          "type": "icon",
-          "image": "/marker/limit2.png",
-          "width": 32,
-          "height": 32,
-          "rotation": 0,
-          "name": "Counter 2",
-          "x": -142,
-          "y": 139,
-          "id": 86
         },
         {
           "type": "stack",
