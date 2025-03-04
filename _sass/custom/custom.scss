@@ -1,7 +1,6 @@
 @import "./custom/mixins.scss";
 @import "./custom/keywords.scss";
 
-@import "./custom/components/casts.scss";
 @import "./custom/components/columns.scss";
 @import "./custom/components/debuffs.scss";
 @import "./custom/components/details.scss";
@@ -47,6 +46,10 @@ hr {
     font-style: italic;
     color: #AAA;
     font-size: 0.8em;
+}
+
+dl {
+    grid-template: auto / auto auto !important;
 }
 
 dl.compact {
@@ -118,4 +121,42 @@ dl.compact {
 .quarter-width {
     width: 25%;
     margin: auto;
+}
+
+.min-small {
+    min-width: 15rem;
+}
+
+@media(width >= 740px) {
+    .md-float-right {
+        float: right;
+    }
+}
+
+@media(width < 500px) {
+    .sm-clear {
+        clear: both;
+    }
+}
+
+
+@media(width < 740px) {
+    .md-float-right {
+        float: right;
+    }
+
+    .md-clear {
+        clear: both;
+    }
+}
+
+
+@media(width < 1120px) {
+    .lg-float-right {
+        float: right;
+    }
+
+    .lg-clear {
+        clear: both;
+    }
 }

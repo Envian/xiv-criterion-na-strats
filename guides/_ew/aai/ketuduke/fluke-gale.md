@@ -14,7 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-<div class="float-right third-width" markdown="1">
+<div class="md-float-right third-width min-small" markdown="1">
 {: .text-center .m-0 }
 **Starting Spots**
 <div class="columns positions borderless" markdown="1">

@@ -44,7 +44,7 @@ players. *[cast]Roar* Spawns 4 adds around the arena; one on each cardinal.
 and show where the safe spots are. There are 3 possible patterns: east/west
 safe, north/south safe, and corners safe.
 
-<div class="timeline" markdown="1">
+<div class="timeline collapse-sm" markdown="1">
 > East + West
 >
 >![](./safe-1.png)

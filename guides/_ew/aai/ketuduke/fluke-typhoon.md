@@ -15,7 +15,7 @@ root: ..
 # Cheat Sheet
 
 {: .mt-6 }
-<div class="columns borders" markdown="1">
+<div class="columns borders collapse-sm" markdown="1">
 > {: .info .mr-4 }
 > Assigned spots are rotated *clockwise* by 90° from other mechanics.
 >
@@ -31,7 +31,7 @@ root: ..
 > > **Melee ![melee]**
 >
 > {: .mr-4 .ml-4 }
-> <div style="height: 6rem; width: 1rem; flex-grow: 0; background-color: deepskyblue"></div>
+> <div style="height: 6rem; flex-grow: 0; background-color: deepskyblue"></div>
 >
 > > **![tank]Tank**
 > >
@@ -134,7 +134,7 @@ There is a lot of damage going out between *[cast]Angry Seas* and
 > > **Melee ![melee]**
 >
 > {: .mr-4 .ml-4 }
-> <div style="height: 6rem; width: 1rem; flex-grow: 0; background-color: deepskyblue"></div>
+> <div style="height: 6rem; flex-grow: 0; background-color: deepskyblue"></div>
 >
 > > **![tank]Tank**
 > >

@@ -36,7 +36,6 @@ Relative north is the "spoke" which isn't touching the fixed dart's color.
 
 # Mechanics
 
-{: .casts }
 *[cast]Pinwheeling Dartboard* Converts the arena into the dartboard, gives two
 random players *![bullseye]Bulls Eye*, spawns a fixed dart on a random tile and
 also spawns a fireball in the middle of the arena. The fixed dart makes that

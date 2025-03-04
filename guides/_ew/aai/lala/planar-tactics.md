@@ -23,6 +23,7 @@ Put notch **south east**.
 {: .mb-8 .text-center }
 *![alpha2]* Flexes.
 
+{: .sm-clear }
 *![three]Times Three*
 : Opposite of shown rotation.
 

@@ -66,7 +66,7 @@ and all bombs tethered to it will explode.
 
 There are 4 possible patterns, but they can be rotated.
 
-<div class="timeline" markdown="1">
+<div class="timeline collapse-sm" markdown="1">
 > {: .text-center }
 > Star Pattern (Center Unsafe)
 >
@@ -96,7 +96,7 @@ All of the bombs explode a second before the final *[cast]Trapshooting*.
 
 # Strategy
 
-<div class="columns" markdown="1">
+<div class="columns collapse-sm" markdown="1">
 {: .pr-4 }
 > PF does not strictly adhere to these spread spots. Use this as a guideline.
 >

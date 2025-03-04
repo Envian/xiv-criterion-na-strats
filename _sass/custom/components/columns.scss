@@ -55,4 +55,34 @@
     > blockquote {
         @include blockquote-reset;
     }
+
+    &.collapse-sm {
+        @media(width < 500px) {
+            flex-direction: column;
+
+            &.borders > :not(:first-child) {
+                border-left: none;
+            }
+        }
+    }
+
+    &.collapse-md {
+        @media(width < 740px) {
+            flex-direction: column;
+
+            &.borders > :not(:first-child) {
+                border-left: none;
+            }
+        }
+    }
+
+    &.collapse-lg {
+        @media(width < 1120px) {
+            flex-direction: column;
+
+            &.borders > :not(:first-child) {
+                border-left: none;
+            }
+        }
+    }
 }

@@ -15,8 +15,7 @@ root: ..
 # Cheat Sheet
 
 {: .mt-6 }
-<div class="columns borders" markdown="1">
-> {: .casts }
+<div class="columns borders collapse-sm" markdown="1">
 > *[cast]Encroaching Twintides*
 > : In First
 >
@@ -66,7 +65,6 @@ after the square fills up.
 
 The main mechanic is *[cast]Encroaching Twintides* or *[cast]Receding Twintides*.
 
-{: .casts }
 *[cast]Encroaching Twintides*
 : A large *donut* AOE, followed by a large *circular* AOE.
 

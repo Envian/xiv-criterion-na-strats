@@ -6,6 +6,23 @@
     column-gap: 2px;
     row-gap: 2px;
 
+    @media(width < 500px) {
+        grid-template-columns: 1fr;
+
+        > *:not(details) {
+            border-left: 0 !important;
+        }
+
+        > :nth-last-child(2) {
+            border-bottom: $border rgba($border-color, 0.5) !important;
+        }
+
+        > p:has(:first-child:is(img)) {
+            margin-bottom: 1rem;
+            border-bottom: 0;
+        }
+    }
+
     p {
         margin-top: 0.5em;
         margin-bottom: 0.5em;
@@ -46,7 +63,7 @@
     }
 
     // Last Rows
-    > :last-child, > :nth-last-child(2):not(:has(+.full-width)) {
+    > :last-child, > :nth-last-child(2) {
         border-bottom: 0;
     }
 }
@@ -54,10 +71,6 @@
 .mechanics {
     @include box-shading;
     @include mechanics-grid;
-
-    .full-width {
-        grid-column: 1 / span 2;
-    }
 
     > details.more {
         grid-column: 1 / span 2;

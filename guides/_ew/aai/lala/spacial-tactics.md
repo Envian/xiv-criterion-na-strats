@@ -20,7 +20,6 @@ root: ..
 {: .mb-6 .text-center }
 Use the white sphere to orient yourself.
 
-{: .casts }
 *![beta1]1 Beta*
 : Start on 2, move to 1 after the 1 tile is hit.
 

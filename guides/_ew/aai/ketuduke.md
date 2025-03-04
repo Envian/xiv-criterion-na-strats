@@ -29,7 +29,6 @@ root: .
 
 ## Repeat Casts / Mechanics
 
-{: .casts }
 *[cast]Tidal Roar*
 : This is a standard raidwide, paired with a 12s bleed debuff.
 

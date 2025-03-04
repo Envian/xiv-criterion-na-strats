@@ -118,4 +118,3 @@ the first.
 {% endcollapse %}
 
 {% include next.html name="Intermission" url="../intermission/" %}
-https://youtu.be/1S9rOdYsZao?t=958

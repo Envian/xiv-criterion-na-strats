@@ -15,7 +15,7 @@ root: ..
 # Cheat Sheet
 
 {: .mt-6 }
-<div class="columns borders" markdown="1">
+<div class="columns borders collapse-sm" markdown="1">
 > {: .buff-title .center }
 > **![bullet]Spread First**
 >
