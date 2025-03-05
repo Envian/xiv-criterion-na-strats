@@ -38,7 +38,7 @@ root: ..
 </div>
 
 **Bubbles ![bubble]**
-: {: .mb-5 } Stand next to the horizontal crystal (facing north) on your side.
+: {: .mb-5 } Diagonal of the vertical crystal on your side.
 
 **Sticky Feet ![foamy]**
 : Solve the H to find the safe spots.
@@ -148,33 +148,24 @@ the debuff they received.
 ## ![bubble] Bubble Weave
 
 <div class="mechanics" markdown="1">
-> Bubble players have it easy. Find the horizontal (north/south facing) crystal
-> on your side, and stand one square next to it. You will be blown to the
-> safe spot on the other side automatically.
+>Find the vertical (east/west facing) crystal on your side, and stand one square
+> diagonally from it, within the same quadrant that it spawned in.
 >
-> *This will not work if your group splits the arena east/west.*
+> This will always place you in the 2 quadrant, meaning you can easily see where
+> you will be blown to.
 
 ![](./bubble-ez.png)
-
-> **Note for PF:** The Pastebin guide explicitly requires bubble players to
-> start in the 2 quadrant. While this isn't strictly necessary, it serves two
-> purposes:
->
-> * Easier to tell if everyone is in the correct spots.
-> * Easier to tell who's will end where, and give melee players uptime.
->
-> The above rule with the horizontal crystal will typically put you in the 1
-> quadrant. If your group wants to utilize the benefits of starting in the 2
-> quadrant, then use the safe spots pictured to the right, relative to the
-> horizontal crystal.
-
-![](./bubble-ez-2.png)
 </div>
 
 {: .warning .mt-8 }
 > Standing too close to the corner or edge of a square can result in a spread
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
+
+{: .info .mt-8 }
+> Because we have the *![bubble]Bubble* players begin on the 2 quadrant, it is
+> easy to see where each player's ending locations will be. You can use this info
+> to position yourself for melee uptime.
 
 {: .mechanics .mt-8 }
 {% collapse More Info - Why It Works %}
@@ -214,8 +205,9 @@ the debuff they received.
 > next to a crystal in its quadrant, you will end up in the same spot relative
 > to that crystal after both blows happen.
 >
-> Because of this, an alternative strategy is to stand diagonal of the vertical
-> crystal on your side. It will have the same effect.
+> Because of this, an alternative strategy is to next to the horizontal crystal
+> on your side. If you end up in the 1 quadrant, you will be blown to the safe
+> spot in the 2 quadrant.
 
 ![](./solve-bubble.png)
 {% endcollapse %}
