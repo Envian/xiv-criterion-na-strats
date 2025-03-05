@@ -1786,8 +1786,8 @@
           "width": 32,
           "height": 32,
           "rotation": 0,
-          "x": -93,
-          "y": 82,
+          "x": 217,
+          "y": 80,
           "id": 515
         },
         {
@@ -1799,7 +1799,7 @@
           "name": "Hydrofall Target",
           "iconId": 215969,
           "maxStacks": 0,
-          "x": -74,
+          "x": 232,
           "y": 103,
           "id": 516
         },
@@ -1825,8 +1825,8 @@
           "name": "Bubble Weave",
           "iconId": 216755,
           "maxStacks": 0,
-          "x": -51,
-          "y": 103,
+          "x": 256,
+          "y": 105,
           "id": 518
         },
         {
@@ -1891,18 +1891,6 @@
           "x": -236,
           "y": 122,
           "id": 523
-        },
-        {
-          "type": "arrow",
-          "color": "#ffc800",
-          "opacity": 100,
-          "width": 30,
-          "height": 263,
-          "rotation": 90,
-          "arrowEnd": true,
-          "x": 69,
-          "y": 78,
-          "id": 528
         },
         {
           "type": "icon",
