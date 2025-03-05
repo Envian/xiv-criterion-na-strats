@@ -239,6 +239,10 @@ the debuff they received.
 {% collapse POVs %}
 > **Ranged POV - Bubble**
 >
+> {: .demphasize }
+> This POV started on the wrong side of the crystal. While it resolved the same,
+> we lost uptime benefits.
+>
 > {% include youtube.html id="s4pvr3dA9nM?start=205&end=250" %}
 
 > **Ranged POV - Sticky**
