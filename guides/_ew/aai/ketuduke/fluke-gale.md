@@ -75,14 +75,28 @@ and *![bubble]Bubble Weave* to the other.
 to all players, or *![fall]Hydrofall* to one role.
 
 *[cast]Fluke Gale* begins telegraphing a knockback with a number marker in each
-quadrant. This will only impact *![bubble]Bubble Weave* players. The quadrants
-with 1 will resolve first, followed by the 2 quadrants.
+quadrant. This will only impact *![bubble]Bubble Weave* players, pushing them
+two squares in the shown direction. The quadrants with 1 will resolve first,
+followed by the 2 quadrants.
 
 *The 1 quadrant will always contain the horizontal (north/south) crystal, and
-the 2 quadrant will always contain the vertical (east/west) crystal*
+the 2 quadrant will always contain the vertical (east/west) crystal. The 1
+quadrant always blows east or west, while the 2 quadrants always blow north and
+south.*
 
-There are only a few patterns which can occur. These strategies rely on these
-assumptions.
+There are two possible patterns, which can be mirrored vertically or
+horizontally, but not rotated. These are named after the strategy used to find
+the safe spots.
+
+<div class="timeline" markdown="1">
+> Vertical H Pattern
+>
+> ![](./vertical-h.png)
+
+> Horizontal H Pattern
+>
+> ![](./horizontal-h.png)
+</div>
 
 -----
 
@@ -135,25 +149,76 @@ the debuff they received.
 
 <div class="mechanics" markdown="1">
 > Bubble players have it easy. Find the horizontal (north/south facing) crystal
-> on your side, and stand one square next to it.
+> on your side, and stand one square next to it. You will be blown to the
+> safe spot on the other side automatically.
 >
 > *This will not work if your group splits the arena east/west.*
->
-> {: .demphasize }
-> Other guides solve this using the H pattern and moving to the 2 quadrant as a
-> bubble player, since some sticky players will position relative to the bubble
-> players. If this is the case, you can move 2 squares over to the 2 quadrant.
-> Remember that the horizontal crystal is always in the 1 quadrant.
 
 ![](./bubble-ez.png)
+
+> **Note for PF:** The Pastebin guide explicitly requires bubble players to
+> start in the 2 quadrant. While this isn't strictly necessary, it serves two
+> purposes:
+>
+> * Easier to tell if everyone is in the correct spots.
+> * Easier to tell who's will end where, and give melee players uptime.
+>
+> The above rule with the horizontal crystal will typically put you in the 1
+> quadrant. If your group wants to utilize the benefits of starting in the 2
+> quadrant, then use the safe spots pictured to the right, relative to the
+> horizontal crystal.
+
+![](./bubble-ez-2.png)
 </div>
 
-------
-
-{: .warning }
+{: .warning .mt-8 }
 > Standing too close to the corner or edge of a square can result in a spread
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
+
+{: .mechanics .mt-8 }
+{% collapse More Info - Why It Works %}
+> To begin, it helps to visualize the crystals not as physical crystals, but
+> rows or columns of unsafe area. The vertical columns are shifted by 2 when
+> the horizontal (1) winds blow, but are unaffected by the vertical (2) winds.
+> Same with the horizontal rows - which are only affected by the vertical (2)
+> winds.
+>
+> Showing the initial state of the crystals - before any blowing happens -
+> reveals that both patterns create an "A" formation, with some form of rotation.
+>
+> In all scenarios, the "middle" line simply swaps position with its counterpart.
+> This is why the H pattern uses the two sides of the center crystal's line as
+> safe - They start, and will stay safe.
+>
+> The other two lines always begin on opposite sides of the arena, and when
+> blown, will cover the center two rows or columns.
+
+{: .border-left }
+> {: .columns }
+> > {: .p-0 }
+> > ![](./solve-1.png)
+> >
+> > {: .p-0 }
+> > ![](./solve-2.png)
+>
+> ![](./solve-3.png)
+
+> The bubble safe spots can be quickly solved because there is only one formation
+> that each quadrant can be in once the winds fully resolve. The horizontal
+> crystal will always be directly north or south of the veritcal one. Also,
+> both pairs of crystals will always end in opposite quadrants, so you only need
+> to worry about the crystals you are moving with.
+>
+> You, as a bubble player, will always move with the crystals. So if you start
+> next to a crystal in its quadrant, you will end up in the same spot relative
+> to that crystal after both blows happen.
+>
+> Because of this, an alternative strategy is to stand diagonal of the vertical
+> crystal on your side. It will have the same effect.
+
+![](./solve-bubble.png)
+{% endcollapse %}
 
 # Resolution
 

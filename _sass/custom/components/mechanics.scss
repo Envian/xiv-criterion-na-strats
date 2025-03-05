@@ -104,4 +104,8 @@
             @include mechanics-grid;
         }
     }
+
+    .border-left {
+        border-left: $border $border-color;
+    }
 }
