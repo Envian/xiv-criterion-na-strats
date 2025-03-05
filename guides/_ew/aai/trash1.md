@@ -68,10 +68,7 @@ always occur in the same order.
 
 {: .povs }
 {% collapse POVs %}
-> **![alpha3]** **POV**
->
-> {: .demphasize }
-> This player should have started on the mine, and not next to it.
+> **Trash POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=2&end=165" %}
 {% endcollapse %}
