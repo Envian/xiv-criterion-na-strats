@@ -65,3 +65,13 @@ always occur in the same order.
   moderate damage and applying a painful bleed. Knockback immune works on this.
   *[cast]Hydroshot* will be cast 3 times in a row, once on each non-tank.
 * *[cast]Cross Attack* is a very hard hitting tankbuster.
+
+{: .povs }
+{% collapse POVs %}
+> **![alpha3]** **POV**
+>
+> {: .demphasize }
+> This player should have started on the mine, and not next to it.
+>
+> {% include youtube.html id="s4pvr3dA9nM?start=2&end=165" %}
+{% endcollapse %}
