@@ -98,8 +98,6 @@ the safe spots.
 > ![](./horizontal-h.png)
 </div>
 
------
-
 # Strategy
 
 This mechanic is role based and does not require any flexing.
@@ -150,9 +148,6 @@ the debuff they received.
 <div class="mechanics" markdown="1">
 >Find the vertical (east/west facing) crystal on your side, and stand one square
 > diagonally from it, within the same quadrant that it spawned in.
->
-> This will always place you in the 2 quadrant, meaning you can easily see where
-> you will be blown to.
 
 ![](./bubble-ez.png)
 </div>
@@ -161,11 +156,6 @@ the debuff they received.
 > Standing too close to the corner or edge of a square can result in a spread
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
-
-{: .info .mt-8 }
-> Because we have the *![bubble]Bubble* players begin on the 2 quadrant, it is
-> easy to see where each player's ending locations will be. You can use this info
-> to position yourself for melee uptime.
 
 {: .mechanics .mt-8 }
 {% collapse More Info - Why It Works %}
@@ -233,9 +223,7 @@ the debuff they received.
 > ![](./example-stack-3.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Ranged POV - Bubble**
 >

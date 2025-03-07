@@ -1,5 +1,5 @@
 {
-  "nextId": 1011,
+  "nextId": 1013,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -1415,21 +1415,6 @@
     {
       "objects": [
         {
-          "type": "enemy",
-          "icon": "/actor/enemy_large.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 100,
-          "status": [],
-          "rotation": 0,
-          "omniDirection": false,
-          "x": 0,
-          "y": 0,
-          "id": 751,
-          "pinned": true
-        },
-        {
           "type": "rect",
           "color": "#00d5e8",
           "opacity": 10,
@@ -1614,6 +1599,43 @@
           "color": "#00e622",
           "opacity": 100,
           "id": 1010
+        },
+        {
+          "type": "rect",
+          "color": "#000000",
+          "opacity": 100,
+          "width": 600,
+          "height": 10,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 1011
+        },
+        {
+          "type": "rect",
+          "color": "#000000",
+          "opacity": 100,
+          "width": 10,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 1012
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "omniDirection": false,
+          "x": 0,
+          "y": 0,
+          "id": 751,
+          "pinned": true
         }
       ]
     },
