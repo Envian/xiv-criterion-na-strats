@@ -81,9 +81,7 @@ it actually happens immidiately and is not displayed.*
 This mechanic repeats a few times throughout the fight, during other mechanics.
 It is identical each time.
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **![five]Times Five POV**
 >

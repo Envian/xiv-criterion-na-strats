@@ -66,6 +66,8 @@ bleed applies.
 will leave a telegraphed 2nd hit in the same spot, which resolves at the same
 time as *![surge]Surge Vector*.
 
+-----
+
 # Strategy
 
 The wall the adds spawn on is relative north. The blue squares are always
@@ -121,9 +123,7 @@ meet in the middle to resolve *![surge]Surge Vector*.
 
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Ranged POV**
 >

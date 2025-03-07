@@ -50,6 +50,8 @@ The *![chains]Chains* require the chain players to start togeher, and stretch
 their chains to opposite ends of the arena. The defamation is about the size of
 the arena, so enumeration players will need a safe spot further way.
 
+-----
+
 # Strategy
 
 We will be using the color pair markers, assigning both defamation players to
@@ -91,9 +93,7 @@ Be sure to check the section after the quadrant assignments.**
 > ![](./triangle-spots-2.png)
 </div>
 
------
-
-<div class="mechanics" markdown="1">
+<div class="mechanics mt-8" markdown="1">
 > ### Enumeration Players
 >
 > The hands become active soon after spawning. Begin moving quickly. If you run
@@ -124,9 +124,7 @@ detonation will all resolve at the same time. Each of the presents will despawn
 at this time too. **[boss]Statice** will be targetable again a couple seconds
 later.
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Non Standard Strats Defamation POV**
 >

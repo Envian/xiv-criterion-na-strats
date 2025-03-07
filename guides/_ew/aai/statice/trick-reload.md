@@ -94,6 +94,8 @@ There are 4 possible patterns, but they can be rotated.
 
 All of the bombs explode a second before the final *[cast]Trapshooting*.
 
+-----
+
 # Strategy
 
 <div class="columns collapse-sm" markdown="1">
@@ -154,9 +156,7 @@ All of the bombs explode a second before the final *[cast]Trapshooting*.
 *[cast]Trapshooting* and *[cast]Trigger Happy* casts will be identical, but are
 paired with other mechanics.
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Spread First Ranged POV**
 >

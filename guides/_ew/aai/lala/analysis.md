@@ -58,6 +58,8 @@ a rotate marker. Your *![unseen]unseen* debuff will rotate according to your
 *![three]Times Three* or *![five]Times Five* debuff. You need to align your
 "Gap" so that after the rotation, it faces *[boss]Lala*.
 
+-----
+
 # Strategy
 
 <div class="mechanics" markdown="1">
@@ -92,9 +94,7 @@ a rotate marker. Your *![unseen]unseen* debuff will rotate according to your
 ![](./timeline-5.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Examample POV**
 >

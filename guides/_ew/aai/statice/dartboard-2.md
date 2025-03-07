@@ -55,6 +55,8 @@ start spinning.
 The defamation markers, enumeration marker, and all 3 darts, will resolve at the
 same time. The "spokes" will continue to rotate for a short while after.
 
+-----
+
 # Strategy
 
 <div class="mechanics" markdown="1">
@@ -106,9 +108,7 @@ same time. The "spokes" will continue to rotate for a short while after.
 ![](./timeline-4.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Chains DPS POV**
 >

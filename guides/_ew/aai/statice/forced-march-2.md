@@ -43,6 +43,8 @@ Short *![march]Forced March* players will be marched, and a couple seconds after
 Finally, long marches will begin, ending with the marked bombs detonating, and
 *[cast]Trapshooting*'s stack or spread.
 
+-----
+
 # Strategy
 
 The mechanics are fairly straightforward, so this mechanic serves more as a
@@ -84,9 +86,7 @@ two categories:
 ![](./timeline-3.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Stack then Spread Ranged POV**
 >

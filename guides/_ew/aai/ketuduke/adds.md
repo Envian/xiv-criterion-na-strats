@@ -73,7 +73,7 @@ Each add will face the closest player and begin a forward half-room AOE.
 
 Adds in the air can only hit players in the air, and vice versa.
 
-------
+-----
 
 # Strategy
 
@@ -164,9 +164,7 @@ will clip your partner if you move towards your add.
 ![](./execution-2.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Ranged POV**
 >

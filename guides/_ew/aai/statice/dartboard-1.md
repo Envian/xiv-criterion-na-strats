@@ -54,6 +54,8 @@ disappear, and they will rotate around the arena 3 or 4 times.
 The tethered bombs will detonate when *[cast]Trapshooting* finishes casting,
 and its stack or spread will resolve a couple seconds later.
 
+-----
+
 # Strategy
 
 Take a look at the bomb pattern once it appears. If the center is safe, then the
@@ -111,7 +113,7 @@ damage going out, and players may be spread. Use mitigations.
 
 -----
 
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Stack + Middle Safe POV**
 >

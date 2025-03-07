@@ -67,6 +67,8 @@ a stack.
 After the forced march, the *![surge]Surge Vector* stacks resolve, requiring
 two players in each to resolve.
 
+-----
+
 # Strategy
 
 Since the *![surge]Surge Vector* and *![alpha1]Subtractive Suppressor Alpha*
@@ -134,9 +136,7 @@ pairs of players. The two pairs will be
 ![](./timeline-5.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **![alpha3]** **POV**
 >

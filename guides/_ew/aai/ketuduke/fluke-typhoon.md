@@ -195,9 +195,7 @@ arena. **Ranged** players will flex to the other two towers.
 ![](./towers-4.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Ranged POV (Not Crossing)**
 >

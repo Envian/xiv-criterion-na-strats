@@ -68,6 +68,8 @@ balloon will explode knocking players back a short distance. After
 casting, however the stack/spread will not shapshot until a couple seconds after
 the forced march.
 
+-----
+
 # Strategy
 
 We will be using knockback immune to cheese the knockbacks. The timing is tight
@@ -104,9 +106,7 @@ the first.
 ![](./stack-uptime.png)
 </div>
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Spread POV**
 >

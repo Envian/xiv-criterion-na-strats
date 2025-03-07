@@ -61,6 +61,8 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 *![alpha](../debuffs/subtractive-alpha-1.png#debuff)Subtractive Suppressor Alpha*
 \- If you do not clear your debuff stacks, then you will explode and wipe the raid.
 
+-----
+
 # Strategy
 
 <div class="mechanics" markdown="1">
@@ -120,9 +122,7 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 > Failing to clear all of your debuffs will wipe the raid, but getting hit an
 > extra time only grants a *![dd]Damage Down*.
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **POV - 2 stacks**
 >

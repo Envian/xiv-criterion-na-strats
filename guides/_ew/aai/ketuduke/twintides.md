@@ -85,9 +85,9 @@ Both of the AOEs will snapshot at the same time as a set of bubbles.
 > ![](./example-out.png)
 </div>
 
-# Strategy
-
 -----
+
+# Strategy
 
 This mechanic is role based and does not require any flexing.
 
@@ -104,13 +104,15 @@ is when the stack resolves.
 This is not a castbar mechanic. Wait for the animation to finish before moving
 to the 2nd safe spot. You have time.
 
------
-
-{: .povs }
+{: .povs .mt-8 }
 {% collapse POVs %}
 > **Ranged POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=297&end=319" %}
+
+> **Melee POV**
+>
+> {% include youtube.html id="1S9rOdYsZao?start=208&end=236" %}
 {% endcollapse %}
 
 {% include next.html name="Adds" url="../adds/" %}
