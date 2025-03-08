@@ -86,3 +86,7 @@ Old Sharlayan, and traded for the upgraded weapons in Radz-at-han (10.9, 10.4).
 
 *Note: You must have unlocked Criterion (Savage) to see the Elevated Ester
 Augmentation menu.*
+
+## Changelog
+
+Changes can be found [Here](./changelog/).
