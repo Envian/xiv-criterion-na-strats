@@ -1,5 +1,5 @@
 {
-  "nextId": 1013,
+  "nextId": 1031,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -15,6 +15,54 @@
     {
       "objects": [
         {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 150,
+          "height": 600,
+          "rotation": 0,
+          "x": -75,
+          "y": 0,
+          "id": 1027
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 150,
+          "height": 600,
+          "rotation": 0,
+          "x": 225,
+          "y": 0,
+          "id": 1028
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 1029
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 1030
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
           "type": "enemy",
           "icon": "/actor/enemy_large.png",
           "name": "",
@@ -26,7 +74,7 @@
           "omniDirection": false,
           "x": 0,
           "y": 0,
-          "id": 654,
+          "id": 1013,
           "pinned": true
         },
         {
@@ -38,7 +86,7 @@
           "rotation": 0,
           "x": -74,
           "y": 75,
-          "id": 653
+          "id": 1014
         },
         {
           "type": "rect",
@@ -49,7 +97,7 @@
           "rotation": -90,
           "x": -75,
           "y": -245,
-          "id": 671
+          "id": 1015
         },
         {
           "type": "rect",
@@ -60,7 +108,7 @@
           "rotation": -90,
           "x": 221,
           "y": 226,
-          "id": 672
+          "id": 1016
         },
         {
           "type": "rect",
@@ -71,7 +119,7 @@
           "rotation": 0,
           "x": 215,
           "y": -87,
-          "id": 673
+          "id": 1017
         },
         {
           "type": "draw",
@@ -97,7 +145,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 674
+          "id": 1018
         },
         {
           "type": "draw",
@@ -121,7 +169,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 675
+          "id": 1019
         },
         {
           "type": "draw",
@@ -151,7 +199,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 676
+          "id": 1020
         },
         {
           "type": "draw",
@@ -177,7 +225,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 677
+          "id": 1021
         },
         {
           "type": "draw",
@@ -225,7 +273,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 895
+          "id": 1022
         },
         {
           "type": "draw",
@@ -267,7 +315,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 896
+          "id": 1023
         },
         {
           "type": "draw",
@@ -311,7 +359,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 897
+          "id": 1024
         },
         {
           "type": "draw",
@@ -357,7 +405,7 @@
           "brushSize": 8,
           "color": "#ffc800",
           "opacity": 100,
-          "id": 898
+          "id": 1025
         }
       ]
     },

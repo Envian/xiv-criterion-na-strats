@@ -94,6 +94,11 @@ other side, or in the death wall.
 
 # Strategy
 
+We will be starting with two players on each side of the *[cast]Angry Seas*
+split. The pair will solve their stack and spread on their side, and afterwards
+we'll have the **Ranged** player on the 1 tower side cross over to the other
+side.
+
 ## Stack and Spread
 
 {: .info }

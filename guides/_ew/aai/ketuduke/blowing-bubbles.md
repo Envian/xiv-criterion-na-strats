@@ -132,10 +132,10 @@ resolves first.
 > **![melee] Melee**
 > </div>
 >
-> **Ranged** will want to aim for the corner of their quadrant.
+> **Ranged** spread in the far corner of their quadrant.
 >
-> **Melee** can stay close to middle, but be sure to drop your 3rd puddle at
-> max melee in your quadrant.
+> **Melee** spread in max melee in their quadrant. Be sure to drop your 3rd
+> puddle at max melee.
 
 {: .fade-sides }
 ![](./spread-first-1.png)
@@ -145,7 +145,7 @@ resolves first.
 
 ![](./spread-first-2.png)
 
-> Move towards middle, and get ready to meet with your partners.
+> Move towards middle, and get ready to meet with your partner.
 >
 > **![tank]Tank** and **![ranged]Ranged** meet north. \\
 > **![healer]Healer** and **![melee]Melee** meet south.

@@ -75,8 +75,8 @@ and *![bubble]Bubble Weave* to the other.
 to all players, or *![fall]Hydrofall* to one role.
 
 *[cast]Fluke Gale* begins telegraphing a knockback with a number marker in each
-quadrant. This will only impact *![bubble]Bubble Weave* players, pushing them
-two squares in the shown direction. The quadrants with 1 will resolve first,
+quadrant. This will impact *![bubble]Bubble Weave* players and crystals, pushing
+them two squares in the shown direction. The quadrants with 1 will resolve first,
 followed by the 2 quadrants.
 
 *The 1 quadrant will always contain the horizontal (north/south) crystal, and
@@ -104,10 +104,6 @@ This mechanic is role based and does not require any flexing.
 
 * **[tank]Tank** and **[dps]Ranged DPS** North
 * **[healer]Healer** and **[dps]Melee DPS** South
-
-{: .demphasize }
-This guarantees one *![bubble]bubble* player and one *![foamy]sticky* player on
-each side, as well as a ranged and melee.
 
 Each player will resolve the mechanic on their half of the arena, depending on
 the debuff they received.

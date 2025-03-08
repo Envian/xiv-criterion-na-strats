@@ -42,6 +42,10 @@ hands near the middle. Each present will tether to a random player.
   and will also get a defamation marker.
 * One of the two Hand players will get a 2 person enumeration marker.
 
+A chains animation will display over both both *![chains]Chained* players before
+the debuff becomes active. After the animation finishes, the chains will lock
+in, the debuff will appear, and the defamation AOEs will appear.
+
 All 4 presents will begin approaching their tethered player. If the present
 reaches their player, they will be killed. Presents you are not tethered to are
 harmless.
@@ -110,7 +114,7 @@ Be sure to check the section after the quadrant assignments.**
 >
 > Identify your assigned color pair. Remember to take the marker furthest from
 > your missile. Stand directly middle with the other defamation player and wait
-> for *![chains]Chains* debuff to apply, and the defamation markers to appear.
+> for *![chains]Chains* debuff to apply, and the defamation markers to appear
 > before moving.
 >
 > Move directly to your assigned marker. If you need to adjust north, go to your

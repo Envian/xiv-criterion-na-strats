@@ -10,7 +10,7 @@ root: ..
 {% include defines.md %}
 
 {: .title }
-# Analysis
+# Arcane Blight
 
 # Cheat Sheet
 
