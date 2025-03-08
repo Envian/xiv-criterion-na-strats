@@ -79,10 +79,11 @@ quadrant. This will impact *![bubble]Bubble Weave* players and crystals, pushing
 them two squares in the shown direction. The quadrants with 1 will resolve first,
 followed by the 2 quadrants.
 
-*The 1 quadrant will always contain the horizontal (north/south) crystal, and
-the 2 quadrant will always contain the vertical (east/west) crystal. The 1
-quadrant always blows east or west, while the 2 quadrants always blow north and
-south.*
+* The 1 quadrant will always contain the horizontal (north/south) crystal and
+  blows east/west.
+* The 2 quadrant will always contain the vertical (east/west) crystal and blows
+  north/south.
+* The 1 quadrants are always in opposite corners. Same with the 2 quadrants.
 
 There are two possible patterns, which can be mirrored vertically or
 horizontally, but not rotated. These are named after the strategy used to find

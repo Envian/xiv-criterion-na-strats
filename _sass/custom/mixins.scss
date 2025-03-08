@@ -15,3 +15,7 @@
 blockquote.reset {
     @include blockquote-reset;
 }
+
+.box-shading {
+    @include box-shading;
+}
