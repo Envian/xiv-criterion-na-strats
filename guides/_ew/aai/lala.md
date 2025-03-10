@@ -32,7 +32,7 @@ root: .
 * [Analysis (Repeat)](./analysis/)
 * Strategic Strike (Tankbuster)
 * Inferno Theorem (Raidwide)
-* ??? (Enrage?)
+* Inferno Theorem (Enrage)
 
 ## Important Debuffs
 

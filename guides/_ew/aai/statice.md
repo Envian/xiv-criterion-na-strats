@@ -28,7 +28,7 @@ root: .
 * [Forced March 2](./forced-march-2/)
 * Areo IV (Raidwide)
 * Areo IV (Raidwide)
-* ??? Areo IV (Enrage)
+* Areo IV (Enrage)
 
 ## Important Debuffs
 
