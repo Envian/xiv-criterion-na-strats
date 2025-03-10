@@ -91,4 +91,8 @@ two categories:
 > **Stack then Spread Ranged POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=1307&end=1368" %}
+
+> **Spread then Stack Healer POV**
+>
+> {% include youtube.html id="iCoez-MVgdE" %}
 {% endcollapse %}

@@ -145,7 +145,11 @@ pairs of players. The two pairs will be
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=787&end=818" %}
 
-> **![alpha2]** **POV**
+> **![alpha2]** **POV (Paired with 1)**
+>
+> {% include youtube.html id="C7iSFnfoUfM" %}
+
+> **![alpha2]** **POV (Paired with 3)**
 >
 > {: .demphasize }
 > This player started almost too far from the mine.

@@ -111,6 +111,10 @@ the first.
 > **Spread POV**
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=1179&end=1213" %}
+
+> **Stack POV**
+>
+> {% include youtube.html id="JCnr3n7yxCw" %}
 {% endcollapse %}
 
 {% include next.html name="Intermission" url="../intermission/" %}

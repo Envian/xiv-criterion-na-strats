@@ -229,6 +229,14 @@ resolves first.
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=252&end=290" %}
 
+> **Stack First Healer POV**
+>
+> {% include youtube.html id="75xgB4TKB68" %}
+
+> **Stack First Tank POV**
+>
+> {% include youtube.html id="armMQGjLou4?start=76&end=116" %}
+
 > **Spread First Melee POV**
 >
 > Makes use of an alternative "Early Cross" strategy.

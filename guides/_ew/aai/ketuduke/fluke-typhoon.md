@@ -209,6 +209,14 @@ arena. **Ranged** players will flex to the other two towers.
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=378&end=425" %}
 
+> **Healer POV (Crossing)**
+>
+> {% include youtube.html id="lkvwwTO7ej0" %}
+
+> **Tank POV (Bubble Side)**
+>
+> {% include youtube.html id="armMQGjLou4?start=202&end=250" %}
+
 > **Melee POV (Crystal Side)**
 >
 > {% include youtube.html id="1S9rOdYsZao?start=294&end=343" %}

@@ -128,6 +128,10 @@ During the mechanic, **[boss]Lala** cast an *[cast]Arcane Array* and
 >
 > {% include youtube.html id="s4pvr3dA9nM?start=840&end=884" %}
 
+> **POV - 4 stacks**
+>
+> {% include youtube.html id="JMhfNFMXc0A" %}
+
 > **POV - 4 stacks (uptime)**
 >
 > {% include youtube.html id="1S9rOdYsZao?start=682&end=726" %}

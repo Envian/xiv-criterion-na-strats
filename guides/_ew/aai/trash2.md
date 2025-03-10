@@ -95,3 +95,10 @@ Follow the tank's lead.
 
 ![](./timeline-4.png)
 </div>
+
+{: .povs .mt-8 }
+{% collapse POVs %}
+> **Spread First Ranged POV**
+>
+> {% include youtube.html id="24kOKi7ayxM" %}
+{% endcollapse %}
