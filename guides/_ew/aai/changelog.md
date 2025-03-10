@@ -9,6 +9,10 @@ root: .
 
 {% include defines.md %}
 
+**March 9th, 2025**
+* Added notes on enrages / repeat trash mechs.
+* Added additional POVs
+
 **March 8th, 2025**
 * Added trash packs.
 * Rewrote Fluke Gale to better match PF strats.
