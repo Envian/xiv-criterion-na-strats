@@ -37,6 +37,7 @@ Mechanics always occur in the same order.
 * *[cast]Sharp Strike* is a heavy hitting tankbuster which also applies a
   dispellable bleed.
 * *[cast]Tail Screw* is a targeted circle AOE on the tank. This can be avoided.
+* Repeats the above until killed.
 
 ## Snipper
 
@@ -46,6 +47,7 @@ their target. Mechanics always occur in the same order.
 * *[cast]Water III* is a standard stack marker.
 * *[cast]Bubble Shower* is a small, 90° frontal cone.
 * *[cast]Crab Dribble* has a very quick cast. it is a small 90° rear cone.
+* Repeats the above until killed.
 
 ## Ray
 
@@ -55,6 +57,7 @@ Mechanics always occur in the same order.
 * *[cast]Expulsion* is a circular AOE centered on the Ray. It is slightly larger
   than max melee.
 * *[cast]Electric Whorl* is a large donut AOE, centered on the ray.
+* Repeats the above until killed.
 
 ## Monk
 
@@ -65,6 +68,7 @@ always occur in the same order.
   moderate damage and applying a painful bleed. Knockback immune works on this.
   *[cast]Hydroshot* will be cast 3 times in a row, once on each non-tank.
 * *[cast]Cross Attack* is a very hard hitting tankbuster.
+* Repeats the above until killed.
 
 {: .povs }
 {% collapse POVs %}
