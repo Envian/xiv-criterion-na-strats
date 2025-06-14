@@ -91,7 +91,7 @@ Shortly after the cast, the other debuff is applied with a longer timer.
 spawn one bubble each which slowly moves forward. Getting hit by a bubble is
 guaranteed death.
 
-{: .warning .two-thirds-width }
+{: .warning }
 The hitbox for the bubbles is infront of the bubble. While it is safe to touch
 its back, If you get anywhere near the front it will reach out with its little
 bubble hands and grab you.

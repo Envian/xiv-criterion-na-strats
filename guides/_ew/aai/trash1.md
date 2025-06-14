@@ -20,9 +20,9 @@ root: .
 After pulling the first add, tornados will spawn and move along the walls,
 dealing heavy damage and knocking players back. Even though the tornados are
 moving circular AOEs, there are no safe areas, so players must keep moving the
-nb entire time.
+entire time.
 
-Additionally, both the south west and north east corners are exactly the width
+Additionally, both the south west and north east cubbies are exactly the width
 of a tornado. If you go into one of these thin areas, a tornado will come in and
 kill you.
 
@@ -36,7 +36,8 @@ Mechanics always occur in the same order.
 * *[cast]Lead Hook* is a 3 hit tankbuster.
 * *[cast]Sharp Strike* is a heavy hitting tankbuster which also applies a
   dispellable bleed.
-* *[cast]Tail Screw* is a targeted circle AOE on the tank. This can be avoided.
+* *[cast]Tail Screw* is a small untelegraphed circular AOE targeting a player.
+  The Kiwakin will face the targeted area, so do not stand in front.
 * Repeats the above until killed.
 
 ## Snipper
