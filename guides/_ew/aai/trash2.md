@@ -12,8 +12,10 @@ root: .
 {: .title }
 # Trash Pack 2
 
-{: .float-right .third-width .min-small }
-![](./arena.png)
+{: .min-medium }
+{% figcap ./arena.png %}
+Entrance
+{% endfigcap %}
 
 ## Buffs
 

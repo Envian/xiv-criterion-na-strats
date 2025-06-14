@@ -69,8 +69,11 @@
 }
 
 .mechanics {
-    @include box-shading;
     @include mechanics-grid;
+
+    > * {
+        @include box-shading;
+    }
 
     > details.more {
         grid-column: 1 / span 2;

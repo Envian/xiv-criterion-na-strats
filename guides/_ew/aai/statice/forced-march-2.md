@@ -14,8 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-{: .float-right .floating-image }
-![](../common/slices.png)
+{% figure ../common/slices.png %}
 
 1. Stack or spread - no additional mechanics.
 2. Short March to Safe Wedge. Dodge Donuts.

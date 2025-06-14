@@ -1,0 +1,23 @@
+figure {
+    float: right;
+    width: 33%;
+    min-width: 9rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    line-height: 1;
+
+    img {
+        @include img-shading;
+    }
+
+    figcaption {
+        font-style: oblique;
+        font-size: 0.8em;
+        text-align: center;
+        line-height: 1.2;
+
+        > p {
+            margin: 0;
+        }
+    }
+}

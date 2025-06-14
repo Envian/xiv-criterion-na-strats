@@ -52,8 +52,7 @@ based on, and fully compatible with PF Pastebin strats.
 
 ## Rewards
 
-{: .floating-image .float-right .box-shading .pb-0 }
-![](./rewards/trisassant.png)
+{% figure ./rewards/trisassant.png %}
 
 Aloalo Coins and Aloalo Manuscripts can be exchanged for rewards in Old
 Sharlayan (12.0, 13.3), near the docks.
@@ -71,18 +70,22 @@ There are 3 unique rewards which can be purchased with Aloalo coins:
 
 ### Criterion (Savage)
 
+{% figcap ./rewards/forgottenfigure.png %}
+Forgotten Figure
+{% endfigcap %}
+
 Each clear of Criterion (Savage) rewards you with 1x Aloalo Manuscript, which
 can be traded for one of two unique items:
 
 * Forgotten Figure (Furniture Item)
 * Elevated Ester (Weapon upgrade Item)
 
-{: .floating-image .float-right .box-shading .pb-0 }
-![](./rewards/khaldeen.png)
+Elevated Ester can be used to upgrade the 660 tome weapons into 665 weapons,
+which adds a glow and has stats identical to the Anabasios raid weapons.
 
-Elevated Ester can be used to upgrade the 660 tome weapons from Anabaseios into
-665 weapons, with a glow. The tome weapons can be bought from the tome vendor in
-Old Sharlayan, and traded for the upgraded weapons in Radz-at-han (10.9, 10.4).
+The tome weapons can be bought from the tome vendor in Old Sharlayan or
+Radz-at-han. Upgrade the tome weapon using an elevated ester at the tome vendor
+(Khaldeen) in Radz-at-han (10.9, 10.4).
 
 *Note: You must have unlocked Criterion (Savage) to see the Elevated Ester
 Augmentation menu.*

@@ -4,6 +4,7 @@
 @import "./custom/components/columns.scss";
 @import "./custom/components/debuffs.scss";
 @import "./custom/components/details.scss";
+@import "./custom/components/figure.scss";
 @import "./custom/components/markers.scss";
 @import "./custom/components/mechanics.scss";
 @import "./custom/components/next.scss";
@@ -127,8 +128,11 @@ dl.compact {
     margin: auto;
 }
 
-.min-small {
+.min-medium {
     min-width: 15rem;
+}
+.min-small {
+    min-width: 7rem;
 }
 
 @media(width >= 740px) {

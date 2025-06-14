@@ -14,9 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-<div class="float-right third-width" markdown="1">
-![](./cheatsheet.png)
-</div>
+{% figure ./cheatsheet.png %}
 
 {: .mt-8 }
 **![tank]Tank** + **![ranged]Ranged** north -> clockwise.

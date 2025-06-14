@@ -65,11 +65,9 @@ deathwall. The 2nd *[cast]Hydrobullet* or *[cast]Hydrofall* will resolve shortly
 
 ## Towers
 
-{: .float-right .floating-image .mb-8 }
-> ![](./arena.png)
->
-> {: .text-center }
-> Arena with towers and crystals.
+{% figcap ./arena.png %}
+Arena with towers and crystals.
+{% endfigcap %}
 
 *[cast]Spring Crystals* will then Spawns 4 circular crystals on one side of the
 arena. These explode in a relatively small circular AOE at the end of the mechanic.

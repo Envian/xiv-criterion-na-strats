@@ -45,7 +45,6 @@ root: ..
 
 Two balloons will spawn, one east and one west, which will perform a knockback
 when popped. Additionally, a few darts will appear along the top of the arena.
-These darts cross the arena harmlessly, popping the baloons.
 
 {: .demphasize }
 The order the darts spawn determines which balloon will knockback first, however
@@ -61,12 +60,17 @@ This will resolve after *[cast]Trigger happy*, but before the following
 *[cast]Trapshooting*.
 
 During the *[cast]Trigger Happy* cast, about halfway through the cast, the first
-balloon will explode knocking players back a short distance. After
-*[cast]Trigger Happy* , the 2nd balloon will pop.
+dart will shoot across the room, popping the first baloon, knocking players back
+a short distance. After *[cast]Trigger Happy* , the 2nd balloon will pop.
 
 *![march]Forced March* will begin during when *[cast]Trapshooting* finishes
 casting, however the stack/spread will not shapshot until a couple seconds after
 the forced march.
+
+{: .warning }
+The darts are mostly harmless in normal mode, however in Savage they will do
+~20k damage each. Be sure to dodge the darts if possible, and the healer should
+top everyone off before the forced march.
 
 -----
 

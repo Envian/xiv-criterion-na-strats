@@ -14,7 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-<div class="md-float-right third-width min-small" markdown="1">
+<div class="md-float-right third-width min-medium" markdown="1">
 {: .text-center .m-0 }
 **Starting Spots**
 <div class="columns positions borderless" markdown="1">
@@ -59,11 +59,9 @@ root: ..
 
 # Mechanics
 
-{: .float-right .floating-image }
-> {: .text-center }
-> **Example Setup**
->
-> ![Example Arena](./arena-layout.png)
+{% figcap ./arena-layout.png %}
+Example Setup
+{% endfigcap %}
 
 *[cast]Spring Crystals* Spawns 4 crystals around the arena, one in each
 quadrant.

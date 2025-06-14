@@ -14,8 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-{: .float-right .floating-image }
-![](./cheatsheet.png)
+{% figure ./cheatsheet.png %}
 
 {: .mb-6 .text-center }
 Use the white sphere to orient yourself.

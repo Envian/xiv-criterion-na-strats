@@ -31,8 +31,8 @@ root: ..
 {: .info-title }
 > Unique Rotation marker
 >
-> {: .float-right .ml-4 style="width: MAX(20%, 7rem)" }
-> ![](../common/rotation.png)
+> {: min-small }
+> {% figure ../common/rotation.png %}
 >
 > This fight uses a unique rotation marker. It is animated, and will show the
 > direction of the rotation.

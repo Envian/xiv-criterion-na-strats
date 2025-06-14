@@ -35,11 +35,9 @@ root: ..
 
 # Mechanics
 
-{: .float-right .floating-image }
-> ![](./arena.png)
->
-> {: .text-center }
-> The Dartboard Arena
+{% figcap ./arena.png %}
+Dartboard Arena
+{% endfigcap %}
 
 Begins by setting up a *[cast]Trick Reload* - Only the first *[cast]Trapshooting*
 will resolve during Dartboard 1. The rest will resolve during Forced March 1.

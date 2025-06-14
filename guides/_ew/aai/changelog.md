@@ -9,6 +9,12 @@ root: .
 
 {% include defines.md %}
 
+**June 14th, 2025**
+* Added note on Symmetic Surge about swapping assigned spots.
+* Added note about avoidable damage during forced march 1.
+* Minor text adjustments.
+* Minor look & feel adjustments.
+
 **March 9th, 2025**
 * Added notes on enrages / repeat trash mechs.
 * Added additional POVs
