@@ -1,0 +1,883 @@
+{
+  "nextId": 130,
+  "arena": {
+    "shape": "circle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "none"
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 3
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -166,
+          "y": 0,
+          "id": 6
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": 100,
+          "id": 7
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 160,
+          "y": 180,
+          "id": 10
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 166,
+          "y": 0,
+          "id": 13
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": 0,
+          "id": 14
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 0,
+          "id": 15
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": 225,
+          "id": 16
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -160,
+          "y": 180,
+          "id": 17
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 160,
+          "y": -180,
+          "id": 18
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -160,
+          "y": -180,
+          "id": 19
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": 100,
+          "id": 20
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": -100,
+          "id": 21
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": -100,
+          "id": 22
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 23
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": -225,
+          "id": 24
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": -225,
+          "id": 25
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 26
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -166,
+          "y": 0,
+          "id": 27
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": 100,
+          "id": 28
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 160,
+          "y": 180,
+          "id": 29
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 166,
+          "y": 0,
+          "id": 30
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": 0,
+          "id": 31
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -160,
+          "y": 180,
+          "id": 34
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 160,
+          "y": -180,
+          "id": 35
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -160,
+          "y": -180,
+          "id": 36
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": 100,
+          "id": 37
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": -100,
+          "id": 38
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": -100,
+          "id": 39
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 40
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": -225,
+          "id": 41
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": -225,
+          "id": 42
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -117,
+          "y": -11,
+          "id": 43
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -121,
+          "y": 33,
+          "id": 44
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 116,
+          "y": 240,
+          "id": 45
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 118,
+          "y": 204,
+          "id": 46
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 31,
+          "height": 103,
+          "rotation": -90,
+          "arrowEnd": true,
+          "x": 46,
+          "y": 224,
+          "id": 47
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 31,
+          "height": 103,
+          "rotation": 90,
+          "arrowEnd": true,
+          "x": -52,
+          "y": 11,
+          "id": 48
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 115,
+          "x": -66,
+          "y": 225,
+          "id": 76
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 100,
+          "x": -66,
+          "y": -225,
+          "id": 77
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 100,
+          "x": 66,
+          "y": -225,
+          "id": 78
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 49
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 120,
+          "x": 0,
+          "y": 0,
+          "id": 67
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 68
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": -50,
+          "id": 71
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": -225,
+          "id": 72
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": -225,
+          "id": 73
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": 50,
+          "id": 74
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -166,
+          "y": -175,
+          "id": 84
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 166,
+          "y": 175,
+          "id": 85
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": 66,
+          "id": 86
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Solo Cloud",
+          "stroke": "#40352c",
+          "x": -64,
+          "y": 260,
+          "id": 128
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Starting\nSpot",
+          "stroke": "#40352c",
+          "x": 132,
+          "y": 194,
+          "id": 129
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 87
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 120,
+          "x": 0,
+          "y": 0,
+          "id": 88
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 89
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": -50,
+          "id": 90
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": -225,
+          "id": 91
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 66,
+          "y": -225,
+          "id": 92
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -225,
+          "y": 50,
+          "id": 93
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": -66,
+          "y": 225,
+          "id": 94
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -166,
+          "y": -175,
+          "id": 95
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 166,
+          "y": 175,
+          "id": 96
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 225,
+          "y": 66,
+          "id": 97
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": -66,
+          "y": -225,
+          "id": 98
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": 66,
+          "y": -225,
+          "id": 99
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 125,
+          "y": 236,
+          "id": 100
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 30,
+          "height": 150,
+          "rotation": -90,
+          "arrowEnd": true,
+          "x": 22,
+          "y": 232,
+          "id": 101
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 102
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 120,
+          "x": 0,
+          "y": 0,
+          "id": 103
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 104
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 175,
+          "y": -175,
+          "id": 112
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -250,
+          "y": 66,
+          "id": 113
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 240,
+          "x": 0,
+          "y": 0,
+          "id": 114
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Solo Cloud",
+          "stroke": "#40352c",
+          "x": -64,
+          "y": 260,
+          "id": 126
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Starting Spot",
+          "stroke": "#40352c",
+          "x": 227,
+          "y": 49,
+          "id": 127
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 115
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 120,
+          "x": 0,
+          "y": 0,
+          "id": 116
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -66,
+          "y": 225,
+          "id": 117
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": 175,
+          "y": -175,
+          "id": 118
+        },
+        {
+          "type": "circle",
+          "color": "#000000",
+          "opacity": 60,
+          "radius": 15,
+          "x": -250,
+          "y": 66,
+          "id": 119
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 200,
+          "height": 600,
+          "rotation": 240,
+          "x": 0,
+          "y": 0,
+          "id": 120
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 330,
+          "x": -66,
+          "y": 225,
+          "id": 121
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 244,
+          "y": 56,
+          "id": 123
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 30,
+          "height": 150,
+          "rotation": -34,
+          "arrowEnd": true,
+          "x": 183,
+          "y": 141,
+          "id": 124
+        }
+      ]
+    }
+  ]
+}

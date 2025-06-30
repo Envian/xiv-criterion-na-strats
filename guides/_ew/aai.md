@@ -11,7 +11,7 @@ nav_order: 1
 : 665
 
 **BIS**
-: Same bis as Anabaseos w/ Manderville relic weapons.
+: Same BIS as Anabaseos w/ Manderville relic weapons.
 
 The DPS check is very lenient, so synced down DT gear is more than enough.
 
