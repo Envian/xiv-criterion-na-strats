@@ -2,7 +2,7 @@
 layout: default
 title: Shishio
 parent: Another Mount Rokkon (WIP)
-nav_order: 3
+nav_order: 2
 has_toc: false
 root: .
 ---
@@ -30,9 +30,6 @@ root: .
 * [Stormcloud Summons 2 (Repeat)](./stormcloud-2/)
 * [Unnatrual Wail 2 (Repeat)](./unnatural-wail-2/)
 * Enkyo (Enrage)
-
-
-## Repeat Casts / Mechanics
 
 ## Important Debuffs
 

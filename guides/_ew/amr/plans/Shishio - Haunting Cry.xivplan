@@ -4,7 +4,7 @@
     "shape": "rectangle",
     "width": 600,
     "height": 600,
-    "padding": 120,
+    "padding": 20,
     "grid": {
       "type": "none"
     },

@@ -2,7 +2,7 @@
 layout: default
 title: Trash Pack 1
 parent: Another Mount Rokkon (WIP)
-nav_order: 2
+nav_order: 1
 has_toc: false
 root: .
 ---

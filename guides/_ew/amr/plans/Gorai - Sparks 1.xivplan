@@ -1,0 +1,1182 @@
+{
+  "nextId": 152,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "rectangle",
+      "rows": 8,
+      "columns": 8
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": -75,
+          "y": 0,
+          "id": 52,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": 75,
+          "y": 0,
+          "id": 53,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 54,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 55,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": -75,
+          "y": -225,
+          "id": 56
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": 75,
+          "y": 225,
+          "id": 57
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": 150,
+          "y": 0,
+          "id": 58
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": -150,
+          "y": 0,
+          "id": 59
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": 225,
+          "y": -150,
+          "id": 60
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 70,
+          "x": -225,
+          "y": 150,
+          "id": 61
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 90,
+          "x": -75,
+          "y": 0,
+          "id": 11,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 90,
+          "x": 75,
+          "y": 0,
+          "id": 12,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 13,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 14,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": -75,
+          "y": -225,
+          "id": 15,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": 75,
+          "y": 225,
+          "id": 16,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": 150,
+          "y": 0,
+          "id": 17,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": -150,
+          "y": 0,
+          "id": 18,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": 225,
+          "y": -150,
+          "id": 19,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 165,
+          "x": -225,
+          "y": 150,
+          "id": 20,
+          "pinned": true
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 90,
+          "x": -37,
+          "y": 0,
+          "id": 21,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 90,
+          "x": 37,
+          "y": 0,
+          "id": 22,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": -38,
+          "id": 23,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": -188,
+          "id": 24,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": 38,
+          "id": 31,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": 188,
+          "id": 32,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 90,
+          "x": 188,
+          "y": 0,
+          "id": 34,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 90,
+          "x": -188,
+          "y": 0,
+          "id": 35,
+          "pinned": true
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": -75,
+          "y": -225,
+          "id": 46
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": -150,
+          "y": 0,
+          "id": 47
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": 75,
+          "y": 225,
+          "id": 48
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": 150,
+          "y": 0,
+          "id": 49
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": 225,
+          "y": -150,
+          "id": 50
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 75,
+          "radius": 240,
+          "x": -225,
+          "y": 150,
+          "id": 51
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -67,
+          "y": 180,
+          "id": 82
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -69,
+          "y": -149,
+          "id": 83
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 0,
+          "y": 180,
+          "id": 84
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -4,
+          "y": -149,
+          "id": 85
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": 14,
+          "y": 199,
+          "id": 86
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": -55,
+          "y": 204,
+          "id": 87
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 30,
+          "height": 150,
+          "rotation": 0,
+          "arrowEnd": true,
+          "x": -3,
+          "y": 64,
+          "id": 88
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 30,
+          "height": 150,
+          "rotation": 180,
+          "arrowEnd": true,
+          "x": -3,
+          "y": -36,
+          "id": 89
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 90,
+          "text": "DPS Flex",
+          "stroke": "#40352c",
+          "x": 15,
+          "y": 14,
+          "id": 90
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 135,
+          "y": 148,
+          "id": 91
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -177,
+          "y": -149,
+          "id": 92
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -125,
+          "y": -169,
+          "id": 93
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 195,
+          "y": 149,
+          "id": 94
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": -111,
+          "y": -153,
+          "id": 95
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": 150,
+          "y": 166,
+          "id": 96
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": -225,
+          "y": -75,
+          "id": 98
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": 225,
+          "y": 75,
+          "id": 99
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": 0,
+          "y": 150,
+          "id": 100
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": 0,
+          "y": -150,
+          "id": 101
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": 150,
+          "y": -225,
+          "id": 102
+        },
+        {
+          "type": "circle",
+          "color": "#bae3ff",
+          "opacity": 100,
+          "radius": 15,
+          "x": -150,
+          "y": 225,
+          "id": 103
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "plain",
+          "rotation": 0,
+          "text": "Safe Rock",
+          "stroke": "#40352c",
+          "x": -223,
+          "y": -47,
+          "id": 110
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "plain",
+          "rotation": 0,
+          "text": "Safe Rock",
+          "stroke": "#40352c",
+          "x": 229,
+          "y": 41,
+          "id": 111
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": -75,
+          "y": 0,
+          "id": 62,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": 75,
+          "y": 0,
+          "id": 63,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 64,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 65,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": -225,
+          "y": -75,
+          "id": 112
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 225,
+          "y": 75,
+          "id": 113
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 0,
+          "y": 150,
+          "id": 114
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 0,
+          "y": -150,
+          "id": 115
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 150,
+          "y": -225,
+          "id": 116
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": -150,
+          "y": 225,
+          "id": 117
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "plain",
+          "rotation": 0,
+          "text": "Safe Rock",
+          "stroke": "#40352c",
+          "x": -223,
+          "y": -47,
+          "id": 118
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "plain",
+          "rotation": 0,
+          "text": "Safe Rock",
+          "stroke": "#40352c",
+          "x": 229,
+          "y": 41,
+          "id": 119
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 135,
+          "y": 148,
+          "id": 120
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -177,
+          "y": -149,
+          "id": 121
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -125,
+          "y": -169,
+          "id": 122
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 195,
+          "y": 149,
+          "id": 123
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": -111,
+          "y": -153,
+          "id": 124
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": 150,
+          "y": 166,
+          "id": 125
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": -75,
+          "y": 0,
+          "id": 126,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 75,
+          "height": 600,
+          "rotation": 0,
+          "x": 75,
+          "y": 0,
+          "id": 127,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 128,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 600,
+          "height": 75,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 129,
+          "pinned": true
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": -225,
+          "y": -75,
+          "id": 130
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 225,
+          "y": 75,
+          "id": 131
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 0,
+          "y": 150,
+          "id": 132
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 0,
+          "y": -150,
+          "id": 133
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": 150,
+          "y": -225,
+          "id": 134
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 75,
+          "x": -150,
+          "y": 225,
+          "id": 135
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 135,
+          "y": 148,
+          "id": 138
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -177,
+          "y": -149,
+          "id": 139
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -125,
+          "y": -169,
+          "id": 140
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 195,
+          "y": 149,
+          "id": 141
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": -111,
+          "y": -153,
+          "id": 142
+        },
+        {
+          "type": "icon",
+          "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
+          "width": 24,
+          "height": 32,
+          "rotation": 0,
+          "opacity": 100,
+          "name": "Live Brazier",
+          "iconId": 216737,
+          "maxStacks": 0,
+          "x": 150,
+          "y": 166,
+          "id": 143
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "height": 75,
+          "rotation": 0,
+          "x": -225,
+          "y": -262,
+          "id": 144
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 150,
+          "height": 75,
+          "rotation": 0,
+          "x": 225,
+          "y": 262,
+          "id": 145
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Safe\n(Grow)",
+          "stroke": "#40352c",
+          "x": -227,
+          "y": -263,
+          "id": 146
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Safe\n(Grow)",
+          "stroke": "#40352c",
+          "x": 223,
+          "y": 263,
+          "id": 147
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 75,
+          "height": 75,
+          "rotation": 0,
+          "x": 262,
+          "y": 112,
+          "id": 148
+        },
+        {
+          "type": "rect",
+          "color": "#00d5e8",
+          "opacity": 35,
+          "width": 75,
+          "height": 75,
+          "rotation": 0,
+          "x": -262,
+          "y": -112,
+          "id": 149
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Safe\n(Split)",
+          "stroke": "#40352c",
+          "x": 265,
+          "y": 115,
+          "id": 150
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Safe\n(Split)",
+          "stroke": "#40352c",
+          "x": -264,
+          "y": -115,
+          "id": 151
+        }
+      ]
+    }
+  ]
+}

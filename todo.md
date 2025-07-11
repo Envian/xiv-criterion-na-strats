@@ -2,6 +2,10 @@
 * POVs for Rokkon
     - Trash 2 - safe spot indicator for the 3 marker.
     - Shishio - Spread for yolo ghosts.
+    - Shishio - Need to fix rings pattern (Along wall is valid pattern)
+    - Gorai - Need a bad pattern for Rousing Reincarnation 1\
+    - Gorai - Need 4 pattern POV for jumps
+* Need better images of the grow/split pattern for Gorai
 
 # Research
 * Are the dodges for Shishio - Stormcloud 1 2+3 suck always the same direction?

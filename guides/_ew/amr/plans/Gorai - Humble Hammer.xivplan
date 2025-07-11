@@ -1,0 +1,631 @@
+{
+  "nextId": 261,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "rectangle",
+      "rows": 8,
+      "columns": 8
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": 225,
+          "id": 177
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": 225,
+          "id": 178
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": -225,
+          "id": 179
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": -225,
+          "id": 180
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -75,
+          "y": -150,
+          "id": 181
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 150,
+          "y": 75,
+          "id": 182
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -225,
+          "y": 225,
+          "id": 183
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": 225,
+          "id": 184
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": -225,
+          "id": 185
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -225,
+          "y": -225,
+          "id": 186
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -75,
+          "y": -150,
+          "id": 187
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 150,
+          "y": 75,
+          "id": 188
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": 225,
+          "id": 189
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": 225,
+          "id": 190
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": -225,
+          "id": 191
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": -225,
+          "id": 192
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -75,
+          "y": -150,
+          "id": 193
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 150,
+          "y": 75,
+          "id": 194
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -204,
+          "y": 230,
+          "id": 219
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -102,
+          "y": 107,
+          "id": 220
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 221
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -54,
+          "y": 116,
+          "id": 222
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -79,
+          "y": 278,
+          "id": 223
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 120,
+          "x": -225,
+          "y": 225,
+          "id": 224
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": 225,
+          "id": 225
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": -225,
+          "id": 226
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -225,
+          "y": -225,
+          "id": 227
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -75,
+          "y": -150,
+          "id": 228
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 150,
+          "y": 75,
+          "id": 229
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": 225,
+          "id": 230
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": 225,
+          "id": 231
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": -225,
+          "id": 232
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": -225,
+          "id": 233
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -75,
+          "y": -150,
+          "id": 234
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 150,
+          "y": 75,
+          "id": 235
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -198,
+          "y": 215,
+          "id": 236
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -102,
+          "y": 108,
+          "id": 237
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 238
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -54,
+          "y": 116,
+          "id": 239
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -79,
+          "y": 278,
+          "id": 240
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 20,
+          "height": 75,
+          "rotation": 140,
+          "arrowEnd": true,
+          "x": -158,
+          "y": 165,
+          "id": 241
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 120,
+          "x": -225,
+          "y": 225,
+          "id": 242
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": 225,
+          "id": 243
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 225,
+          "y": -225,
+          "id": 244
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -225,
+          "y": -225,
+          "id": 245
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": -75,
+          "y": -150,
+          "id": 246
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 270,
+          "x": 150,
+          "y": 75,
+          "id": 247
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": 225,
+          "id": 248
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": 225,
+          "id": 249
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 225,
+          "y": -225,
+          "id": 250
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -225,
+          "y": -225,
+          "id": 251
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": -75,
+          "y": -150,
+          "id": 252
+        },
+        {
+          "type": "circle",
+          "color": "#0066ff",
+          "opacity": 75,
+          "radius": 15,
+          "x": 150,
+          "y": 75,
+          "id": 253
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -136,
+          "y": 137,
+          "id": 254
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -122,
+          "y": 127,
+          "id": 255
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 256
+        },
+        {
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -81,
+          "y": 247,
+          "id": 257
+        },
+        {
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -79,
+          "y": 278,
+          "id": 258
+        },
+        {
+          "type": "line",
+          "color": "#ff0000",
+          "opacity": 35,
+          "width": 100,
+          "length": 500,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 260
+        }
+      ]
+    }
+  ]
+}

@@ -54,12 +54,22 @@
     }
 
     // Images
-    > p:has(:first-child:is(img)) {
+    > p:has(:first-child:is(img)), .mechanic-image {
         padding: 0;
         display: flex;
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        border-left: $border $border-color;
+    }
+
+    .mechanic-image > p {
+        margin: 0;
+        line-height: 1;
+    }
+
+    .mechanic-image {
+        padding-bottom: 1rem;
     }
 
     // Last Rows

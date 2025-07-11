@@ -18,6 +18,7 @@ These are hidden by default, and clearly labeled as non-standard.
 
 # Fights
 
+## [Another Mount Rokkon](./amr/)
 ## [Another Aloalo Island](./aai/)
 
 # Contributing
