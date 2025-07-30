@@ -1,0 +1,166 @@
+{
+  "nextId": 18,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "none"
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 1
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 100,
+          "x": 0,
+          "y": 0,
+          "id": 2
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 600,
+          "coneAngle": 270,
+          "rotation": 90,
+          "x": 0,
+          "y": 0,
+          "id": 3
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 4
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 600,
+          "x": 0,
+          "y": 0,
+          "id": 8
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 600,
+          "coneAngle": 270,
+          "rotation": 180,
+          "x": 0,
+          "y": 0,
+          "id": 6
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 90,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 9
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 100,
+          "x": 0,
+          "y": 0,
+          "id": 12
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 600,
+          "coneAngle": 90,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 13
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 600,
+          "coneAngle": 90,
+          "rotation": 180,
+          "x": 0,
+          "y": 0,
+          "id": 14
+        },
+        {
+          "type": "arrow",
+          "color": "#00d5e8",
+          "opacity": 100,
+          "width": 30,
+          "height": 107,
+          "rotation": 90,
+          "arrowEnd": true,
+          "x": 4,
+          "y": -72,
+          "id": 15
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#ffffff",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Shorter distance \nthan across middle.",
+          "stroke": "#40352c",
+          "x": 9,
+          "y": -131,
+          "id": 16
+        }
+      ]
+    }
+  ]
+}

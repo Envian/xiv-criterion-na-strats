@@ -1,0 +1,394 @@
+{
+  "nextId": 37,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "none"
+    },
+    "backgroundImage": "http://localhost:4000/amr/moko/common/arena.png"
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 150,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 1
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 150,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 2
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": 150,
+          "id": 3
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 150,
+          "rotation": 0,
+          "x": 0,
+          "y": -150,
+          "id": 4
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 5
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 6
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": 150,
+          "id": 7
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": -150,
+          "id": 8
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 9
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": 0,
+          "x": 0,
+          "y": -150,
+          "id": 10
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 11
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 12
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": 150,
+          "id": 13
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": -150,
+          "id": 14
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": 45,
+          "x": 0,
+          "y": 0,
+          "id": 15
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": 0,
+          "x": 0,
+          "y": -150,
+          "id": 16
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_medium.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 50,
+          "status": [],
+          "rotation": -45,
+          "ring": "dir",
+          "x": 294,
+          "y": 275,
+          "id": 18
+        },
+        {
+          "type": "cone",
+          "color": "#ff0000",
+          "opacity": 35,
+          "radius": 300,
+          "coneAngle": 270,
+          "rotation": 50,
+          "x": 293,
+          "y": 278,
+          "id": 20
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 256,
+          "y": 248,
+          "id": 21
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 95,
+          "y": 256,
+          "id": 22
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 185,
+          "y": 175,
+          "id": 23
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 251,
+          "y": 106,
+          "id": 24
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 26
+        },
+        {
+          "type": "rect",
+          "color": "#ff0000",
+          "opacity": 100,
+          "width": 1000,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": 150,
+          "id": 27
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": -45,
+          "x": 0,
+          "y": 0,
+          "id": 29
+        },
+        {
+          "type": "rect",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 1000,
+          "height": 450,
+          "rotation": 0,
+          "x": 0,
+          "y": 150,
+          "id": 30
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_medium.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 50,
+          "status": [],
+          "rotation": 191,
+          "ring": "dir",
+          "x": 233,
+          "y": -108,
+          "id": 31
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 196,
+          "y": -212,
+          "id": 33
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 170,
+          "y": -228,
+          "id": 34
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 255,
+          "y": -143,
+          "id": 35
+        },
+        {
+          "type": "party",
+          "image": "/actor/any.png",
+          "name": "Any player",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 277,
+          "y": -112,
+          "id": 36
+        }
+      ]
+    }
+  ]
+}

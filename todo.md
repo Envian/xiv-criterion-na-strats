@@ -5,6 +5,8 @@
     - Shishio - Need to fix rings pattern (Along wall is valid pattern)
     - Gorai - Need a bad pattern for Rousing Reincarnation 1\
     - Gorai - Need 4 pattern POV for jumps
+    - Moko - Need POV of scarlet with tether.
+    - Moko - Need uptime POV for melee.
 * Need better images of the grow/split pattern for Gorai
 
 # Research

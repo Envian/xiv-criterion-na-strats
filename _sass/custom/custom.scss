@@ -128,6 +128,29 @@ dl.compact {
     margin: auto;
 }
 
+.even-line {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    gap: 1rem;
+    padding: 1rem 0;
+}
+
+.paired {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    > * {
+        width: 50%;
+        display: inline;
+    }
+
+    &.gap > * {
+        padding: 0.2rem;
+    }
+}
+
 .min-medium {
     min-width: 15rem;
 }

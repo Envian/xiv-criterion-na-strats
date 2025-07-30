@@ -37,6 +37,13 @@
         }
     }
 
+    &.collapse {
+        > * {
+            grid-row-start: auto;
+            grid-column-start: 1;
+        }
+    }
+
     &.collapse-sm {
         @media(width < 500px) {
             > * {
