@@ -24,6 +24,9 @@ callouts:
   warning:
     title: Warning
     color: yellow
+  uptime:
+    title: Uptime Strategy
+    color: red
 
 collections:
   ew:

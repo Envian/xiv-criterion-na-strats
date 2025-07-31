@@ -8,7 +8,7 @@
     "grid": {
       "type": "none"
     },
-    "backgroundImage": "http://localhost:4000/amr/moko/common/arena.png"
+    "backgroundImage": "https://criterion.envian.net/amr/moko/common/arena.png"
   },
   "steps": [
     {
@@ -140,12 +140,12 @@
           "id": 45
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark D",
           "image": "/marker/waymark_d.png",
           "shape": "circle",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -154,12 +154,12 @@
           "id": 50
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark A",
           "image": "/marker/waymark_a.png",
           "shape": "circle",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -168,12 +168,12 @@
           "id": 51
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark B",
           "image": "/marker/waymark_b.png",
           "shape": "circle",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -182,12 +182,12 @@
           "id": 52
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark C",
           "image": "/marker/waymark_c.png",
           "shape": "circle",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -196,12 +196,12 @@
           "id": 54
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 3",
           "image": "/marker/waymark_3.png",
           "shape": "square",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -210,12 +210,12 @@
           "id": 55
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 4",
           "image": "/marker/waymark_4.png",
           "shape": "square",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -224,12 +224,12 @@
           "id": 56
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 2",
           "image": "/marker/waymark_2.png",
           "shape": "square",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -238,12 +238,12 @@
           "id": 57
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 1",
           "image": "/marker/waymark_1.png",
           "shape": "square",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -252,52 +252,52 @@
           "id": 58
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -196,
           "y": 54,
           "id": 74
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -232,
           "y": 35,
           "id": 75
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 213,
           "y": -37,
           "id": 76
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 254,
           "y": -61,
@@ -416,29 +416,29 @@
           "id": 89
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Rotate\n(If hands spawn E/W)",
-          "stroke": "#40352c",
           "x": -201,
           "y": 264,
           "id": 90
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Rotate\n(If hands spawn E/W)",
-          "stroke": "#40352c",
           "x": 173,
           "y": -259,
           "id": 91
@@ -532,12 +532,12 @@
           "id": 65
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark D",
           "image": "/marker/waymark_d.png",
           "shape": "circle",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -546,12 +546,12 @@
           "id": 66
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark A",
           "image": "/marker/waymark_a.png",
           "shape": "circle",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -560,12 +560,12 @@
           "id": 67
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark B",
           "image": "/marker/waymark_b.png",
           "shape": "circle",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -574,12 +574,12 @@
           "id": 68
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark C",
           "image": "/marker/waymark_c.png",
           "shape": "circle",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -588,12 +588,12 @@
           "id": 69
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 3",
           "image": "/marker/waymark_3.png",
           "shape": "square",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -602,12 +602,12 @@
           "id": 70
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 4",
           "image": "/marker/waymark_4.png",
           "shape": "square",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -616,12 +616,12 @@
           "id": 71
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 2",
           "image": "/marker/waymark_2.png",
           "shape": "square",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -630,12 +630,12 @@
           "id": 72
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 1",
           "image": "/marker/waymark_1.png",
           "shape": "square",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -644,52 +644,52 @@
           "id": 73
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -279,
           "y": 1,
           "id": 82
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -185,
           "y": -1,
           "id": 83
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 185,
           "y": 2,
           "id": 84
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 281,
           "y": -1,
@@ -903,15 +903,15 @@
           "id": 102
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffc800",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Far Edge",
-          "stroke": "#40352c",
           "x": -1,
           "y": -1,
           "id": 103
@@ -1003,12 +1003,12 @@
           "id": 112
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark D",
           "image": "/marker/waymark_d.png",
           "shape": "circle",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1017,12 +1017,12 @@
           "id": 113
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark A",
           "image": "/marker/waymark_a.png",
           "shape": "circle",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1031,12 +1031,12 @@
           "id": 114
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark B",
           "image": "/marker/waymark_b.png",
           "shape": "circle",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1045,12 +1045,12 @@
           "id": 115
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark C",
           "image": "/marker/waymark_c.png",
           "shape": "circle",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1059,12 +1059,12 @@
           "id": 116
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 3",
           "image": "/marker/waymark_3.png",
           "shape": "square",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1073,12 +1073,12 @@
           "id": 117
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 4",
           "image": "/marker/waymark_4.png",
           "shape": "square",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1087,12 +1087,12 @@
           "id": 118
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 2",
           "image": "/marker/waymark_2.png",
           "shape": "square",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1101,12 +1101,12 @@
           "id": 119
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 1",
           "image": "/marker/waymark_1.png",
           "shape": "square",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1115,52 +1115,52 @@
           "id": 120
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -279,
           "y": 1,
           "id": 194
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -227,
           "y": -2,
           "id": 195
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 223,
           "y": -1,
           "id": 196
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 281,
           "y": -1,
@@ -1299,12 +1299,12 @@
           "id": 199
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215003_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Bind",
           "iconId": 215003,
           "maxStacks": 0,
@@ -1313,12 +1313,12 @@
           "id": 135
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/215000/215003_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Bind",
           "iconId": 215003,
           "maxStacks": 0,
@@ -1345,12 +1345,12 @@
           "id": 171
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark D",
           "image": "/marker/waymark_d.png",
           "shape": "circle",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1359,12 +1359,12 @@
           "id": 176
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark A",
           "image": "/marker/waymark_a.png",
           "shape": "circle",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1373,12 +1373,12 @@
           "id": 177
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark B",
           "image": "/marker/waymark_b.png",
           "shape": "circle",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1387,12 +1387,12 @@
           "id": 178
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark C",
           "image": "/marker/waymark_c.png",
           "shape": "circle",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1401,12 +1401,12 @@
           "id": 179
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 3",
           "image": "/marker/waymark_3.png",
           "shape": "square",
           "color": "#65b3ea",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1415,12 +1415,12 @@
           "id": 180
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 4",
           "image": "/marker/waymark_4.png",
           "shape": "square",
           "color": "#e291e6",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1429,12 +1429,12 @@
           "id": 181
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 2",
           "image": "/marker/waymark_2.png",
           "shape": "square",
           "color": "#e1dc5d",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1443,12 +1443,12 @@
           "id": 182
         },
         {
+          "opacity": 100,
           "type": "marker",
           "name": "Waymark 1",
           "image": "/marker/waymark_1.png",
           "shape": "square",
           "color": "#f13b66",
-          "opacity": 100,
           "width": 42,
           "height": 42,
           "rotation": 0,
@@ -1525,52 +1525,52 @@
           "id": 205
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -177,
           "y": 9,
           "id": 206
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -167,
           "y": -12,
           "id": 207
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 214,
           "y": -36,
           "id": 208
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 241,
           "y": -57,

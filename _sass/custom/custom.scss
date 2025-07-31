@@ -16,8 +16,13 @@ hr {
     width: 100%;
 }
 
-.clear {
+.clear, h1, h2, h3, h4, h5, h6 {
     clear: both;
+}
+
+.flex-vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 .buff-title {

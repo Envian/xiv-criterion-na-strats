@@ -1,0 +1,109 @@
+{
+  "nextId": 441,
+  "arena": {
+    "shape": "rectangle",
+    "width": 300,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "none"
+    },
+    "backgroundImage": ""
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#6f5a48",
+          "opacity": 100,
+          "width": 62,
+          "height": 20,
+          "rotation": 0,
+          "x": 0,
+          "y": -310,
+          "id": 330,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#6f5a48",
+          "opacity": 100,
+          "width": 62,
+          "height": 20,
+          "rotation": 0,
+          "x": 0,
+          "y": 310,
+          "id": 331,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#40352c",
+          "opacity": 100,
+          "width": 60,
+          "height": 20,
+          "rotation": 0,
+          "x": 0,
+          "y": -310,
+          "id": 329,
+          "pinned": true
+        },
+        {
+          "type": "rect",
+          "color": "#40352c",
+          "opacity": 100,
+          "width": 60,
+          "height": 20,
+          "rotation": 0,
+          "x": 0,
+          "y": 310,
+          "id": 332,
+          "pinned": true
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -123,
+          "y": -274,
+          "id": 438
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -122,
+          "y": 50,
+          "id": 439
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -60,
+          "y": 210,
+          "id": 440
+        }
+      ]
+    }
+  ]
+}

@@ -9,11 +9,14 @@
     - Moko - Need uptime POV for melee.
 * Need better images of the grow/split pattern for Gorai
 
-# Research
-* Are the dodges for Shishio - Stormcloud 1 2+3 suck always the same direction?
-* Sormcloud 1 - 3 suck - is there a reliable melee uptime strat?
-
 # Other TODOs
 * Animations for mechanics that would benefit from it
 * Better diagram for Shisho Noble Pursuit. Current rings are not very accurate.
 * Need AMR Waymarks
+
+
+# Pass 2
+
+## Trash 2
+- Need better screenshots of 2 and 3 becoming safe.
+- Need birds eye view of 3 marker.

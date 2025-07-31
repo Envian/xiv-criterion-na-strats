@@ -7,7 +7,8 @@
     "padding": 20,
     "grid": {
       "type": "none"
-    }
+    },
+    "backgroundImage": "https://criterion.envian.net/amr/moko/common/arena.png"
   },
   "steps": [
     {
@@ -147,15 +148,15 @@
           "id": 15
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Shorter distance \nthan across middle.",
-          "stroke": "#40352c",
           "x": 9,
           "y": -131,
           "id": 16

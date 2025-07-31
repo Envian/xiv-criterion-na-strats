@@ -28,13 +28,28 @@ based on, and fully compatible with PF Pastebin strats.
 
 {: .fights }
 * **[Trash Pack 1](./trash1/)**
-* **[Ketuduke](./ketuduke/)**
-    * [Fluke Gale](./ketuduke/fluke-gale/)
+* **[Shishio](./shishio/)**
+    * [Stormcloud Summons 1](./shishio/stormcloud-1/)
+    * [Noble Pursuit](./shishio/noble-pursuit)
+    * [Unnatrual Wail 1](./shishio/unnatural-wail-1/)
+    * [Stormcloud Summons 2](./shishio/stormcloud-2/)
+    * [Unnatrual Wail 2](./shishio/unnatural-wail-2/)
+    * [Haunting Cry](./shishio/haunting-cry/)
 * **[Trash Pack 2](./trash2/)**
-* **[Lala](./lala/)**
-    * [Arcane Blight](./lala/arcane-blight/)
-* **[Statice](./statice/)**
-    * [Trick Reload](./statice/trick-reload/)
+* **[Gorai the Uncaged](./gorai/)**
+    * [Seal of Scurrying Sparks 1](./gorai/sparks-1/)
+    * [Impure Purgation](./gorai/purgation/)
+    * [Humble Hammer](./gorai/humble-hammer/)
+    * [Rousing Reincarnation](./gorai/rousing-reincarnation/)
+    * [Exaflares (Sparks 2)](./gorai/sparks-2/)
+    * [Fighting Spirits](./gorai/fighting-spirits/)
+    * [Malformed Reincarnation](./gorai/malformed-reincarnation/)
+* **[Moko the Restless](./moko/)**
+    * [Tripple Kasumi-giri](./moko/kasumi-giri/)
+    * [Scarlet Auspice](./moko/scarlet-auspice/)
+    * [Shadow Twin](./moko/shadow-twin/)
+    * [Azure Auspice](./moko/azure-auspice/)
+    * [Soldiers of Death](./moko/soldiers-of-death/)
 
 ## Rewards
 

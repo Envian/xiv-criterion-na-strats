@@ -8,7 +8,7 @@
     "grid": {
       "type": "none"
     },
-    "backgroundImage": "http://localhost:4000/amr/moko/common/arena.png"
+    "backgroundImage": "https://criterion.envian.net/amr/moko/common/arena.png"
   },
   "steps": [
     {
