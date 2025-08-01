@@ -21,7 +21,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./scarlet-lines.png %}
+{% figcap scarlet-lines.png %}
 *[cast]Boundless Scarlet* line AOEs.
 {% endfigcap %}
 
@@ -54,7 +54,7 @@ During the cast of *[cast]Fleeting Iai-giri*, two of the lines on the ground
 will begin to grow. These will become large AOEs, which will leave only one
 corner of the arena safe.
 
-{% figcap ./scarlet-safe-spot.png  %}
+{% figcap scarlet-safe-spot.png  %}
 Example Safe area for resolving the growing lines on the ground. Note the
 other set of lines are completely safe.
 {% endfigcap %}

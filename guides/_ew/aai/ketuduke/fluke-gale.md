@@ -59,7 +59,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arena-layout.png %}
+{% figcap arena-layout.png %}
 Example Setup
 {% endfigcap %}
 

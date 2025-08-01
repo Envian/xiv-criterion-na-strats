@@ -46,7 +46,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arena-initial.png %}
+{% figcap arena-initial.png %}
 Arena, with example exaflares.
 {% endfigcap %}
 

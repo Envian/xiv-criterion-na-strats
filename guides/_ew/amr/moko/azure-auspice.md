@@ -14,7 +14,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./azure-lines.png %}
+{% figcap azure-lines.png %}
 Line AOEs for *[cast]Boundless Azure*.
 {% endfigcap %}
 
@@ -55,7 +55,7 @@ last dodge.
 
 # Strategy
 
-{% figcap ./magic-pixel.png %}
+{% figcap magic-pixel.png %}
 The magic pixel. *[cast]Boundless Azure* AOEs are shown.
 {% endfigcap %}
 

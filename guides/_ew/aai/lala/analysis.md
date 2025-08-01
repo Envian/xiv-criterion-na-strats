@@ -28,7 +28,7 @@ root: ..
 
 # Mechanics
 
-{% figure ./arena.png %}
+{% figure arena.png %}
 
 Opens with *[cast]Analysis*, granting each player a random *![unseen]unseen*
 debuff. This is identical to *Mustadio* from the Stormblood alliance raid. The

@@ -71,6 +71,10 @@ dl.compact {
     margin-bottom: 1rem;
 }
 
+img.shade {
+    @include img-shading;
+}
+
 .fade-sides {
     // position: relative;
 

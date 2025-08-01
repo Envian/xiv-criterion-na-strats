@@ -3,6 +3,7 @@ layout: default
 title: Another Mount Rokkon (WIP)
 has_toc: false
 nav_order: 2
+root: .
 ---
 
 # Another Mount Rokkon
@@ -53,7 +54,7 @@ based on, and fully compatible with PF Pastebin strats.
 
 ## Rewards
 
-{% figure ./rewards/trisassant.png %}
+{% figure rewards/trisassant.png %}
 
 Shishu Coins and Rokkon Manuscripts can be exchanged for rewards in Old
 Sharlayan (12.0, 13.3), near the docks.
@@ -72,7 +73,7 @@ There are 3 unique rewards which can be purchased with Shishu coins:
 
 ### Criterion (Savage)
 
-{% figcap ./rewards/oyoroi.png %}
+{% figcap rewards/oyoroi.png %}
 Oyoroi Display
 {% endfigcap %}
 

@@ -13,7 +13,7 @@ root: .
 # Trash Pack 1
 
 {: .min-medium }
-{% figcap ./arena.png %}
+{% figcap arena.png %}
 Entrance
 {% endfigcap %}
 

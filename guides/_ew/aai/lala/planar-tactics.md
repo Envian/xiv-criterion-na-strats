@@ -14,7 +14,7 @@ root: ..
 
 # Cheat Sheet
 
-{% figure ./arena.png %}
+{% figure arena.png %}
 
 {: .text-center }
 Put notch **south east**.

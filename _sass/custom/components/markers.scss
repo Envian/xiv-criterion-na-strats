@@ -16,22 +16,44 @@ details.markers {
         font-weight: bold;
     }
 
+    /*
+        Used when the content is short.
+        If the content is taller than the preview, simply don't include.
+    */
+    div.content {
+        display: flex;
+        justify-items: center;
+        align-items: center;
+
+        figure {
+            margin-bottom: 0;
+        }
+
+        > blockquote {
+            @include blockquote-reset;
+        }
+    }
+
     &[open] > summary {
         @include box-shading;
         margin-bottom: 0.5rem;
     }
 
-    > :last-child {
-        margin-bottom: 0;
+    .header {
+        font-size: $font-size-6;
+        font-weight: bold;
+        margin-bottom: 0.1em;
+
+        &:first-of-type {
+            margin-top: 0;
+        }
     }
 
-    > div {
-        > div:has(code) {
-            line-height: 1;
-        }
+    div.highlighter-rouge {
+        line-height: 1;
+    }
 
-        :last-child {
-            margin-bottom: 0;
-        }
+    > div > :last-child {
+        margin-bottom: 0;
     }
 }

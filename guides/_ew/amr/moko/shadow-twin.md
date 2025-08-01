@@ -19,7 +19,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arena.png %}
+{% figcap arena.png %}
 Arena with the demon hand AOEs shown.
 {% endfigcap %}
 

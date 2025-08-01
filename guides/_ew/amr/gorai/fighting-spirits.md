@@ -41,7 +41,7 @@ before the next jump.
 
 # Strategy
 
-{% figcap ./markers.png %}
+{% figcap markers.png %}
 Arena with Markers
 {% endfigcap %}
 

@@ -1,20 +1,22 @@
 {: .markers }
 {% collapse Markers %}
 
-{% figure ./markers.png %}
+<div class="content" markdown="1">
+> These markers show where the there are relative safe spots for pulling adds.
+>
+> ***1*** --- South west corner \\
+> ***2*** --- West wall, just north of the center line. \\
+> ***3*** --- Offset from the North West Corner.
+>
+> {: .shade .center style="max-width: 20rem" }
+> ![](./3-position.png)
+>
+> See the guide below for when each marker becomes safe.
 
-These markers show where the there are relative safe spots for pulling adds.
+{% figure markers.png %}
+</div>
 
-***1*** --- South west corner \\
-***2*** --- West wall, just north of the center line. \\
-***3*** --- Offset from the North West Corner.
-
-{: style="width: 20rem" }
-![](./3-position.png)
-
-See the guide below for when each marker becomes safe.
-
-{: .mb-1 .fs-6 }
+{: .header .clear }
 **Normal**
 
 ```json
@@ -29,7 +31,7 @@ See the guide below for when each marker becomes safe.
 "Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 
-{: .mb-1 .fs-6 }
+{: .header }
 **Savage**
 
 ```json

@@ -9,5 +9,5 @@ root: .
 
 {% include defines.md %}
 
-**June 14th, 2025**
+**NEXT UP**
 * Initial Release

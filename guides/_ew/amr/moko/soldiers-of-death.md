@@ -14,7 +14,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arrows.png %}
+{% figcap arrows.png %}
 The arrow patterns, with the AOEs colored by their archer's glow.
 {% endfigcap %}
 

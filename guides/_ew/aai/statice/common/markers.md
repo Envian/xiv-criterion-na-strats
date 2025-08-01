@@ -1,13 +1,15 @@
 {: .markers }
 {% collapse Markers - Color Pair (PF Standard) %}
 
-{: .float-right .quarter-width .ml-4 }
-![]({{ page.root }}/common/markers-pf.png)
-
+<div class="content" markdown="1">
+{: .text-center }
 While PF isn't fully standardized, you'll typically find two pairs of colors on
 each intercardinal. you may or may not have a marker north as well.
 
-{: .mb-1 .fs-6 .clear }
+{% figure common/markers.png %}
+</div>
+
+{: .header .clear }
 **Normal**
 
 ```json
@@ -22,8 +24,7 @@ each intercardinal. you may or may not have a marker north as well.
 "Four":{"X":-186.632,"Y":-200.0,"Z":13.56,"ID":7,"Active":true}}
 ```
 
-
-{: .mb-1 .fs-6 }
+{: .header }
 **Savage**
 
 ```json
@@ -39,11 +40,13 @@ each intercardinal. you may or may not have a marker north as well.
 ```
 {% endcollapse %}
 
+
+
+
 {: .markers }
 {% collapse Markers - Star Solve (Non-standard) %}
 
-{: .float-right .quarter-width .ml-4 }
-![]({{ page.root }}/common/markers-star-solve.png)
+{% figure common/markers-star-solve.png %}
 
 These markers put a letter on each bomb (except north), and a number marker on
 each safe spot for enum players during intermission.
@@ -60,7 +63,7 @@ consider shifting north or not.
 ![]({{ page.root }}/common/star-solve-cheat-sheet.png)
 {% endcollapse %}
 
-{: .mb-1 .mt-0 .fs-6 }
+{: .header .clear }
 **Normal**
 
 ```json
@@ -75,8 +78,7 @@ consider shifting north or not.
 "Four":{"X":-186.533,"Y":-200.0,"Z":-13.465,"ID":7,"Active":true}}
 ```
 
-
-{: .mb-1 .fs-6 }
+{: .header }
 **Savage**
 
 ```json

@@ -35,7 +35,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arena.png %}
+{% figcap arena.png %}
 Dartboard Arena
 {% endfigcap %}
 

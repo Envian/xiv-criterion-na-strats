@@ -1,14 +1,15 @@
 {: .markers }
 {% collapse Markers %}
 
-{: .float-right .quarter-width }
-![]({{ page.root }}/common/markers.png)
-
+<div class="content" markdown="1">
+{: .text-center }
 These markers are mainly used to keep track of north, but are also used to help
 solve the adds mechanic, where the color pairs are important.
 
+{% figure common/markers.png %}
+</div>
 
-{: .mb-1 .fs-6 .clear }
+{: .header .clear }
 **Normal**
 
 ```json
@@ -23,7 +24,7 @@ solve the adds mechanic, where the color pairs are important.
 "Four":{"X":-10.0,"Y":0.0,"Z":-10.0,"ID":7,"Active":true}}
 ```
 
-{: .mb-1 .fs-6 }
+{: .header }
 **Savage**
 
 ```json

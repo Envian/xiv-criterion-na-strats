@@ -26,7 +26,7 @@ however it cannot be skipped in Savage.
 
 # Mechanics
 
-{% figcap ./fixed-towers.png %}
+{% figcap fixed-towers.png %}
 Fixed Tower Locations
 {% endfigcap %}
 
@@ -61,7 +61,7 @@ resolves with the 3rd tower, and the 2nd set resolves soon after.
 
 # Strategy
 
-{% figcap ./towers-order.png %}
+{% figcap towers-order.png %}
 Example towers with their soak order.
 {% endfigcap %}
 

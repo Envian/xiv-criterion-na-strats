@@ -1,16 +1,17 @@
 {: .markers }
 {% collapse Markers %}
 
-{: .float-right .quarter-width }
-![]({{ page.root }}/common/markers.png)
+<div class="content" markdown="1">
+> This puts the letter markers on each cardinal. They can help with callouts for
+> a few mechanics, but are otherwise mainly used to stay oriented.
+>
+> PF may use other, or no markers at all. None of the mechanics benefit much
+> from using markers.
 
-This puts the letter markers on each cardinal. They can help with callouts for
-a few mechanics, but are otherwise mainly used to stay oriented.
+{% figure common/markers.png %}
+</div>
 
-PF may use other, or no markers at all. None of the mechanics benefit much
-from using markers.
-
-{: .mb-1 .fs-6 .clear }
+{: .header .clear }
 **Normal**
 
 ```json
@@ -25,7 +26,7 @@ from using markers.
 "Four":{"X":0.0,"Y":0.0,"Z":0.0,"ID":7,"Active":false}}
 ```
 
-{: .mb-1 .fs-6 }
+{: .header }
 **Savage**
 
 ```json

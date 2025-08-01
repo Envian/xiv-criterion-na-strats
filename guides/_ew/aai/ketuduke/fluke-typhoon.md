@@ -65,7 +65,7 @@ deathwall. The 2nd *[cast]Hydrobullet* or *[cast]Hydrofall* will resolve shortly
 
 ## Towers
 
-{% figcap ./arena.png %}
+{% figcap arena.png %}
 Arena with towers and crystals.
 {% endfigcap %}
 

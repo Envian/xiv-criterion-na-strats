@@ -14,7 +14,7 @@ root: ..
 
 # Mechanics
 
-{% figcap ./arena.png %}
+{% figcap arena.png %}
 Arena with orbs spawned.
 {% endfigcap %}
 

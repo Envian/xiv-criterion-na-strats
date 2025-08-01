@@ -9,6 +9,9 @@ root: .
 
 {% include defines.md %}
 
+**Next Release**
+* Minor changes to look and feel.
+
 **June 14th, 2025**
 * Added note on Symmetic Surge about swapping assigned spots.
 * Added note about avoidable damage during forced march 1.

@@ -1,0 +1,132 @@
+{
+  "nextId": 582,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "rectangle",
+      "rows": 8,
+      "columns": 8
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "marker",
+          "name": "Waymark 3",
+          "image": "/marker/waymark_3.png",
+          "shape": "square",
+          "color": "#65b3ea",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -275,
+          "y": 275,
+          "id": 574
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 1",
+          "image": "/marker/waymark_1.png",
+          "shape": "square",
+          "color": "#f13b66",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 275,
+          "y": 275,
+          "id": 575
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 2",
+          "image": "/marker/waymark_2.png",
+          "shape": "square",
+          "color": "#e1dc5d",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 275,
+          "y": -275,
+          "id": 576
+        },
+        {
+          "type": "marker",
+          "name": "Waymark 4",
+          "image": "/marker/waymark_4.png",
+          "shape": "square",
+          "color": "#e291e6",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -275,
+          "y": -275,
+          "id": 577
+        },
+        {
+          "type": "marker",
+          "name": "Waymark A",
+          "image": "/marker/waymark_a.png",
+          "shape": "circle",
+          "color": "#f13b66",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": 275,
+          "id": 578
+        },
+        {
+          "type": "marker",
+          "name": "Waymark B",
+          "image": "/marker/waymark_b.png",
+          "shape": "circle",
+          "color": "#e1dc5d",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 275,
+          "y": 0,
+          "id": 579
+        },
+        {
+          "type": "marker",
+          "name": "Waymark D",
+          "image": "/marker/waymark_d.png",
+          "shape": "circle",
+          "color": "#e291e6",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": -275,
+          "y": 0,
+          "id": 580
+        },
+        {
+          "type": "marker",
+          "name": "Waymark C",
+          "image": "/marker/waymark_c.png",
+          "shape": "circle",
+          "color": "#65b3ea",
+          "opacity": 100,
+          "width": 42,
+          "height": 42,
+          "rotation": 0,
+          "x": 0,
+          "y": -275,
+          "id": 581
+        }
+      ]
+    }
+  ]
+}
