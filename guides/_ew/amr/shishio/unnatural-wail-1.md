@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Unnatrual Wail 1
+title: Unnatural Wail 1
 parent: Shishio
 nav_order: 3
 has_toc: false
@@ -10,99 +10,60 @@ root: ..
 {% include defines.md %}
 
 {: .title }
-# Unnatrual Wail 1
+# Unnatural Wail 1
 
 # Cheat Sheet
 
-{: .mt-6 .mb-6 .columns .borders .collapse-sm }
-<div markdown="1">
-> {: .text-center }
-> Spread Spots (Boss Relative)
+<div class="column-grid collapse-sm mb-8" markdown="1">
+> {: .flex-row }
+> > {: .text-center .m-0 }
+> > **Spread Positions** \\
+> > *(Boss Relative)*
 >
-> {: style="
-    width: 12rem;
-    height: 12rem;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-" }
-> <div markdown="1">
-> {: .text-center .reset }
-> > *![tank]Tank*
->
-> {: .reset style="display: flex; justify-content: space-between;" }
-> > *![healer]Healer*
-> >
-> > *Melee ![melee]*
->
-> {: .text-center .reset }
-> > *![ranged]Ranged*
-> </div>
+> {: .p-2 }
+> ![](./spreads.png)
 
-> {: .text-center }
-> Stack Spots (Boss Relative)
+> {: .flex-row }
+> > {: .text-center .m-0 }
+> > **Stack Positions** \\
+> > *(Boss Relative)*
 >
-> {: style="
-    width: 12rem;
-    height: 12rem;
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-" }
-> <div markdown="1">
-> {: .reset }
-> > {: .m-0 }
-> > *![healer]Healer*
-> >
-> > {: .m-0 }
-> > *![tank]Tank*
->
-> {: .reset .text-right }
-> > {: .m-0 }
-> > *Melee ![melee]*
-> >
-> > {: .m-0 }
-> > *Ranged ![ranged]*
-> </div>
+> {: .p-2 }
+> ![](./stacks.png)
 </div>
 
-{: .debuffs .clear }
-{% collapse Debuff Explanations %}
+{: .debuff-grid }
+{% collapse Debuffs %}
 {% include_relative debuffs/intensifiedwailing.md %}
 {% include_relative debuffs/scatteredwailing.md %}
 {% endcollapse %}
 
 # Mechanics
 
-*[cast]Unnatrual Wail*
-: Gives each player *![scatter]Scattering Wail*. One support + 1 dps will also
-  receive *![intense]Intensified Wailing*. One of these two debuffs will have
-  a shorter timer than the other.
+*[cast]Unnatural Wail* gives each player *![scattered]Scattering Wail*. One
+support and one dps will also get *![intense]Intensified Wailing*. These two
+debuffs will have different timers, so the stack and spread may be resolved in
+either order.
 
-*[cast]Haunting Cry*
-: Spawns 4 ghosts around the room, on all cardinals or intercardianls. Each
-  ghost facing a direction and will cast *[cast]Left Swipe* or
-  *[cast]Right Swipe*.
+*[cast]Haunting Cry* spawns four ghosts around the arena, on either cardinals
+or intercardinals. These ghosts will have target indicators, and will begin
+casting *[cast]Left Swipe* or *[cast]Right Swipe*. These *[cast]swipes* will
+resolve with the first stack or spread debuff.
 
-Shortly before the ghosts finish their *[cast]Swipe* casts, a second set of
-ghosts will spawn.
+Two of the ghosts will be facing towards the middle of the arena, and two will
+be facing towards the side. For all patterns, the safe spot is always between
+the ghosts who are facing off to the side.
 
-The first *![intense]Stack* or *![scattered]Spread* debuff will resolve at the
-same time that the first set of ghosts finish their *[cast]Swipe* cast. The
-second debuff resolves with the second set of ghosts.
+Right before the first set of *[cast]swipes* resolves, a second set of 4 ghosts
+will spawn. This second set will perform their *[cast]swipes* with the second
+set of debuffs.
 
-While it can be overwhelming at first, there are only two possible ghost
-patterns. In both patterns, the safe square is behind the two ghosts who's
-rear are facing eachother.
-
-<div class="timeline" markdown="1">
-> Intercardinal Ghosts
+<div class="column-grid" markdown="1">
+> **Intercardinal Ghosts**
 >
 > ![](./intercardinal-ghosts.png)
 
-> Cardinal Ghosts
+> **Cardinal Ghosts**
 >
 > ![](./cardinal-ghosts.png)
 </div>
@@ -112,21 +73,20 @@ rear are facing eachother.
 Because *![intense]stack* always goes on one dps and one support, this mechanic
 can be solved with fixed partners. All assigned spots are boss relative.
 
-<div class="columns borders mb-4 collapse-sm" style="align-items: inherit" markdown="1">
-{: .center .pr-4 }
-> {: .buff-title .center }
+<div class="column-flex even dividers mb-4" markdown="1">
+> {: .fs-6 }
+> *![scattered]Spread*
+>
+> **![tank]Tank** North *(Under boss)* \\
+> **![healer]Healer** West *(Same as stack)* \\
+> **![melee]Melee** East *(Same as stack)* \\
+> **![ranged]Ranged** South
+
+> {: .fs-6 }
 > *![intense]Stack*
 >
-> * *[support]Support* Left
-> * *[dps]DPS* Right
-
-{: .center .pl-4 }
-> {: .buff-title .center }
-> *![scattered]Spread*
-> * *![tank]Tank* North (Under boss)
-> * *![healer]Healer* West (Same as stack)
-> * *![melee]Melee* East (Same as stack)
-> * *![ranged]Ranged* South
+> **[support]Support** Left \\
+> **[dps]DPS** Right
 </div>
 
 <div class="mechanics" markdown="1">
@@ -137,11 +97,11 @@ can be solved with fixed partners. All assigned spots are boss relative.
 
 > Just before the first *![intense]Stack* or *![scattered]Spread* resolves, the
 > second set of ghosts will spawn. Begin identifying where the second safe spot
-> is.
+> is. The second safe spot will always be across from the first.
 
 ![](./timeline-2.png)
 
-> The second safe spot will always be a chess knight's move away from the first.
+> Move to the second safe spot.
 
 ![](./timeline-3.png)
 
@@ -154,13 +114,16 @@ can be solved with fixed partners. All assigned spots are boss relative.
 > Safe Spot Tips
 >
 > The *![tank]Tank*'s spread spot for spread is as close to the center as they
-> can get, while still being within the correct area.
+> can get, while still being within the correct area. This can be difficult to
+> do precisely, but there is room.
 >
 > The *![ranged]Ranged* player's spread spot will be the against the wall with
-> intercardinal ghosts. For cardinal ghosts, you will need to eyeball it.
+> intercardinal ghosts. If the first set of ghosts are on cardinals, you can
+> stand behind the intercardinal ghost which spawn south. Otherwise, you will
+> need to eyeball the position.
 >
-> The east/west spots will be directly adjacent to the ghosts which are about
-> to cleave.
+> *![melee]Melee* players need to stand at max melee, disengaging for part of a
+> GCD if possible. This gives the tank as much space as possible.
 
 {: .povs .mt-8 }
 {% collapse POVs %}

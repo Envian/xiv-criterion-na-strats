@@ -14,26 +14,23 @@ root: ..
 
 # Mechanics
 
-*[cast]Stormcloud Summons*
-: Turns the arena into a circle, and spawns clouds around the arena.
+*[cast]Stormcloud Summons* turns the arena into a circle, and spawns several
+clouds. This is followed by *[cast]Smokeater*, which will suck in one, two, or
+three sets of clouds. The solution changes based on how many sucks occurred.
 
-*[cast]Smokeater*
-: *[boss]Shishio will "suck" some of the clouds around the arena between one and
-  three times. The more sucks, the fewer clouds remain, but the larger their
-  explosions will be.
+Finally, *[cast]Rokujo Revel* will telegraph a large line AOE across the arena
+for each suck which happened earlier. These line AOEs will resolve in the order
+they appear.
 
-*[cast]Rokujo Revel*
-: Telegraphs up to line AOEs in an order, one for each suck.
-
-When a cloud is hit by either a line AOE, or the AOE from another cloud, it will
-explode, often resulting in a chain of explosions.
+Any cloud hit by a line AOE, or another cloud, will detonate. The size of this
+AOE will be larger for each time the boss sucked.
 
 # Strategy
 
 {: .text-center }
 ## One Suck
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > Solve this mechanic relative to the telegraphed line AOE.
 >
 > There are 6 possible cloud locations within the red line AOE, two of which
@@ -44,6 +41,11 @@ explode, often resulting in a chain of explosions.
 
 > Start by standing next to the line AOE, where one of the clouds is missing.
 > As soon as the line AOE resolves, move in, a bit past the middle of the arena.
+>
+> {: .uptime }
+> If neither middle cloud was sucked, melee can keep uptime by standing at max
+> melee, near a safe spot. Take a step back when the cast finishes (Or
+> *[boss]Shishio* jumps), then dodge towards mid.
 
 ![](./1-suck-2.png)
 </div>
@@ -51,7 +53,7 @@ explode, often resulting in a chain of explosions.
 {: .text-center }
 ## Two Sucks
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > This pattern is solved relative to the first line AOE to appear.
 >
 > On one side of this line, there will be 1 cloud. On the other, there will be
@@ -71,7 +73,7 @@ explode, often resulting in a chain of explosions.
 {: .text-center }
 ## Three Sucks
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > This pattern is solved relative to the first line AOE to appear.
 >
 > There will be a single cloud in the first line AOE. The starting area is about
@@ -92,9 +94,13 @@ explode, often resulting in a chain of explosions.
 >
 > {% include youtube.html id="1uqVWojADk4?start=399&end=423" %}
 
+> **2 Suck Pattern**
+>
+> {% include youtube.html id="ofs18noZU9I" %}
+
 > **3 Sucks Pattern**
 >
 > {% include youtube.html id="1uqVWojADk4?start=177&end=206" %}
 {% endcollapse %}
 
-{% include next.html name="Unnatural Wail 1" url="../unnatural-wail-1/" %}
+{% include next.html name="Noble Pursuit" url="../noble-pursuit/" %}

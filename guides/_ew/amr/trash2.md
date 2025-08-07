@@ -55,7 +55,7 @@ periodically cleave the arena.
 
 ## Shishu Onmitsugashira
 
-{% figcap./2-safe.png %}
+{% figcap ./2-safe.png %}
 The 2 marker is safe after this AOE resolves.
 {% endfigcap %}
 
@@ -68,12 +68,12 @@ add. It will become safe once the wind sprite in the north west corner hits the
 * ***[cast]Issen*** A hard hitting tankbuster, which does not cleave.
 * ***[cast]Huton*** Speeds up the cast time of *[cast]Juji Shuriken*.
 
-The Onmitsugashira will then rapidly and repetedly cast *[cast]Juji Shuriken*
+The Onmitsugashira will then rapidly and repeatedly cast *[cast]Juji Shuriken*
 until killed.
 
 ## Shishu Kotengu 2
 
-{% figcap./3-safe.png %}
+{% figcap ./3-safe.png %}
 The 3 marker is safe after this AOE resolves.
 {% endfigcap %}
 

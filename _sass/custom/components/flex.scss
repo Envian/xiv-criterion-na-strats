@@ -1,0 +1,31 @@
+.flex-row {
+    flex-direction: row;
+}
+
+.column-flex {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+    > * {
+        @include blockquote-reset;
+        flex: auto;
+        padding: 0 1rem !important;
+
+        &:first-child {
+            padding-left: 0 !important;
+        }
+
+        &:last-child {
+            padding-right: 0 !important;
+        }
+    }
+
+    &.even > * {
+        flex-basis: 0;
+    }
+
+    &.dividers > :not(:first-child) {
+        border-left: $border $border-color;
+    }
+}

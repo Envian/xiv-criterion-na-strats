@@ -1,6 +1,9 @@
 @import "./custom/mixins.scss";
 @import "./custom/keywords.scss";
 
+@import "./custom/components/grids.scss";
+@import "./custom/components/flex.scss";
+
 @import "./custom/components/columns.scss";
 @import "./custom/components/debuffs.scss";
 @import "./custom/components/details.scss";
@@ -199,4 +202,8 @@ img.shade {
     .lg-clear {
         clear: both;
     }
+}
+
+img {
+    max-height: 100%;
 }

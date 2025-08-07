@@ -114,8 +114,9 @@ crossing to the other side of the arena. In normal, this AOE is telegraphed
 early, however in Savage you will need to check the cast, or look at the Yuki's
 hand.
 
-After the Yuki's swipe, pull the Fuko to the east wall to give yourself more
-time before the Yuki patrols back to you.
+After the Yuki's swipe, pull the Fuko to the east wall. The Yuki will begin
+patrolling the arena in a figure 8 pattern, starting by moving down the
+west wall.
 
 ## Shishu Yuki
 

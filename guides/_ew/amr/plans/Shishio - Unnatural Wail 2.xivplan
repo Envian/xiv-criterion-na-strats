@@ -1,5 +1,5 @@
 {
-  "nextId": 32,
+  "nextId": 45,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -68,13 +68,145 @@
     {
       "objects": [
         {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 70,
+          "radius": 80,
+          "x": 0,
+          "y": 0,
+          "id": 38
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 0,
+          "y": 75,
+          "id": 24
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": -75,
+          "y": 0,
+          "id": 25
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 0,
+          "y": -75,
+          "id": 26
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 75,
+          "y": 0,
+          "id": 39
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 70,
+          "radius": 80,
+          "x": 0,
+          "y": 0,
+          "id": 40
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": -40,
+          "y": 60,
+          "id": 41
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": -60,
+          "y": 40,
+          "id": 42
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 40,
+          "y": -60,
+          "id": 43
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 60,
+          "y": -40,
+          "id": 44
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
           "type": "circle",
           "color": "#fc972b",
           "opacity": 35,
           "radius": 225,
           "x": 0,
           "y": 0,
-          "id": 20
+          "id": 32
         },
         {
           "type": "enemy",
@@ -88,59 +220,59 @@
           "ring": "dir",
           "x": 0,
           "y": 0,
-          "id": 21
+          "id": 33
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 4,
           "y": 261,
-          "id": 24
+          "id": 34
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -264,
           "y": 5,
-          "id": 25
+          "id": 35
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 3,
           "y": -260,
-          "id": 26
+          "id": 36
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 251,
           "y": 1,
-          "id": 27
+          "id": 37
         }
       ]
     },
@@ -170,52 +302,52 @@
           "id": 23
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -150,
           "y": 204,
           "id": 28
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -167,
           "y": 187,
           "id": 29
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 148,
           "y": -196,
           "id": 30
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 175,
           "y": -172,
@@ -250,52 +382,52 @@
           "id": 9
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -1,
           "y": 79,
           "id": 12
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -84,
           "y": -5,
           "id": 13
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -1,
           "y": -82,
           "id": 14
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 83,
           "y": 1,
@@ -330,52 +462,52 @@
           "id": 11
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -69,
           "y": 47,
           "id": 16
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -49,
           "y": 63,
           "id": 17
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 56,
           "y": -69,
           "id": 18
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 74,
           "y": -52,

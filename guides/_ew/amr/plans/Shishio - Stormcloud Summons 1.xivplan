@@ -1,5 +1,5 @@
 {
-  "nextId": 130,
+  "nextId": 151,
   "arena": {
     "shape": "circle",
     "width": 600,
@@ -309,52 +309,52 @@
           "id": 42
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -117,
           "y": -11,
           "id": 43
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -121,
           "y": 33,
           "id": 44
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 116,
           "y": 240,
           "id": 45
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 118,
           "y": 204,
@@ -410,6 +410,15 @@
           "x": 66,
           "y": -225,
           "id": 78
+        },
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 115,
+          "x": 66,
+          "y": 0,
+          "id": 150
         }
       ]
     },
@@ -510,29 +519,29 @@
           "id": 86
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Solo Cloud",
-          "stroke": "#40352c",
           "x": -64,
           "y": 260,
           "id": 128
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Starting\nSpot",
-          "stroke": "#40352c",
           "x": 132,
           "y": 194,
           "id": 129
@@ -663,13 +672,13 @@
           "id": 99
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 125,
           "y": 236,
@@ -752,29 +761,29 @@
           "id": 114
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Solo Cloud",
-          "stroke": "#40352c",
           "x": -64,
           "y": 260,
           "id": 126
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Starting Spot",
-          "stroke": "#40352c",
           "x": 227,
           "y": 49,
           "id": 127
@@ -853,13 +862,13 @@
           "id": 121
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/any.png",
           "name": "Any player",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 244,
           "y": 56,

@@ -12,46 +12,52 @@ root: ..
 {: .title }
 # Haunting Cry
 
+# Cheat Sheet
+
+* Pull tether through the middle, avoid ghosts, and wait for markers.
+* *Marked Players* take defamations to corners away from towers.
+* *Unmarked Players* take towers.
+
+This mechanic is very random, so pay attention to your team and adjust
+accordingly.
+
 # Mechanics
 
-*[cast]Haunting Cry*
-: Spawns a ghost for each player. Each ghost will tether to one player, slowly
-  approaching them and periodically performing circular AOEs.
+*[cast]Haunting Cry* Spawns a ghost for each player. Each ghost will tether to
+one player, slowly approaching them and frequently performing circular AOEs.
 
-*[cast]Vengeful Souls*
-: When the cast starts, two towers will spawn at two random locations. Two
-  players will also receive marker above their head.
-: When the cast finishes, both towers are snapshotted, and both players with a
-  marker will explode with a fairly large AOE.
+*[boss]Shishio* will then begin casting *[cast]Vengeful Souls*. This will spawn
+two towers and apply markers to two players. The marked players will explode
+with a massive AOE at the end of this cast. At the same time, both of the towers
+will resolve.
 
-*[cast]Thunder Vortex*
-: This is a large donut AOE, similar to the donut from Unnatrual Wail 2.
-
-Both the defamation markers and towers will apply a magic vulnerability, so the
-marked players cannot take towers.
+This is followed with *[cast]Thunder Vortex*, which is a large donut AOE.
 
 # Strategy
 
 Everything about this mechanic is completely random. Ghosts can spawn anywhere
-in the arena, towers have 8 possible locations they can spawn (Cardinals and
-intercardinals), and the players marked are random as well.
+in the arena, towers can spawn on any cardinal or intercardinal, and the players
+marked are random as well.
 
-Because of this randommess, there are no set strategies or priorities, but there
-are some guidelines which will help.
+There are no fixed priorities, but there are some strategies which help.
 
-<div class="mechanics" markdown="1">
-> Begin by pulling the tether from your ghost through the middle.
+<div class="strats-grid" markdown="1">
+> Begin by pulling the tether from your ghost through the middle. Remember to
+> avoid other players ghosts, as their AOEs will still hurt you.
 
 ![](./timeline-1.png)
 
-> Check the location of the towers, and whether or not you have a defamation
-> marker.
+> Identify the location of the two towers, and check whether or not you have
+> a marker.
 >
-> Defamation players should begin working their ways towards a safe area
-> away from the towers.
+> Defamation players should begin working their ways towards a corner away from
+> the towers.
 >
 > Tower players begin identifying which tower you'll take, using body language
-> to try to communicate with your partner.
+> to try to communicate with your partner, or callouts if available.
+>
+> If your ghost is close, remember to lure them away from your final spot before
+> moving into position.
 
 ![](./timeline-2.png)
 
@@ -62,9 +68,13 @@ are some guidelines which will help.
 
 > The last ghost AOE comes out when the castbar for *[cast]Vengeful Souls*
 > crosses the `o` in Souls. After this, the ghosts despawn and players have a
-> moment to move before *[cast]Vengeful Souls* finsihes.
+> moment to move before *[cast]Vengeful Souls* resolves.
 
 ![](./timeline-4.png)
+
+> Move into *[boss]Shishio*'s hitbox to resolve *[cast]Thunder Vortex*.
+
+![](./timeline-5.png)
 </div>
 
 {: .povs .mt-8 }
@@ -72,8 +82,4 @@ are some guidelines which will help.
 > **Tower POV**
 >
 > {% include youtube.html id="1uqVWojADk4?start=348&end=383" %}
-
-> **TODO: Spread POV**
->
-> {% include youtube.html id="asdf?start=337&end=364" %}
 {% endcollapse %}

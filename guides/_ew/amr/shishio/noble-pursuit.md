@@ -14,52 +14,59 @@ root: ..
 
 # Mechanics
 
-Shishio will dash to the north end of the arena before this cast begins.
+*[boss]Shishio* will jump to the north wall, and cast *[cast]Noble Pursuit*.
+During this cast, Rings will spawn around the arena. After the cast,
+*[boss]Shishio* will dash through the rings, hitting anyone in the way, and
+detonating the rings, which explode in line AOEs perpendicular to the dash.
 
-*[cast]Noble Pursuit*
-: Rings will appear around the arena, signaling a path that *[boss]Shishio* will
-  dash around the arena. The dash itself is a wide AOE, and the rings will do
-  thin line AOEs perpendicular to the path.
-: When the cast finishes, *[boss]Shishio* will begin to dash across the arena.
-
-While the AOEs go off in a sequence, there is a guaranteed safe spot for each
-quadrant. If you are using the reccomended markers, this will be one of the
-letter markers.
+The first dash is always directly south. The second dash is always to the east
+or west corner. The third dash can be either diagonally across to the opposite
+corner, or directly north along the east/west wall. The final dash will be the
+other dash that the third could have been.
 
 # Strategy
 
-<div class="mechanics" markdown="1">
-> The first line doesn't give much information about the safe spots.
+In all patterns, there are four safe spots near the middle of each quadrant of
+the arena. Which spot is safe depends on the 2nd and diagonal dashes.
 
-![](./timeline-1.png)
+The safe spot is always on the opposite side from the 2nd dash. The safe spot is
+the marker which isn't in line with the diagonal dash.
 
-
-> The second dash from the middle of the south wall to one of the corners tells
-> you which side of the arena will be safe.
+<div class="column-grid collapse-sm" markdown="1">
+> **Diagonal 3rd Pattern**
 >
-> In this example, either the A or D marker will be unsafe, as the B and C
-> markers will both be hit by the 2nd dash.
-
-![](./timeline-2.png)
-
-> The third, diagonal line will cover one of the two remaining possible spots.
+> ![](./diagonal-1.png)
 >
-> In this example, the A marker is partially covered by rings, and will not be
-> safe.
+> ![](./diagonal-2.png)
+>
+> ![](./diagonal-3.png)
+>
+> ![](./diagonal-4.png)
+>
+> ![](./diagonal-5.png)
 
-![](./timeline-3.png)
-
-> If the safe spot is not clear from the 3rd line, then the 4th will make it
-> more clear.
-
-![](./timeline-4.png)
+> **Vertical 3rd Pattern**
+>
+> ![](./vertical-1.png)
+>
+> ![](./vertical-2.png)
+>
+> ![](./vertical-3.png)
+>
+> ![](./vertical-4.png)
+>
+> ![](./vertical-5.png)
 </div>
 
 {: .povs .mt-8 }
 {% collapse POVs %}
-> **Example**
+> **Diagonal 3rd POV**
 >
 > {% include youtube.html id="1uqVWojADk4?start=220&end=244" %}
+
+> **Veritcal 3rd POV**
+>
+> {% include youtube.html id="OPK32usCDAQ" %}
 {% endcollapse %}
 
-{% include next.html name="Noble Pursuit" url="../noble-pursuit/" %}
+{% include next.html name="Unnatural Wail 1" url="../unnatural-wail-1/" %}

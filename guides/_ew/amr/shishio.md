@@ -16,9 +16,13 @@ root: .
 
 ## Timeline
 
+{% figcap common/tankbuster.png %}
+Splitting Cry (Tankbuster) and Slither AOEs. Slither casts after Splitting Cry.
+{% endfigcap %}
+
 * Enkyo (Raidwide)
 * [Stormcloud Summons 1](./stormcloud-1/)
-* Splitting Cry (Large line tankbuster + rear cone)
+* Splitting Cry (Tankbuster) + Slither (Rear Cone)
 * [Noble Pursuit](./noble-pursuit)
 * Enkyo (Raidwide)
 * [Unnatrual Wail 1](./unnatural-wail-1/)
@@ -33,7 +37,7 @@ root: .
 
 ## Important Debuffs
 
-<div class="debuffs" markdown="1">
+<div class="debuff-grid mb-8" markdown="1">
 {% include_relative shishio/debuffs/intensifiedwailing.md %}
 {% include_relative shishio/debuffs/scatteredwailing.md %}
 </div>

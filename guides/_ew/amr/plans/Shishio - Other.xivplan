@@ -1,0 +1,82 @@
+{
+  "nextId": 458,
+  "arena": {
+    "shape": "rectangle",
+    "width": 600,
+    "height": 600,
+    "padding": 20,
+    "grid": {
+      "type": "none"
+    }
+  },
+  "steps": [
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 452
+        },
+        {
+          "type": "line",
+          "color": "#fc972b",
+          "opacity": 35,
+          "width": 180,
+          "length": 300,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 454
+        },
+        {
+          "type": "cone",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 600,
+          "coneAngle": 90,
+          "rotation": 180,
+          "x": 0,
+          "y": 0,
+          "id": 455
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 35,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "shadow",
+          "rotation": 0,
+          "text": "Slither",
+          "stroke": "#292929",
+          "x": 0,
+          "y": -150,
+          "id": 456
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 30,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "shadow",
+          "rotation": 0,
+          "text": "Splitting Cry",
+          "stroke": "#292929",
+          "x": 0,
+          "y": 150,
+          "id": 457
+        }
+      ]
+    }
+  ]
+}
