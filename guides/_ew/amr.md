@@ -32,9 +32,9 @@ based on, and fully compatible with PF Pastebin strats.
 * **[Shishio](./shishio/)**
     * [Stormcloud Summons 1](./shishio/stormcloud-1/)
     * [Noble Pursuit](./shishio/noble-pursuit)
-    * [Unnatrual Wail 1](./shishio/unnatural-wail-1/)
+    * [unnatural Wail 1](./shishio/unnatural-wail-1/)
     * [Stormcloud Summons 2](./shishio/stormcloud-2/)
-    * [Unnatrual Wail 2](./shishio/unnatural-wail-2/)
+    * [unnatural Wail 2](./shishio/unnatural-wail-2/)
     * [Haunting Cry](./shishio/haunting-cry/)
 * **[Trash Pack 2](./trash2/)**
 * **[Gorai the Uncaged](./gorai/)**
