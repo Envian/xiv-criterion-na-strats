@@ -41,11 +41,6 @@ AOE will be larger for each time the boss sucked.
 
 > Start by standing next to the line AOE, where one of the clouds is missing.
 > As soon as the line AOE resolves, move in, a bit past the middle of the arena.
->
-> {: .uptime }
-> If neither middle cloud was sucked, melee can keep uptime by standing at max
-> melee, near a safe spot. Take a step back when the cast finishes (Or
-> *[boss]Shishio* jumps), then dodge towards mid.
 
 ![](./1-suck-2.png)
 </div>

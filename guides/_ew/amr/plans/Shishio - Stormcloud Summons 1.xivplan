@@ -1,5 +1,5 @@
 {
-  "nextId": 151,
+  "nextId": 156,
   "arena": {
     "shape": "circle",
     "width": 600,
@@ -438,7 +438,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 120,
@@ -545,6 +545,34 @@
           "x": 132,
           "y": 194,
           "id": 129
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 45,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "1ˢᵗ",
+          "stroke": "#40352c",
+          "x": 3,
+          "y": -254,
+          "id": 151
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 45,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "2ⁿᵈ",
+          "stroke": "#40352c",
+          "x": 221,
+          "y": -132,
+          "id": 152
         }
       ]
     },
@@ -564,7 +592,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 120,
@@ -714,7 +742,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 120,
@@ -752,7 +780,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 240,
@@ -787,6 +815,48 @@
           "x": 227,
           "y": 49,
           "id": 127
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 45,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "1ˢᵗ",
+          "stroke": "#40352c",
+          "x": 3,
+          "y": -254,
+          "id": 153
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 45,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "2ⁿᵈ",
+          "stroke": "#40352c",
+          "x": 221,
+          "y": -132,
+          "id": 154
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 45,
+          "color": "#ffc800",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "3ʳᵈ",
+          "stroke": "#40352c",
+          "x": -226,
+          "y": -132,
+          "id": 155
         }
       ]
     },
@@ -806,7 +876,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 120,
@@ -844,7 +914,7 @@
         {
           "type": "rect",
           "color": "#ff0000",
-          "opacity": 35,
+          "opacity": 15,
           "width": 200,
           "height": 600,
           "rotation": 240,
