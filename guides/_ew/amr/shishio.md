@@ -4,7 +4,6 @@ title: Shishio
 parent: Another Mount Rokkon (WIP)
 nav_order: 2
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}
@@ -16,7 +15,7 @@ root: .
 
 ## Timeline
 
-{% figcap common/tankbuster.png %}
+{% figcap ./common/tankbuster.png %}
 Splitting Cry (Tankbuster) and Slither AOEs. Slither casts after Splitting Cry.
 {% endfigcap %}
 

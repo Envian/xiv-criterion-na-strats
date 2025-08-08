@@ -6,7 +6,7 @@
 While PF isn't fully standardized, you'll typically find two pairs of colors on
 each intercardinal. you may or may not have a marker north as well.
 
-{% figure common/markers.png %}
+{% figure /aai/statice/common/markers.png %}
 </div>
 
 {: .header .clear }
@@ -46,7 +46,7 @@ each intercardinal. you may or may not have a marker north as well.
 {: .markers }
 {% collapse Markers - Star Solve (Non-standard) %}
 
-{% figure common/markers-star-solve.png %}
+{% figure /aai/statice/common/markers-star-solve.png %}
 
 These markers put a letter on each bomb (except north), and a number marker on
 each safe spot for enum players during intermission.
@@ -60,7 +60,7 @@ consider shifting north or not.
 
 {: .more-details .fill .clear }
 {% collapse Star Solve Cheat Sheet for Color Pair Enjoyers %}
-![]({{ page.root }}/common/star-solve-cheat-sheet.png)
+![](/aai/statice/common/star-solve-cheat-sheet.png)
 {% endcollapse %}
 
 {: .header .clear }

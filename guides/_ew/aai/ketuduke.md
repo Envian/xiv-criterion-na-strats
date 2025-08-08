@@ -4,7 +4,6 @@ title: Ketuduke
 parent: Another Aloalo Island
 nav_order: 3
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}

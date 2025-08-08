@@ -4,7 +4,6 @@ title: Trash Pack 1
 parent: Another Mount Rokkon (WIP)
 nav_order: 1
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}
@@ -14,7 +13,7 @@ root: .
 
 # Short Guide
 
-{% figure raiko.png %}
+{% figure ./raiko.png %}
 
 Ignore the Ghost (Yuki) Until the end.
 
@@ -26,7 +25,7 @@ Group 1
 
 <div class="clear"></div>
 
-{% figure fuko.png %}
+{% figure ./fuko.png %}
 
 Group 2
 
@@ -39,7 +38,7 @@ Group 2
 
 # Details
 
-{% figure adds.png %}
+{% figure ./adds.png %}
 
 This room contains 3 packs of enemies which must be killed.
 
@@ -52,7 +51,7 @@ buff and cannot be hurt. To add to the complexity, the Yuki will also patrol
 around the room in a figure 8 pattern, and periodically cleave half of the room.
 This cleave is telegraphed in Normal, but not in Savage.
 
-{% figcap yuki.png %}
+{% figcap ./yuki.png %}
 Yuki Patrol. Continues CCW after returning North.
 {% endfigcap %}
 
@@ -65,7 +64,7 @@ killing the Raiko first much easier.
 
 ## Shishu Raiko
 
-{% figure raiko.png %}
+{% figure ./raiko.png %}
 
 This add is paired with two Shishu Furutsubaki, which will periodically perform
 frontal cone AOEs throughout the fight. The Raiko will loop through a few simple
@@ -90,7 +89,7 @@ passed by this point.
 
 ## Shishu Fuko
 
-{% figure fuko.png %}
+{% figure ./fuko.png %}
 
 This add is paired with two Red Shishu Penghou, which will periodically target
 random players with a moderately sized circular AOE. The Fuko will loop through

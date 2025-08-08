@@ -7,4 +7,4 @@
 >
 > This is a simple spread debuff.
 
-[candle]: {{ page.root }}/debuffs/live-candle.png#debuff
+[candle]: /amr/gorai/debuffs/live-candle.png#debuff

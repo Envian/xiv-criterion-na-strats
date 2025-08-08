@@ -4,7 +4,6 @@ title: Tripple Kasumi-Giri
 parent: Moko
 nav_order: 1
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

@@ -4,7 +4,6 @@ title: Changelog
 parent: Another Aloalo Island
 has_toc: false
 nav_exclude: true
-root: .
 ---
 
 {% include defines.md %}

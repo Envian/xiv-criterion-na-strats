@@ -4,7 +4,6 @@ title: Adds
 parent: Ketuduke
 nav_order: 4
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -14,7 +13,7 @@ root: ..
 
 # Cheat Sheet
 
-{% figure cheatsheet.png %}
+{% figure ./cheatsheet.png %}
 
 {: .mt-8 }
 **![tank]Tank** + **![ranged]Ranged** north -> clockwise.

@@ -4,7 +4,6 @@ title: Dartboard 1
 parent: Statice
 nav_order: 2
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -35,7 +34,7 @@ root: ..
 
 # Mechanics
 
-{% figcap arena.png %}
+{% figcap ./arena.png %}
 Dartboard Arena
 {% endfigcap %}
 

@@ -6,4 +6,4 @@
 >
 > This is a very small spread AOE.
 
-[flame]: {{ page.root }}/debuffs/vengeful-flame.png#debuff
+[flame]: /amr/moko/debuffs/vengeful-flame.png#debuff

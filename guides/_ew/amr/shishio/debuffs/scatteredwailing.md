@@ -6,4 +6,4 @@
 >
 > Players must be spread when these debuffs resolve.
 
-[scattered]: {{ page.root }}/debuffs/scatteredwailing.png#debuff
+[scattered]: /amr/shishio/debuffs/scatteredwailing.png#debuff

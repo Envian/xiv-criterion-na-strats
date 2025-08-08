@@ -4,7 +4,6 @@ title: Noble Pursuit
 parent: Shishio
 nav_order: 2
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

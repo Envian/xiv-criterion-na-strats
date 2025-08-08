@@ -10,4 +10,4 @@
 > debuff is always role based - both *[support]Support* or both *[dps]DPS*,
 > unless a player is dead when *[cast]Hydrofall* resolves.
 
-[fall]: {{ page.root }}/debuffs/hydrofall.png#debuff
+[fall]: /aai/ketuduke/debuffs/hydrofall.png#debuff

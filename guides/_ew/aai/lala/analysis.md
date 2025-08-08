@@ -4,7 +4,6 @@ title: Analysis
 parent: Lala
 nav_order: 2
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -28,7 +27,7 @@ root: ..
 
 # Mechanics
 
-{% figure arena.png %}
+{% figure ./arena.png %}
 
 Opens with *[cast]Analysis*, granting each player a random *![unseen]unseen*
 debuff. This is identical to *Mustadio* from the Stormblood alliance raid. The

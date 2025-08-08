@@ -15,7 +15,7 @@
 > The roman numerals on the icon show the order that these debuffs will expire.
 > The I debuff will expire first, followed by II, then III, then IV.
 
-[rodent1]: {{ page.root }}/debuffs/rodential-1.png#debuff
-[rodent2]: {{ page.root }}/debuffs/rodential-2.png#debuff
-[rodent3]: {{ page.root }}/debuffs/rodential-3.png#debuff
-[rodent4]: {{ page.root }}/debuffs/rodential-4.png#debuff
+[rodent1]: /amr/gorai/debuffs/rodential-1.png#debuff
+[rodent2]: /amr/gorai/debuffs/rodential-2.png#debuff
+[rodent3]: /amr/gorai/debuffs/rodential-3.png#debuff
+[rodent4]: /amr/gorai/debuffs/rodential-4.png#debuff

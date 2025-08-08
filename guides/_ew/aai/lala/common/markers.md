@@ -8,7 +8,7 @@
 > PF may use other, or no markers at all. None of the mechanics benefit much
 > from using markers.
 
-{% figure common/markers.png %}
+{% figure /aai/lala/common/markers.png %}
 </div>
 
 {: .header .clear }

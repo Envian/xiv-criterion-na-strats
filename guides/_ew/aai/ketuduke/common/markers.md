@@ -6,7 +6,7 @@
 These markers are mainly used to keep track of north, but are also used to help
 solve the adds mechanic, where the color pairs are important.
 
-{% figure common/markers.png %}
+{% figure /aai/ketuduke/common/markers.png %}
 </div>
 
 {: .header .clear }

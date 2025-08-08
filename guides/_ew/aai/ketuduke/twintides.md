@@ -4,7 +4,6 @@ title: Twintides
 parent: Ketuduke
 nav_order: 3
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

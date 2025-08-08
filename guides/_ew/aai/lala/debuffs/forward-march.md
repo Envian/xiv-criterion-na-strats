@@ -7,4 +7,4 @@
 > When this resolves, the player will be forcefully marched forward. The other
 > variants are not used in this fight.
 
-[forward]: {{ page.root }}/debuffs/forward-march.png#debuff
+[forward]: /aai/lala/debuffs/forward-march.png#debuff

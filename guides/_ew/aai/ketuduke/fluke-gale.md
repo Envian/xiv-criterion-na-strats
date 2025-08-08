@@ -4,7 +4,6 @@ title: Fluke Gale
 parent: Ketuduke
 nav_order: 1
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -59,7 +58,7 @@ root: ..
 
 # Mechanics
 
-{% figcap arena-layout.png %}
+{% figcap ./arena-layout.png %}
 Example Setup
 {% endfigcap %}
 

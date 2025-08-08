@@ -4,7 +4,6 @@ title: Fighting Spirits
 parent: Gorai
 nav_order: 6
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

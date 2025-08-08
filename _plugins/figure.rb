@@ -6,7 +6,7 @@ class FigureCaptionBlock < Liquid::Block
 
   def render(context)
     "<figure>" +
-      "<img src=\"#{context['page']['root']}/#{@url}\" />" +
+      "<img src=\"#{@url}\" />" +
       "<figcaption markdown=\"1\">#{super}</figcaption>" +
     "</figure>"
   end
@@ -20,7 +20,7 @@ class FigureTag < Liquid::Tag
 
   def render(context)
     "<figure>" +
-      "<img src=\"#{context['page']['root']}/#{@url}\" alt=\"#{super}\" />" +
+      "<img src=\"#{@url}\" alt=\"#{super}\" />" +
     "</figure>"
   end
 end

@@ -4,7 +4,6 @@ title: Forced March 2
 parent: Statice
 nav_order: 6
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

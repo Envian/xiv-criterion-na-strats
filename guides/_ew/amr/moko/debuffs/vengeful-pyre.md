@@ -6,4 +6,4 @@
 >
 > This is a two person stack debuff. The AOE for this is very small.
 
-[pyre]: {{ page.root }}/debuffs/vengeful-pyre.png#debuff
+[pyre]: /amr/moko/debuffs/vengeful-pyre.png#debuff

@@ -4,7 +4,6 @@ title: Trash Pack 1
 parent: Another Aloalo Island
 nav_order: 2
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}
@@ -13,10 +12,11 @@ root: .
 # Trash Pack 1
 
 {: .min-medium }
-{% figcap arena.png %}
+{% figcap ./arena.png %}
 Entrance
 {% endfigcap %}
 
+{: style="clear: none;" }
 ## Tornados
 
 After pulling the first add, tornados will spawn and move along the walls,

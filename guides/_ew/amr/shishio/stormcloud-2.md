@@ -4,7 +4,6 @@ title: Stormcloud Summons 2
 parent: Shishio
 nav_order: 4
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

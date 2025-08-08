@@ -4,7 +4,6 @@ title: Scarlet Auspice
 parent: Moko
 nav_order: 2
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

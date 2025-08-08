@@ -9,4 +9,4 @@
 > this tower overlaps any other tower, they will both promptly explode, likely
 > wiping the group.
 
-[squirrely-prayer]: {{ page.root }}/debuffs/squirrely-prayer.png#debuff
+[squirrely-prayer]: /amr/gorai/debuffs/squirrely-prayer.png#debuff

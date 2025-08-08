@@ -4,7 +4,6 @@ title: Fluke Typhoon
 parent: Ketuduke
 nav_order: 5
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -65,7 +64,7 @@ deathwall. The 2nd *[cast]Hydrobullet* or *[cast]Hydrofall* will resolve shortly
 
 ## Towers
 
-{% figcap arena.png %}
+{% figcap ./arena.png %}
 Arena with towers and crystals.
 {% endfigcap %}
 

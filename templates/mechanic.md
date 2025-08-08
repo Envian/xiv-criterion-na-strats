@@ -4,7 +4,6 @@ title: MECHANIC_NAME
 parent: BOSS_NAME
 nav_order: 1
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

@@ -4,7 +4,6 @@ title: Soldiers of Death
 parent: Moko
 nav_order: 5
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

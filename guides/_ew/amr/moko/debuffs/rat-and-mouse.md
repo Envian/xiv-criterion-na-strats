@@ -8,4 +8,4 @@
 > this debuff expires, that enemy will teleport a small distance behind you, and
 > face you.
 
-[target]: {{ page.root }}/debuffs/rat-and-mouse.png#debuff
+[target]: /amr/moko/debuffs/rat-and-mouse.png#debuff

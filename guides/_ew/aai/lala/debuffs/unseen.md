@@ -1,8 +1,8 @@
 {: .paired }
-![]({{ page.root }}/debuffs/front-unseen.png#debuff)
-![]({{ page.root }}/debuffs/left-unseen.png#debuff)
-![]({{ page.root }}/debuffs/right-unseen.png#debuff)
-![]({{ page.root }}/debuffs/back-unseen.png#debuff)
+![](/aai/lala/debuffs/front-unseen.png#debuff)
+![](/aai/lala/debuffs/left-unseen.png#debuff)
+![](/aai/lala/debuffs/right-unseen.png#debuff)
+![](/aai/lala/debuffs/back-unseen.png#debuff)
 
 > **Front Unseen**, **Left Unseen**, **Right Unseen**, **Back Unseen**
 >
@@ -12,4 +12,4 @@
 > A set of debuffs identical to *[boss]Mustadio*, where the "Gap" in your circle
 > must be facing a mechanic in order to dodge it's effects.
 
-[unseen]: {{ page.root }}/debuffs/left-unseen.png#debuff
+[unseen]: /aai/lala/debuffs/left-unseen.png#debuff

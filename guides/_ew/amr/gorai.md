@@ -4,7 +4,6 @@ title: Gorai
 parent: Another Mount Rokkon (WIP)
 nav_order: 4
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}

@@ -8,4 +8,4 @@
 > will apply 3 times. Since, all rotations are 90°, this effectively means the
 > rotation will happen in the *opposite* direction as shown.
 
-[three]: {{ page.root }}/debuffs/times-three.png#debuff
+[three]: /aai/lala/debuffs/times-three.png#debuff

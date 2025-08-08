@@ -12,4 +12,4 @@
 > After a couple seconds, this debuff will apply and the starting length of the
 > chain will snapshot.
 
-[chains]: {{ page.root }}/debuffs/chains.png#debuff
+[chains]: /aai/statice/debuffs/chains.png#debuff

@@ -4,7 +4,6 @@ title: Planar Tactics
 parent: Lala
 nav_order: 3
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -14,7 +13,7 @@ root: ..
 
 # Cheat Sheet
 
-{% figure arena.png %}
+{% figure ./arena.png %}
 
 {: .text-center }
 Put notch **south east**.

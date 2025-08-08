@@ -4,7 +4,6 @@ title: Trick Reload
 parent: Statice
 nav_order: 1
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

@@ -4,7 +4,6 @@ title: Malformed Reincarnation
 parent: Gorai
 nav_order: 7
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

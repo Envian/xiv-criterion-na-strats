@@ -8,4 +8,4 @@
 > will apply 5 times. However, all rotations are 90°, so this just means the
 > rotation applies once.
 
-[five]: {{ page.root }}/debuffs/times-five.png#debuff
+[five]: /aai/lala/debuffs/times-five.png#debuff

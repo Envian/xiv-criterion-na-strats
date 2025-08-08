@@ -8,4 +8,4 @@
 > When this debuff expires, this player will be raised into the air and can be
 > forcefully moved by **[boss]Ketuduke**'s mechanics.
 
-[bubble]: {{ page.root }}/debuffs/bubbleweave.png#debuff
+[bubble]: /aai/ketuduke/debuffs/bubbleweave.png#debuff

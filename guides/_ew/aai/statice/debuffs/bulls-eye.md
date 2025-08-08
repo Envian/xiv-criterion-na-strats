@@ -10,4 +10,4 @@
 > will be hit for a small damage AOE. If one color is hit by two or more darts,
 > the damage is lethal intead.
 
-[bullseye]: {{ page.root }}/debuffs/bullseye.png#debuff
+[bullseye]: /aai/statice/debuffs/bullseye.png#debuff

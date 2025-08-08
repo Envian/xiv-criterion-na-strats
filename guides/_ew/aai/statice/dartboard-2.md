@@ -4,7 +4,6 @@ title: Dartboard 2
 parent: Statice
 nav_order: 5
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

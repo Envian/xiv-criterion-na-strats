@@ -9,4 +9,4 @@
 > tower overlaps any other tower, they will both promptly explode, likely wiping
 > the group.
 
-[odder-prayer]: {{ page.root }}/debuffs/odder-prayer.png#debuff
+[odder-prayer]: /amr/gorai/debuffs/odder-prayer.png#debuff

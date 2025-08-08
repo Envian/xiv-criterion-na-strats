@@ -4,7 +4,6 @@ title: Symmetric Surge
 parent: Lala
 nav_order: 5
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -34,7 +33,7 @@ root: ..
 > > You can have the **![melee]Melee** and **![tank]Tank** swap spots to make
 > > centering the boss easier.
 
-{% figure timeline-1.png %}
+{% figure ./timeline-1.png %}
 </div>
 
 

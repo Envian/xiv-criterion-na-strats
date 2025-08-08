@@ -4,7 +4,6 @@ title: Exaflares (Sparks 2)
 parent: Gorai
 nav_order: 5
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

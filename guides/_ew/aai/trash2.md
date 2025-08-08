@@ -4,7 +4,6 @@ title: Trash Pack 2
 parent: Another Aloalo Island
 nav_order: 4
 has_toc: false
-root: .
 ---
 
 {% include defines.md %}
@@ -13,10 +12,11 @@ root: .
 # Trash Pack 2
 
 {: .min-medium }
-{% figcap arena.png %}
+{% figcap ./arena.png %}
 Entrance
 {% endfigcap %}
 
+{: style="clear: none;" }
 ## Buffs
 
 In this room there are two types of adds, *Wood Golems* and *Islekeepers*. When

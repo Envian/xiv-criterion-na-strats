@@ -52,7 +52,7 @@ based on, and fully compatible with PF Pastebin strats.
 
 ## Rewards
 
-{% figure rewards/trisassant.png %}
+{% figure ./rewards/trisassant.png %}
 
 Aloalo Coins and Aloalo Manuscripts can be exchanged for rewards in Old
 Sharlayan (12.0, 13.3), near the docks.
@@ -70,7 +70,7 @@ There are 3 unique rewards which can be purchased with Aloalo coins:
 
 ### Criterion (Savage)
 
-{% figcap rewards/forgottenfigure.png %}
+{% figcap ./rewards/forgottenfigure.png %}
 Forgotten Figure
 {% endfigcap %}
 

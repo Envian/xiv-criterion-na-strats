@@ -4,7 +4,6 @@ title: Spacial Tactics
 parent: Lala
 nav_order: 4
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
@@ -14,7 +13,7 @@ root: ..
 
 # Cheat Sheet
 
-{% figure cheatsheet.png %}
+{% figure ./cheatsheet.png %}
 
 {: .mb-6 .text-center }
 Use the white sphere to orient yourself.

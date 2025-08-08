@@ -15,7 +15,7 @@
 > The roman numerals on the icon show the order that these debuffs will expire.
 > The I debuff will expire first, followed by II, then III, then IV.
 
-[odder1]: {{ page.root }}/debuffs/odder-1.png#debuff
-[odder2]: {{ page.root }}/debuffs/odder-2.png#debuff
-[odder3]: {{ page.root }}/debuffs/odder-3.png#debuff
-[odder4]: {{ page.root }}/debuffs/odder-4.png#debuff
+[odder1]: /amr/gorai/debuffs/odder-1.png#debuff
+[odder2]: /amr/gorai/debuffs/odder-2.png#debuff
+[odder3]: /amr/gorai/debuffs/odder-3.png#debuff
+[odder4]: /amr/gorai/debuffs/odder-4.png#debuff

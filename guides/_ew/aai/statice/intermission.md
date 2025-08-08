@@ -4,7 +4,6 @@ title: Intermission
 parent: Statice
 nav_order: 4
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}

@@ -7,4 +7,4 @@
 >
 > This is a two person stack debuff.
 
-[brazier]: {{ page.root }}/debuffs/live-brazier.png#debuff
+[brazier]: /amr/gorai/debuffs/live-brazier.png#debuff

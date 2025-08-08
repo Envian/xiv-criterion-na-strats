@@ -4,7 +4,6 @@ title: Impure Purgation
 parent: Gorai
 nav_order: 2
 has_toc: false
-root: ..
 ---
 
 {% include defines.md %}
