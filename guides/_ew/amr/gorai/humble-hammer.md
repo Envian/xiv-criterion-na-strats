@@ -18,31 +18,29 @@ Arena with orbs spawned.
 {% endfigcap %}
 
 *[cast]Thundercall* spawns 6 orbs around the arena, one near each corner, and
-two in the middle. The two in the middle will be offset to one side.
+two in the middle. The two in the middle will be offset to one side. At the end
+of this mechanic, each of the orbs will explode with a large circular AOE.
 
 *[cast]Humble Hammer* targets the healer with a small AOE, which will shrink
 that player and anyone else hit. Any orbs hit by the hammer will also be shrunk,
 shrinking their circular AOE.
 
-*[cast]Shock* is the cast that each orb is doing, visible in the enmity list.
-When this cast finishes, all the circular AOEs on the ground will resolve, as
-well as *[boss]Gorai*'s *[cast]Flintlock*.
-
-*[cast]Flintlock* does not have a castbar, but is used by *[boss]Gorai* at the
-same time as the orbs resolve. For non-shrunken players, this is a tankbuster,
-however smaller players can mitigate most of the damage by being behind another
-player.
+Soon after *[cast]Humble Hammer* resolves, each of the orbs will explode. This
+is paired with an untelegraphed *[cast]Flintlock* from *[boss]gorai*, targeting
+the healer. All players hit by this line AOE are hit with a tankbuster, unless
+they are shrunk and standing behind a regular sized player.
 
 {: .info }
-Lala are not small for the purpose of *[cast]Flintlock*. They need to be bonked
-first.
+Lala are not considered shrunk for the purpose of *[cast]Flintlock*. They need
+to be bonked first.
 
 # Strategy
 
-To resolve the *[cast]Flintlock*, we will be placing the tank and healer front
-and center, next to the boss. The DPS can stand to either side of the quadrant.
+To resolve the *[cast]Flintlock*, The tank will be standing infront of the
+healer, using the middle of the safe area. DPS will stand off to either side,
+ignoring the mechanic entirely.
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > Identify the safe quadrant. This will be the one furthest away from the middle
 > two orbs. The healer should quickly move to the orb in that quadrant in order
 > to shrink it.

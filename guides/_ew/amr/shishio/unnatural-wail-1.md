@@ -88,7 +88,7 @@ can be solved with fixed partners. All assigned spots are boss relative.
 > **[dps]DPS** Right
 </div>
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > Begin by identifying whether this is *![intense]Stack* or *![scattered]Spread*
 > first, as well as where the first safe spot is.
 

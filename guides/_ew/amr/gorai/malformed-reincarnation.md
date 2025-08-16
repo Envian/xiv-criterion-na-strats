@@ -12,7 +12,7 @@ has_toc: false
 # Malformed Reincarnation
 
 {: .info }
-This mechanic can be comfortably skipped in regular Criterion with few deaths,
+This mechanic can be comfortably skipped in regular Criterion with a clean run,
 however it cannot be skipped in Savage.
 
 {: .debuffs .clear }
@@ -25,38 +25,45 @@ however it cannot be skipped in Savage.
 
 # Mechanics
 
-{% figcap fixed-towers.png %}
-Fixed Tower Locations
-{% endfigcap %}
-
 *[cast]Malformed Reincarnation* applies various debuffs to each player. There
-are only a few possible patterns, so each player will receive one of these sets
-of debuffs:
+3 possible combinations of buffs.
 
-1. *![squirrely-prayer]* *![odder1]* *![odder2]* *![odder3]*
-2. *![odder-prayer]* *![rodent1]* *![rodent2]* *![rodent3]*
-3. *![squirrely-prayer]* *![rodent1]* *![rodent2]* *![odder3]*
-4. *![odder-prayer]* *![odder1]* *![odder2]* *![rodent3]*
+<div class="column-flex even dividers mb-4 collapse-sm lh-wide center-sm" markdown="1">
+> 1. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
+> 2. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
+> 3. *![odder-prayer]![odder1]![odder2]![rodent3]*
+> 4. *![odder-prayer]![odder1]![odder2]![rodent3]*
 
-While it is possible that each player receives a different set of debuffs, its
-also possible for two players to get set 1, and two players get set 2. Same with
-set 3 and set 4.
+> 1. *![squirrely-prayer]![odder1]![odder2]![odder3]*
+> 2. *![squirrely-prayer]![odder1]![odder2]![odder3]*
+> 3. *![odder-prayer]![rodent1]![rodent2]![rodent3]*
+> 4. *![odder-prayer]![rodent1]![rodent2]![rodent3]*
+
+> 1. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
+> 2. *![squirrely-prayer]![odder1]![odder2]![odder3]*
+> 3. *![odder-prayer]![odder1]![odder2]![rodent3]*
+> 4. *![odder-prayer]![rodent1]![rodent2]![rodent3]*
+</div>
+
+{% figcap fixed-towers.png %}
+Tower Locations. Can be rotated.
+{% endfigcap %}
 
 *[cast]Malformed Prayer* will begin spawning towers around the arena. The first
 set of towers will be two squirrel towers and two otter towers near the middle
 of the arena, on intercardinals. The second set of towers will appear in each
-corner, and match the color of the inner tower.
+corner.
 
 Finally, the *![squirrely-prayer]![odder-prayer]Prayer* debuffs will resolve,
-creating a final set of towers under each player. If any of these towers overlap
-with any other tower, then they will promptly explode, wiping the group.
+creating a third set of towers under each player. If any of these towers overlap
+with any other tower, they will promptly explode, wiping the group.
 
 Players must now soak 3 towers each, starting with the inner towers, corner
 towers, then player dropped towers.
 
-As an icing on the cake, **![boss]Gorai** casts *[cast]Flickering Flame*, which
-telegraphs two sets of "chess board" line AOEs. The first set of line AOEs
-resolves with the 3rd tower, and the 2nd set resolves soon after.
+As icing on the cake, **[boss]Gorai** casts *[cast]Flickering Flame*,
+telegraphing two sets of "chess board" line AOEs. The first set resolves with
+the 3rd towers, and the 2nd set resolves on its own shortly after.
 
 # Strategy
 
@@ -69,9 +76,9 @@ can end on the tower they drop themself. So to solve this, we will be assingning
 players to drop their towers on one side of the arena, then crossing to the
 other side to soak towers.
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > When the first set of towers spawns, move to the side which is opposite of
-> your *![rodent1] or ![odder1]* debuff. There is no priroity for who takes
+> your *![rodent1]![odder1]* debuff. There is no priroity for who takes
 > which side - adjust with your partner so you end up apart.
 
 ![](./timeline-1.png)

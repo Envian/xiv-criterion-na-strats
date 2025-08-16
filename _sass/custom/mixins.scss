@@ -26,18 +26,10 @@ blockquote.reset {
     @include box-shading;
 }
 
-@mixin small-screen-classes($prefix: "collapse-") {
-    &.#{$prefix}xs { @media(width < 320px) { @content } }
-    &.#{$prefix}sm { @media(width < 500px) { @content } }
-    &.#{$prefix}md { @media(width < 740px) { @content } }
-    &.#{$prefix}lg { @media(width < 1120px) { @content } }
-    &.#{$prefix}xl { @media(width < 1400px) { @content } }
-}
-
-@mixin large-screen-classes($prefix: "collapse-") {
-    &.#{$prefix}xs { @media(width >= 320px) { @content } }
-    &.#{$prefix}sm { @media(width >= 500px) { @content } }
-    &.#{$prefix}md { @media(width >= 740px) { @content } }
-    &.#{$prefix}lg { @media(width >= 1120px) { @content } }
-    &.#{$prefix}xl { @media(width >= 1400px) { @content } }
+@mixin small-screen-classes($prefix: "&.collapse-") {
+    #{$prefix}xs { @media(width < 320px) { @content } }
+    #{$prefix}sm { @media(width < 500px) { @content } }
+    #{$prefix}md { @media(width < 740px) { @content } }
+    #{$prefix}lg { @media(width < 1120px) { @content } }
+    #{$prefix}xl { @media(width < 1400px) { @content } }
 }

@@ -13,12 +13,11 @@ has_toc: false
 
 # Mechanics
 
-*[cast]Impure Purgation* will have a cone AOE target each player. Shortly
-afterwards, the boss will repeat the same cone AOEs in the same location as
-before.
+*[cast]Impure Purgation* is a cone AOE on each player. Shortly afterwards, a
+second set of cones will hit the same area as the first.
 
-The first AOE is unavoidable, however if a player is hit by two AOEs, then they
-will be killed by a magic vulnerability.
+While the first cone AOE cannot be avoided, it applies a magic vulnerability
+which will kill you if you do not dodge the followup cone.
 
 # Strategy
 
@@ -26,7 +25,7 @@ There are no strictly assigned spots for this mechanic - Pay attention to where
 everyone is and stay spread out. Remember to dodge the cones after the first
 set goes out.
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > Stay loosely spread for the first set of cone AOEs.
 
 ![](./timeline-1.png)

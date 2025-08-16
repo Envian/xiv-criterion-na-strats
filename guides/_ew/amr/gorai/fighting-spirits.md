@@ -13,22 +13,18 @@ has_toc: false
 
 # Mechanics
 
-When *[cast]Fighting Spirits* begins casting, each player will receive a marker
-above their head, with 1 to 4 dots. This represents the order that
-**[boss]Gorai** will jump on players later.
+When *[cast]Fighting Spirits* begins, each player will receive a marker above
+their head, with 1 to 4 dots. This represents the order that **[boss]Gorai**
+will jump on players later.
 
-When *[cast]Fighting Spirits* resolves, each player will be knocked back (This
-can be knockback immuned). Shortly after **[boss]Gorai** will become
-untargetable and begin jumping on players. After the 4th player, he will jump
-back to the middle for one final hit.
+When *[cast]Fighting Spirits* resolves, each player will be knocked back from
+**[boss]Gorai** (This can be resisted). Shortly after **[boss]Gorai** will
+become untargetable and begin jumping on players.
 
-For each jump, **[boss]Gorai** will turn to face their target and center a cross
-AOE on them. this AOE is quite large, and applies a vulnerability to anyone hit
-by it. Getting hit by an extra jump will kill you.
-
-After being jumped on, no matter where the next jump is, the line AOEs for the
-following jump will be centered directly on you. You must move out of the way
-before the next jump.
+For each jump, **[boss]Gorai** will turn to face the next target, and performing
+a very large cross AOE on the target. This cross will be oriented based on the
+direction that **[boss]Gorai** jumped. This AOE applies a vulnerability on
+anyone hit, killing them if they are hit by two jumps.
 
 {: .warning }
 > If anyone is dead when *[cast]Fighting Spirits* begins casting, they will not
@@ -40,18 +36,24 @@ before the next jump.
 
 # Strategy
 
-{% figcap markers.png %}
+{% figcap ../common/markers.png %}
 Arena with Markers
 {% endfigcap %}
 
-Each player will be assigned to their number markers. Players with 1, 2, or 3
-can go immidiately to their assigned spots, but 4 must wait by D until after 2
-jumps.
+Each player will stand on the number marker which matches the icon above their
+head. The 1, 2, and 3 players can move to their markers as soon as the knockback
+resolves, however the 4 player must wait on the D marker for 2 jumps before
+moving onto 4.
 
-For each player, after they are jumped on, they must move to a safe spot along
-the middle of the wall.
+After being jumped on, each player must move to the letter marker which matches
+their number marker's color (Except 3, who moves to the 1 marker). The timing
+for this is a bit tight. Move as soon as **[boss]Gorai** leaves the ground.
 
-<div class="timeline half-width" markdown="1">
+{: .warning }
+If you are not skipping Malformed Reincarnation, you will need to save
+*![sprint]Sprint* for that mechanic.
+
+<div class="column-grid clear half-width" markdown="1">
 > Timeline
 >
 > ![](./timeline-1.png)

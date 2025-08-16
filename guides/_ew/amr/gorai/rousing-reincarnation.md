@@ -19,24 +19,30 @@ has_toc: false
 
 # Mechanics
 
-Begins with *[cast]Rousing Reincarnation*, a raidwide which applies four pairs
-of debuffs to each player. Who receives which pair is completely random.
+*[cast]Rousing Reincarnation* begins with a raidwide, which randomly assigns
+a different set of debuffs to each player.
 
 * *![rodent1]![odder3]*
 * *![rodent2]![odder4]*
 * *![odder1]![rodent3]*
 * *![odder2]![rodent4]*
 
+Each of these debuffs will need to be dispelled by taking a tower that matches
+the debuff's symbol and color. The numbers on each debuff show the order that
+they resolve, with the I debuffs expiring first, and the IV debuffs expiring
+last.
+
 This is followed up by *[cast]Malformed Prayer*, which will begin spawning
 towers. Initially, two towers will spawn, one with an orange squirrel icon
-above it, and the other with a blue otter icon. This will repeat 3 more times,
-for a total of 4 pairs of towers.
+above it, and the other with a blue otter icon. Over the duration of this
+mechanic, 3 more pairs of towers will spawn.
 
-Finally, *[cast]Pointed Purgation* will begin casting, spawning two tethers on
-two random players. These tethers can be picked up by other players. When
-*[cast]Pointed Purgation* finishes casting, a cone AOE will target each tethered
-player. At the same time, the first set of towers will resolve. The cones will
-continue to repeat each time a tower resolves, for a total of 4 pairs of cones.
+Finally, *[cast]Pointed Purgation* will begin, spawning two tethers on two
+random players. These tethers can be passed around and when
+*[cast]Pointed Purgation* resolves, the currently tethered players will be
+targetd by a cone AOE (This will not repeat like *[cast]Impure Purgation* from
+earlier). The tethered players will be hit by a cone AOE 3 more times throughout
+the mechanic, once for each pair of towers which resolves.
 
 Since all of the mechanics line up, and each player has a role to play for each
 step in this mechanic, the mechanic will always resolve like this:
@@ -50,14 +56,14 @@ step in this mechanic, the mechanic will always resolve like this:
 7. *![rodent4]![odder4]* take their towers. Other players bait tethers away.
 
 {: .info }
-This is very similar to *[cast]Program Loop* from TOP.
+This is very similar to *[cast]Program Loop* (the first mechanic) from TOP.
 
 # Strategy
 
 While there is only one distinct way to solve this mechanic, there are many
 strategies that PF employs to improve consistency with this mechanic.
 
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > When the cast for *[cast]Rousing Reincarnation* starts, group south to handle
 > tethers quickly. Stack tightly, with the players who have *![rodent1]
 > ![odder1]* in the back, and the other two players in the front.
@@ -84,9 +90,20 @@ strategies that PF employs to improve consistency with this mechanic.
 
 > When swapping tethers, each player takes the tether closest to them.
 >
-> After grabbing your tether, move to your next tower when it spawns.
+> *Note: The* *![rodent1]* *and* *![odder1]* *debuffs are cleansed, which is
+> why the players in this diagram have different icons. This is still a
+> continuation of the previous tile.*
 
 ![](./easy-pattern.png)
+
+> After grabbing your tether, move to your next tower when it spawns. Crossing
+> the streams with your partner is fine.
+>
+> {: .warning }
+> Remember to stay on your tower after getting hit by the cone AOE. Wait until
+> the other players are hit by the cone before moving out to pick it up.
+
+![](./easy-pattern-followup.png)
 
 > If both player's closest tether is the same tether, then the player closer to
 > that tether wins, and the further player move around to take the other.

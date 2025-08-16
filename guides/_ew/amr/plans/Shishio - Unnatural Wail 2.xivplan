@@ -13,61 +13,6 @@
     {
       "objects": [
         {
-          "type": "circle",
-          "color": "#fc972b",
-          "opacity": 35,
-          "radius": 225,
-          "x": 0,
-          "y": 0,
-          "id": 1
-        },
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_large.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 100,
-          "status": [],
-          "rotation": 0,
-          "ring": "dir",
-          "x": 0,
-          "y": 0,
-          "id": 2
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
-          "type": "enemy",
-          "icon": "/actor/enemy_large.png",
-          "name": "",
-          "color": "#ff0000",
-          "opacity": 65,
-          "radius": 100,
-          "status": [],
-          "rotation": 0,
-          "ring": "dir",
-          "x": 0,
-          "y": 0,
-          "id": 4
-        },
-        {
-          "type": "donut",
-          "color": "#fc972b",
-          "opacity": 35,
-          "innerRadius": 100,
-          "radius": 500,
-          "x": 0,
-          "y": 0,
-          "id": 5
-        }
-      ]
-    },
-    {
-      "objects": [
-        {
           "type": "donut",
           "color": "#fc972b",
           "opacity": 35,
@@ -194,6 +139,61 @@
           "x": 60,
           "y": -40,
           "id": 44
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "circle",
+          "color": "#fc972b",
+          "opacity": 35,
+          "radius": 225,
+          "x": 0,
+          "y": 0,
+          "id": 1
+        },
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 2
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "enemy",
+          "icon": "/actor/enemy_large.png",
+          "name": "",
+          "color": "#ff0000",
+          "opacity": 65,
+          "radius": 100,
+          "status": [],
+          "rotation": 0,
+          "ring": "dir",
+          "x": 0,
+          "y": 0,
+          "id": 4
+        },
+        {
+          "type": "donut",
+          "color": "#fc972b",
+          "opacity": 35,
+          "innerRadius": 100,
+          "radius": 500,
+          "x": 0,
+          "y": 0,
+          "id": 5
         }
       ]
     },

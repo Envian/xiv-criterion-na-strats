@@ -1,4 +1,3 @@
-{: .paired }
 ![odder1]
 ![odder2]
 ![odder3]

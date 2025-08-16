@@ -28,11 +28,11 @@ has_toc: false
 * [Malformed Reincarnation](./malformed-reincarnation/)
 * [Seal of Scurrying Sparks 1 (Repeat)](./sparks-1/)
 * Unenlightenment (Raidwide w/ Bleed)
-* ??? (Enrage?)
+* Living Hell (Enrage)
 
 ## Important Debuffs
 
-<div class="debuffs" markdown="1">
+<div class="debuff-grid" markdown="1">
 {% include_relative gorai/debuffs/live-candle.md %}
 {% include_relative gorai/debuffs/live-brazier.md %}
 {% include_relative gorai/debuffs/rodential-rebirth.md %}

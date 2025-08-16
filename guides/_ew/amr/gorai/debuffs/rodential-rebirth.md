@@ -1,4 +1,3 @@
-{: .paired }
 ![rodent1]
 ![rodent2]
 ![rodent3]

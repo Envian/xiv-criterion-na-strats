@@ -57,6 +57,10 @@ hr {
     font-size: 0.8em;
 }
 
+.min-content {
+    min-width: fit-content;
+}
+
 dl {
     grid-template: auto / auto auto !important;
 }
@@ -206,4 +210,20 @@ img.shade {
 
 img {
     max-height: 100%;
+}
+
+// Fixes names which are slightly too long to avoid wrapping.
+@media (min-width: 50rem) {
+    .nav-list .nav-list-item .nav-list-link {
+        text-wrap: nowrap;
+    }
+}
+
+.lh-wide {
+    line-height: 2;
+}
+
+@include small-screen-classes(".center-") {
+    width: fit-content;
+    margin: auto;
 }

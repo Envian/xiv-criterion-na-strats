@@ -10,22 +10,34 @@
     > * {
         @include blockquote-reset;
         flex: auto;
-        padding: 0 1rem !important;
-
-        &:first-child {
-            padding-left: 0 !important;
-        }
-
-        &:last-child {
-            padding-right: 0 !important;
-        }
     }
 
     &.even > * {
-        flex-basis: 0;
+        flex: 1;
     }
 
-    &.dividers > :not(:first-child) {
-        border-left: $border $border-color;
+    &.dividers {
+        > * { padding: 0 1rem; }
+        > :first-child { padding-left: 0; }
+        > :last-child { padding-right: 0; }
+
+        > :not(:first-child) {
+            border-left: $border $border-color;
+        }
+
+        @include small-screen-classes {
+            > * { padding: 1rem 0; }
+            > :first-child { padding-top: 0; }
+            > :last-child { padding-bottom: 0; }
+
+            > :not(:first-child) {
+                border-top: $border $border-color;
+                border-left: 0;
+            }
+        }
+    }
+
+    @include small-screen-classes {
+        flex-direction: column;
     }
 }

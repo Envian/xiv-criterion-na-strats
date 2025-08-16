@@ -1,5 +1,5 @@
 {
-  "nextId": 152,
+  "nextId": 188,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -16,6 +16,244 @@
       "objects": [
         {
           "type": "rect",
+          "color": "#6f5a48",
+          "opacity": 100,
+          "width": 300,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 162
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": -32,
+          "y": 75,
+          "id": 163
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/melee.png",
+          "name": "Melee DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 32,
+          "y": 75,
+          "id": 164
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": -32,
+          "y": -75,
+          "id": 165
+        },
+        {
+          "opacity": 100,
+          "type": "party",
+          "image": "/actor/ranged.png",
+          "name": "Ranged DPS",
+          "status": [],
+          "width": 52,
+          "height": 52,
+          "rotation": 0,
+          "x": 32,
+          "y": -75,
+          "id": 166
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
+          "color": "#6f5a48",
+          "opacity": 100,
+          "width": 300,
+          "height": 5,
+          "rotation": 0,
+          "x": 0,
+          "y": 0,
+          "id": 167
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -132,
+          "y": 55,
+          "id": 176
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 132,
+          "y": 55,
+          "id": 177
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 132,
+          "y": 132,
+          "id": 178
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -132,
+          "y": 132,
+          "id": 179
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -56,
+          "y": 132,
+          "id": 180
+        },
+        {
+          "type": "party",
+          "image": "/actor/tank.png",
+          "name": "Tank",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 57,
+          "y": 132,
+          "id": 181
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -132,
+          "y": -57,
+          "id": 182
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 132,
+          "y": -57,
+          "id": 183
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 132,
+          "y": -132,
+          "id": 184
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": 57,
+          "y": -132,
+          "id": 185
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -56,
+          "y": -132,
+          "id": 186
+        },
+        {
+          "type": "party",
+          "image": "/actor/healer.png",
+          "name": "Healer",
+          "status": [],
+          "width": 32,
+          "height": 32,
+          "opacity": 100,
+          "rotation": 0,
+          "x": -132,
+          "y": -132,
+          "id": 187
+        }
+      ]
+    },
+    {
+      "objects": [
+        {
+          "type": "rect",
           "color": "#fc972b",
           "opacity": 35,
           "width": 75,
@@ -23,7 +261,7 @@
           "rotation": 0,
           "x": -75,
           "y": 0,
-          "id": 52,
+          "id": 152,
           "pinned": true
         },
         {
@@ -35,7 +273,7 @@
           "rotation": 0,
           "x": 75,
           "y": 0,
-          "id": 53,
+          "id": 153,
           "pinned": true
         },
         {
@@ -47,7 +285,7 @@
           "rotation": 0,
           "x": 0,
           "y": 75,
-          "id": 54,
+          "id": 154,
           "pinned": true
         },
         {
@@ -59,7 +297,7 @@
           "rotation": 0,
           "x": 0,
           "y": -75,
-          "id": 55,
+          "id": 155,
           "pinned": true
         },
         {
@@ -69,7 +307,7 @@
           "radius": 70,
           "x": -75,
           "y": -225,
-          "id": 56
+          "id": 156
         },
         {
           "type": "circle",
@@ -78,7 +316,7 @@
           "radius": 70,
           "x": 75,
           "y": 225,
-          "id": 57
+          "id": 157
         },
         {
           "type": "circle",
@@ -87,7 +325,7 @@
           "radius": 70,
           "x": 150,
           "y": 0,
-          "id": 58
+          "id": 158
         },
         {
           "type": "circle",
@@ -96,7 +334,7 @@
           "radius": 70,
           "x": -150,
           "y": 0,
-          "id": 59
+          "id": 159
         },
         {
           "type": "circle",
@@ -105,7 +343,7 @@
           "radius": 70,
           "x": 225,
           "y": -150,
-          "id": 60
+          "id": 160
         },
         {
           "type": "circle",
@@ -114,7 +352,7 @@
           "radius": 70,
           "x": -225,
           "y": 150,
-          "id": 61
+          "id": 161
         }
       ]
     },
@@ -393,64 +631,64 @@
     {
       "objects": [
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -67,
           "y": 180,
           "id": 82
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -69,
           "y": -149,
           "id": 83
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 0,
           "y": 180,
           "id": 84
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -4,
           "y": -149,
           "id": 85
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -459,12 +697,12 @@
           "id": 86
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -497,15 +735,15 @@
           "id": 89
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffc800",
           "opacity": 100,
-          "style": "outline",
           "rotation": 90,
           "text": "DPS Flex",
-          "stroke": "#40352c",
           "x": 15,
           "y": 14,
           "id": 90
@@ -515,64 +753,64 @@
     {
       "objects": [
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 135,
           "y": 148,
           "id": 91
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -177,
           "y": -149,
           "id": 92
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -125,
           "y": -169,
           "id": 93
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 195,
           "y": 149,
           "id": 94
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -581,12 +819,12 @@
           "id": 95
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -649,29 +887,29 @@
           "id": 103
         },
         {
+          "stroke": "#40352c",
+          "style": "plain",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "plain",
           "rotation": 0,
           "text": "Safe Rock",
-          "stroke": "#40352c",
           "x": -223,
           "y": -47,
           "id": 110
         },
         {
+          "stroke": "#40352c",
+          "style": "plain",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "plain",
           "rotation": 0,
           "text": "Safe Rock",
-          "stroke": "#40352c",
           "x": 229,
           "y": 41,
           "id": 111
@@ -783,92 +1021,92 @@
           "id": 117
         },
         {
+          "stroke": "#40352c",
+          "style": "plain",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "plain",
           "rotation": 0,
           "text": "Safe Rock",
-          "stroke": "#40352c",
           "x": -223,
           "y": -47,
           "id": 118
         },
         {
+          "stroke": "#40352c",
+          "style": "plain",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#00d5e8",
           "opacity": 100,
-          "style": "plain",
           "rotation": 0,
           "text": "Safe Rock",
-          "stroke": "#40352c",
           "x": 229,
           "y": 41,
           "id": 119
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 135,
           "y": 148,
           "id": 120
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -177,
           "y": -149,
           "id": 121
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -125,
           "y": -169,
           "id": 122
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 195,
           "y": 149,
           "id": 123
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -877,12 +1115,12 @@
           "id": 124
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -997,64 +1235,64 @@
           "id": 135
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/tank.png",
           "name": "Tank",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 135,
           "y": 148,
           "id": 138
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/healer.png",
           "name": "Healer",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -177,
           "y": -149,
           "id": 139
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/melee.png",
           "name": "Melee DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": -125,
           "y": -169,
           "id": 140
         },
         {
+          "opacity": 100,
           "type": "party",
           "image": "/actor/ranged.png",
           "name": "Ranged DPS",
           "status": [],
           "width": 32,
           "height": 32,
-          "opacity": 100,
           "rotation": 0,
           "x": 195,
           "y": 149,
           "id": 141
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -1063,12 +1301,12 @@
           "id": 142
         },
         {
+          "opacity": 100,
           "type": "icon",
           "image": "https://beta.xivapi.com/api/1/asset/ui/icon/216000/216737_hr1.tex?format=png",
           "width": 24,
           "height": 32,
           "rotation": 0,
-          "opacity": 100,
           "name": "Live Brazier",
           "iconId": 216737,
           "maxStacks": 0,
@@ -1099,29 +1337,29 @@
           "id": 145
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Safe\n(Grow)",
-          "stroke": "#40352c",
           "x": -227,
           "y": -263,
           "id": 146
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Safe\n(Grow)",
-          "stroke": "#40352c",
           "x": 223,
           "y": 263,
           "id": 147
@@ -1149,29 +1387,29 @@
           "id": 149
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Safe\n(Split)",
-          "stroke": "#40352c",
           "x": 265,
           "y": 115,
           "id": 150
         },
         {
+          "stroke": "#40352c",
+          "style": "outline",
           "type": "text",
           "align": "center",
           "fontSize": 25,
           "color": "#ffffff",
           "opacity": 100,
-          "style": "outline",
           "rotation": 0,
           "text": "Safe\n(Split)",
-          "stroke": "#40352c",
           "x": -264,
           "y": -115,
           "id": 151

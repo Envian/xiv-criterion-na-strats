@@ -13,76 +13,67 @@ has_toc: false
 
 # Cheat Sheet
 
-{: .text-center .m-0 }
-**Partners**
-<div class="columns positions borderless" markdown="1">
-{: .justify-right .pr-1 }
-**Tank ![tank]**
+<div class="column-flex even" markdown="1">
+{: .min-content }
+> *![tank]![melee]* **Melee** --- North \\
+> *![healer]![Ranged]* **Ranged** --- South
+>
+> **![dps]DPS** Flex if necessary.
 
-{: .pl-1 }
-**![melee] Melee**
+{% figcap assignments.png %}
+Assigned sides.
+{% endfigcap %}
+
+{% figcap safe-spots.png %}
+All possible safe spots.
+{% endfigcap %}
 </div>
 
------
-{: .half-width .mt-2 .mb-2 }
-
-<div class="columns positions borderless" markdown="1">
-{: .justify-right .pr-1 }
-**Healer ![healer]**
-
-{: .pl-1 }
-**![ranged] Ranged**
-</div>
-
-{: .text-center }
-*![dps]DPS* Flexes.
-
-{: .debuffs }
-{% collapse Debuff Explanations %}
+{: .debuff-grid }
+{% collapse Debuffs %}
 {% include_relative debuffs/live-brazier.md %}
 {% endcollapse %}
 
 # Mechanics
 
-*[cast]Seal of Scurrying Sparks*
-: Applies *![brazier]Live Brazier* to two random players.
+{% figcap ./arena-initial.png %}
+Initial AOEs from the rocks and flames. Can be rotated or mirrored.
+{% endfigcap %}
 
-*[cast]Flame and Sulphur*
-: Spawns 4 flames around the arena, each which telegraph a line AOE. Also spawns
-  6 rocks, which each telegraph a circular AOE. The telegraphs appear when the
-  next cast begins.
-: The line AOEs are fixed, but the rocks can be rotated or mirroed around the
-  arena.
+*[cast]Seal of Scurrying Sparks* applies *![brazier]Live Brazier* to two random
+players. *[cast]Flame and Sulphur* then spawns 4 flames and 6 rocks around the
+arena. Finally, at the start of the *[cast]Brazen Ballad* cast we see 3
+telegraphs:
 
-*[cast]Brazen Ballad*
-: When the cast begins, a unique symbol will appear around Gorai telegraphing
-  how the line and circular AOEs will change.
+{: .lh-tight }
+1. Line AOEs from each flame.
+2. Circle AOEs under each rock.
+3. One of two symbols around *[boss]Gorai*:
+  - A blue triangle.
+  - An orange circle.
 
-<div class="columns text-center" markdown="1">
+Near the end of the *[cast]Brazen Ballad* cast, the telegraphed AOEs will change
+based on the symbol Gorai shows.
+
+<div class="column-grid" markdown="1">
 > **Grow Icon**
 >
-> ![](./grow-icon.png)
->
-> This will cause the telegraphed AOES to grow larger.
-
-> **Split Icon**
->
-> ![](./split-icon.png)
->
-> The circular AOEs will convert to donut AOEs, and grow larger. The line AOEs
-> will split in two, moving to each side.
-</div>
-
-<div class="timeline collapse-sm" markdown="1">
-> **Initial Lines**
->
-> ![](./arena-initial.png)
-
-> **Grow Pattern**
+> {: .grid-align-top }
+> > ![](./grow-icon.png)
+> >
+> > {: .text-center }
+> > This will cause the telegraphed AOES to grow larger.
 >
 > ![](./arena-grow.png)
 
-> **Split Pattern**
+> **Split Icon**
+>
+> {: .grid-align-top }
+> > ![](./split-icon.png)
+> >
+> > {: .text-center }
+> > The circular AOEs will convert to donut AOEs, and grow larger. The line AOEs
+> > will split in two, moving to each side.
 >
 > ![](./arena-split.png)
 </div>
@@ -95,8 +86,8 @@ flex. To solve this, we will be using these priorities:
 * *![tank]Tank* *![melee]Melee* North
 * *![healer]Healer* *![ranged]Ranged* South
 
-The *![tank]Tank* *![melee]Melee* flex to the other side if both players on one
-side have the stack debuff.
+The *![tank]Tank* and *![melee]Melee* flex to the other side if both players on
+one side have the stack debuff.
 
 <div class="mechanics" markdown="1">
 > Begin by checking the debuffs. Ensure that both pairs of players have a
@@ -121,6 +112,15 @@ side have the stack debuff.
 
 ![](./timeline-4.png)
 </div>
+
+{: .uptime }
+> While *[boss]Gorai* will recenter himself at the start of this mechanic, there
+> is a brief window where he can be moved after the rocks appear. If the tank is
+> quick, they can pull *[boss]Gorai* closer to the safe spot, giving both melee
+> players a bit more uptime.
+>
+> Be careful though, if you identify the wrong safe spot, then all players will
+> lose uptime.
 
 {: .povs .mt-8 }
 {% collapse POVs %}
