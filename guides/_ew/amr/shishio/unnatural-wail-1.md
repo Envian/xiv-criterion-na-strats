@@ -72,7 +72,7 @@ set of debuffs.
 Because *![intense]stack* always goes on one dps and one support, this mechanic
 can be solved with fixed partners. All assigned spots are boss relative.
 
-<div class="column-flex even dividers mb-4" markdown="1">
+<div class="column-flex even mb-4 collapse-sm" markdown="1">
 > {: .fs-6 }
 > *![scattered]Spread*
 >
@@ -80,6 +80,8 @@ can be solved with fixed partners. All assigned spots are boss relative.
 > **![healer]Healer** West *(Same as stack)* \\
 > **![melee]Melee** East *(Same as stack)* \\
 > **![ranged]Ranged** South
+
+-----
 
 > {: .fs-6 }
 > *![intense]Stack*

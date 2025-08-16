@@ -223,7 +223,8 @@ img {
     line-height: 2;
 }
 
-@include small-screen-classes(".center-") {
-    width: fit-content;
-    margin: auto;
-}
+// @include small-screen-classes(".center-") {
+//     width: fit-content;
+//     margin: auto;
+//     align-items: center;
+// }

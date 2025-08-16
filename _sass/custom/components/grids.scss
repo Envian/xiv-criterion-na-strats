@@ -110,8 +110,9 @@
             @include grid-cell;
             @include grid-cell-left;
 
-            /* Specifically compensates for the lack of a gap. */
-            margin-bottom: 2px;
+            // Specifically compensates for the lack of a gap.
+            // Could be more selective instead of Important
+            margin-bottom: 2px !important;
 
             &:last-child {
                 @include grid-cell-bottom;

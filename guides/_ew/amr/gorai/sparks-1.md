@@ -13,7 +13,7 @@ has_toc: false
 
 # Cheat Sheet
 
-<div class="column-flex even" markdown="1">
+<div class="column-flex even collapse-sm center-sm" markdown="1">
 {: .min-content }
 > *![tank]![melee]* **Melee** --- North \\
 > *![healer]![Ranged]* **Ranged** --- South

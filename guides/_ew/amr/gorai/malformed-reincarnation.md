@@ -28,16 +28,20 @@ however it cannot be skipped in Savage.
 *[cast]Malformed Reincarnation* applies various debuffs to each player. There
 3 possible combinations of buffs.
 
-<div class="column-flex even dividers mb-4 collapse-sm lh-wide center-sm" markdown="1">
+<div class="column-flex even mb-4 collapse-sm lh-wide" markdown="1">
 > 1. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
 > 2. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
 > 3. *![odder-prayer]![odder1]![odder2]![rodent3]*
 > 4. *![odder-prayer]![odder1]![odder2]![rodent3]*
 
+-----
+
 > 1. *![squirrely-prayer]![odder1]![odder2]![odder3]*
 > 2. *![squirrely-prayer]![odder1]![odder2]![odder3]*
 > 3. *![odder-prayer]![rodent1]![rodent2]![rodent3]*
 > 4. *![odder-prayer]![rodent1]![rodent2]![rodent3]*
+
+-----
 
 > 1. *![squirrely-prayer]![rodent1]![rodent2]![odder3]*
 > 2. *![squirrely-prayer]![odder1]![odder2]![odder3]*

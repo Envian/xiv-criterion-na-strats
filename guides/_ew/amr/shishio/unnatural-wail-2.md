@@ -85,7 +85,7 @@ Because *![intense]stack* always goes on one dps and one support, this mechanic
 can be solved with fixed partners. This uses the same spreads as Unnatural Wail
 1, but true north instead of boss relative, and slightly modified stack spots.
 
-<div class="column-flex even dividers mb-4" markdown="1">
+<div class="column-flex even mb-4" markdown="1">
 > {: .fs-6 }
 > *![scattered]Spread*
 >
@@ -93,6 +93,8 @@ can be solved with fixed partners. This uses the same spreads as Unnatural Wail
 > **![healer]Healer** West \\
 > **![melee]Melee** East \\
 > **![ranged]Ranged** South
+
+-----
 
 > {: .fs-6 }
 > *![intense]Stack*
