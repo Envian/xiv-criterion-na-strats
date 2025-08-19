@@ -17,10 +17,10 @@ has_toc: false
 Line AOEs for *[cast]Boundless Azure*.
 {% endfigcap %}
 
-*[cast]Azure Auspice* is a donut AOE which requires players to stand inside
-*[boss]Moko*'s hitbox. This is followed by *[cast]Boundless Azure*, which is
-identical to the earlier *[cast]Boundless Crimson* - Four large line AOEs
-telegraphed across the arena.
+This mechanic begins with *[cast]Azure Auspice*, a donut AOE where
+*[boss]Moko*'s hitbox is safe. This is followed by *[cast]Boundless Azure*, the
+same line AOEs from *[cast]Boundless Scarlet*. However this time, blue lines are
+created.
 
 This is followed by an "Exalines" mechanic. In a random order, each of the blue
 lines will get larger, eventually detonating a line AOE that then spreads out
@@ -28,19 +28,20 @@ in both directions like an exaflare. While each line starts at a different time,
 multiple lines will be expanding simultaneously, making this a very chaotic
 mechanic.
 
-When the last exaline begins, *[boss]Moko* will begin casting
-*[cast]Tripple Kasumi-giri*. You will need to check this while performing your
-last dodge.
+When the final exaline begins, *[boss]Moko* will begin casting
+*[cast]Tripple Kasumi-giri*. You will need to check this while dodging the
+exalines.
 
-<div class="timeline" markdown="1">
+<div class="column-grid" markdown="1">
 > Horizontal Exaline Pattern
 >
 > ![](./horizontal-1.png)
 >
 > ![](./horizontal-2.png)
 >
+> {: .pb-2 }
 > ![](./horizontal-3.png)
-> (Exaline will continue until it exits the arena)
+> *Exaline will continue until it exits the arena*
 
 > Diagonal Exaline Pattern
 >
@@ -48,8 +49,9 @@ last dodge.
 >
 > ![](./diagonal-2.png)
 >
+> {: .pb-2 }
 > ![](./diagonal-3.png)
-> (Exaline will continue until it exits the arena)
+> *Exaline will continue until it exits the arena*
 </div>
 
 # Strategy

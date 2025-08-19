@@ -1,5 +1,5 @@
 {
-  "nextId": 212,
+  "nextId": 216,
   "arena": {
     "shape": "rectangle",
     "width": 600,
@@ -915,6 +915,62 @@
           "x": -1,
           "y": -1,
           "id": 103
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": -45,
+          "text": "Baiting Far Edge",
+          "stroke": "#40352c",
+          "x": -218,
+          "y": 102,
+          "id": 212
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Facing\nCenter",
+          "stroke": "#40352c",
+          "x": -186,
+          "y": -56,
+          "id": 213
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": 0,
+          "text": "Facing\nCenter",
+          "stroke": "#40352c",
+          "x": 187,
+          "y": 53,
+          "id": 214
+        },
+        {
+          "type": "text",
+          "align": "center",
+          "fontSize": 25,
+          "color": "#00d5e8",
+          "opacity": 100,
+          "style": "outline",
+          "rotation": -45,
+          "text": "Baiting Far Edge",
+          "stroke": "#40352c",
+          "x": 217,
+          "y": -99,
+          "id": 215
         }
       ]
     },

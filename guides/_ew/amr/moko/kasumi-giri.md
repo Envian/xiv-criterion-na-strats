@@ -16,33 +16,36 @@ has_toc: false
 During the *[cast]Tripple Kasumi-Giri* cast, **[boss]Moko** will telegraph 3
 attacks in a row, using a unique icon above their head. This icon will show a
 circle with a small slice cut out of it - That shows which side of the boss is
-safe, relative to his front. The icon will also either be paired with orange
-fire, indicating a circular AOE the size of moko's hitbox, or blue water,
-indicating a donut AOE where the hitbox is safe.
+safe, relative to his facing. The icon will also either be paired with orange
+fire, indicating a circular AOE the size of **[boss]Moko**'s hitbox, or blue
+water, indicating a donut AOE where the hitbox is safe.
 
 Each time **[boss]Moko** uses an attack, he will turn to face away from the safe
-spot, and quickly transition into the next attack.
+spot, and quickly transition into the next attack. This changes where the
+next safe spot will be.
 
-<div class="timeline collapse-sm" markdown="1">
-> Fire (Out) Symbols
+<div class="column-grid collapse-sm" markdown="1">
+> **Fire (Out) Symbols**
 >
-> {: .paired .gap }
+> {: .grid .col-2 .square .gap-4 .p-4 .img-shadow }
 > ![](./out-front.png)
 > ![](./out-left.png)
 > ![](./out-right.png)
 > ![](./out-back.png)
 >
+> {: .lh-wide .pb-1 }
 > ![](./out-example.png)
 > *Example of out and left*
 
-> Water (In) Symbols
+> **Water (In) Symbols**
 >
-> {: .paired .gap }
+> {: .grid .col-2 .square .gap-4 .p-4 .img-shadow }
 > ![](./in-front.png)
 > ![](./in-left.png)
 > ![](./in-right.png)
 > ![](./in-back.png)
 >
+> {: .lh-wide .pb-1 }
 > ![](./in-example.png)
 > *Example of in and front*
 </div>
@@ -70,7 +73,7 @@ As long as you turn your camera towards the boss after each movement, the next
 safe spot can be easily found.
 
 ## Cursed pattern (Long Dodge)
-<div class="mechanics" markdown="1">
+<div class="strats-grid" markdown="1">
 > In the event that you have an "Out" mechanic followed by a "Front and Out",
 > the movement becomes a lot more tight. There are 3 options here.
 >

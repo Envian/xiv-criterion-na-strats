@@ -1,8 +1,11 @@
 @import "./custom/mixins.scss";
 @import "./custom/keywords.scss";
 
-@import "./custom/components/grids.scss";
-@import "./custom/components/flex.scss";
+.main-content {
+    @import "./custom/components/grids.scss";
+    @import "./custom/components/grids2.scss";
+    @import "./custom/components/flex.scss";
+}
 
 @import "./custom/components/columns.scss";
 @import "./custom/components/debuffs.scss";
@@ -45,6 +48,16 @@ hr {
     + h1 {
         margin-top: 1rem;
     }
+
+    // Allows subtitles by adding em text under the title.
+    + p:has(> em:only-child) {
+        text-align: center;
+        margin-top: -$sp-2;
+
+        + h1 {
+            margin-top: 1rem;
+        }
+    }
 }
 
 .center {
@@ -78,7 +91,7 @@ dl.compact {
     margin-bottom: 1rem;
 }
 
-img.shade {
+img.shade, .img-shadow img {
     @include img-shading;
 }
 

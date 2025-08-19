@@ -1,5 +1,10 @@
 .flex-row {
     flex-direction: row;
+
+    &.even > * {
+        flex: 1;
+        width: 0;
+    }
 }
 
 .column-flex {

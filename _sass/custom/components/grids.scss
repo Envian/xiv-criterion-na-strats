@@ -2,9 +2,6 @@
     @include box-shading;
 
     margin: 0;
-    // Default blockquote selector is too powerful
-    &:is(blockquote) { margin: 0; }
-
     padding: 0;
     min-height: 2.5rem;
 
@@ -47,8 +44,6 @@
 @mixin grid-cell-bottom {
     border-bottom: 0;
 }
-
-
 
 
 
