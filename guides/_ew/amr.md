@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Another Mount Rokkon (WIP)
+title: Another Mount Rokkon
 has_toc: false
 nav_order: 2
 ---

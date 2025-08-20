@@ -8,7 +8,7 @@ nav_exclude: true
 
 {% include defines.md %}
 
-**Next Release**
+**August 19th, 2025**
 * Minor changes to look and feel.
 
 **June 14th, 2025**

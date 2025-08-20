@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Shishio
-parent: Another Mount Rokkon (WIP)
+parent: Another Mount Rokkon
 nav_order: 2
 has_toc: false
 ---

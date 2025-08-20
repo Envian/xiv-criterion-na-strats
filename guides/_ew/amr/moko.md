@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Moko
-parent: Another Mount Rokkon (WIP)
+parent: Another Mount Rokkon
 nav_order: 5
 has_toc: false
 ---

@@ -1,189 +1,33 @@
-@mixin grid-cell {
-    @include box-shading;
+@mixin column-classes($size) {
+    &.col-#{$size} {
+        grid-template-columns: repeat(#{$size}, 1fr);
 
-    margin: 0;
-    padding: 0;
-    min-height: 2.5rem;
-
-    background-color: $table-background-color;
-    border-bottom: $border $border-color;
-    border-left: $border $border-color;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-    &:is(blockquote) {
-        padding: $sp-2 $sp-3;
-
-        /* Tightens up title cards and other dense entries */
-        > p:first-child { margin-top: 0; }
-        > p:last-child { margin-bottom: 0; }
-    }
-
-    p {
-        margin: 0.5rem 0;
-    }
-
-    // Increases the size of the buff titles
-    > strong:only-child {
-        font-size: 1.2em;
-    }
-
-    // Utility Classes
-    &.grid-align-top {
-        justify-content: start;
+        @include small-screen-classes("&-") {
+            grid-template-columns: repeat(#{$size}, 1fr);
+        }
     }
 }
 
-@mixin grid-cell-left {
-    border-left: 0;
-}
-
-@mixin grid-cell-bottom {
-    border-bottom: 0;
-}
-
-
-
-
-.strats-grid {
-    width: 100%;
+.grid {
     display: grid;
-    padding: 0 2px 2px 2px;
-    column-gap: 2px;
-    row-gap: 2px;
+    grid-auto-rows: 1fr;
+    place-items: stretch;
 
-    > * { @include grid-cell; }
-
-    /* Two Column Mode */
-    @media(width >= 500px) {
-        grid-template-columns: 1fr 1fr;
-
-        :nth-child(odd) { @include grid-cell-left; }
-        :last-child, :nth-last-child(2) { @include grid-cell-bottom; }
+    &.square > * {
+        width: 100%;
+        aspect-ratio: 1;
     }
 
-    /* One Column Mode */
-    @media(width < 500px) {
-        grid-template-columns: 1fr;
-
-        > * { @include grid-cell-left; }
-        :last-child { @include grid-cell-bottom; }
-
-        /* Adds a bit of extra space after images */
-        :nth-child(even) { margin-bottom: 3px; }
-    }
+    @include column-classes(1);
+    @include column-classes(2);
 }
 
+// Ripped from JTD _spacings.scss. Makes .gap-n
+@for $i from 1 through length($spacers) {
+    $size: #{map-get($spacers, sp-#{$i - 1})};
+    $scale: #{$i - 1};
 
-
-
-
-
-.column-grid {
-    display: grid;
-    padding: 0 2px;
-    gap: 0 1rem;
-
-    grid-auto-columns: 1fr;
-    grid-template-rows: auto;
-
-    /* direct children are entire columns. */
-    > * {
-        @include blockquote-reset;
-
-        display: grid;
-        gap: 0 1rem;
-
-        grid-template-rows: subgrid;
-        grid-row: 1 / 100; /* Need to specify something. */
-
-        /* second children are individual cells */
-        > * {
-            @include grid-cell;
-            @include grid-cell-left;
-
-            // Specifically compensates for the lack of a gap.
-            // Could be more selective instead of Important
-            margin-bottom: 2px !important;
-
-            &:last-child {
-                @include grid-cell-bottom;
-            }
-        }
-    }
-
-    @include small-screen-classes {
-        display: block;
-
-        > * {
-            margin-bottom: 1rem;
-        }
-    }
-}
-
-
-
-
-
-
-
-.debuff-grid {
-    clear: both;
-    padding: 0 2px 2px 2px;
-
-    &:is(details) {
-        > summary {
-            @include grid-cell;
-            @include grid-cell-left;
-
-            display: list-item;
-            padding: $sp-2 $sp-3;
-            margin-bottom: 2px;
-        }
-
-        &:not([open]) > summary {
-            @include grid-cell-bottom;
-        }
-    }
-
-    &:not(:is(details)),
-    &:is(details) > div {
-        display: grid;
-        grid-template-columns: 1fr 4fr;
-        grid-auto-rows: auto;
-        column-gap: 2px;
-        row-gap: 2px;
-
-        > * {
-            @include grid-cell;
-        }
-
-        > :nth-child(odd) {
-            @include grid-cell-left;
-
-            /* Overrides standard flex for debuff icons. */
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-content: center;
-
-            /*
-            This padding ensures at max 2 debuff icons show per row, however
-            this is fully dependent on the image size of the icon.
-            Is there a better way?
-            */
-            padding: 0 1rem;
-        }
-
-        > :last-child, > :nth-last-child(2) {
-            @include grid-cell-bottom;
-        }
-
-        // Adds a bit extra padding for debuff cells.
-        > :nth-child(even) {
-            padding: $sp-6 $sp-4;
-        }
+    .gap-#{$scale} {
+        gap: #{$size} !important;
     }
 }

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Gorai
-parent: Another Mount Rokkon (WIP)
+parent: Another Mount Rokkon
 nav_order: 4
 has_toc: false
 ---

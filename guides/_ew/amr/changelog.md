@@ -8,5 +8,5 @@ nav_exclude: true
 
 {% include defines.md %}
 
-**NEXT UP**
+**August 19th, 2025**
 * Initial Release
