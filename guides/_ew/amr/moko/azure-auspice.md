@@ -18,7 +18,7 @@ Line AOEs for *[cast]Boundless Azure*.
 {% endfigcap %}
 
 This mechanic begins with *[cast]Azure Auspice*, a donut AOE where
-*[boss]Moko*'s hitbox is safe. This is followed by *[cast]Boundless Azure*, the
+**[boss]Moko**'s hitbox is safe. This is followed by *[cast]Boundless Azure*, the
 same line AOEs from *[cast]Boundless Scarlet*. However this time, blue lines are
 created.
 
@@ -28,12 +28,12 @@ in both directions like an exaflare. While each line starts at a different time,
 multiple lines will be expanding simultaneously, making this a very chaotic
 mechanic.
 
-When the final exaline begins, *[boss]Moko* will begin casting
+When the final exaline begins, **[boss]Moko** will begin casting
 *[cast]Tripple Kasumi-giri*. You will need to check this while dodging the
 exalines.
 
 <div class="column-grid" markdown="1">
-> Horizontal Exaline Pattern
+> **Horizontal Exaline Pattern**
 >
 > ![](./horizontal-1.png)
 >
@@ -43,7 +43,7 @@ exalines.
 > ![](./horizontal-3.png)
 > *Exaline will continue until it exits the arena*
 
-> Diagonal Exaline Pattern
+> **Diagonal Exaline Pattern**
 >
 > ![](./diagonal-1.png)
 >
@@ -63,12 +63,12 @@ The magic pixel. *[cast]Boundless Azure* AOEs are shown.
 
 While this is a personal responsibility mechanic, there is a strategy to make
 dodging these lines a bit easier. All 4 exalines intersect a pixel directly east
-and west of *[boss]Moko*. This spot is easily identified as where the diagonal
+and west of **[boss]Moko**. This spot is easily identified as where the diagonal
 lines meet during the *[cast]Boundless Azure* cast.
 
 From this spot, you can dodge the crossing exalines as soon as the first AOE
-goes off, or the parrallel lines after their second. There will be a yellow
-telegraph for the diagonal lines, but not the parrallel ones.
+goes off, or the parallel lines after their second. There will be a yellow
+telegraph for the diagonal lines, but not the parallel ones.
 
 {: .povs .mt-8 }
 {% collapse POVs %}

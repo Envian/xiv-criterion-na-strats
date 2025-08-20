@@ -71,7 +71,7 @@ There are no fixed priorities, but there are some strategies which help.
 
 ![](./timeline-4.png)
 
-> Move into *[boss]Shishio*'s hitbox to resolve *[cast]Thunder Vortex*.
+> Move into **[boss]Shishio**'s hitbox to resolve *[cast]Thunder Vortex*.
 
 ![](./timeline-5.png)
 </div>
@@ -81,4 +81,8 @@ There are no fixed priorities, but there are some strategies which help.
 > **Tower POV**
 >
 > {% include youtube.html id="1uqVWojADk4?start=348&end=383" %}
+
+> **Marked POV**
+>
+> {% include youtube.html id="u8SpF1qPoho " %}
 {% endcollapse %}

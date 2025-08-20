@@ -11,6 +11,21 @@ has_toc: false
 {: .title }
 # Fighting Spirits
 
+# Cheat Sheet
+
+{% figcap ./spots.png %}
+Assigned Spots
+{% endfigcap %}
+
+![lc1] Starts on **[m1]1**. Moves to **[ma]A**.
+
+![lc2] Starts on **[m2]2**. Moves to **[mb]B**.
+
+![lc3] Starts on **[m3]3**. Moves to **[ma]A**.
+
+![lc4] Starts on **[md]D**. Moves to **[m4]4** after 2 jumps, then to
+**[md]D**.
+
 # Mechanics
 
 When *[cast]Fighting Spirits* begins, each player will receive a marker above
@@ -42,19 +57,20 @@ Arena with Markers
 
 Each player will stand on the number marker which matches the icon above their
 head. The 1, 2, and 3 players can move to their markers as soon as the knockback
-resolves, however the 4 player must wait on the D marker for 2 jumps before
-moving onto 4.
+resolves, however the 4 player must wait on the **[md]D** marker for 2 jumps
+before moving onto **[m4]4**.
 
 After being jumped on, each player must move to the letter marker which matches
-their number marker's color (Except 3, who moves to the 1 marker). The timing
-for this is a bit tight. Move as soon as **[boss]Gorai** leaves the ground.
+their number marker's color (Except **[m3]3**, who moves to the **[ma]A**
+marker). The timing for this is a bit tight. Move as soon as **[boss]Gorai**
+leaves the ground.
 
 {: .warning }
 If you are not skipping Malformed Reincarnation, you will need to save
 *![sprint]Sprint* for that mechanic.
 
 <div class="column-grid clear half-width" markdown="1">
-> Timeline
+> **Timeline**
 >
 > ![](./timeline-1.png)
 >
@@ -74,6 +90,12 @@ If you are not skipping Malformed Reincarnation, you will need to save
 > **1 marker POV**
 >
 > {% include youtube.html id="1uqVWojADk4?start=836&end=864" %}
+
+> **4 marker POV**
+>
+> Used Knockback Immune.
+>
+> {% include youtube.html id="g1vdXtF-sp8" %}
 {% endcollapse %}
 
 {% include next.html name="Malformed Reincarnation" url="../malformed-reincarnation/" %}

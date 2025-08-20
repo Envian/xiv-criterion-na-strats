@@ -1,8 +1,6 @@
-# AMR - Shishio
-- Yologhosts Marker POV
-
 # AMR - Gorai
-- Need 2/4 POV for Towers
+- Healer POV for Humble Hammer (Would be nice)
 - Make Animation for Towers
-- Need Melee POVs for Exaflares
-- Need 4 marker limit cut POV
+
+# AMR - Moko
+- Need tether POV of Left/Right

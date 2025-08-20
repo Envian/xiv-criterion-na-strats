@@ -43,6 +43,8 @@ the marker which isn't in line with the diagonal dash.
 > ![](./diagonal-4.png)
 >
 > ![](./diagonal-5.png)
+>
+> *This pattern can be mirroed horizontally.*
 
 > **Vertical 3rd Pattern**
 >
@@ -55,6 +57,8 @@ the marker which isn't in line with the diagonal dash.
 > ![](./vertical-4.png)
 >
 > ![](./vertical-5.png)
+>
+> *This pattern can be mirroed horizontally.*
 </div>
 
 {: .povs .mt-8 }

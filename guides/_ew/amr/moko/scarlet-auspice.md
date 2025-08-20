@@ -10,6 +10,7 @@ has_toc: false
 
 {: .title }
 # Scarlet Auspice
+*\*Teleports Behind You\* Nothin' Personnel Kid.*
 
 {: .debuffs .clear }
 {% collapse Debuff Explanations %}
@@ -83,7 +84,7 @@ adjust.
 > and point their safe side towards the center. Resolve *![pyre]Stack* or
 > *![flame]Spread* after the ground AOEs.
 >
-> Since *[boss]Moko* will teleport slightly behind the targeted player, the
+> Since **[boss]Moko** will teleport slightly behind the targeted player, the
 > cleave will likely hit the outer walls of the arena. Be ready to adjust.
 
 ![](./timeline-1.png)
@@ -104,6 +105,12 @@ adjust.
 > **Stack First POV**
 >
 > {% include youtube.html id="1h7zB65mFwM?start=1037&end=1081" %}
+
+> **Tether POV**
+>
+> This just happened to be rear safe. It could be left or right safe.
+>
+> {% include youtube.html id="_z9MDT85sCQ" %}
 {% endcollapse %}
 
 {% include next.html name="Shadow Twin" url="../shadow-twin/" %}

@@ -64,7 +64,7 @@ AOE.
 The first *![intense]stack* or *![scattered]spread* will resolve with the first
 part of the above AOE. The second debuff will resolve with the second AOE.
 
-The *![intense]stack* or *![scatter]spread* are the same size as previous
+The *![intense]stack* or *![scattered]spread* are the same size as previous
 mechanics. The circular AOE is quite large however, so melee uptime will be
 difficult. Below are properly scaled images showing the size of the circle and
 donut.
@@ -86,6 +86,7 @@ can be solved with fixed partners. This uses the same spreads as Unnatural Wail
 1, but true north instead of boss relative, and slightly modified stack spots.
 
 <div class="column-flex even mb-4" markdown="1">
+{: .centered-flex }
 > {: .fs-6 }
 > *![scattered]Spread*
 >
@@ -96,6 +97,7 @@ can be solved with fixed partners. This uses the same spreads as Unnatural Wail
 
 -----
 
+{: .centered-flex }
 > {: .fs-6 }
 > *![intense]Stack*
 >

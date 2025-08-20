@@ -48,7 +48,7 @@ telegraphs:
 {: .lh-tight }
 1. Line AOEs from each flame.
 2. Circle AOEs under each rock.
-3. One of two symbols around *[boss]Gorai*:
+3. One of two symbols around **[boss]Gorai**:
   - A blue triangle.
   - An orange circle.
 
@@ -62,7 +62,7 @@ based on the symbol Gorai shows.
 > > ![](./grow-icon.png)
 > >
 > > {: .text-center }
-> > This will cause the telegraphed AOES to grow larger.
+> > This will cause the telegraphed AOEs to grow larger.
 >
 > ![](./arena-grow.png)
 
@@ -83,8 +83,8 @@ based on the symbol Gorai shows.
 Because the two stack debuffs are completely random, this mechanic requires a
 flex. To solve this, we will be using these priorities:
 
-* *![tank]Tank* *![melee]Melee* North
-* *![healer]Healer* *![ranged]Ranged* South
+**![tank]Tank** **![melee]Melee** North \\
+**![healer]Healer** **![ranged]Ranged** South
 
 The *![tank]Tank* and *![melee]Melee* flex to the other side if both players on
 one side have the stack debuff.
@@ -114,9 +114,9 @@ one side have the stack debuff.
 </div>
 
 {: .uptime }
-> While *[boss]Gorai* will recenter himself at the start of this mechanic, there
+> While **[boss]Gorai** will recenter himself at the start of this mechanic, there
 > is a brief window where he can be moved after the rocks appear. If the tank is
-> quick, they can pull *[boss]Gorai* closer to the safe spot, giving both melee
+> quick, they can pull **[boss]Gorai** closer to the safe spot, giving both melee
 > players a bit more uptime.
 >
 > Be careful though, if you identify the wrong safe spot, then all players will

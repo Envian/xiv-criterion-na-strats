@@ -22,18 +22,18 @@ has_toc: false
 Arena with the demon hand AOEs shown.
 {% endfigcap %}
 
-*[cast]Shadow Twin* spawns two adds East and West of *[boss]Moko*. These adds
+*[cast]Shadow Twin* spawns two adds East and West of **[boss]Moko**. These adds
 will target two random players with *![target]Rat and Mouse*, and begin casting
 *[cast]Double Iai-giri*. This will telegraph two cleave AOEs - the first will
 always be rear safe, while the second will be any other one.
 
-While the adds are setting up their cast, *[boss]Moko* will cast
+While the adds are setting up their cast, **[boss]Moko** will cast
 *[cast]Moonless Night* a raidwide which spawns two hands on opposite ends of the
-arena, and making *[boss]Moko* untargetable for the rest of the mechanic. Later,
+arena, and making **[boss]Moko** untargetable for the rest of the mechanic. Later,
 these hands will perform very large half circle AOEs, leaving only two safe
 areas.
 
-Finally, *[boss]Moko* will cast *[cast]Near Edge*, hitting the closest two
+Finally, **[boss]Moko** will cast *[cast]Near Edge*, hitting the closest two
 players with a circular AOE that applies bind, or *[cast]Far Edge* which targets
 the furthest two players with the same effect. Both of these casts have a unique
 icon shown above moko's head, identical to those found during M4S's Witch Hunt.
@@ -41,7 +41,7 @@ icon shown above moko's head, identical to those found during M4S's Witch Hunt.
 Soon after *[cast]Near Edge* or *[cast]Far Edge* goes off, the hands will begin
 swiping the sides of the arena and the adds will teleport to their target and
 execute their *[cast]Iai-giri* combo. Afterwards, two new adds will spawn and
-*[boss]Moko* will cast a second *[cast]Moonless Night*, repeating the entire
+**[boss]Moko** will cast a second *[cast]Moonless Night*, repeating the entire
 mechanic one additional time.
 
 If both of the adds are too close together, then they will tether together. If
@@ -123,6 +123,10 @@ partner.
 
 {: .povs .mt-8 }
 {% collapse POVs %}
+> **Example POV**
+>
+> {% include youtube.html id="S9ch2CEojNQ" %}
+
 > **Example POV - Baits Close x2**
 >
 > {% include youtube.html id="1h7zB65mFwM?start=1094&end=1143" %}

@@ -113,7 +113,7 @@ starting spot for this mechanic.
 > is fine, the other group will be doing the same.
 >
 > *Melee players should take a step back while moving to the side, reducing the
-> likelyhood they're hit by the incoming exaflare.*
+> likelihood they're hit by the incoming exaflare.*
 
 ![](./timeline-4.png)
 
@@ -131,7 +131,7 @@ starting spot for this mechanic.
 > players extra space.
 >
 > In this example, the *![ranged]Ranged* and *![tank]Tank* players followed
-> these reccomendations.
+> these recommendations.
 
 ![](./timeline-6.png)
 </div>
@@ -145,6 +145,10 @@ starting spot for this mechanic.
 > **Stack 1st (Move to corner strat)**
 >
 > {% include youtube.html id="1uqVWojADk4?start=807&end=830" %}
+
+> **Spread First (Melee POV)**
+>
+> {% include youtube.html id="hk_yT95BkoY" %}
 {% endcollapse %}
 
 {% include next.html name="Fighting Spirits" url="../fighting-spirits/" %}

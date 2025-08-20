@@ -26,6 +26,10 @@ AOE will be larger for each time the boss sucked.
 
 # Strategy
 
+Each suck pattern has a unique way to solve it, however each of the patterns
+follow the same basic rule. *Position relative to a lone cloud in the first line
+AOE, starting on the side opposite of that cloud.*
+
 {: .text-center }
 ## One Suck
 

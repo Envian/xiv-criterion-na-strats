@@ -1,5 +1,8 @@
 @mixin __keyword($keyword, $color) {
-    &:has(a[href=#{$keyword}]), &:has(a[href$=#{$keyword}]), &:has(img[alt=#{$keyword}]), &:has(img[src$=#{$keyword}]) {
+    &:has(a[href=#{$keyword}]),
+    &:has(a[href$=#{$keyword}]),
+    &:has(img[alt=#{$keyword}]),
+    &:has(img[src$=#{$keyword}]) {
         color: $color;
         white-space: nowrap;
 
@@ -27,6 +30,15 @@ strong, em {
     @include __keyword("cast", #E8ACC0);
     @include __keyword("boss", inherit);
 
+    @include __keyword("m1", #f13b66);
+    @include __keyword("m2", #e1dc5d);
+    @include __keyword("m3", #65b3ea);
+    @include __keyword("m4", #e291e6);
+    @include __keyword("ma", #f13b66);
+    @include __keyword("mb", #e1dc5d);
+    @include __keyword("mc", #65b3ea);
+    @include __keyword("md", #e291e6);
+
     .role-icon {
         max-height: 1.5em !important;
         margin-bottom: -0.25em !important;
@@ -40,4 +52,11 @@ strong, em {
         margin-top: -100% !important;
         margin-bottom: -0.2em !important;
     }
+}
+
+.limit-cut {
+    margin-top: -0.5em;
+    margin-bottom: -0.6em;
+    margin-left: -0.2em;
+    margin-right: -0.2em;
 }

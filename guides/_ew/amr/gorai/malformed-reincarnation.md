@@ -76,20 +76,20 @@ Example towers with their soak order.
 {% endfigcap %}
 
 Because each player's dropped tower never matches their III debuff, no player
-can end on the tower they drop themself. So to solve this, we will be assingning
-players to drop their towers on one side of the arena, then crossing to the
-other side to soak towers.
+can end on the tower they drop themselves. So to solve this, we will be
+assingning players to drop their towers on one side of the arena, then crossing
+to the other side to soak towers.
 
 <div class="strats-grid" markdown="1">
 > When the first set of towers spawns, move to the side which is opposite of
-> your *![rodent1]![odder1]* debuff. There is no priroity for who takes
+> your *![rodent1]![odder1]* debuff. There is no priority for who takes
 > which side - adjust with your partner so you end up apart.
 
 ![](./timeline-1.png)
 
 > Right before your tower drops, use *![sprint]Sprint* to ensure you can make
 > it across to your tower in time. After you place your tower, run across to
-> the innner tower that matches your *![rodent1]![odder1]*.
+> the inner tower that matches your *![rodent1]![odder1]*.
 >
 > Generally, you want to run straight across, however you do need to check for
 > a flex. If the player dropped tower directly across from you does not match

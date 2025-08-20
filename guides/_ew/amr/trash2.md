@@ -15,20 +15,20 @@ has_toc: false
 
 # Short Guide
 
-Pull Kotengu to 1.
+Pull Kotengu to **[m1]1**.
 
 * *[cast]Left/Right/Backward Blows* Hits front and side with cone AOE.
 * *[cast]Wrath of the Tengu* Major raidwide with bleed.
 * *[cast]Gaze of the Tengu* Look Away.
 
-Carefully move towards 2. Wait until safe. Pull Ninja to 2.
+Carefully move towards **[m2]2**. Wait until safe. Pull Ninja to **[m2]2**.
 
 * Don't be in front for *[cast]Shuriken*
 * Tankbuster (Doesn't cleave)
 * *[cast]Huton* speeds up *[cast]Shuriken*
-* Rapidly casts *[cast]Shuriken* until killed
+* Rapidly casts *[cast]Shuriken*.
 
-Pull 2nd Kotengu to 3. Same mechanics as first.
+Pull 2nd Kotengu to **[m3]3**. Same mechanics as first.
 
 # Details
 
@@ -41,26 +41,26 @@ elementals while fighting the adds in this room.
 
 ## Shishu Kotengu
 
-Pull the first one to the 1 marker - This spot will be safe during the entire
-fight.
+Pull the first one to the **[m1]1** marker - This spot will be safe during the
+fight with this add.
 
 * ***[cast]Left/Right/Backward Blows*** --- Turns to face a random player. Does
   a 90° frontal cone AOE, followed by an AOE on the side from the cast.
 * ***[cast]Wrath of the Tengu*** --- A powerful raidwide with a bleed.
 * ***[cast]Gaze of the Tengu*** --- A simple look away mechanic.
 
-Be careful moving towards 2. Keep an eye on the wind sprites as they will
-periodically cleave the arena.
+Be careful moving towards **[m2]2**. Keep an eye on the wind sprites as they
+will periodically cleave the arena.
 
 ## Shishu Onmitsugashira
 
 {% figcap ./2-safe.png %}
-The 2 marker is safe after this AOE resolves.
+The **[m2]2** marker is safe after this AOE resolves.
 {% endfigcap %}
 
-The 2 marker will likely not be safe yet when you first are ready to pull this
-add. It will become safe once the wind sprite in the north west corner hits the
-2 marker with a line AOE.
+The **[m2]2** marker will likely not be safe yet when you first are ready to
+pull this add. It will become safe once the wind sprite in the north west corner
+hits the **[m2]2** marker with a line AOE.
 
 * ***[cast]Juji Shuriken*** --- Turns to face a random player, and casts a thin
   line AOE them.
@@ -73,11 +73,11 @@ until killed.
 ## Shishu Kotengu 2
 
 {% figcap ./3-safe.png %}
-The 3 marker is safe after this AOE resolves.
+The **[m3]3** marker is safe after this AOE resolves.
 {% endfigcap %}
 
-The 3 marker is not safe until it is hit by the wind sprite on the west wall.
-This Kotengu is identical to the first one.
+The **[m3]3** marker is not safe until it is hit by the wind sprite on the west
+wall. This Kotengu is identical to the first one.
 
 {: .povs }
 {% collapse POVs %}

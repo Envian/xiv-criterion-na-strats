@@ -46,7 +46,7 @@ The circle AOEs always follow the same X pattern, with one of the corner circles
 being the target of the blue add, and thus much larger. This leaves two safe
 spots on the middle of two walls for solving this mechanic.
 
-Immidiately after *[cast]Soldiers of Death*, *[boss]Moko* will cast
+Immidiately after *[cast]Soldiers of Death*, **[boss]Moko** will cast
 *[cast]Shadow Twin*, this time spawning 4 adds instead of just two. Each add
 will tether to a player, applying *[target]Rat and Mouse* and casting
 *[cast]Double Iai-giri*. These cleaves follow a predictable rule:
@@ -71,7 +71,7 @@ We will be using role pairs to solve this mechanic.
 <div class="strats-grid" markdown="1">
 > Begin by finding the blue archer. While the arrows are not shown yet, they
 > will shoot either a short or long shot. Support will solve their twins on the
-> side thats guaranteed to be safe, regardless of the shot length.
+> side that's guaranteed to be safe, regardless of the shot length.
 
 ![](./timeline-1.png)
 
@@ -84,7 +84,7 @@ We will be using role pairs to solve this mechanic.
 ![](./timeline-2.png)
 
 > Next, identify the add you are tethered to. Both players will need to stand
-> against the wall with their backs facing eachother, while also having their
+> against the wall with their backs facing each other, while also having their
 > second cleave facing the center of the area.
 >
 > Identify the add that you're tethered to, and find their 2nd telegraphed
@@ -106,7 +106,7 @@ We will be using role pairs to solve this mechanic.
 > Move towards the middle of the arena to dodge the 2nd set of cleaves.
 >
 > {: .uptime }
-> Since *[boss]Moko* will follow the tank, Melee can safely gap close between
+> Since **[boss]Moko** will follow the tank, Melee can safely gap close between
 > the two cleaves. You will have time to reposition before the 2nd set resolves.
 
 ![](./timeline-5.png)

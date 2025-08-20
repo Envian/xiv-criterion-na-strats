@@ -11,7 +11,7 @@ has_toc: false
 {: .title }
 # Rousing Reincarnation
 
-{: .debuffs .clear }
+{: .debuffs .clear .mt-8 }
 {% collapse Debuff Explanations %}
 {% include_relative debuffs/rodential-rebirth.md %}
 {% include_relative debuffs/odder-rebirth.md %}
@@ -40,7 +40,7 @@ mechanic, 3 more pairs of towers will spawn.
 Finally, *[cast]Pointed Purgation* will begin, spawning two tethers on two
 random players. These tethers can be passed around and when
 *[cast]Pointed Purgation* resolves, the currently tethered players will be
-targetd by a cone AOE (This will not repeat like *[cast]Impure Purgation* from
+targeted by a cone AOE (This will not repeat like *[cast]Impure Purgation* from
 earlier). The tethered players will be hit by a cone AOE 3 more times throughout
 the mechanic, once for each pair of towers which resolves.
 
@@ -116,11 +116,17 @@ strategies that PF employs to improve consistency with this mechanic.
 
 {: .povs .mt-8 }
 {% collapse POVs %}
-> **1 first POV**
+> **1/3 POV**
 >
 > This is an example of perfect luck with tower and tether spawns.
 >
 > {% include youtube.html id="1uqVWojADk4?start=745&end=789" %}
+
+> **2/4 POV**
+>
+> This is a good example of crossing the middle with a tether.
+>
+> {% include youtube.html id="6Tibft0j0RY" %}
 {% endcollapse %}
 
 {% include next.html name="Seal of Scurrying Sparks 2 (Exaflares)" url="../sparks-2/" %}

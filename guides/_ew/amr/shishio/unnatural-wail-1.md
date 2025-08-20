@@ -73,6 +73,7 @@ Because *![intense]stack* always goes on one dps and one support, this mechanic
 can be solved with fixed partners. All assigned spots are boss relative.
 
 <div class="column-flex even mb-4 collapse-sm" markdown="1">
+{: .centered-flex }
 > {: .fs-6 }
 > *![scattered]Spread*
 >
@@ -83,6 +84,7 @@ can be solved with fixed partners. All assigned spots are boss relative.
 
 -----
 
+{: .centered-flex }
 > {: .fs-6 }
 > *![intense]Stack*
 >

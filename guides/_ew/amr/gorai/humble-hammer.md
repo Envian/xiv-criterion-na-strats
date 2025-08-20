@@ -11,6 +11,16 @@ has_toc: false
 {: .title }
 # Humble Hammer
 
+# Cheat Sheet
+
+{% figcap ./assigned-spots.png %}
+Assigned Spots
+{% endfigcap %}
+
+*[support]Support* Take middle.
+
+*[dps]DPS* take either side.
+
 # Mechanics
 
 {% figcap arena.png %}
@@ -26,7 +36,7 @@ that player and anyone else hit. Any orbs hit by the hammer will also be shrunk,
 shrinking their circular AOE.
 
 Soon after *[cast]Humble Hammer* resolves, each of the orbs will explode. This
-is paired with an untelegraphed *[cast]Flintlock* from *[boss]gorai*, targeting
+is paired with an untelegraphed *[cast]Flintlock* from **[boss]gorai**, targeting
 the healer. All players hit by this line AOE are hit with a tankbuster, unless
 they are shrunk and standing behind a regular sized player.
 
@@ -36,7 +46,7 @@ to be bonked first.
 
 # Strategy
 
-To resolve the *[cast]Flintlock*, The tank will be standing infront of the
+To resolve the *[cast]Flintlock*, The tank will be standing in front of the
 healer, using the middle of the safe area. DPS will stand off to either side,
 ignoring the mechanic entirely.
 

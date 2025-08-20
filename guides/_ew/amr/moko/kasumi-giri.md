@@ -63,7 +63,7 @@ For example, if the safe spots are
 * Left and In
 * Front and Out
 
-This could be instead interperated as
+This could be instead interpreted as
 
 * Start Front and Out
 * Move Left and In

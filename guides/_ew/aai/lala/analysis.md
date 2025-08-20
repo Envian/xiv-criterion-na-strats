@@ -54,7 +54,7 @@ or *![five]Times Five* which will resolve at the end.
 After the 2nd white orb, *[cast]Targeted Light* will begin, and you will receive
 a rotate marker. Your *![unseen]unseen* debuff will rotate according to your
 *![three]Times Three* or *![five]Times Five* debuff. You need to align your
-"Gap" so that after the rotation, it faces *[boss]Lala*.
+"Gap" so that after the rotation, it faces **[boss]Lala**.
 
 -----
 
