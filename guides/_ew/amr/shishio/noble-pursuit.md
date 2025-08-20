@@ -26,10 +26,13 @@ other dash that the third could have been.
 # Strategy
 
 In all patterns, there are four safe spots near the middle of each quadrant of
-the arena. Which spot is safe depends on the 2nd and diagonal dashes.
+the arena. Which spot is safe depends on the 2nd and diagonal dashes. If you're
+using the reccomended markers, each of the letters are on the possible safe
+spots.
 
 The safe spot is always on the opposite side from the 2nd dash. The safe spot is
-the marker which isn't in line with the diagonal dash.
+the marker which isn't in line with the diagonal dash. This can also be sight
+read using the 3rd and 4th dashes.
 
 <div class="column-grid collapse-sm" markdown="1">
 > **Diagonal 3rd Pattern**
