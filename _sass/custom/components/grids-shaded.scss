@@ -45,35 +45,59 @@
     border-bottom: 0;
 }
 
+@mixin grid-with-summary {
+    &:is(details) {
+        > summary {
+            @include grid-cell;
+            @include grid-cell-left;
+
+            display: list-item;
+            padding: $sp-2 $sp-3;
+            margin-bottom: 2px;
+        }
+
+        &:not([open]) > summary {
+            @include grid-cell-bottom;
+        }
+    }
+
+    &:not(:is(details)),
+    &:is(details) > div {
+        @content
+    }
+}
 
 
 
 .strats-grid {
     width: 100%;
-    display: grid;
     padding: 0 2px 2px 2px;
-    column-gap: 2px;
-    row-gap: 2px;
 
-    > * { @include grid-cell; }
+    @include grid-with-summary {
+        display: grid;
+        column-gap: 2px;
+        row-gap: 2px;
 
-    /* Two Column Mode */
-    @media(width >= 500px) {
-        grid-template-columns: 1fr 1fr;
+        > * { @include grid-cell; }
 
-        :nth-child(odd) { @include grid-cell-left; }
-        :last-child, :nth-last-child(2) { @include grid-cell-bottom; }
-    }
+        /* Two Column Mode */
+        @media(width >= 500px) {
+            grid-template-columns: 1fr 1fr;
 
-    /* One Column Mode */
-    @media(width < 500px) {
-        grid-template-columns: 1fr;
+            :nth-child(odd) { @include grid-cell-left; }
+            :last-child, :nth-last-child(2) { @include grid-cell-bottom; }
+        }
 
-        > * { @include grid-cell-left; }
-        :last-child { @include grid-cell-bottom; }
+        /* One Column Mode */
+        @media(width < 500px) {
+            grid-template-columns: 1fr;
 
-        /* Adds a bit of extra space after images */
-        :nth-child(even) { margin-bottom: 3px; }
+            > * { @include grid-cell-left; }
+            :last-child { @include grid-cell-bottom; }
+
+            /* Adds a bit of extra space after images */
+            :nth-child(even) { margin-bottom: 3px; }
+        }
     }
 }
 
@@ -134,23 +158,7 @@
     clear: both;
     padding: 0 2px 2px 2px;
 
-    &:is(details) {
-        > summary {
-            @include grid-cell;
-            @include grid-cell-left;
-
-            display: list-item;
-            padding: $sp-2 $sp-3;
-            margin-bottom: 2px;
-        }
-
-        &:not([open]) > summary {
-            @include grid-cell-bottom;
-        }
-    }
-
-    &:not(:is(details)),
-    &:is(details) > div {
+    @include grid-with-summary {
         display: grid;
         grid-template-columns: 1fr 4fr;
         grid-auto-rows: auto;
