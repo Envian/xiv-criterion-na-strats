@@ -60,4 +60,4 @@ Assuming [Jekyll] and [Bundler] are installed on your computer:
 [Jekyll]: https://jekyllrb.com
 [Bundler]: https://bundler.io
 [Just-The-Docs]: https://just-the-docs.github.io/just-the-docs/
-[xvplan]: https://xivplan.netlify.app/
+[xivplan]: https://xivplan.netlify.app/
