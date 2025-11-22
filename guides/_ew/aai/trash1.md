@@ -11,10 +11,7 @@ has_toc: false
 {: .title }
 # Trash Pack 1
 
-{: .min-medium }
-{% figcap ./arena.png %}
-Entrance
-{% endfigcap %}
+{% figure ./arena.png %}
 
 {: style="clear: none;" }
 ## Tornados
