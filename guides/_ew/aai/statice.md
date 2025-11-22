@@ -22,7 +22,7 @@ has_toc: false
 * Areo IV (Raidwide)
 * [Intermission](./intermission/)
 * Shocking Abandon (Tankbuster)
-* [Dartboard 1](./dartboard-2/)
+* [Dartboard 2](./dartboard-2/)
 * Areo IV (Raidwide)
 * [Forced March 2](./forced-march-2/)
 * Areo IV (Raidwide)

@@ -47,7 +47,7 @@ based on, and fully compatible with PF Pastebin strats.
     * [Dartboard 1](./statice/dartboard-1/)
     * [Forced March 1](./statice/forced-march-1/)
     * [Intermission](./statice/intermission/)
-    * [Dartboard 1](./statice/dartboard-2/)
+    * [Dartboard 2](./statice/dartboard-2/)
     * [Forced March 2](./statice/forced-march-2/)
 
 ## Rewards
