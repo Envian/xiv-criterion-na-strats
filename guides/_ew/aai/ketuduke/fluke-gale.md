@@ -151,7 +151,7 @@ the debuff they received.
 > reaching across a gap into another safe spot, or a stack marker missing your
 > partner.
 
-{: .mechanics .mt-8 }
+{: .strats-grid .mt-8 }
 {% collapse More Info - Why It Works %}
 > To begin, it helps to visualize the crystals not as physical crystals, but
 > rows or columns of unsafe area. The vertical columns are shifted by 2 when

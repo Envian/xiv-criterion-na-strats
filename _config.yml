@@ -37,3 +37,6 @@ just_the_docs:
   collections:
     ew:
       name: Endwalker
+
+sass:
+  quiet_deps: true

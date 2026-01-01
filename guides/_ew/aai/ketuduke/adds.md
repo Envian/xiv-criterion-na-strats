@@ -109,7 +109,7 @@ add.
 
 *Both of the above options have the same result.*
 
-{: .mechanics }
+{: .strats-grid }
 {% collapse Examples %}
 
 {: .smaller-icons }
