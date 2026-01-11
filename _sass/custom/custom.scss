@@ -5,6 +5,8 @@
     @import "./custom/components/grids.scss";
     @import "./custom/components/grids-shaded.scss";
     @import "./custom/components/flex.scss";
+
+    @import "./custom/components/strategy.scss";
 }
 
 @import "./custom/components/columns.scss";
@@ -241,3 +243,12 @@ img {
 //     margin: auto;
 //     align-items: center;
 // }
+
+.site-nav > .nav-list > .nav-list-item > .nav-list-link + .nav-list > :first-child > .nav-list-link {
+    color: $purple-000 !important;
+    // font-weight: bold;
+
+    // &.active {
+    //     font-weight: 900;
+    // }
+}

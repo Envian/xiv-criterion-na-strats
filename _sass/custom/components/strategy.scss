@@ -1,0 +1,42 @@
+.strategy {
+    @include box-shading;
+
+    padding: 0 2px 2px 2px;
+    margin-bottom: 0;
+
+    > img {
+        display: block;
+    }
+
+    & + details {
+        width: 100%;
+        padding: 0 2px 2px 2px;
+
+        > summary {
+            @include grid-cell;
+            @include grid-cell-left;
+
+            margin-bottom: 2px;
+            align-items: stretch;
+            padding: $sp-2 $sp-3;
+        }
+
+        &:not([open]) > summary {
+            @include grid-cell-bottom;
+        }
+
+        > div {
+            @include grid-cell;
+            @include grid-cell-left;
+            @include grid-cell-bottom;
+
+            display: block;
+            line-height: 1;
+
+            pre {
+                white-space: pre-wrap;
+                word-break: break-all;
+            }
+        }
+    }
+}

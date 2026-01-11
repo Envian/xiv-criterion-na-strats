@@ -1,0 +1,76 @@
+---
+layout: default
+title: Strategy Boards
+parent: Another Aloalo Island
+nav_order: 1
+has_toc: false
+---
+
+{% include defines.md %}
+
+{: .title }
+# Strategy Boards
+
+## [WTFDIG Bundle](https://board.wtfdig.info/b/Vzb1Ne2B56lvV)
+
+{: .strategy }
+![](board-1.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:af16w8y+b3M54i11DGfB5XyVL0cMAceHia2loAIsdJJ9k5PtsPR3qJkhqfNyukoMITJuQF+kMzulJdLOu8dGWsLWfeZdO0QGX3l4Vw1tno1XpiXiOMgMMB2VxVNRb5OxkcAMhrR-tohMaQAkglt9rILUO7IV3g8ogHpiw1KEvzei58dGzDMSexj31p-MNt6XivKCvSN46cMC-M7kELPSlvaYtP3waItfmwjeQrhVh7+SkWK6hmJRdUhKOIFVgMwj7JwBwH2x1PRFx6t6PaWTg4sly0rsu9-gvS9Mq6TX-VVJdhelQjZxqOzWJM2sGCr7+MbXVPmCuFbVrzrISBaJEQfzxqJyqsF8TxJNlCo7kKrYFmvr2t07i2QWxy1YJcaG7-yW5Gmdxsl-G6P9CAERs8bEUvmP8HaPAfc3CMDXriy5sLHmIJarardXkq3WvjdoDkloJCklIlod-tmoqbN+hIOmo7SgEM2JsQkLp-1ndqm-hX9P7VTofyiBQP-0u8sn7f11trKAAuucTW7BL1BCtAyA7gPWZY-dJ-haazu1IBnrVpXESmsOwOJ2sPALSXh+]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-2.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:a3Lgs8ZKUhvIBSxP9tzXcXbrsqeE30JivwmHz5QRhhi+UW6Grsynm7S-J-gQion91-9C8V-B9YGHLUxtptQPaj8q19AVlb7W8lIdYTH4RDyklExfAPyR8egVsOEpYw+U6btwvuSJ2ZFXgYdy8OOEfXI02ELqScdRbs2We7LKDZ5nWilIBLWAokem8hYsz9UlzZIFYab8MhZDr5ld3-IBPJzsh5sXKMtGoRsbINqrYDwmLIDuqleG1zr+YmiLupiQuICnhrxwU40s3Qdoag-ocJClQBmiQaY0J6dMtwWo8HRcq6WkHNroLDQjZi4jZggjIcAtysqXZYFyNmoJptAbTRrEKiFXlMpqB1g-UU8madh0XQRbX5M2IlIHS2iadCs6jtz7G3dYJsI0UYu8VM5Q7HBKY27VRkg+n1UZw1xxIsKDYOWfzsPPfJGTvd+LsNVI8CvT6PzEh-3dTw0wZ3saQJJVQjeqeJptO1EWpyCzX+RGp2p6d06s38AhyF4rnaSIzJ7DXSxnz+KAU70czIlBf6rQ0Hk2RHyEiYug2NBrWFsa8VrQFHxv1LGF0azWu7JH26VV9V-JnQtyvQ9lkO6rNqLQXkaJ1ipQeWcMILnerJiWqhdGsmS0tbXAJq3ujX5d5L-+8PN2TRNlXHhgTn9GZIXzLnepplpTYlXJgL0g6+qVL8s-EnHNQxsK2XZJpOdd3abNNp]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-3.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:a4K60W8JGkaYS88FdEfRYOR3T75Es2yG1H4NN9ou2dx3W2JbszH0qf7YVwJnqsafLFdENX8DTNB+QQGIMc00SZInIA2UbdFyl7q8Nbfle+odqqJZBCUpVSpOGq31curS62yI+7XCWLBoumLSj2r277f5wrkdb4FKnbicF9ACq8yBsw3CCg-KVJPqXLTum4Od+2End-8EI9MMOhW4VauGa80M1qXI3J688XxV1su-bhvumSl6QEF9OgqlJCNKIJ443DlZG0X2pcmzO9zNA-HqHN83jlk9ROiVLo2KX9eSU44tGShBFGRMcnJyjeWLFuFQCMPuomrNMXRcxDMcS9jA3hrVkoM7tglGI0U6BtK0XWjNNvMKOWXQL0q3S8b1ou7qj0mDWcRiXEbp02QUXPuZHGx6UsCLTGfzHtQnzbpfDHJz0bIvHIH8moN9Fz3f7wp1mV1W9yU4XlIMaqPZ4OULqakLDg1TneVTLq01snEPtZCcNRDYGrhRm4sCGa8CICThINipOZRU-zB2nEk-aiyPlSLpSo5dmDLjTzvgUEIMtsYB5xCd-z0z+wCuTHeggBrHZq1bVX+tDzWr4VswRDQBNF1Cud1JQR0EeoA-Biq23+lZc9rE8lYol4bFiULLmlVsmIzNb3d-m-WKjY5GGH0KWTfilcOuZor7gPiffHr43uKcFMx6QBQbkOMcMzAF2cjne7gsEWY-StgN6CXABEWd3UGots4L5nYHNw+5ROMgIlU0cSXmMiODEVoMQKpk4sg800FMBbsSEuXfYIfJ]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-4.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:aa36sMKgk8k2N55ZwVaX2BQM2C+zd-yN1ALGSB1mkzYlzj6ghntfbi+P1yMmrceRG795WPkoMKPI8LQpYzEWxmVkuP3Ji6BsY2YbsSsPSnEhsh2SAVFrnNTROfFN97q2FAFh2g4zKgV8J4eZikqXSo9izgU-cvY5yLas6PaxHWJe1Utcb9Q6jNyjFodGwb0T9LQcOzos+4Rw4rSLt3RQQX-kONGxxY+AbIKsYYhFNgHxdgFS42frb73j8MkDclALbwM1-WiH4TEeRcz3u0AxC4gkyN6dq-9Xx8WHiZwn69ls+-NK8Wd3T6FOhfkxhDZVnvXZAHsuNEXpHJ9JTGOTyjNJJF-fDsf4Rpa+cL59WPzEv3Nrurf8Dv4j5br2BEleJXDYVZn-rMEoOPJSERcS6vx17in0q4cvjyl85l]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-5.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:a1UaCnJlxlusIfzUgb1HsdoxypUYBVfgdWYxtdhd5SKTGOg4cs8nnnMo2lLbykIAHsd-ogNyJ61-B+otm90tRsHF24DapD0FIpko5OfIwfrzHEA4CFdMuLnZtdpOq+3lkrgqA7dEzmEdnJdaodWYf9AIqQSt7WdrO2W98CsxchVmAvTFp7tLgC-0o6lSYOZxzV0EsyJA33irEAmRTsrUJkv0ZSC28R5DcY4qo3SUS3CDDODESPJd49XBfZDsOkzFv9A+WjYq8z7RVFyupnBP58bi0FbCLStdKPtiSYjeYFle2JBlcnF-KxEELKgwB6CJrE2Eoadh6PPrl-Zyetl6UKMU8er-lM7DQ70I0-1pYS2VQ0B+Cvlz1Mnz4j50EQ148UbruURqDvFLR0m5-w1IJgfPVXoLjW5A0RLSVoWFtnm8PqzKYSN9i5sw4RlDOxoxNpAl7w1WNVx0JsvCRv3ngt2w4V9dMIVk6B00wpXuHeJlIipk2RkMyXNMkQynBJ5wNBreJxKALIZzR+ni+C0HMrZnN]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-6.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:aSMEBjWmbAN32zivF5P+3rPeLReCgWU4OvBF8yCC3lhsxxMhgs8BE3Dwj65PO1omgqA9mFGP-+OJBz61rwmrf4yNkQotWy8yE7IpI-6S1-7QfwrXWN+9R3p1Pa-UO8GuG9SwVzPYXwljaX3TulJlvizz1jGmLtO7ZLNx+AIoMOZ5iXihSpSstVcOEAkeGGbVEiTNhHll2hAB7WpMgJzr5JIjyF5xPUh8ZiNOK-IYNL0ze+CkgC1-gWJR1XAi2WoUkmXv74qoHE+3pm36xGBQKtqNy-0rNg5kTkl3WiTk5LSxSfu-sVouufw-+5WWLWekpD9xzSr-GGIBP2N2EC-cQIiyZ3xeZMyEG09VMCQ8CeAmCoH234XUDxWhjGccMBNFXakSjhG+9YoGPqGpbgWXA3mXF4yugRdvfhAX6wcnK6WYoenUBFL1Bo3m9H6qL9tThyjrQHXoigq3R+BF1Sz1pIwLtgLGdcgs8ZOFxYQqDj5OfdDRhO4+PU6g+Q-4zgi3IsCTjl8WByb1gia1KLNawT5o9lJ2xNeT6FVJ6eGa3xS4dW-L+N19Xg2aCv5X-jw6LN9LDixUD5vdL2p5f+xfkeuf0ppFuuQK67nszR+ugJoIin4PrDjk0d5xIk+QoQYrxCBn6BjhaGtiD5wzZ72CBfZLu5FGoSJo]
+```
+{% endcollapse %}
+
+
+{: .strategy }
+![](board-7.png)
+{% collapse Strategy Board Code %}
+```
+[stgy:aVJsP8GUmBm+qDgyuHVf+afB-pFWoL+ryTqJSO6SKoArdYHvQ2tLY1HSPSKx1WmQ+RWObcALnAepZfp+zsF91Qe8hg+e-w-ryUChgXdvqmuUpFHrk9e3X4A1q5ZkES3ZGLO4rJMd3PpwLEx2VyOnTnqKn5TQGtaefMtD6ycBQCSoWYGGnyTzAHlDWRcVjlkcZdLjs-eUBXfVkHzB9A2xJLdXOJQc2FDJFK723y-ZwzgUH3qwAVSePyBk8psTHYdE1WtGEI9J20RWD9gVqiboswF+B4cL5eTPsqL3yQgdRB477-HWXBg-U8UfamJIUirKxpTCmk8PoyWb3bsmEvekFj3UPpSnj6OIaxbmyBnCSd+ClT1ePJwXfW3lGWZxpRNR8tCn5y1IAEwt4M6vfgVQfURjAtvqJkIMThzuKMQTzEizakikpxt8rf-6FyBGmp8SLp0juQxLj2Bu3uMKfWlLrY+D1zICkWXDU2a6JddCvKDgizFqkctsi5HQT+L8KIcTKLF7oXY9Yy509BvpaVH6LOI+oksWezAAHyRwcq9R1IX1RItCnNzQocy+yv4n]
+```
+{% endcollapse %}
